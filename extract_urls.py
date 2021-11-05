@@ -10,7 +10,7 @@ import requests
 from extractor import Extractor
 from util import APIUtil
 
-f = open("0704_urls.txt", "w")
+f = open("0704_urls_2.txt", "w")
 
 dir_path = "/home/mklein/pdf/0704/"
 for filename in os.listdir(dir_path):
