@@ -34,23 +34,30 @@ class Extractor:
     """
     urls = set()
     with open(fp, "rb") as file:
-      pdf = PyPDF2.pdf.PdfFileReader(file)
-      for page in pdf.pages:
-        page: PyPDF2.pdf.PageObject = page.getObject()
-        if "/Annots" in page:
-          for annot in page["/Annots"]:
-            annot = annot.getObject()
-            if "/A" in annot:
-              ann = annot["/A"].getObject()
-            elif "/S" in annot:
-              ann = annot["/S"].getObject()
-            else:
-              continue
-            if "/URI" in ann:
+      pdf = PyPDF2.pdf.PdfFileReader(file, strict=False)
+      try:
+        for page in pdf.pages:
+          page: PyPDF2.pdf.PageObject = page.getObject()
+          if "/Annots" in page:
+            for annot in page["/Annots"]:
               try:
-                urls.add(self.util.canonicalize_url(ann["/URI"]))
-              except URLError as e:
+                annot = annot.getObject()
+              except PyPDF2.utils.PdfReadError as e:
+                annot = ''
                 logging.debug(e)
+              if "/A" in annot:
+                ann = annot["/A"].getObject()
+              elif "/S" in annot:
+                ann = annot["/S"].getObject()
+              else:
+                continue
+              if "/URI" in ann:
+                try:
+                  urls.add(self.util.canonicalize_url(ann["/URI"]))
+                except URLError as e:
+                  logging.debug(e)
+      except Exception as e: 
+        logging.debug(e)
     return urls
 
   def extract_text_urls(self, fp: str) -> Set[str]:

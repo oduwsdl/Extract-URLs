@@ -30,7 +30,11 @@ class URLUtil:
 
     """
     # sanitize URL
-    url = url.strip(" /\n'\".").replace(" ", "").replace("\n","").replace("\r","")
+    try: 
+      url = url.strip(" /\n'\".").replace(" ", "").replace("\n","").replace("\r","")
+    except TypeError:
+        new_url = url.decode("utf-8") 
+        url = new_url.strip(" /\n'\".").replace(" ", "").replace("\n","").replace("\r","")
     # convert url to canonical form
     if url.startswith("https://"):
       pass
@@ -55,7 +59,6 @@ class URLUtil:
     """
     # validate against blacklist
     if self.blacklist.search(url):
-      print("Blacklist: " + url)
       raise URLError(url)
     # validate if the given string is a public URL
     try:
