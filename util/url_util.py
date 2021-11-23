@@ -61,9 +61,10 @@ class URLUtil:
     if self.blacklist.search(url):
       raise URLError(url)
     # validate if the given string is a public URL
-    try:
-      return validators.url(url, public=True)
-    except validators.ValidationFailure:
+
+    if validators.url(url, public=True):
+      return url
+    else:
       raise URLError(url)
 
   @staticmethod

@@ -16,7 +16,14 @@ def extraction(pdf_path):
     urls = extractor.extract_all_urls(pdf_path)
     return urls
 
-f = open("1811_files.txt", "w")
+f = open("1811_valid.txt", "w")
+
+# Segment of code for looping through all directories in the 'pdf' directory
+# pdf_dir_path = "/home/mklein/pdf/"
+# dir_list = os.listdir(pdf_dir_path)
+# for dir_path in dir_list:
+#     print(pdf_dir_path + dir_path)
+
 dir_path = "/home/mklein/pdf/1811/"
 prev_file_base = ""
 prev_version = ""
