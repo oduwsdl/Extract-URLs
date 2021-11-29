@@ -1,6 +1,7 @@
 import ctypes
 import logging
 from typing import Set, List
+import os
 
 import PyPDF2.pdf
 import pypdfium
@@ -34,8 +35,8 @@ class Extractor:
     """
     urls = set()
     with open(fp, "rb") as file:
-      pdf = PyPDF2.pdf.PdfFileReader(file, strict=False)
       try:
+        pdf = PyPDF2.pdf.PdfFileReader(file, strict=False)
         for page in pdf.pages:
           page: PyPDF2.pdf.PageObject = page.getObject()
           if "/Annots" in page:
@@ -117,4 +118,6 @@ class Extractor:
     # pick URLs from full_text_urls do not match (exact/partial) any URL in annot_urls
     full_text_urls = self.util.pick_new_urls(full_text_urls, annot_urls)
     # concatenate, sort, and return
-    return sorted(annot_urls.union(full_text_urls))
+    all_urls = sorted(annot_urls.union(full_text_urls))
+    urls = {"url_count":len(all_urls), "annot_urls":list(annot_urls), "text_urls":list(full_text_urls), "all_urls":all_urls}
+    return urls
