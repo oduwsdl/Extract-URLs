@@ -8,6 +8,9 @@ gitlab = open("repo_results/gitlab.csv", "w")
 bitbucket = open("repo_results/bitbucket.csv", "w")
 repos = open("repo_results/repo_urls.json", "w")
 
+# authors = open("~/authors-parsed.json")
+# authors_json = json.load(authors)
+
 def url_union(repo_dict):
     repo_all = list(set(repo_dict["annot_urls"]).union(set(repo_dict["text_urls"])))
     return repo_all
