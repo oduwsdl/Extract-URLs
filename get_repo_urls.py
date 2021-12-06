@@ -2,11 +2,11 @@ import json
 import os
 import re
 
-sourceforge = open("test_results/sourceforge.csv", "w")
-github = open("test_results/github.csv", "w")
-gitlab = open("test_results/gitlab.csv", "w")
-bitbucket = open("test_results/bitbucket.csv", "w")
-repos = open("test_results/repo_urls.json", "w")
+sourceforge = open("repo_results/sourceforge.csv", "w")
+github = open("repo_results/github.csv", "w")
+gitlab = open("repo_results/gitlab.csv", "w")
+bitbucket = open("repo_results/bitbucket.csv", "w")
+repos = open("repo_results/repo_urls.json", "w")
 
 def url_union(repo_dict):
     repo_all = list(set(repo_dict["annot_urls"]).union(set(repo_dict["text_urls"])))
@@ -22,7 +22,7 @@ def update_dict(dir_dict, repo_all, repo_dict):
 
 data = {}
 
-file_list = os.listdir("test/")
+file_list = os.listdir("parsed/")
 for file_name in file_list:
     dir = re.findall(r"(\d{4}).json", file_name)[0]
     data[dir] = {"files":{}}
