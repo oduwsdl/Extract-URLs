@@ -18,12 +18,14 @@ for dir in repo_json:
     dir_json = json.load(dir_file)
     dir_file.close()
     dir_count = 0
+    file_count = 0
     for file in dir_json[dir]["files"]:
+        file_count = file_count + 1
         dir_count = dir_count + dir_json[dir]["files"][file]["url_count"]
 
-    csvwriter.writerow([dir, dir_count, "Total"])
-    csvwriter.writerow([dir, sourceforge_count, "SourceForge"])
-    csvwriter.writerow([dir, github_count, "GitHub"])
-    csvwriter.writerow([dir, gitlab_count, "GitLab"])
-    csvwriter.writerow([dir, bitbucket_count, "Bitbucket"])
+    csvwriter.writerow([dir, (dir_count/file_count)*1000, "Total"])
+    csvwriter.writerow([dir, (sourceforge_count/file_count)*1000, "SourceForge"])
+    csvwriter.writerow([dir, (github_count/file_count)*1000, "GitHub"])
+    csvwriter.writerow([dir, (gitlab_count/file_count)*1000, "GitLab"])
+    csvwriter.writerow([dir, (bitbucket_count/file_count)*1000, "Bitbucket"])
 csv_file.close()
