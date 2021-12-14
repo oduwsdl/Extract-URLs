@@ -22,8 +22,8 @@ for dir in repo_json:
     for file in dir_json[dir]["files"]:
         file_count = file_count + 1
 
-    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], (sourceforge_count/file_count)*1000, "SourceForge"])
-    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], (github_count/file_count)*1000, "GitHub"])
-    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], (gitlab_count/file_count)*1000, "GitLab"])
-    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], (bitbucket_count/file_count)*1000, "Bitbucket"])
+    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], sourceforge_count, "SourceForge"])
+    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], github_count, "GitHub"])
+    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], gitlab_count, "GitLab"])
+    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], bitbucket_count, "Bitbucket"])
 csv_file.close()
