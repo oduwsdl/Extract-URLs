@@ -27,7 +27,7 @@ for dir in repo_json:
         except:
             pass
         try:
-            sourceforge_count = repo_json[dir]["files"][file]["bitbucket"]["url_count"]
+            bitbucket_count = repo_json[dir]["files"][file]["bitbucket"]["url_count"]
             csvwriter.writerow([file, bitbucket_count, "Bitbucket"])
         except:
             pass
