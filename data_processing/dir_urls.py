@@ -1,7 +1,7 @@
 import json
 import csv
 
-repo_file = open("repo_results/repo_urls.json")
+repo_file = open("./repo_results/repo_urls.json")
 repo_json = json.load(repo_file)
 repo_file.close()
 
