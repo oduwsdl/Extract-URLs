@@ -24,6 +24,7 @@ def update_dict(dir_dict, repo_all, repo_dict):
     dir_dict["url_count"] = dir_dict["url_count"] + len(repo_all)
 
 data = {}
+all_files = 0
 
 file_list = os.listdir("parsed/")
 for file_name in file_list:
@@ -37,6 +38,7 @@ for file_name in file_list:
     dir_bitbucket_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
 
     for pdf_name in json_data[dir]["files"]:
+        all_files = all_files + 1
         annot_urls = json_data[dir]["files"][pdf_name]["annot_urls"]
         text_urls = json_data[dir]["files"][pdf_name]["text_urls"]
         sourceforge_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
@@ -115,3 +117,5 @@ sourceforge.close()
 github.close()
 gitlab.close()
 bitbucket.close()
+
+print("Total number of files: " + str(all_files))
