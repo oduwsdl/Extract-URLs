@@ -6,7 +6,7 @@ sourceforge = open("repo_results/sourceforge.csv", "w")
 github = open("repo_results/github.csv", "w")
 gitlab = open("repo_results/gitlab.csv", "w")
 bitbucket = open("repo_results/bitbucket.csv", "w")
-repos = open("repo_results/repo_urls.json", "w")
+repos = open("repo_results/all_repo_urls.json", "w")
 
 # authors = open("~/authors-parsed.json")
 # authors_json = json.load(authors)
@@ -92,20 +92,20 @@ for file_name in file_list:
         gitlab_all = url_union(gitlab_dict)
         bitbucket_all = url_union(bitbucket_dict)
 
-        if len(sourceforge_all) + len(github_all) + len(gitlab_all) + len(bitbucket_all) != 0:
-            data[dir]["files"][pdf_name] = {}
-        if len(sourceforge_all) != 0:
-            update_dict(dir_sourceforge_dict, sourceforge_all, sourceforge_dict)
-            data[dir]["files"][pdf_name]["sourceforge"] = sourceforge_dict
-        if len(github_all) != 0:
-            update_dict(dir_github_dict, github_all, github_dict)
-            data[dir]["files"][pdf_name]["github"] = github_dict
-        if len(gitlab_all) != 0:
-            update_dict(dir_gitlab_dict, gitlab_all, gitlab_dict)
-            data[dir]["files"][pdf_name]["gitlab"] = gitlab_dict
-        if len(bitbucket_all) != 0:
-            update_dict(dir_bitbucket_dict, bitbucket_all, bitbucket_dict)
-            data[dir]["files"][pdf_name]["bitbucket"] = bitbucket_dict
+        # if len(sourceforge_all) + len(github_all) + len(gitlab_all) + len(bitbucket_all) != 0:
+        data[dir]["files"][pdf_name] = {}
+        # if len(sourceforge_all) != 0:
+        update_dict(dir_sourceforge_dict, sourceforge_all, sourceforge_dict)
+        data[dir]["files"][pdf_name]["sourceforge"] = sourceforge_dict
+        # if len(github_all) != 0:
+        update_dict(dir_github_dict, github_all, github_dict)
+        data[dir]["files"][pdf_name]["github"] = github_dict
+        # if len(gitlab_all) != 0:
+        update_dict(dir_gitlab_dict, gitlab_all, gitlab_dict)
+        data[dir]["files"][pdf_name]["gitlab"] = gitlab_dict
+        # if len(bitbucket_all) != 0:
+        update_dict(dir_bitbucket_dict, bitbucket_all, bitbucket_dict)
+        data[dir]["files"][pdf_name]["bitbucket"] = bitbucket_dict
     data[dir]["sourceforge"] = dir_sourceforge_dict
     data[dir]["github"] = dir_github_dict
     data[dir]["gitlab"] = dir_gitlab_dict
