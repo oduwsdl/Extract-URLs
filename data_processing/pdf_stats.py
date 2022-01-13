@@ -1,3 +1,7 @@
+# Input: all_repo_urls.json (JSON of all URLs and their URL counts for each repo)
+# Output: pdf_stats.csv (CSV with mean, median, stdev, and quartiles for each category and directory)
+# Notes: Calculates statistics including every PDF in the corpus
+
 import json
 import csv
 import statistics as s
@@ -11,19 +15,9 @@ csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Directory', 'Category', 'Mean', 'Median', 'StDev', 'Cut1', 'Cut2', 'Cut3'])
 
 for dir in repo_json:
-    # sourceforge_count = repo_json[dir]["sourceforge"]["url_count"]
-    # github_count = repo_json[dir]["github"]["url_count"]
-    # gitlab_count = repo_json[dir]["gitlab"]["url_count"]
-    # bitbucket_count = repo_json[dir]["bitbucket"]["url_count"]
-    # total_sourceforge_count = total_sourceforge_count + sourceforge_count
-    # total_github_count = total_github_count + github_count
-    # total_gitlab_count = total_gitlab_count + gitlab_count
-    # total_bitbucket_count = total_bitbucket_count + bitbucket_count
     dir_file = open("parsed/" + dir + ".json")
     dir_json = json.load(dir_file)
     dir_file.close()
-    # dir_count = 0
-    # file_count = 0
     sf = []
     gh = []
     gl = []
