@@ -5,9 +5,13 @@ repo_file = open("./repo_results/repo_urls.json")
 repo_json = json.load(repo_file)
 repo_file.close()
 
-csv_file = open("dir_urls.csv", "w")
+csv_file = open("./data_processing/dir_urls.csv", "w")
 csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Directory', 'URLCount', 'Category'])
+
+csv_file2 = open("./data_processing/file_count.csv", "w")
+csvwriter2 = csv.writer(csv_file2)
+csvwriter2.writerow(['Directory', 'FileCount'])
 
 total_file_count = 0
 total_url_count = 0
@@ -27,14 +31,15 @@ for dir in repo_json:
     dir_file = open("parsed/" + dir + ".json")
     dir_json = json.load(dir_file)
     dir_file.close()
-    dir_count = 0
+    url_count = 0
     file_count = 0
     for file in dir_json[dir]["files"]:
         file_count = file_count + 1
-        dir_count = dir_count + dir_json[dir]["files"][file]["url_count"]
+        url_count = url_count + dir_json[dir]["files"][file]["url_count"]
     total_file_count = total_file_count + file_count
-    total_url_count = total_url_count + dir_count
-    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], dir_count, "Total"])
+    total_url_count = total_url_count + url_count
+    csvwriter2.writerow(["20" + dir[0:2] + "-" + dir[2:], file_count])
+    csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], url_count, "Total"])
     csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], sourceforge_count, "SourceForge"])
     csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], github_count, "GitHub"])
     csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], gitlab_count, "GitLab"])
@@ -46,3 +51,4 @@ print("GitHub count: " + str(total_github_count))
 print("GitLab count: " + str(total_gitlab_count))
 print("Bitbucket count: " + str(total_bitbucket_count))
 csv_file.close()
+csv_file2.close()
