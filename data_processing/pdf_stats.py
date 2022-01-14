@@ -35,7 +35,7 @@ for dir in repo_json:
         if repo_json[dir]["files"][file]["sourceforge"]["url_count"] != 0:
             sf_count = sf_count + 1
             sf.append(repo_json[dir]["files"][file]["sourceforge"]["url_count"])
-        if repo_json[dir]["files"][file]["github"]["url_count"] != 0:
+        if repo_json[dir]["files"][file]["github"]["url_count"] != 0 and repo_json[dir]["files"][file]["github"]["url_count"] < 800:
             gh_count = gh_count + 1
             gh.append(repo_json[dir]["files"][file]["github"]["url_count"])
         if repo_json[dir]["files"][file]["gitlab"]["url_count"] != 0:
