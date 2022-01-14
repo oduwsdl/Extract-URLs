@@ -12,7 +12,7 @@ repo_file.close()
 
 csv_file = open("./data_processing/pdf_stats.csv", "w")
 csvwriter = csv.writer(csv_file)
-csvwriter.writerow(['Directory', 'Category', 'Mean', 'Median', 'StDev', 'Cut1', 'Cut2', 'Cut3', 'Percentage'])
+csvwriter.writerow(['Directory', 'Category', 'Mean', 'Median', 'StDev', 'Cut1', 'Cut2', 'Cut3', 'Percentage', 'Min', 'Max'])
 
 for dir in repo_json:
     dir_file = open("parsed/" + dir + ".json")
@@ -46,27 +46,27 @@ for dir in repo_json:
             bb.append(repo_json[dir]["files"][file]["bitbucket"]["url_count"])
         file_count = file_count + 1
     if sf_count == 0:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "SourceForge", 0, 0, 0, 0, 0, 0, 0])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "SourceForge", 0, 0, 0, 0, 0, 0, 0, 0, 0])
     elif sf_count == 1:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "SourceForge", sf[0], sf[0], sf[0], sf[0], sf[0], sf[0], sf_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "SourceForge", sf[0], sf[0], sf[0], sf[0], sf[0], sf[0], sf_count/file_count, sf[0], sf[0]])
     else:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "SourceForge", s.mean(sf), s.median(sf), s.pstdev(sf)] + s.quantiles(sf, n=4) + [sf_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "SourceForge", s.mean(sf), s.median(sf), s.pstdev(sf)] + s.quantiles(sf, n=4) + [sf_count/file_count, min(sf), max(sf)])
     if gh_count == 0:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitHub", 0, 0, 0, 0, 0, 0, 0])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitHub", 0, 0, 0, 0, 0, 0, 0, 0, 0])
     elif gh_count == 1:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitHub", gh[0], gh[0], gh[0], gh[0], gh[0], gh[0], gh_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitHub", gh[0], gh[0], gh[0], gh[0], gh[0], gh[0], gh_count/file_count, gh[0], gh[0]])
     else:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitHub", s.mean(gh), s.median(gh), s.pstdev(gh)] + s.quantiles(gh, n=4) + [gh_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitHub", s.mean(gh), s.median(gh), s.pstdev(gh)] + s.quantiles(gh, n=4) + [gh_count/file_count, min(gh), max(gh)])
     if gl_count == 0:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitLab", 0, 0, 0, 0, 0, 0, 0])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitLab", 0, 0, 0, 0, 0, 0, 0, 0, 0])
     elif gl_count == 1:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitLab", gl[0], gl[0], gl[0], gl[0], gl[0], gl[0], gl_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitLab", gl[0], gl[0], gl[0], gl[0], gl[0], gl[0], gl_count/file_count, gl[0], gl[0]])
     else:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitLab", s.mean(gl), s.median(gl), s.pstdev(gl)] + s.quantiles(gl, n=4) + [gl_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "GitLab", s.mean(gl), s.median(gl), s.pstdev(gl)] + s.quantiles(gl, n=4) + [gl_count/file_count, min(gl), max(gl)])
     if bb_count == 0:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "Bitbucket", 0, 0, 0, 0, 0, 0, 0])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "Bitbucket", 0, 0, 0, 0, 0, 0, 0, 0, 0])
     elif bb_count == 1:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "Bitbucket", bb[0], bb[0], bb[0], bb[0], bb[0], bb[0], bb_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "Bitbucket", bb[0], bb[0], bb[0], bb[0], bb[0], bb[0], bb_count/file_count, bb[0], bb[0]])
     else:
-        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "Bitbucket", s.mean(bb), s.median(bb), s.pstdev(bb)] + s.quantiles(bb, n=4) + [bb_count/file_count])
+        csvwriter.writerow(["20" + dir[0:2] + "-" + dir[2:], "Bitbucket", s.mean(bb), s.median(bb), s.pstdev(bb)] + s.quantiles(bb, n=4) + [bb_count/file_count, min(bb), max(bb)])
 csv_file.close()
