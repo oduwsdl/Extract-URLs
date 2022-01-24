@@ -1,3 +1,7 @@
+# Input: multiple_repos.csv
+# Output: multiple_repos_table.csv (filename, counts for each repo)
+# Notes: Table is only for files that reference more than one platform
+
 import csv
 
 def reset():

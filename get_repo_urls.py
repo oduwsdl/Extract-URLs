@@ -1,3 +1,7 @@
+# Input: parsed/
+# Output: CSV for each platform (with the URL, dir, and file name); all_repo_urls.json (with all files regardless of platform URLs)
+# Notes: Also created repo_urls.json with only files that contain a platform URL
+
 import json
 import os
 import re
@@ -6,7 +10,7 @@ sourceforge = open("repo_results/sourceforge.csv", "w")
 github = open("repo_results/github.csv", "w")
 gitlab = open("repo_results/gitlab.csv", "w")
 bitbucket = open("repo_results/bitbucket.csv", "w")
-repos = open("repo_results/all_repo_urls.json", "w")
+repos = open("repo_results/repo_urls.json", "w")
 
 # authors = open("~/authors-parsed.json")
 # authors_json = json.load(authors)
@@ -40,75 +44,75 @@ for file_name in file_list:
 
     for pdf_name in json_data[dir]["files"]:
         all_files = all_files + 1
-        if json_data[dir]["files"][pdf_name]["url_count"] != 0:
-            url_files = url_files + 1
-            annot_urls = json_data[dir]["files"][pdf_name]["annot_urls"]
-            text_urls = json_data[dir]["files"][pdf_name]["text_urls"]
-            sourceforge_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
-            github_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
-            gitlab_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
-            bitbucket_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
-            for url in annot_urls:
-                sf = re.search(r"(sourceforge.net)", url)
-                if sf is not None:
-                    sourceforge_dict["annot_urls"].append(url)
-                    sourceforge.write(url + ", " + dir + ", " + pdf_name + "\n")
+        # if json_data[dir]["files"][pdf_name]["url_count"] != 0:
+        url_files = url_files + 1
+        annot_urls = json_data[dir]["files"][pdf_name]["annot_urls"]
+        text_urls = json_data[dir]["files"][pdf_name]["text_urls"]
+        sourceforge_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
+        github_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
+        gitlab_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
+        bitbucket_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
+        for url in annot_urls:
+            sf = re.search(r"(sourceforge.net)", url)
+            if sf is not None:
+                sourceforge_dict["annot_urls"].append(url)
+                sourceforge.write(url + ", " + dir + ", " + pdf_name + "\n")
 
-                gh = re.search(r"(github.com|github.io)", url)
-                if gh is not None:
-                    github_dict["annot_urls"].append(url)
-                    github.write(url + ", " + dir + ", " + pdf_name + "\n")
-                
-                gl = re.search(r"(gitlab.com|gitlab.io)", url)
-                if gl is not None:
-                    gitlab_dict["annot_urls"].append(url)
-                    gitlab.write(url + ", " + dir + ", " + pdf_name + "\n")
-                
-                bb = re.search(r"(bitbucket.org)", url)
-                if bb is not None:
-                    bitbucket_dict["annot_urls"].append(url)
-                    bitbucket.write(url + ", " + dir + ", " + pdf_name + "\n")
+            gh = re.search(r"(github.com|github.io)", url)
+            if gh is not None:
+                github_dict["annot_urls"].append(url)
+                github.write(url + ", " + dir + ", " + pdf_name + "\n")
             
-            for url in text_urls:
-                sf = re.search(r"(sourceforge.net)", url)
-                if sf is not None:
-                    sourceforge_dict["text_urls"].append(url)
-                    sourceforge.write(url + ", " + dir + ", " + pdf_name + "\n")
+            gl = re.search(r"(gitlab.com|gitlab.io)", url)
+            if gl is not None:
+                gitlab_dict["annot_urls"].append(url)
+                gitlab.write(url + ", " + dir + ", " + pdf_name + "\n")
+            
+            bb = re.search(r"(bitbucket.org)", url)
+            if bb is not None:
+                bitbucket_dict["annot_urls"].append(url)
+                bitbucket.write(url + ", " + dir + ", " + pdf_name + "\n")
+        
+        for url in text_urls:
+            sf = re.search(r"(sourceforge.net)", url)
+            if sf is not None:
+                sourceforge_dict["text_urls"].append(url)
+                sourceforge.write(url + ", " + dir + ", " + pdf_name + "\n")
 
-                gh = re.search(r"(github.com|github.io)", url)
-                if gh is not None:
-                    github_dict["text_urls"].append(url)
-                    github.write(url + ", " + dir + ", " + pdf_name + "\n")
-                
-                gl = re.search(r"(gitlab.com|gitlab.io)", url)
-                if gl is not None:
-                    gitlab_dict["text_urls"].append(url)
-                    gitlab.write(url + ", " + dir + ", " + pdf_name + "\n")
-                
-                bb = re.search(r"(bitbucket.org)", url)
-                if bb is not None:
-                    bitbucket_dict["text_urls"].append(url)
-                    bitbucket.write(url + ", " + dir + ", " + pdf_name + "\n")
+            gh = re.search(r"(github.com|github.io)", url)
+            if gh is not None:
+                github_dict["text_urls"].append(url)
+                github.write(url + ", " + dir + ", " + pdf_name + "\n")
+            
+            gl = re.search(r"(gitlab.com|gitlab.io)", url)
+            if gl is not None:
+                gitlab_dict["text_urls"].append(url)
+                gitlab.write(url + ", " + dir + ", " + pdf_name + "\n")
+            
+            bb = re.search(r"(bitbucket.org)", url)
+            if bb is not None:
+                bitbucket_dict["text_urls"].append(url)
+                bitbucket.write(url + ", " + dir + ", " + pdf_name + "\n")
         
         sourceforge_all = url_union(sourceforge_dict)
         github_all = url_union(github_dict)
         gitlab_all = url_union(gitlab_dict)
         bitbucket_all = url_union(bitbucket_dict)
 
-        # if len(sourceforge_all) + len(github_all) + len(gitlab_all) + len(bitbucket_all) != 0:
-        data[dir]["files"][pdf_name] = {}
-        # if len(sourceforge_all) != 0:
-        update_dict(dir_sourceforge_dict, sourceforge_all, sourceforge_dict)
-        data[dir]["files"][pdf_name]["sourceforge"] = sourceforge_dict
-        # if len(github_all) != 0:
-        update_dict(dir_github_dict, github_all, github_dict)
-        data[dir]["files"][pdf_name]["github"] = github_dict
-        # if len(gitlab_all) != 0:
-        update_dict(dir_gitlab_dict, gitlab_all, gitlab_dict)
-        data[dir]["files"][pdf_name]["gitlab"] = gitlab_dict
-        # if len(bitbucket_all) != 0:
-        update_dict(dir_bitbucket_dict, bitbucket_all, bitbucket_dict)
-        data[dir]["files"][pdf_name]["bitbucket"] = bitbucket_dict
+        if len(sourceforge_all) + len(github_all) + len(gitlab_all) + len(bitbucket_all) != 0:
+            data[dir]["files"][pdf_name] = {}
+            if len(sourceforge_all) != 0:
+                update_dict(dir_sourceforge_dict, sourceforge_all, sourceforge_dict)
+                data[dir]["files"][pdf_name]["sourceforge"] = sourceforge_dict
+            if len(github_all) != 0:
+                update_dict(dir_github_dict, github_all, github_dict)
+                data[dir]["files"][pdf_name]["github"] = github_dict
+            if len(gitlab_all) != 0:
+                update_dict(dir_gitlab_dict, gitlab_all, gitlab_dict)
+                data[dir]["files"][pdf_name]["gitlab"] = gitlab_dict
+            if len(bitbucket_all) != 0:
+                update_dict(dir_bitbucket_dict, bitbucket_all, bitbucket_dict)
+                data[dir]["files"][pdf_name]["bitbucket"] = bitbucket_dict
     data[dir]["sourceforge"] = dir_sourceforge_dict
     data[dir]["github"] = dir_github_dict
     data[dir]["gitlab"] = dir_gitlab_dict

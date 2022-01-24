@@ -1,3 +1,7 @@
+# Input: repo_urls.json
+# Output: repo_url_counts.csv (directory, URL count, and category)
+# Notes: same output at dir_urls.py without the 'Total' (all valid URLs) category
+
 import json
 import csv
 

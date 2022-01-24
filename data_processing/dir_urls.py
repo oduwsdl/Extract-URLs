@@ -1,3 +1,7 @@
+# Input: repo_urls.json (from get_repo_urls.py)
+# Output: dir_urls.csv (directory, URL count, and category) and file_count.csv (directory and file count)
+# Notes: Outputs to terminal: total file count, total URL count, counts for each platform
+
 import json
 import csv
 

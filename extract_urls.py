@@ -1,3 +1,7 @@
+# Input: /arxiv_data/pdf/
+# Output: Updated completed_dirs.txt and created parsed/[dir_name].json (with the extracted URLs for each file in the directory)
+# Notes: Must be run on ssh connection to access /arxiv_data/pdf/
+
 import concurrent.futures
 import hashlib
 import io

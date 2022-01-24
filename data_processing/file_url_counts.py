@@ -1,3 +1,7 @@
+# Input: repo_urls.json
+# Output: file_url_counts.csv (file name, URL count, category)
+# Notes: 
+
 import json
 import csv
 
