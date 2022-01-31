@@ -27,7 +27,7 @@ def extraction(pdf_path):
 pdf_dir_path = "/arxiv_data/pdf/"
 completed = open("completed_dirs.txt", "a")
 # dir_list = os.listdir(pdf_dir_path)
-dir_list = ["2112"]
+dir_list = ["2111"]
 
 for dir in dir_list:
     completed.write(dir + "\n")
