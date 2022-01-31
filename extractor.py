@@ -4,7 +4,7 @@ from typing import Set, List
 import os
 
 import PyPDF2.pdf
-import pypdfium
+import pypdfium2 as pdfium
 
 from errors import URLError
 from util import URLUtil
@@ -13,8 +13,8 @@ from util import URLUtil
 class Extractor:
   """
   The ``Extractor`` class is used to perform URL extraction from PDF documents.
-  It uses `PyPDF2 <https://pypi.org/project/PyPDF2/>`_ and `PyPDFIUM <https://pypi.org/project/pypdfium/>`_ for this.
-  Here, PyPDF2 is used to extract URLs from PDF annotations, while PyPDFIUM is used to extract URLs from PDF text.
+  It uses `PyPDF2 <https://pypi.org/project/PyPDF2/>`_ and `PyPDFium2 <https://pypi.org/project/pypdfium2/>`_ for this.
+  Here, PyPDF2 is used to extract URLs from PDF annotations, while PyPDFium2 is used to extract URLs from PDF text.
 
   When extracting URLs, priority is given to URLs from PDF annotations, as they were found less error-prone than URLs from PDF text.
   This is because URLs in PDF text may be extracted partially (e.g., truncated due to a newline character) or with
@@ -73,32 +73,30 @@ class Extractor:
     buf_len = 2048
     buffer = (ctypes.c_ushort * buf_len)()
     buffer_ = ctypes.cast(buffer, ctypes.POINTER(ctypes.c_ushort))
-    # this line is very important, otherwise it would not work
-    pypdfium.FPDF_InitLibraryWithConfig(pypdfium.FPDF_LIBRARY_CONFIG(2, None, None, 0))
-
-    doc = pypdfium.FPDF_LoadDocument(fp, None)
-    page_count = pypdfium.FPDF_GetPageCount(doc)
+    
+    doc = pdfium.FPDF_LoadDocument(fp, None)
+    page_count = pdfium.FPDF_GetPageCount(doc)
     for i in range(page_count):
       # load PDF page
-      page = pypdfium.FPDF_LoadPage(doc, i)
+      page = pdfium.FPDF_LoadPage(doc, i)
       # load text in PDF page
-      text = pypdfium.FPDFText_LoadPage(page)
+      text = pdfium.FPDFText_LoadPage(page)
       # Load links in PDF text
-      links = pypdfium.FPDFLink_LoadWebLinks(text)
-      link_count = pypdfium.FPDFLink_CountWebLinks(links)
+      links = pdfium.FPDFLink_LoadWebLinks(text)
+      link_count = pdfium.FPDFLink_CountWebLinks(links)
       # get each URL
       for j in range(link_count):
-        url_length = pypdfium.FPDFLink_GetURL(links, j, buffer_, buf_len)
+        url_length = pdfium.FPDFLink_GetURL(links, j, buffer_, buf_len)
         url_nums = buffer[:url_length - 1]
         url = "".join(map(chr, url_nums)).strip()
         try:
           urls.add(self.util.canonicalize_url(url))
         except URLError as e:
           logging.debug(e)
-      pypdfium.FPDFLink_CloseWebLinks(links)
-      pypdfium.FPDFText_ClosePage(text)
-      pypdfium.FPDF_ClosePage(page)
-    pypdfium.FPDF_CloseDocument(doc)
+      pdfium.FPDFLink_CloseWebLinks(links)
+      pdfium.FPDFText_ClosePage(text)
+      pdfium.FPDF_ClosePage(page)
+    pdfium.FPDF_CloseDocument(doc)
     return urls
 
   def extract_all_urls(self, fp: str) -> List[str]:
