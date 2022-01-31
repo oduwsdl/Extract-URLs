@@ -5,12 +5,16 @@
 import json
 import os
 import re
+import csv
 
 sourceforge = open("repo_results/sourceforge.csv", "w")
 github = open("repo_results/github.csv", "w")
 gitlab = open("repo_results/gitlab.csv", "w")
 bitbucket = open("repo_results/bitbucket.csv", "w")
 repos = open("repo_results/repo_urls.json", "w")
+csv_file2 = open("./data_processing/file_count.csv", "w")
+csvwriter2 = csv.writer(csv_file2)
+csvwriter2.writerow(['Directory', 'FileCount', 'FileWithURL'])
 
 # authors = open("~/authors-parsed.json")
 # authors_json = json.load(authors)
@@ -28,8 +32,8 @@ def update_dict(dir_dict, repo_all, repo_dict):
     dir_dict["url_count"] = dir_dict["url_count"] + len(repo_all)
 
 data = {}
-all_files = 0
-url_files = 0
+total_all_files = 0
+total_url_files = 0
 
 file_list = os.listdir("parsed/")
 for file_name in file_list:
@@ -42,10 +46,12 @@ for file_name in file_list:
     dir_gitlab_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
     dir_bitbucket_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
 
+    all_files = 0
+    url_files = 0
     for pdf_name in json_data[dir]["files"]:
         all_files = all_files + 1
-        # if json_data[dir]["files"][pdf_name]["url_count"] != 0:
-        url_files = url_files + 1
+        if json_data[dir]["files"][pdf_name]["url_count"] != 0:
+            url_files = url_files + 1
         annot_urls = json_data[dir]["files"][pdf_name]["annot_urls"]
         text_urls = json_data[dir]["files"][pdf_name]["text_urls"]
         sourceforge_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
@@ -113,10 +119,15 @@ for file_name in file_list:
             if len(bitbucket_all) != 0:
                 update_dict(dir_bitbucket_dict, bitbucket_all, bitbucket_dict)
                 data[dir]["files"][pdf_name]["bitbucket"] = bitbucket_dict
+        
     data[dir]["sourceforge"] = dir_sourceforge_dict
     data[dir]["github"] = dir_github_dict
     data[dir]["gitlab"] = dir_gitlab_dict
     data[dir]["bitbucket"] = dir_bitbucket_dict
+
+    csvwriter2.writerow(["20" + dir[0:2] + "-" + dir[2:], all_files, url_files])
+    total_all_files = total_all_files + all_files
+    total_url_files = total_url_files + url_files
 
 json.dump(data, repos)
 repos.close()
@@ -124,6 +135,7 @@ sourceforge.close()
 github.close()
 gitlab.close()
 bitbucket.close()
+csv_file2.close()
 
-print("Total number of files: " + str(all_files))
-print("Files with URLs: " + str(url_files))
+print("Total number of files: " + str(total_all_files))
+print("Files with URLs: " + str(total_url_files))
