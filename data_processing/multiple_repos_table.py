@@ -7,11 +7,11 @@ import csv
 def reset():
     return "", "", "", ""
 
-csv_file = open("multiple_repos_table.csv", "w")
+csv_file = open("./data_processing/multiple_repos_table.csv", "w")
 csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Filename', 'Bitbucket', 'GitHub', 'GitLab', 'SourceForge'])
 
-with open('multiple_repos.csv') as read_csv:
+with open('./data_processing/multiple_repos.csv') as read_csv:
     csv_reader = csv.reader(read_csv, delimiter=',')
     line_count = 0
     prev_file = ""
@@ -44,3 +44,4 @@ with open('multiple_repos.csv') as read_csv:
                 sf = row[1]
             line_count += 1
 
+csv_file.close()

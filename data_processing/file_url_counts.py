@@ -9,7 +9,7 @@ repo_file = open("./repo_results/repo_urls.json")
 repo_json = json.load(repo_file)
 repo_file.close()
 
-csv_file = open("file_url_counts.csv", "w")
+csv_file = open("./data_processing/file_url_counts.csv", "w")
 csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Filename', 'URLCount', 'Category'])
 
