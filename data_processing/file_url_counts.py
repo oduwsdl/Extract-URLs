@@ -56,16 +56,16 @@ gl_ecdf = ECDF(gl)
 bb_ecdf = ECDF(bb)
 
 for i in range(len(sf_ecdf.x)):
-    csvwriter2.writerow([sf_ecdf.x[i], sf_ecdf.y[i], "SourceForge"])
+    csvwriter2.writerow([sf_ecdf.x[i], sf_ecdf.y[i]*100, "SourceForge"])
 
 for i in range(len(gh_ecdf.x)):
-    csvwriter2.writerow([gh_ecdf.x[i], gh_ecdf.y[i], "GitHub"])
+    csvwriter2.writerow([gh_ecdf.x[i], gh_ecdf.y[i]*100, "GitHub"])
 
 for i in range(len(gl_ecdf.x)):
-    csvwriter2.writerow([gl_ecdf.x[i], gl_ecdf.y[i], "GitLab"])
+    csvwriter2.writerow([gl_ecdf.x[i], gl_ecdf.y[i]*100, "GitLab"])
 
 for i in range(len(bb_ecdf.x)):
-    csvwriter2.writerow([bb_ecdf.x[i], bb_ecdf.y[i], "Bitbucket"])
+    csvwriter2.writerow([bb_ecdf.x[i], bb_ecdf.y[i]*100, "Bitbucket"])
 
 csv_file.close()
 csv_file2.close()
