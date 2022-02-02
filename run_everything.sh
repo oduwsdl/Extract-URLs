@@ -1,5 +1,4 @@
 #!/bin/bash
-python3 extract_urls.py
 python3 get_repo_urls.py
 ./data_processing/repo_repeats.sh
 python3 ./data_processing/dir_urls.py

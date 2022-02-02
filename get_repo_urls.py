@@ -39,6 +39,7 @@ file_list = os.listdir("parsed/")
 for file_name in file_list:
     dir = re.findall(r"(\d{4}).json", file_name)[0]
     data[dir] = {"files":{}}
+    print(file_name)
     f = open("parsed/" + file_name, "r")
     json_data = json.load(f)
     dir_sourceforge_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}

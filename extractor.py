@@ -4,7 +4,7 @@ from typing import Set, List
 import os
 
 import PyPDF2.pdf
-import pypdfium
+import pypdfium2 as pypdfium
 
 from errors import URLError
 from util import URLUtil
