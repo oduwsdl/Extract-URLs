@@ -13,7 +13,7 @@ repo_file.close()
 
 csv_file = open("./data_processing/file_url_counts.csv", "w")
 csvwriter = csv.writer(csv_file)
-csvwriter.writerow(['Filename', 'URLCount', 'Category', 'Year'])
+csvwriter.writerow(['Filename', 'URLCount', 'Category', 'Year', 'Date'])
 
 csv_file2 = open("./data_processing/ecdf_numbers.csv", "w")
 csvwriter2 = csv.writer(csv_file2)
@@ -26,28 +26,30 @@ bb = []
 
 for dir in repo_json:
     for file in repo_json[dir]["files"]:
-        year = "20" + re.findall(r"(\d{4}).(\d*)v(\d*).pdf", file)[0][0][0:2]
+        time = re.findall(r"(\d{4}).(\d*)v(\d*).pdf", file)[0][0]
+        year = "20" + time[0:2]
+        date = "20" + time[0:2] + "-" + time[2:]
         try:
             sourceforge_count = repo_json[dir]["files"][file]["sourceforge"]["url_count"]
-            csvwriter.writerow([file, sourceforge_count, "SourceForge", year])
+            csvwriter.writerow([file, sourceforge_count, "SourceForge", year, date])
             sf.append(sourceforge_count)
         except:
             pass
         try:
             github_count = repo_json[dir]["files"][file]["github"]["url_count"]
-            csvwriter.writerow([file, github_count, "GitHub", year])
+            csvwriter.writerow([file, github_count, "GitHub", year, date])
             gh.append(github_count)
         except:
             pass
         try:
             gitlab_count = repo_json[dir]["files"][file]["gitlab"]["url_count"]
-            csvwriter.writerow([file, gitlab_count, "GitLab", year])
+            csvwriter.writerow([file, gitlab_count, "GitLab", year, date])
             gl.append(gitlab_count)
         except:
             pass
         try:
             bitbucket_count = repo_json[dir]["files"][file]["bitbucket"]["url_count"]
-            csvwriter.writerow([file, bitbucket_count, "Bitbucket", year])
+            csvwriter.writerow([file, bitbucket_count, "Bitbucket", year, date])
             bb.append(bitbucket_count)
         except:
             pass
