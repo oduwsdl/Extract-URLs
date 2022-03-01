@@ -23,10 +23,7 @@ def CCDF(data, category):
     # Find the cdf
     cdf = np.cumsum(counts)
     for i in range(len(cdf)):
-        csvwriter2.writerow([bin_edges[i], cdf[i]*100, category])
-    print(bin_edges)
-    print(cdf)
-
+        csvwriter3.writerow([bin_edges[i], cdf[i]*100, category])
 
 repo_file = open("./repo_results/repo_urls.json")
 repo_json = json.load(repo_file)
@@ -39,6 +36,10 @@ csvwriter.writerow(['Filename', 'URLCount', 'Category', 'Year', 'Date'])
 csv_file2 = open("./data_processing/ecdf_numbers.csv", "w")
 csvwriter2 = csv.writer(csv_file2)
 csvwriter2.writerow(['URLCount', 'ecdf', 'Category'])
+
+csv_file3 = open("./data_processing/ccdf_numbers.csv", "w")
+csvwriter3 = csv.writer(csv_file3)
+csvwriter3.writerow(['URLCount', 'cdf', 'Category'])
 
 sf = []
 gh = []
@@ -75,27 +76,28 @@ for dir in repo_json:
         except:
             pass
 
-# sf_ecdf = ECDF(sf)
-# gh_ecdf = ECDF(gh)
-# gl_ecdf = ECDF(gl)
-# bb_ecdf = ECDF(bb)
+sf_ecdf = ECDF(sf)
+gh_ecdf = ECDF(gh)
+gl_ecdf = ECDF(gl)
+bb_ecdf = ECDF(bb)
 
 CCDF(sf, "SourceForge")
 CCDF(gh, "GitHub")
 CCDF(gl, "GitLab")
 CCDF(bb, "Bitbucket")
 
-# for i in range(len(sf_ecdf.x)):
-#     csvwriter2.writerow([sf_ecdf.x[i], sf_ecdf.y[i]*100, "SourceForge"])
+for i in range(len(sf_ecdf.x)):
+    csvwriter2.writerow([sf_ecdf.x[i], sf_ecdf.y[i]*100, "SourceForge"])
 
-# for i in range(len(gh_ecdf.x)):
-#     csvwriter2.writerow([gh_ecdf.x[i], gh_ecdf.y[i]*100, "GitHub"])
+for i in range(len(gh_ecdf.x)):
+    csvwriter2.writerow([gh_ecdf.x[i], gh_ecdf.y[i]*100, "GitHub"])
 
-# for i in range(len(gl_ecdf.x)):
-#     csvwriter2.writerow([gl_ecdf.x[i], gl_ecdf.y[i]*100, "GitLab"])
+for i in range(len(gl_ecdf.x)):
+    csvwriter2.writerow([gl_ecdf.x[i], gl_ecdf.y[i]*100, "GitLab"])
 
-# for i in range(len(bb_ecdf.x)):
-#     csvwriter2.writerow([bb_ecdf.x[i], bb_ecdf.y[i]*100, "Bitbucket"])
+for i in range(len(bb_ecdf.x)):
+    csvwriter2.writerow([bb_ecdf.x[i], bb_ecdf.y[i]*100, "Bitbucket"])
 
 csv_file.close()
 csv_file2.close()
+csv_file3.close()
