@@ -4,7 +4,7 @@ This project is currently set up to extract URLs from PDf publications in the ar
 
 ## Order of Programs
 
-Some of the programs/scripts require the files from other programs/scripts. There correct order is shown below: 
+Some of the programs/scripts require the files from other programs/scripts. The correct order is shown below: 
 
 * extract_urls.py (creates a JSON file of extracted URLs for each directory)
 * get_repo_urls.py (creates repo_urls.json (only files with a repo URL) and all_file_urls.json (all files))
