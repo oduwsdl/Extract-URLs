@@ -1,6 +1,6 @@
 # Input: repo_urls.json
 # Output: urls_per_file.csv (directory, average # of URLs per file, category)
-# Notes: Similar to dir_urls.json but generates the average # of URLs per file instead of total
+# Notes: Similar to dir_urls.py but generates the average # of URLs per file instead of total
 
 import json
 import csv

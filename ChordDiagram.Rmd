@@ -1,0 +1,32 @@
+---
+title: "Chord Diagram"
+output:
+  html_notebook: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+```{r}
+install.packages('circlize')
+```
+
+```{r}
+data <- matrix(c(0, 0, 0, 0, 151, 9945, 177, 224, 0, 0, 0, 0, 1, 22, 1, 6, 171, 10883, 97, 437, 1592, 98967, 1121, 4316, 276, 11724, 102, 599, 1409, 92759, 1277, 3882), nrow = 4, ncol = 8)
+data <- t(data)
+colnames(data) <- (c('Bitbucket', 'GitHub', 'GitLab', 'SourceForge'))
+rownames(data) <- (c('Economics', 'Statistics', 'EESS', 'Quant. Fin.', 'Quant. Bio.', 'CS', 'Math', 'Physics'))
+library(circlize)
+chordDiagram(data, annotationTrack = "grid", preAllocateTracks = list(track.height = 0.1))
+circos.trackPlotRegion(track.index = 1, panel.fun = function(x,y) {
+  xlim = get.cell.meta.data("xlim")
+  xplot = get.cell.meta.data("xplot")
+  ylim = get.cell.meta.data("ylim")
+  sector.name = get.cell.meta.data("sector.index")
+  
+  if(abs(xplot[2] - xplot[1]) < 20) {
+    circos.text(mean(xlim), ylim[1], sector.name, facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.5))
+  } else {
+    circos.text(mean(xlim), ylim[1], sector.name, facing = "inside", niceFacing = TRUE, adj = c(0.5, 0))
+  }
+}, bg.border = NA)
+```

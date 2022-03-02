@@ -1,5 +1,5 @@
 # Input: repo_urls.json
-# Output: file_url_counts.csv (file name, URL count, category) and ecdf_number.csv (URLCount, ecdf, category)
+# Output: file_url_counts.csv (file name, URL count, category), ecdf_number.csv (URLCount, ecdf, category), and ccdf_number.csv (URLCount, cdf, category)
 # Notes: 
 
 import json

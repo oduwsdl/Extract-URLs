@@ -1,4 +1,3 @@
-from chord import Chord
 import json
 import re
 
