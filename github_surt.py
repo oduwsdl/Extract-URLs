@@ -4,7 +4,6 @@ import re
 
 surt_file = open("./repo_results/github_surt.csv", "w")
 surt_csv = csv.writer(surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
-surt_csv.writerow(['URL', 'SURT', 'Directory', 'File'])
 
 memento_file = open('./acorns/mementos.csv', 'w')
 memento_csv = csv.writer(memento_file, delimiter=' ')
@@ -27,7 +26,7 @@ not_gh_csv = csv.writer(not_gh_file, delimiter=' ')
 not_gh_csv.writerow(['URL', 'SURT', 'Directory', 'File'])
 
 with open('repo_results/github.csv', newline='') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter=',')
+    spamreader = csv.reader(csvfile, delimiter=' ')
     for row in spamreader:
         s = surt(row[0].strip())
 
