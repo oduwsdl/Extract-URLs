@@ -25,7 +25,7 @@ def extraction(pdf_path):
 
 data = {}
 
-with open('../test_pdf.csv', newline='') as csvfile:
+with open('test_pdf.csv', newline='') as csvfile:
     csv_file = csv.reader(csvfile, delimiter=',')
     for row in csv_file:
         full_path = row[0]
@@ -45,11 +45,15 @@ with open('../test_pdf.csv', newline='') as csvfile:
             print("File DNE")
             split_path = full_path.split('/')
             directory = split_path[0] + '/' + split_path[1] + '/' + split_path[2]
-            os.system("cd ~/" + directory +  "; wget -e robots=off https://ftp.ncbi.nlm.nih.gov/pub/pmc/" + row[0] + "; cd ~/Extract-URLs")
+            os.system("mkdir -p ~/" + directory + "; cd ~/" + directory +  "; wget -e robots=off https://ftp.ncbi.nlm.nih.gov/pub/pmc/" + row[0] + "; cd ~/Extract-URLs")
             url_dict = extraction("../" + row[0])
         data[dir]["files"][row[0]] = url_dict
 
-    print(data)
+    for dir in data:
+        d = open("pmc_parsed/" + dir + ".json", "w")
+        json_data = {dir: data[dir]}
+        json.dump(json_data, d)
+        d.close()
         
 
 # # Segment of code for looping through all directories in the 'pdf' directory
