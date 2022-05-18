@@ -1,4 +1,4 @@
-# Input: /arxiv_data/pdf/
+# Input: /arxiv_data1/oa_pdf/
 # Output: Updated completed_dirs.txt and created parsed/[dir_name].json (with the extracted URLs for each file in the directory)
 # Notes: Must be run on ssh connection to access /arxiv_data/pdf/
 
@@ -11,6 +11,7 @@ import json
 import os
 import re
 import time
+import jsonlines
 
 import flask
 import requests
@@ -22,38 +23,48 @@ def extraction(pdf_path):
     extractor = Extractor()
     urls = extractor.extract_all_urls(pdf_path)
     return urls
+    
+done = set(line.strip() for line in open('completed_files.txt'))
+completed = open("completed_files.txt", "a")
 
-data = {}
-
-with open('test_pdf.csv', newline='') as csvfile:
+with open('../oa_non_comm_use_pdf.csv', newline='') as csvfile:
+# with open('test_pdf.csv', newline='') as csvfile:
     csv_file = csv.reader(csvfile, delimiter=',')
     for row in csv_file:
         full_path = row[0]
         citation = row[1]
-        parsed_date = re.findall(r"(\d{4}) (\w{3}) (\d{1,2})", citation)[0]
-        month_num = datetime.datetime.strptime(parsed_date[1], '%b').month
-        dir = parsed_date[0][2:] + f"{month_num:02}"
+        if full_path not in done:
+            completed.write(full_path + "\n")
+            try:
+                parsed_date = re.findall(r"(\d{4}) (\w{3}) (\d{1,2})", citation)[0]
+                month_num = datetime.datetime.strptime(parsed_date[1], '%b').month
+            except:
+                try:
+                    parsed_date = re.findall(r"(\d{4}) (\w{3})", citation)[0]
+                    month_num = datetime.datetime.strptime(parsed_date[1], '%b').month
+                except:
+                    print(row)
+                    continue
+            dir = parsed_date[0][2:] + f"{month_num:02}"
 
-        if dir not in data:
-            data[dir] = {"files":{}, "num_files": 1}
-        else: 
-            data[dir]["num_files"] = data[dir]["num_files"] + 1
+            data = {}
 
-        try:
-            url_dict = extraction("../" + row[0])
-        except: 
-            print("File DNE")
-            split_path = full_path.split('/')
-            directory = split_path[0] + '/' + split_path[1] + '/' + split_path[2]
-            os.system("mkdir -p ~/" + directory + "; cd ~/" + directory +  "; wget -e robots=off https://ftp.ncbi.nlm.nih.gov/pub/pmc/" + row[0] + "; cd ~/Extract-URLs")
-            url_dict = extraction("../" + row[0])
-        data[dir]["files"][row[0]] = url_dict
+            try:
+                url_dict = extraction("/arxiv_data1/" + row[0])
+            except: 
+                print(row)
+                # split_path = full_path.split('/')
+                # directory = split_path[0] + '/' + split_path[1] + '/' + split_path[2]
+                # os.system("mkdir -p /arxiv_data1/" + directory + "; cd /arxiv_data1/" + directory +  "; wget -e robots=off https://ftp.ncbi.nlm.nih.gov/pub/pmc/" + row[0] + "; cd ~/Extract-URLs")
+                # url_dict = extraction("/arxiv_data1/" + row[0])
+            data[full_path] = url_dict
 
-    for dir in data:
-        d = open("pmc_parsed/" + dir + ".json", "w")
-        json_data = {dir: data[dir]}
-        json.dump(json_data, d)
-        d.close()
+            d = open("pmc_parsed/" + dir + ".json", "a")
+            jsonl_writer = jsonlines.Writer(d)
+            jsonl_writer.write(data)
+            jsonl_writer.close()
+            d.close()
+completed.close()
         
 
 # # Segment of code for looping through all directories in the 'pdf' directory
