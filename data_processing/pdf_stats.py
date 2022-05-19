@@ -6,16 +6,16 @@ import json
 import csv
 import statistics as s
 
-repo_file = open("./repo_results/all_repo_urls.json")
+repo_file = open("./repo_results/pmc_all_file_urls.json")
 repo_json = json.load(repo_file)
 repo_file.close()
 
-csv_file = open("./data_processing/pdf_stats.csv", "w")
+csv_file = open("./data_processing/pmc_pdf_stats.csv", "w")
 csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Directory', 'Category', 'Mean', 'Median', 'StDev', 'Cut1', 'Cut2', 'Cut3', 'Percentage', 'Min', 'Max'])
 
 for dir in repo_json:
-    dir_file = open("parsed/" + dir + ".json")
+    dir_file = open("pmc_parsed/" + dir + ".json")
     dir_json = json.load(dir_file)
     dir_file.close()
     sf = []

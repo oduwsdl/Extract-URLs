@@ -5,15 +5,15 @@
 import json
 import csv
 
-repo_file = open("./repo_results/repo_urls.json")
+repo_file = open("./repo_results/pmc_repo_urls.json")
 repo_json = json.load(repo_file)
 repo_file.close()
 
-csv_file = open("./data_processing/dir_urls.csv", "w")
+csv_file = open("./data_processing/pmc_dir_urls.csv", "w")
 csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Directory', 'URLCount', 'Category'])
 
-csv_file2 = open("./data_processing/file_count.csv", "w")
+csv_file2 = open("./data_processing/pmc_file_count.csv", "w")
 csvwriter2 = csv.writer(csv_file2)
 csvwriter2.writerow(['Directory', 'FileCount'])
 
@@ -32,7 +32,7 @@ for dir in repo_json:
     total_github_count = total_github_count + github_count
     total_gitlab_count = total_gitlab_count + gitlab_count
     total_bitbucket_count = total_bitbucket_count + bitbucket_count
-    dir_file = open("parsed/" + dir + ".json")
+    dir_file = open("pmc_parsed/" + dir + ".json")
     dir_json = json.load(dir_file)
     dir_file.close()
     url_count = 0

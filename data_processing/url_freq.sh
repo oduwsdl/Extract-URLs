@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -k3 -k2n -t ',' ./data_processing/file_url_counts.csv | sed 's/,/ /g' | cut -f2,3 -d ' ' | uniq -c | sed -e 's/^[[:space:]]*//' | sed -e "s/ /,/g" > ./data_processing/URL_frequency.csv
+sort -k3 -k2n -t ',' ./data_processing/pmc_file_url_counts.csv | sed 's/,/ /g' | cut -f2,3 -d ' ' | uniq -c | sed -e 's/^[[:space:]]*//' | sed -e "s/ /,/g" > ./data_processing/pmc_URL_frequency.csv

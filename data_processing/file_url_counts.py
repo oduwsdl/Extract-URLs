@@ -25,19 +25,19 @@ def CCDF(data, category):
     for i in range(len(cdf)):
         csvwriter3.writerow([bin_edges[i], cdf[i]*100, category])
 
-repo_file = open("./repo_results/repo_urls.json")
+repo_file = open("./repo_results/pmc_repo_urls.json")
 repo_json = json.load(repo_file)
 repo_file.close()
 
-csv_file = open("./data_processing/file_url_counts.csv", "w")
+csv_file = open("./data_processing/pmc_file_url_counts.csv", "w")
 csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Filename', 'URLCount', 'Category', 'Year', 'Date'])
 
-csv_file2 = open("./data_processing/ecdf_numbers.csv", "w")
+csv_file2 = open("./data_processing/pmc_ecdf_numbers.csv", "w")
 csvwriter2 = csv.writer(csv_file2)
 csvwriter2.writerow(['URLCount', 'ecdf', 'Category'])
 
-csv_file3 = open("./data_processing/ccdf_numbers.csv", "w")
+csv_file3 = open("./data_processing/pmc_ccdf_numbers.csv", "w")
 csvwriter3 = csv.writer(csv_file3)
 csvwriter3.writerow(['URLCount', 'cdf', 'Category'])
 
@@ -47,10 +47,9 @@ gl = []
 bb = []
 
 for dir in repo_json:
+    year = dir[0:4]
+    date = dir[0:4] + "-" + dir[4:]
     for file in repo_json[dir]["files"]:
-        time = re.findall(r"(\d{4}).(\d*)v(\d*).pdf", file)[0][0]
-        year = "20" + time[0:2]
-        date = "20" + time[0:2] + "-" + time[2:]
         try:
             sourceforge_count = repo_json[dir]["files"][file]["sourceforge"]["url_count"]
             csvwriter.writerow([file, sourceforge_count, "SourceForge", year, date])

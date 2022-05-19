@@ -7,13 +7,13 @@ import os
 import re
 import csv
 
-sourceforge = open("repo_results/sourceforge.csv", "w")
-github = open("repo_results/github.csv", "w")
-gitlab = open("repo_results/gitlab.csv", "w")
-bitbucket = open("repo_results/bitbucket.csv", "w")
-has_repo_json = open("repo_results/repo_urls.json", "w")
-all_files_json = open("repo_results/all_file_urls.json", "w")
-csv_file2 = open("./data_processing/file_count.csv", "w")
+sourceforge = open("repo_results/pmc_sourceforge.csv", "w")
+github = open("repo_results/pmc_github.csv", "w")
+gitlab = open("repo_results/pmc_gitlab.csv", "w")
+bitbucket = open("repo_results/pmc_bitbucket.csv", "w")
+has_repo_json = open("repo_results/pmc_repo_urls.json", "w")
+all_files_json = open("repo_results/pmc_all_file_urls.json", "w")
+csv_file2 = open("./data_processing/pmc_file_count.csv", "w")
 csvwriter2 = csv.writer(csv_file2)
 csvwriter2.writerow(['Directory', 'FileCount', 'FileWithURL'])
 
@@ -35,13 +35,13 @@ all_files_data = {}
 total_all_files = 0
 total_url_files = 0
 
-file_list = os.listdir("parsed/")
+file_list = os.listdir("pmc_parsed/")
 for file_name in file_list:
-    dir = re.findall(r"(\d{4}).json", file_name)[0]
+    dir = re.findall(r"(\d{6}).json", file_name)[0]
     has_repo_data[dir] = {"files":{}}
     all_files_data[dir] = {"files":{}}
     print(file_name)
-    f = open("parsed/" + file_name, "r")
+    f = open("pmc_parsed/" + file_name, "r")
     json_data = json.load(f)
 
     all_dir_sourceforge_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
