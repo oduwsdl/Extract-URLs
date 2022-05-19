@@ -9,7 +9,7 @@ repo_file = open("repo_results/pmc_repo_urls.json")
 repo_json = json.load(repo_file)
 repo_file.close()
 
-csv_file = open("pmc_repo_url_counts.csv", "w")
+csv_file = open("data_processing/pmc_repo_url_counts.csv", "w")
 csvwriter = csv.writer(csv_file)
 csvwriter.writerow(['Directory', 'URLCount', 'Category'])
 
