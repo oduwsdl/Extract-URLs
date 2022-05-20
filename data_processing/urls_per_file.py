@@ -11,7 +11,7 @@ repo_file.close()
 
 csv_file = open("./data_processing/pmc_urls_per_file.csv", "w")
 csvwriter = csv.writer(csv_file)
-csvwriter.writerow(['Directory', 'URLCount', 'Category'])
+csvwriter.writerow(['Directory', 'URICount', 'Category'])
 
 total_file_count = 0
 total_url_count = 0
