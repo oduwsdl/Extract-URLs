@@ -147,8 +147,7 @@ for file_name in file_list:
     has_repo_data[dir]["gitlab"] = repo_dir_gitlab_dict
     all_files_data[dir]["bitbucket"] = all_dir_bitbucket_dict
     has_repo_data[dir]["bitbucket"] = repo_dir_bitbucket_dict
-
-    csvwriter2.writerow(["20" + dir[0:2] + "-" + dir[2:], all_files, url_files])
+    csvwriter2.writerow([dir[0:4] + "-" + dir[4:], all_files, url_files])
     total_all_files = total_all_files + all_files
     total_url_files = total_url_files + url_files
 
