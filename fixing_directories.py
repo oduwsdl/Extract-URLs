@@ -22,7 +22,9 @@ for file_name in file_list:
             try:
                 d = json.loads(line.rstrip('\n|\r'))
             except:
+                print(d)
                 print("Except")
+                continue
             
             full_path = list(d.keys())[0]
 
