@@ -85,15 +85,19 @@ CCDF(gh, "GitHub")
 CCDF(gl, "GitLab")
 CCDF(bb, "Bitbucket")
 
+csvwriter2.writerow([0, 0, "SourceForge"])
 for i in range(len(sf_ecdf.x)):
     csvwriter2.writerow([sf_ecdf.x[i], sf_ecdf.y[i]*100, "SourceForge"])
 
+csvwriter2.writerow([0, 0, "GitHub"])
 for i in range(len(gh_ecdf.x)):
     csvwriter2.writerow([gh_ecdf.x[i], gh_ecdf.y[i]*100, "GitHub"])
 
+csvwriter2.writerow([0, 0, "GitLab"])
 for i in range(len(gl_ecdf.x)):
     csvwriter2.writerow([gl_ecdf.x[i], gl_ecdf.y[i]*100, "GitLab"])
 
+csvwriter2.writerow([0, 0, "Bitbucket"])
 for i in range(len(bb_ecdf.x)):
     csvwriter2.writerow([bb_ecdf.x[i], bb_ecdf.y[i]*100, "Bitbucket"])
 
