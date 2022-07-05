@@ -2,11 +2,11 @@ import csv
 import jsonlines
 import subprocess
 
-# with jsonlines.open('data_processing/dedupe_surt.jsonl', 'r') as jsonl_f:
-#      for line in jsonl_f:
-#         url = str(line['info'][0]['url'])
-#         surt = str(line['surt'])
-#         subprocess.check_call(["./timemap_surt.sh", url, surt, 'skip'])
+with jsonlines.open('data_processing/dedupe_surt.jsonl', 'r') as jsonl_f:
+     for line in jsonl_f:
+        url = str(line['info'][0]['url'])
+        surt = str(line['surt'])
+        subprocess.check_call(["./timemap_surt.sh", url, surt, 'skip'])
 
 timemap_results = open("timemap_results.csv", "w")
 timemap_results_csv = csv.writer(timemap_results, delimiter=' ')
