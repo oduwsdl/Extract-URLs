@@ -50,8 +50,7 @@ def check_timemap(file_name, rerun):
         else:
             global before_html
             before_html = before_html + 1
-            # status = "rerun"
-            status = "Error"
+            status = "rerun"
     elif first_line == "Bad Gateway":
         if rerun:
             global after_bad_gateway
@@ -60,8 +59,7 @@ def check_timemap(file_name, rerun):
         else:
             global before_bad_gateway
             before_bad_gateway = before_bad_gateway + 1
-            # status = "rerun"
-            status = "Error"
+            status = "rerun"
     else:
         if rerun:
             global after_other
@@ -70,8 +68,7 @@ def check_timemap(file_name, rerun):
         else:
             global before_other
             before_other = before_other + 1
-            # status = "rerun"
-            status = "Error"
+            status = "rerun"
     return status
 
 with open('timemap_map.txt', newline='') as csvfile:

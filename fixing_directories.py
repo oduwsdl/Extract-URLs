@@ -8,16 +8,21 @@ csv_file = open('../oa_non_comm_use_pdf.csv')
 csv_reader = csv.reader(csv_file, delimiter=',')
 all_files = list(csv_reader)
 
-file_list = os.listdir("conflict_parsed/")
-# file_list = ['0001.json', '0002.json']
+# file_list = os.listdir("conflict_parsed/")
+file_list = ['1009.json']
 for file_name in file_list:
     print(file_name)
-    files1900 = {}
-    files2000 = {}
     dir = re.findall(r"(\d{4}).json", file_name)[0]
     with open("conflict_parsed/" + file_name, 'r', encoding='utf-8') as f:
         dir1900 = '19' + str(dir)
+        j1900 = open("pmc_parsed/" + dir1900 + ".json")
+        data1900 = json.load(j1900)
+        files1900 = data1900[dir1900]['files']
+
         dir2000 = '20' + str(dir)
+        j2000 = open("pmc_parsed/" + dir2000 + ".json")
+        data2000 = json.load(j2000)
+        files2000 = data2000[dir2000]['files']
         for line in f:
             try:
                 d = json.loads(line.rstrip('\n|\r'))
@@ -44,19 +49,17 @@ for file_name in file_list:
                     elif parsed_date[0][:2] == '20':
                         files2000.update(d)
             csv_file.close()
-    data1900 = {dir1900:{}}
     data1900[dir1900]['files'] = files1900
     data1900[dir1900]['num_files'] = len(data1900[dir1900]['files'].keys())
 
-    data2000 = {dir2000:{}}
     data2000[dir2000]['files'] = files2000
     data2000[dir2000]['num_files'] = len(data2000[dir2000]['files'].keys())
 
-    j = open("pmc_parsed/" + dir1900 + ".json", "w")
-    json.dump(data1900, j)
-    j.close()
+    print(data1900)
+    json.dump(data1900, j1900)
+    # j.close()
 
-    j = open("pmc_parsed/" + dir2000 + ".json", "w")
-    json.dump(data2000, j)
-    j.close()
+    print(data2000)
+    json.dump(data2000, j2000)
+    # j.close()
         
