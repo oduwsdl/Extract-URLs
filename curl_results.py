@@ -18,6 +18,8 @@ with open('curl_map.txt', newline='') as map_file:
                 l = re.findall(r"^[Ll]ocation: (.*)$", line)
             if l != []:
                 location = l[0]
+            else:
+                location = ''
             if status == "404":
                 http_404 = http_404 + 1
             elif status == "200":
