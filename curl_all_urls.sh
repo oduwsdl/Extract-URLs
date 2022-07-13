@@ -6,8 +6,11 @@ while read l; do
         IFS=' ' read -r -a array <<< $l
         u=${array[0]}
         md5ofurl=`echo $u | md5sum | awk '{print $1}'`
-        curl -LI $u -s > curl/$md5ofurl.txt
-        echo $u curl/$md5ofurl.txt >> curl_map.txt
+        FILE=curl/$md5ofurl.txt
+        if [ ! -f "$FILE" ]; then
+            curl -LI $u -s > curl/$md5ofurl.txt
+            echo $u curl/$md5ofurl.txt >> curl_map.txt
+        fi
     fi
     ((n++))
 done < timemap_results.csv
