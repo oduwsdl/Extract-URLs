@@ -1,0 +1,27 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 13 Jul 2022 22:19:48 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 240
+Connection: keep-alive
+Location: https://cogitant.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 13 Jul 2022 23:19:15 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 13 Jul 2022 22:19:48 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 13 Jul 2022 23:19:34 GMT
+x-from: sfp-ioweb-3
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72a566fb6ab8592f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,32 @@
+HTTP/2 200 
+content-security-policy-report-only: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; object-src about:; base-uri 'self'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net sentry.io bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net 'nonce-iBzbJ19Q7hK81/6CwbJoqA=='; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Cookie, Accept-Language, Origin, Accept-Encoding
+x-usage-request-cost: 4566.83
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 6a01ca9225aa388d
+x-usage-output-ops: 0
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 13 Jul 2022 22:08:20 GMT
+x-usage-user-time: 0.124966
+x-usage-system-time: 0.006039
+x-served-by: 59f2d1c340fd
+expires: Wed, 13 Jul 2022 22:08:20 GMT
+x-envoy-upstream-service-time: 230
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.repo2.views.landing
+x-static-version: a084b042f812
+x-render-time: 0.22234177589416504
+x-usage-input-ops: 24
+set-cookie: csrftoken=ivhLStSpppBzCRLz7de0h0Ds1DLXPDfJAUczLv6jcbJpqyYNN3FPulV8sTRxhgwx; expires=Wed, 12-Jul-2023 22:08:20 GMT; Max-Age=31449600; Path=/; Secure
+set-cookie: bb_enable_py3_labs=1; expires=Wed, 13-Jul-2022 23:08:20 GMT; HttpOnly; Max-Age=3600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: a084b042f812
+x-request-count: 2708
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 46768
+

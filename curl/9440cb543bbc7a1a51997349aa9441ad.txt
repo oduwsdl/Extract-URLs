@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 13 Jul 2022 15:27:27 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=147.165598,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=319.659581,commit_show_header-fragment;desc="commit_show_header fragment";dur=93.271766,nginx;desc="NGINX";dur=0.604796,glb;desc="GLB";dur=8.573769
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/alsa-project/alsa-lib/commit/0fd7f0cdc5e663e69486d17b0207434396620be6
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=aZX6LnBajl4dQcV36qq21lDfDts%2FF60%2FpB%2FARbQvCNAfOlTPgU%2F%2Fj61rPtyZ0HimA0wtOwyDNRaSzSBY2xR1wr1dVIW%2BGofMfErTVVLG%2FrmI9alP4mhQVADq7n0Uv0%2BifFjYbUHJ7EGqMSP70j2%2BxyFGU9kiuqzZsOqF24AxzPgEF8d4CmjEKGtUIiyBgef8VWyPc%2BVb7PzNLYiYFoObtK363txpehzIz8LfqxM%2BdgC5MdhHgMXgGmkhAQ6wIrs9QkPtVsNhP5uEOGnjjhh0Yw%3D%3D--DklBwd%2Flx7nbGFL2--qfZaOmLpdA9MvNZtq5y0sQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.2146072348.1657726047; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 15:27:27 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 15:27:27 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: EAD6:1C12:59966:9B4F8:62CEE45F
+

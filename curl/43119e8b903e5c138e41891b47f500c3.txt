@@ -1,0 +1,64 @@
+HTTP/2 301 
+content-security-policy-report-only: connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net sentry.io bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; object-src about:; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; base-uri 'self'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Accept-Language, Origin
+x-usage-request-cost: 392.90
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 8af9c90a545809b8
+x-usage-output-ops: 0
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 13 Jul 2022 22:14:14 GMT
+x-usage-user-time: 0.011469
+x-usage-system-time: 0.000318
+location: /medinfo_mainz/
+x-served-by: 862f16369c03
+expires: Wed, 13 Jul 2022 22:14:14 GMT
+x-envoy-upstream-service-time: 23
+content-language: en
+x-usage-throttled: True
+x-view-name: django.views.generic.base.RedirectView
+x-static-version: a084b042f812
+x-render-time: 0.008475542068481445
+x-usage-input-ops: 0
+set-cookie: bb_enable_py3_labs=1; expires=Wed, 13-Jul-2022 23:14:13 GMT; HttpOnly; Max-Age=3600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: a084b042f812
+x-request-count: 2370
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/2 200 
+content-security-policy-report-only: script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net 'nonce-Ggn0mZ66nozXdIgCWh/hpw=='; object-src about:; base-uri 'self'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net sentry.io bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Referer, Cookie, Accept-Language, Origin, Accept-Encoding
+x-usage-request-cost: 3343.00
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 7229dc0eada5d97c
+x-usage-output-ops: 0
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 13 Jul 2022 22:14:14 GMT
+x-usage-user-time: 0.082505
+x-usage-system-time: 0.017785
+x-served-by: ee18b6ebf4eb
+expires: Wed, 13 Jul 2022 22:14:14 GMT
+x-envoy-upstream-service-time: 202
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.bb.views.ProfileRepositories
+x-static-version: a084b042f812
+x-render-time: 0.18910670280456543
+x-usage-input-ops: 0
+set-cookie: csrftoken=TWK13ZMFy1ogqmSDzfyu9wD5a6IducQ4PAjV7t1oXPH84EWX5PtI5ARyO1lmzXyO; expires=Wed, 12-Jul-2023 22:14:14 GMT; Max-Age=31449600; Path=/; Secure
+set-cookie: bb_enable_py3_labs=1; expires=Wed, 13-Jul-2022 23:14:14 GMT; HttpOnly; Max-Age=3600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: a084b042f812
+x-request-count: 3196
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 40171
+

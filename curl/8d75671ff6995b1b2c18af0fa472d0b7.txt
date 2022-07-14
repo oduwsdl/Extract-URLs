@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 13 Jul 2022 22:20:39 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 239
+Connection: keep-alive
+Location: https://depfind.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 13 Jul 2022 23:19:46 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 13 Jul 2022 22:20:39 GMT
+content-type: text/html
+content-length: 652
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Thu, 09 Sep 2010 06:37:54 GMT
+etag: "28c-48fcddeb03480"
+cache-control: max-age=3600
+expires: Wed, 13 Jul 2022 23:20:25 GMT
+x-from: sfp-ioweb-3
+strict-transport-security: max-age=31536000
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72a56839e8ca5c1d-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

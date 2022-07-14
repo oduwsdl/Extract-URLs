@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 13 Jul 2022 22:20:39 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 235
+Connection: keep-alive
+Location: https://des.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 13 Jul 2022 23:19:11 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 13 Jul 2022 22:20:39 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Wed, 02 Mar 2022 09:47:59 GMT
+etag: W/"39c1-5d9392d3fe040"
+cache-control: max-age=3600
+expires: Wed, 13 Jul 2022 23:20:36 GMT
+x-from: sfp-ioweb-1
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72a5683d0bbb583c-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 13 Jul 2022 22:20:34 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 242
+Connection: keep-alive
+Location: https://dcplusplus.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 13 Jul 2022 23:20:02 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 13 Jul 2022 22:20:34 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Sun, 29 May 2022 11:31:51 GMT
+etag: W/"15c5-5e024e2bc77c0"
+cache-control: max-age=3600
+expires: Wed, 13 Jul 2022 23:20:32 GMT
+x-from: sfp-ioweb-2
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72a5681dd9a7062f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 13 Jul 2022 16:20:34 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=322.291782,conversation_content-fragment;desc="conversation_content fragment";dur=447.089729,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=177.838648,nginx;desc="NGINX";dur=0.680446,glb;desc="GLB";dur=7.805352
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/donnelldebnam/CodeU-Spring-2018-29/pull/59
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=IXIk1Bar2f9L5Xi6cu2cLupmRfKy1U1ZYhP7vAfwfGQTDiok8226jHTlw%2B7pg0IvqFTZD7f1tmZ7Zj6Yyx4gSU7etkvU%2BThxAWaMFl7a1LMeW1C8HTYfsgCL1orj0zSXcB9sii00RWF%2B2gboC%2BScFMLaHbixwJK7lR1kzfJCCfmP4MIUg964%2B0LYIXsQh9h7IMLc2x0vPH9grv5yVCC3pTq1o22LuVcP1jHh%2BGU52pvn6pgLptGgWS%2FqSyQJnAtOvoPRxkYmGE9GGJEOnK12xQ%3D%3D--BgY0zrxrzU6EF4QN--UuvE%2FpT9%2FpUxmD7EDMko7A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1309044713.1657729233; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 16:20:33 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 16:20:33 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: E0D6:6B97:8BF4F:FA6F3:62CEF0D1
+

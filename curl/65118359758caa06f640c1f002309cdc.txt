@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 13 Jul 2022 16:20:37 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=159.508062,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=197.020923,commit_show_header-fragment;desc="commit_show_header fragment";dur=158.370817,nginx;desc="NGINX";dur=1.237119,glb;desc="GLB";dur=5.622216
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/DonRegan/PowSpec_EFTofLSS/commit/1126b040663674da5bfc00b862e571fd28a9b714
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=%2BTlrLPmBvq6yq%2FRbgqFrqsanlcyv4bHMrbJzMqIZxHgAVSH5QboloUAgblJvK182%2BCC9dB5qSQ4WKiNTtHVoejrFNo6b94sSw8OSih71OEXfpM2QwnOfyLBrcj6extQBLPtNE0n5cFGELVWatj8KhrDvCtc61gDfocO6RHyb3zlc9j%2BYsvEdxYuyJ2%2B0MXCFQTccKeM79mQvQWKQvR%2FNrr0lNvW%2FCmwawf0RJYra%2Bq%2BDrF6eYdGH9%2FbZLw1Jnp%2ByzSgbTiryslnC6prbV7YDyw%3D%3D--twkTOJrb3yzX8cnV--ibfwjFUQCmQqvz9qib7CUw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.94563506.1657729236; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 16:20:36 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 16:20:36 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: E0E2:4221:78EAB:D96F0:62CEF0D4
+

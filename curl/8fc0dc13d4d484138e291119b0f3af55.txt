@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 13 Jul 2022 20:30:51 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=154.258067,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=205.096341,commit_show_header-fragment;desc="commit_show_header fragment";dur=92.973405,nginx;desc="NGINX";dur=0.833441,glb;desc="GLB";dur=7.144349
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/prysmaticlabs/prysm/commit/4bc7cb6959a1ea5b4b4b53b42284900e3b117dea
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=uVwpEaJAH%2FULQXs2lbmGd%2FahpcIUxV6L4%2BqIxV66TC%2BVDRnwyo631whcGoabAS1qUB57FE21heHalfu0V82cr2Xo05ujyfatP4E%2B1Yiy1JHl8XXO6uxEEi1K7qcuSvTRdLGoXm5mkOhpPMiZsCMSI3zNvg3FEXvGyBBuyQmoTj0Fl4WH6SYuVXhc4lMc9Ac4hQkT0QTTpreLeAuLSv3T3o%2Bj6OAx1sOYHQsxmgiCVk1B4iBpPgED%2BY2EcX7F%2Fms%2FRZxPUD5exgBLmB3G57ucNQ%3D%3D--c3PON%2BYT9V%2Fll5st--a9XGCdOv39%2BC1j1OxV0qkg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1556362697.1657744251; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 20:30:51 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 20:30:51 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: A2DA:241B:6E32F:AC896:62CF2B7B
+

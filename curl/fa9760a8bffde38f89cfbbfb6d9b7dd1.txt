@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 13 Jul 2022 21:25:16 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=121.795425,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=388.386497,commit_show_header-fragment;desc="commit_show_header fragment";dur=78.837223,nginx;desc="NGINX";dur=1.137514,glb;desc="GLB";dur=8.358618
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/vadz/libtiff/commit/3edb9cd
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=nq%2Bi93%2Fc%2FIsPgq9NEdo0fzzSiqQcKARjD%2FQ%2FI0OyuP%2BxiflAukQ0p8RE6YUHNRu34yNZTTJpwSB3NEuBndT1ZSN51jajPuAe9ZSrG6tvafP%2B4LQjIkANRX0YNciZ2V2EXhLANz%2F19jrd%2FxGjLge4ww3aPZhR%2B07MhodcDv64lcUMnE4XkOmXeAyCCLVmkv0x5mqaeCiKcXqbkRVPZ%2BIpEJ8ePUX9fSy8Lt%2BUlo%2BZkUXFBXo%2Bwx5X85wBNa9NC8axtAv7QlavgoMghJvA7fFX3w%3D%3D--t5rk2zQfLpaS47Tm--dAfaZ05xNY19%2FKUS4HNmnA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.937758382.1657747516; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 21:25:16 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 21:25:16 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: B9E8:5169:143970:27307D:62CF383C
+

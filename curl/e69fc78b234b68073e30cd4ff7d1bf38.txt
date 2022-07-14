@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 13 Jul 2022 19:19:18 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=153.630824,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=375.533002,commit_show_header-fragment;desc="commit_show_header fragment";dur=84.588088,nginx;desc="NGINX";dur=0.623202,glb;desc="GLB";dur=5.919106
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/JetBrains/teamcity-nuget-support/commit/fd232f43bc08ff0d91b257d2aca5ebc3a6aef1e4
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=6xYMn%2B0Fv2bTvp7FPhEu6O98o2ssfyRIWsAnuthdIEpITsBvCK1ih9NFmt%2BaPgl4jKMElS3YW59aOCHBos0nFvuKVRyrIOjZYQsJ9Wp65u2b%2BBRXbnGaLscyMZn4dl2p0SrS%2BbZQpglOwvYGQDC0M7Ah7w5sclKiq9l2PkaBXCl3rRm1hWcpmHTA%2FeVspnGJV3Owc401oNHOkQd7XINdLNWFRZQR1Irz733Ja5ngKZ2iqApB%2BdBT7zhBLDxtoUB5sLKWkmxV8BfVJRbBvY%2FIaQ%3D%3D--xKxXQCXN7afX0C4y--nwi%2FcTFNimSRQDN0tGajfA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1489130333.1657739957; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 19:19:17 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 13 Jul 2023 19:19:17 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: AA28:1B83:4B8B0:EBD94:62CF1AB5
+
