@@ -1,0 +1,38 @@
+HTTP/2 301 
+server: GitHub.com
+date: Mon, 18 Jul 2022 21:20:15 GMT
+content-length: 0
+location: https://github.com/IntelLabs/distiller/commit/a89b3ad19da164f517e5b9e9e568c94069cc0c83
+server-timing: nginx;desc="NGINX";dur=1.200872,glb;desc="GLB";dur=9.923894
+x-pjax-url: https://github.com/NervanaSystems/distiller/commit/a89b3ad19da164f517e5b9e9e568c94069cc0c83
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=arAFUqxtTRWfyNiuxjdM%2BQJ8V3JUznVvLxpCYgPaI5IKqFXDrTqP2TueQ7oNuTSJcpUK6Hu3UsfnZqSEVdhjCcVCNM3zjhXNtm%2Bf%2FOGHPpMWj1eya3QGmR5LqmX48ojDtsR2bj%2B%2FFiJVC1Au1VMxrm6IARaokp2kXSF7f4Da80z%2FHJ03WHIPprb94lTZm7n2DdtbahTuf%2Fwyrs2FGriTkLF%2B%2BblvkO9bheN9DCmo4kMYYmjMAxrD9y1RDH9qBWljfqPl1OPnBieeFjYjbx%2B2QA%3D%3D--%2Bh%2Bc6%2FIAe7tX2m%2B3--U7Usx%2B9hYmmi5Q9MnG5zjw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1972146264.1658179215; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 21:20:15 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 21:20:15 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: DE9E:9086:107ED7A:25818CE:62D5CE8F
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 18 Jul 2022 21:20:16 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=142.482822,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=196.858918,commit_show_header-fragment;desc="commit_show_header fragment";dur=83.021262,nginx;desc="NGINX";dur=1.064331,glb;desc="GLB";dur=5.738321
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/IntelLabs/distiller/commit/a89b3ad19da164f517e5b9e9e568c94069cc0c83
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=Esq4%2BpXxmvWW%2Ft4Xt7hWSw4mWHbvjJphVnVxltTTWhraQIll4uhaNYMLWl93xduZJXYxnsQAGkiJnD%2Bjhe9bFHpr4aT8J7E4hwug8E3nDib3yA1gVGyQqTURv%2B2A25OADfInHgK1yZVrtwR3cGOdISXNbk9V51jWlxtU2uRC60Asj%2FcT4Huvt1AePtTBPwc2oZ7Tx%2F0Rjq2EbcP6BUM%2Bm5CZV20kAF%2BdLDmxHCB155FKdLCOKseZEoAYcNfUDmOZLFcdHqhZb3B8lWXDDmADkg%3D%3D--3uV%2FfrY3Ffz4uDB%2F--FUcKgvq1M2SLFHr4NKphDA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.11803955.1658179215; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 21:20:15 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 21:20:15 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: DE9E:9086:107ED83:25818DE:62D5CE8F
+

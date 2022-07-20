@@ -1,0 +1,38 @@
+HTTP/2 301 
+server: GitHub.com
+date: Tue, 19 Jul 2022 04:18:11 GMT
+content-length: 0
+location: https://github.com/facebookresearch/fairseq/commit/bff7f85206f6f64b9455035893d44d66b98e33b0
+server-timing: nginx;desc="NGINX";dur=1.101205,glb;desc="GLB";dur=7.374271
+x-pjax-url: https://github.com/pytorch/fairseq/commit/bff7f85206f6f64b9455035893d44d66b98e33b0
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=QIFjfLrcfcyniuyDGHLFNDCRo%2FYbrv485rEy9v5VUNkG%2F5MmFMVfJ%2BGG%2FBbAoDmhb5g6Vt1SkkW6Nyv6KpQahN4bAuHLwb%2FOEgP8Grwd7vnN10gfzCQkZMsNtJSHej%2Fudo8Bqh5Tglo1%2BDjHtElehwRtVNouZp3FlkutSbQiKjWbnIy707P6dMiBPsp6yGzKxWHcFJdW0hEQ8YPNCyPBN2XoQxOjKRCBEixUGVErXrwPsElbg%2BouwXuATBtF%2FGBFjFDtcMElkDPEM9Eg9pmMeA%3D%3D--P86hjUMA9hE4ARx3--vpUtmk%2BhBTOH74m1r%2B4gbA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1515182468.1658204291; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 04:18:11 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 04:18:11 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: DFE0:0C31:245648A:3C9A8E9:62D63083
+
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 19 Jul 2022 04:18:11 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=128.966051,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=236.814133,commit_show_header-fragment;desc="commit_show_header fragment";dur=176.060385,nginx;desc="NGINX";dur=0.604019,glb;desc="GLB";dur=13.981095
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/facebookresearch/fairseq/commit/bff7f85206f6f64b9455035893d44d66b98e33b0
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=VwdF8u0sa94uVeywrQz8%2FNkj4eXzdtKm7CPy4%2BQCrrmCg9Y4ej41isgeA5FiLLXEFpjowUx0VVzPYWFDzB%2BhexZGn7riOu%2F7g9pH01qZ9mKZ%2BEXCCq4SU8VjfeiVbxruEfQBgzT%2BPo1rwcASf6e4W2L8UdF0N5nSRtHHNZV8M1px4dXeBc%2Fx7i8nM5D7ownMQy%2FKFoCXnlVWdaUFIlPtgJLqrbpfWCx25scrzc4dthfh85wK9qtveprD2X1cuJWaL09XtFgOx4WN382fZL5YqA%3D%3D--tcznZs5dYbYE0cSK--xxMJ%2Bn7jB4VTv1j7ho%2FVdg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.684201728.1658204291; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 04:18:11 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 04:18:11 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: DFE0:0C31:2456496:3C9A8FD:62D63083
+

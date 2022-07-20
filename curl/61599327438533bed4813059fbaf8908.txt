@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 18 Jul 2022 15:19:35 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=127.519883,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=236.583531,commit_show_header-fragment;desc="commit_show_header fragment";dur=117.215508,nginx;desc="NGINX";dur=0.994262,glb;desc="GLB";dur=21.66438
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/mpeltonen/sbt-idea/commit/1125a8b760810f682a3c929534e3d235a27e1245
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=NTMDXK1C0%2FEpuICVCT0TQ1QyasBzsyJrnt4HnPbwqRMnCnEymfv6JIr7kgeEI3ylWldAS%2F6VgNKBRReTSfH5Y1XqxqlaFVUWESatODGLSgywD2MtXbkDFRbllbNuL3jCLlgVt2EqNLas1HFLbKr69hbTuf3%2BxsHq%2BkOanhzoUgLhm9sXz8jnT757DMRnjLpVi8sebXV%2BgBMSpoOKQ1Li2MqGT0%2BOvVEEKy6ys9wpKzzwYoqdeQNT1R3%2B3MB5dRoHpttYXjCcPmEk%2FY5yB0MSag%3D%3D--LY3SSI8S6Nwxw27%2F--m9AUCEI%2FuRT7jUBBzvnD4Q%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.756638167.1658157575; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 15:19:35 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 15:19:35 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CE73:6F7B:17E233E:26757DE:62D57A07
+

@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 18 Jul 2022 23:29:55 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=336.108101,conversation_content-fragment;desc="conversation_content fragment";dur=632.823718,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=189.008086,nginx;desc="NGINX";dur=0.798122,glb;desc="GLB";dur=6.507204
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/ocaml/ocaml/pull/638
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=UuKfGOGRui3Ya27bG%2B10oYkThwX26myET5IhIbtvdc5y3leZMrxLryvY4AoZiBbMLAKB9z0CSLa4G%2F9a7Gx7oFqATlG%2Bib4qWmrY6EZTGKqmgGs3gYGTTALW9%2BZqBHVWYT0QctXWIS%2Bcyl6aGBNkA8DY1tmBpiRSA%2FlGL3RhdPH3ktyBKk7XRzn9e4D3KuwF8PAA8Sp7hGh3PfeC%2BIBpJ2f7c1O5RgkMFnKE8XXUb4DIMLsUAWvG3AMrrE64bxa77znDzdKcgtcA66aYXLMTxQ%3D%3D--U33D%2F78S5ePDE7I2--BT%2F8297jPry6GuvjTuxteQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.950662017.1658186994; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 23:29:54 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 23:29:54 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: F2D8:2309:19FE801:390D8CD:62D5ECF2
+

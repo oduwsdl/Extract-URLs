@@ -1,0 +1,44 @@
+HTTP/2 301 
+server: GitHub.com
+date: Fri, 15 Jul 2022 20:44:43 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+permissions-policy: interest-cohort=()
+location: https://github.com/fmcarlucci/JigenDG/commit/master
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=tHO0OFf8KQlzFS5ImeGmVrEckl1HvtClDJF1BjSuOu2BDJ1RwVgz6YYhAMKRa2jpHXEmE50vKmGJN7MkuRX2ybG8Vn3zJpTlJ17NVOUtQgTcrWajQ7mw7k7Zgk4BSgf51khMFCwOJSBeo0GQyybIkdeck3TShOqqRMrWK5o7eT6M4PyFeNefWPiNXcLZhQmJMfgSFNLYgaNRXAMaSro14ukWGk0%2FPQpqTDJLu9DaHTyl6yndU38PAfBbnnQlKTxakTSkP5muTdJ6tcqc9j95qA%3D%3D--zCpY76BSpegrTzjI--GnpL1qHQuBOGdIcwy4ODgA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1607016684.1657917883; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 20:44:43 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 20:44:43 GMT; HttpOnly; Secure; SameSite=Lax
+content-length: 0
+x-github-request-id: C0E5:83A9:3C26FF:6B45E0:62D1D1BB
+
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 20:44:43 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=105.400295,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=128.925454,commit_show_header-fragment;desc="commit_show_header fragment";dur=43.906032,nginx;desc="NGINX";dur=1.314173,glb;desc="GLB";dur=5.873245
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/fmcarlucci/JigenDG/commit/master
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=Voy%2F%2FGrCaq8Gm%2FATU6L7KIr6cjL26%2Bea6D2pbDfC3uHVnscaWCqkPZ8HEvs1ag6m9JuNwQWoqTZVxsRC9qLhEoiOKkBsmcDxPu%2B4qi6jvGuoMw2dB9CGsQIvbyHBdGHBSWEN0rXW0b3YeznNaCTVLKJ2kDC7JFPcjkNWLCTvi99eEUSKnuqQM6oiypoE9NG4A6jNXqkb4iiV6iM%2FjYduhCCHlKVpVLsbxJLIXRtdI1WuTnhRrj45cOSWGxlNRO7TuVP1o0%2BTWnS6cySLOYYmnQ%3D%3D--MtKsQMBpwUQwKIoo--xGozr1JiealLiFuiyINOUA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1277241062.1657917883; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 20:44:43 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 20:44:43 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: C0E5:83A9:3C2701:6B45F4:62D1D1BB
+

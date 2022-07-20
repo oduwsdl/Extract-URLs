@@ -1,0 +1,38 @@
+HTTP/2 301 
+server: GitHub.com
+date: Fri, 15 Jul 2022 10:36:03 GMT
+content-length: 0
+location: https://github.com/cvc5/cvc5/issues/4469
+server-timing: nginx;desc="NGINX";dur=1.464627,glb;desc="GLB";dur=7.538689
+x-pjax-url: https://github.com/CVC4/CVC4/issues/4469
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=TZi1%2F4h%2FjwIABrlHn5E4li7W%2F%2F5RuXaG2pPeXvrej4Ws6mPaxuEKnYO2qok83dd7OOqzhBXWqdmyNhBKWZbW%2BQ3htMlJnBT1Lq%2B6ajraScQLF%2FMPpS3YVnYeINoZ91FZJNUDyM5vhbJdC7sS2fcxo82LHiEDeCVLKMFMfBLPYTGbCZ5OsI2lwKAgaR0Jh8%2FhuATCp6l6YUfVCGn33pAeh9G1eqm86kyncVIBCpm8vehxRS2xUPcJ2EEKQyJgcMOti%2BUXvT9w9P%2F2tIm4VHr%2FiQ%3D%3D--K6eaEcHPzUtzDA3D--5OM2vbAPXXitqsAxh8%2B%2FaA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.2012184062.1657881363; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 10:36:03 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 10:36:03 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: EF13:9C6C:C9F502:153D3BF:62D14313
+
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 10:36:03 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=304.503932,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=316.703443,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=144.616659,nginx;desc="NGINX";dur=1.284512,glb;desc="GLB";dur=7.659435
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/cvc5/cvc5/issues/4469
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=gkOtq8aw45cHiHHa%2BQWt5opyIfvcFd5uqQby%2BhqWZscr6diLN6neHQRWJwRchqX6zcOVEGFJkcWL2VI1KusEjp7Xf6lRApafcOiVHC3R27pIYS%2Fwe71O%2B4oG7w4TMQFniFaA3ZJ5vmumqnIzb7Mc3uuqMcN2pocjxyPYE7lS6aFhx6MRgb%2BrJrGIZxEgLDXGoE0cGnuXtYRsNkoRC9jxBEi69WKyN3F%2Bz5GyBE9n9rf11%2FIzwh8a748NPNydB3eXYtkZhylVwpphE3OMF%2BDfdg%3D%3D--bddYhQWzTtIiquIf--hIdb%2BV7yJ149vIUHseyHng%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.858444553.1657881363; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 10:36:03 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 10:36:03 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: EF13:9C6C:C9F505:153D3C3:62D14313
+

@@ -1,0 +1,39 @@
+HTTP/2 302 
+content-security-policy-report-only: script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; object-src about:; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net sentry.io bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; base-uri 'self'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Accept-Language, Origin
+x-usage-request-cost: 8129.33
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: a4de2bdf7ab76529
+x-usage-output-ops: 0
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 20 Jul 2022 04:06:44 GMT
+x-usage-user-time: 0.212898
+x-usage-system-time: 0.030982
+location: https://bbuseruploads.s3.amazonaws.com/caseywdunn/dunnhowisonzapata2013/downloads/AgalmaExampleTree.zip?response-content-disposition=attachment%3B%20filename%3D%22AgalmaExampleTree.zip%22&AWSAccessKeyId=ASIA6KOSE3BNCBIDGMWD&Signature=7mDXxM3Kb17cCnsBvdI9KU5JZyA%3D&x-amz-security-token=FwoGZXIvYXdzEO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDJvmBXV3dzxUyIA4RSK%2BAdgCCLgNoWcUX1dZyH9C8qPfw8CT3OPH4OMC11dpx9Ionn8y%2BDizB7YP9AhT9uPtykmBurG%2BHZG6LM2w2FXFRCYg50%2BGRXXfrrCKwlcRkQl1y4Yrp%2F0ra%2BUmM5Mkm0jpmJSjeZ2aXk%2BSCQeThp7h57RQ4akeR2n8T1gZb1AdHI4yL9OLrr%2FSdrMw%2FfQUbzFZfHmWRAOozof9X3X%2FxhRR7DcWub4WEd7mGMvAACikKYuVhQM43cAwlQDhfMivDkso1P7dlgYyLe9ngQTtC77PDeB8M%2FGrtu0%2Bfnmeb0UnN1u%2BXbIwPwbVwWUdObW9rL1AoB6eGg%3D%3D&Expires=1658291804
+expires: Wed, 20 Jul 2022 04:06:44 GMT
+x-served-by: 89643803e955
+x-envoy-upstream-service-time: 364
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.downloads.views.download_file
+x-static-version: aaea9521c2f7
+x-render-time: 0.3532576560974121
+x-usage-input-ops: 0
+set-cookie: bb_enable_py3_labs=1; expires=Wed, 20-Jul-2022 05:06:44 GMT; HttpOnly; Max-Age=3600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: aaea9521c2f7
+x-request-count: 915
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/1.1 403 Forbidden
+x-amz-request-id: CW8ESGMYW4XCPZQZ
+x-amz-id-2: T8G42Pp2PMg5jGZU8WKy1nNANfV8i0S5PAN/nbDCZvtStpyzPHyYgXxu3MZI4t49t05QBrN+Nts=
+Content-Type: application/xml
+Date: Wed, 20 Jul 2022 04:06:44 GMT
+Server: AmazonS3
+

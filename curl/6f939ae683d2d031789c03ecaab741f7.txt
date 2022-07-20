@@ -1,0 +1,53 @@
+HTTP/2 301 
+server: GitHub.com
+date: Sat, 16 Jul 2022 03:02:56 GMT
+content-length: 0
+location: https://github.com/ipfs-inactive/research-CRDT/issues/31
+server-timing: nginx;desc="NGINX";dur=1.164499,glb;desc="GLB";dur=6.002409
+x-pjax-url: https://github.com/ipfs/research-CRDT/issues/31
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=tU9VGkYn1VEHfKkAsh9u8KoQdvZwlu2oYpKGUl4zMMFZPTFdjq%2BVre45%2F9lqai4LIuKfycSvmFz4DB9WVzwmXEKRanKlxKTvqb%2F1tcIX%2FTzdJfDuVtdVHAzxL6U6t3DAjpdMfF4nawU4%2BfAg7eACKhq%2BEQiwoOyx2UX3VsGGYX8TlJaxarQ07d%2F87m0AzcuPMXDA6m4zmwcg0GjYfotOc3sgmpboXZQ4c7EBwfHU9G6hr6W%2BpARN0V1%2BhWcH7gPtXx3mTOrN2BPJsTY0EFVinA%3D%3D--E2Y%2FYaGKBaYui29j--Zzu7fOmvnh66TQ7SMGqBVg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1226850915.1657940576; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 03:02:56 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 03:02:56 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: C8F1:1324:8F4E39:1203D2D:62D22A60
+
+HTTP/2 302 
+server: GitHub.com
+date: Sat, 16 Jul 2022 03:02:56 GMT
+content-length: 0
+location: https://github.com/ipfs/notes/issues/406
+server-timing: nginx;desc="NGINX";dur=0.528616,glb;desc="GLB";dur=6.406648
+x-pjax-url: https://github.com/ipfs-inactive/research-CRDT/issues/31
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=CwBXRxWJN3y5goMHgPAsQLQ0zdUyAwnIPfcwNauTG%2BS5jwNMo1wbHs856LE3sUW%2FKODuRYo%2BrBXoTlahzEPnoxT9PDKrSTKQMRLyzDFtD8v2f7pndbeZuHHqwm8Zlak69ADCdF4%2BbmmW38TrzTmriYKWl4fcWNYgzVrG2yXqOMJ8rzeW3GGrJAEk16jYX1AeDo%2Bi%2F1Qz6%2BWP1721dCVkYu5Md28fv1751D7TMFyk8cn2J9yEaCFSC6he8LPWRujkyUe%2FNgWWyjWxEf4bJwpJ8A%3D%3D--OlL9F9J5%2BDOf18yd--KGoShQVsQSAOAMu8p9YSdA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.704946549.1657940576; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 03:02:56 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 03:02:56 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: C8F1:1324:8F4E3A:1203D30:62D22A60
+
+HTTP/2 200 
+server: GitHub.com
+date: Sat, 16 Jul 2022 03:02:56 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=291.98228,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=343.974729,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=118.328341,nginx;desc="NGINX";dur=0.542043,glb;desc="GLB";dur=5.744063
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/ipfs/notes/issues/406
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=vJqMdMdclS0n%2Bhf2cdaxlnJ2uwGZWPxJTZWwVxNeZMcc4D%2FMGgYniLWSHxHZHg%2BQfZl0Dfu60ul9p0YmicQbRoBZ91IGauLIUE6TCmBEvSTMtflWyzWMRIxgrkJ%2FZOsIrFkh5DLD3bK7GrQ2oopx%2Fj9LFdWmguI6FFE8mpzHf4XtuhgpRIrXnDv%2BBOCWFWN5EV7RJUaMN5CF7TZkDTCAOwGGhiL0q44HbSg5JXnOe6%2BJHY%2FQw4lqBYpqqs7RC1412eZRleUVF9xVD4c4tKNFnA%3D%3D--i8vH%2FLo4lLe8RHTt--vaDNB2paSkSeV6Oz86Ooxg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.184531013.1657940576; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 03:02:56 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 03:02:56 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: C8F1:1324:8F4E40:1203D3A:62D22A60
+

@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:32:22 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 236
+Connection: keep-alive
+Location: https://pyrx.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:31:29 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:32:22 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+set-cookie: 051d60e55ea10592c8fb1cc02fd6c109=6ekqbc9209t00106sspevb3lj2; path=/
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+expires: Mon, 1 Jan 2001 00:00:00 GMT
+last-modified: Wed, 20 Jul 2022 05:31:45 GMT
+cache-control: post-check=0, pre-check=0
+pragma: no-cache
+x-from: sfp-web-2
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d950dfff3ac633-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

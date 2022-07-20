@@ -1,0 +1,39 @@
+HTTP/2 302 
+content-security-policy-report-only: base-uri 'self'; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net sentry.io bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; object-src about:; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Accept-Language, Origin
+x-usage-request-cost: 21260.60
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 4d80b7644bd2bd5e
+x-usage-output-ops: 0
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 20 Jul 2022 04:44:24 GMT
+x-usage-user-time: 0.588678
+x-usage-system-time: 0.049140
+location: https://bbuseruploads.s3.amazonaws.com/pchanda/hapzipper/downloads/HapZipper.tar.bz2?response-content-disposition=attachment%3B%20filename%3D%22HapZipper.tar.bz2%22&AWSAccessKeyId=ASIA6KOSE3BNI75DHOYV&Signature=PEGGQswC6o8xExSHVPVnhvoVdsU%3D&x-amz-security-token=FwoGZXIvYXdzEO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDA%2B9V2zM3fCFGf48OCK%2BAUo8Ir93wBh9aP%2Fv4uauv5oqieWhsUl%2FBefv%2BnTbqBc86NSr5vfYkAnGyEEFnTmind3MtqNQARCFW3Qi6h8qCYUcrVb3F%2Bk05%2FL%2F1TV0Uk7F60ORMxYLtign%2Bcy3oB1K1vEXB8eb%2FguKUHzHk6giA84LaqJMe0Q9iau1D6SEWNwuN04xYbO8PWcC5Kj9w1MN52c6hiouXKcadFIG7ZIbV9YOeK%2Fol5yxYtyKET5vD4S%2BrQFJNkfc0ZKT9%2B5hYgIoqJDelgYyLYgG8KNOirv%2B7wetc993u0IWVctKoRUa8Lt8G%2BHaz6YhTCv%2BBv2dOjV8MGfAvA%3D%3D&Expires=1658294064
+expires: Wed, 20 Jul 2022 04:44:24 GMT
+x-served-by: 64b579583728
+x-envoy-upstream-service-time: 781
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.downloads.views.download_file
+x-static-version: aaea9521c2f7
+x-render-time: 0.769989013671875
+x-usage-input-ops: 0
+set-cookie: bb_enable_py3_labs=1; expires=Wed, 20-Jul-2022 05:44:24 GMT; HttpOnly; Max-Age=3600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: aaea9521c2f7
+x-request-count: 1997
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/1.1 403 Forbidden
+x-amz-request-id: K6KHYE4KNWTEMRKE
+x-amz-id-2: 7f0ZNdRKSPgkzH4HPrSTfe3JMXAEKhDbC7ibPa84JwC0Zn7UfbzvvUJ97wmFZJnxluqOQxK32rU=
+Content-Type: application/xml
+Date: Wed, 20 Jul 2022 04:44:25 GMT
+Server: AmazonS3
+

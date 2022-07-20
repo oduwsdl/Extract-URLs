@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 20:23:39 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=258.827271,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=889.332836,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=93.040785,nginx;desc="NGINX";dur=1.089716,glb;desc="GLB";dur=6.824609
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/fiedl/hole-ice-study/issues/32
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=4WKPeUhIwBsKFqIzk3sV6pTwi42X0z%2FDCPgTSGPPkdeGS%2B7PX5Hupfld23bYrkFimX1aSOzyB6q%2B0rrFQg3hqRsMRuovf1hdJd1DNWlDWNJObicMglnljY6wcYA6haw5YR4BnUU%2B56G%2F5yPi80Iaj9atEVo%2BZN%2Fi8pIeYNh5M050%2F0%2FMz8ctj6vf69uOl8UzgNZNOfH6s2zVjTCoxJHKWW5DwdXqRWx23AI5kx%2Bw8qe4WkE17odpkCnkxTqAgTg%2BD4D8rnNvYO6oxHR0u%2B%2FX0A%3D%3D--eCVh1hXCjJGD7B7U--6GBXZcyHYAE8fNkfzb6jlA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1276033886.1657916618; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 20:23:38 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 20:23:38 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: FCEE:4222:EF4DBC:194D8B5:62D1CCCA
+

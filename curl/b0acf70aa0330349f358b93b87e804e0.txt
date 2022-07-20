@@ -1,0 +1,51 @@
+HTTP/2 301 
+date: Wed, 20 Jul 2022 02:20:22 GMT
+content-type: text/html
+content-length: 119
+location: https://gitlab.com/oquijano/unifed/-/snippets/1786226
+cache-control: no-cache
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/mermaid https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com https://ec2.ap-east-1.amazonaws.com https://ec2.ap-northeast-1.amazonaws.com https://ec2.ap-northeast-2.amazonaws.com https://ec2.ap-northeast-3.amazonaws.com https://ec2.ap-south-1.amazonaws.com https://ec2.ap-southeast-1.amazonaws.com https://ec2.ap-southeast-2.amazonaws.com https://ec2.ca-central-1.amazonaws.com https://ec2.eu-central-1.amazonaws.com https://ec2.eu-north-1.amazonaws.com https://ec2.eu-west-1.amazonaws.com https://ec2.eu-west-2.amazonaws.com https://ec2.eu-west-3.amazonaws.com https://ec2.me-south-1.amazonaws.com https://ec2.sa-east-1.amazonaws.com https://ec2.us-east-1.amazonaws.com https://ec2.us-east-2.amazonaws.com https://ec2.us-west-1.amazonaws.com https://ec2.us-west-2.amazonaws.com https://ec2.af-south-1.amazonaws.com https://iam.amazonaws.com; default-src 'self'; font-src 'self'; form-action 'self' https: http:; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com; img-src * data: blob:; manifest-src 'self'; media-src 'self' data:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com 'nonce-ybO1Dk0zbCGXb17UUBXPaw=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:
+x-request-id: 01G8CPG0F8T4ANM5B2F7K97FCS
+x-runtime: 0.031781
+gitlab-lb: fe-20-lb-gprd
+gitlab-sv: web-gke-us-east1-d
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qsDIVVEscsdz8ougyTK1K8roncjDP1sBUSpVMk0q5uDz7LqT3jWGRjXxatv0Xr%2B3n9iw5sbcX61DsTfXCGe%2Fs9gkuaUHRk2FNDzL6mwz98A5mJtTmacgAsnwYgrlzDzeOvrbVfK67Uk%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 72d837a2bff326d7-MSP
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 02:20:23 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/mermaid https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com https://ec2.ap-east-1.amazonaws.com https://ec2.ap-northeast-1.amazonaws.com https://ec2.ap-northeast-2.amazonaws.com https://ec2.ap-northeast-3.amazonaws.com https://ec2.ap-south-1.amazonaws.com https://ec2.ap-southeast-1.amazonaws.com https://ec2.ap-southeast-2.amazonaws.com https://ec2.ca-central-1.amazonaws.com https://ec2.eu-central-1.amazonaws.com https://ec2.eu-north-1.amazonaws.com https://ec2.eu-west-1.amazonaws.com https://ec2.eu-west-2.amazonaws.com https://ec2.eu-west-3.amazonaws.com https://ec2.me-south-1.amazonaws.com https://ec2.sa-east-1.amazonaws.com https://ec2.us-east-1.amazonaws.com https://ec2.us-east-2.amazonaws.com https://ec2.us-west-1.amazonaws.com https://ec2.us-west-2.amazonaws.com https://ec2.af-south-1.amazonaws.com https://iam.amazonaws.com snowplow.trx.gitlab.net; default-src 'self'; font-src 'self'; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com; img-src * data: blob:; manifest-src 'self'; media-src 'self' data:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com 'nonce-It+t4Vu7LXRH+30LuUxIgw=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:; form-action 'self' https: http: https:
+etag: W/"f6c4a712dbefd15d974f878810046dcd"
+permissions-policy: interest-cohort=()
+pragma: no-cache
+referrer-policy: strict-origin-when-cross-origin
+set-cookie: experimentation_subject_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqVTROREUxT1dKakxURXhaall0TkRWbFlTMWlZek5pTFRRM1pUZGpOV1ptTW1RMU5pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5leHBlcmltZW50YXRpb25fc3ViamVjdF9pZCJ9fQ%3D%3D--79fcfb0e1c51913902d137eb8330c72846e8769f; path=/; expires=Sun, 20 Jul 2042 02:20:23 GMT; secure; HttpOnly; SameSite=None
+vary: Accept
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 01G8CPG0N1DS5SCM71RTG2V1D5
+x-runtime: 0.249972
+x-ua-compatible: IE=edge
+x-xss-protection: 1; mode=block
+gitlab-lb: fe-11-lb-gprd
+gitlab-sv: web-gke-us-east1-d
+set-cookie: logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbG1OVEEzTW1JekxUaGhOV0l0TkRVNE1TMDROMlppTFRobU16SmpOR0kwT1RRNVppST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--575314694d134a7bdd4a2af3ae873706e00ffe4b; domain=.gitlab.com; path=/; expires=Sun, 20 Jul 2042 02:20:23 GMT; secure; HttpOnly; SameSite=None
+set-cookie: _gitlab_session=b2da4327465b3fdb138793ee868b3010; path=/; expires=Wed, 20 Jul 2022 04:20:23 GMT; secure; HttpOnly; SameSite=None
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fYbkL4IoVvje6T0zEdPHDV%2BctnF9SRo8IlXYBZfmHJzngP5D%2BFZO7zTC3lGvhgxrLy1Z0ne5%2FllBXIQEcNRaFg9EowTrAqe7%2BhxzhvWKUHi55R4qxvhkfILx%2BN%2BNaYqnu3dsuPKd2cc%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+server: cloudflare
+cf-ray: 72d837a3aa1026d7-MSP
+

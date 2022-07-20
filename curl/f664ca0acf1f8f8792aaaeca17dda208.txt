@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 03:11:27 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=119.042322,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=354.926614,commit_show_header-fragment;desc="commit_show_header fragment";dur=78.299177,nginx;desc="NGINX";dur=0.810844,glb;desc="GLB";dur=4.614948
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/apache/tika/commit/3aab15
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=faalXD%2F%2Bp%2FVOAXdJU%2FUS55sUamoyIJ2JkZxOZbyw0DrooI2d8jb0vfLsHaL%2FOLObcnZvAwUrcH2TxBYcks%2BbVnF6UKxakfKhB0kn%2B0Lsn%2B4IccU89uKZ2KZQck1q2k0MZ9KVtogWfyLgLlw7jyOyctxu3AqglXQLch9XCwcbMr2pLFhf8yjCod%2FF9rxjDdP6c9F93iEg6WJeFKCT8RnZQRlOYOgqzy3GxsIVGoU4rYlusHDhyalf3stdfLOa%2BQM1QWL4gySu0tPsVsef23%2BrIw%3D%3D--nMh6WDoeaSbHgEcW--Mr2AGa5yuDqouEZQZd0lig%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.474412740.1657854687; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 03:11:27 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 03:11:27 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: DE41:0353:83EB83:E8EA2A:62D0DADF
+

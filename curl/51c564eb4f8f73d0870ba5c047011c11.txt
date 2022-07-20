@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Sat, 16 Jul 2022 11:07:32 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=130.244144,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=208.050328,commit_show_header-fragment;desc="commit_show_header fragment";dur=72.736049,nginx;desc="NGINX";dur=1.47425,glb;desc="GLB";dur=8.147305
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/magicalpanda/MagicalRecord/commit/45d764a58d4b11c0cbdeb10fa442a18680e492ff
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=hKxeRwg%2FB5Hqngz1lkGwj7oH5zpqtcsLgB7WpK5Sb6Qc0OFfxAUcxGdYy5jq7%2FEyD15vooaDSGFHalr7QiUl0wxYG1hKsvBzFwVsHU3g4KssrPapz1sckXx%2F9Z%2BA1F9sR0mj7WfA4Q%2BNKkW4dmbI1O3qmffIShapLHfPpWKKjo24uthI7GY5JZObbwrg%2BMLyPLsLCBRUip1YPxXsnXGzUsSggnac6OxGGbHe0T2%2BBTaJpzpe2XKya6RgoQACI9vYqlFOv8SouahBgR2UnOwRxg%3D%3D--N6LfE8IZY1Ig2qfc--lxmS%2BZmukBuEMsBFTMrmQA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.533899182.1657969652; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 11:07:32 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 11:07:32 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: E5A7:5E3A:2FF330:B02429:62D29BF4
+

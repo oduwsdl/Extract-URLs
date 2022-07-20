@@ -1,0 +1,28 @@
+HTTP/1.1 303 See Other
+Server: nginx
+Date: Wed, 20 Jul 2022 04:58:33 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 250
+Connection: keep-alive
+Location: https://sourceforge.net/p/epidoc/wiki/Home/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 05:58:19 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 04:58:34 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
+set-cookie: _session_id=9e612f7092f35c28b451b410818b315c819010f90865a87ebb3629948e77ea41cedef29945bf6028; secure; Path=/
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d91f5a7e3fc64f-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Sat, 16 Jul 2022 02:43:51 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=151.787863,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=275.725894,commit_show_header-fragment;desc="commit_show_header fragment";dur=100.451312,nginx;desc="NGINX";dur=1.191011,glb;desc="GLB";dur=6.442969
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/influxdata/influxdb/commit/bba04e20b44dd0f8fd049d80f270424eb266533f
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=cE9M%2BIMmpf7t63kDdGbvgeKFdPTQD1YH6VT7sey9Y3QHGAWLt%2BJQwju4bpu%2BUlzFFEGPfOH3kJJ%2FshhrrClHOc2ujQssGZpnngXENdKxn%2BpqFT7Zv9AvAjuy8e5wLza7S%2BJmPYYo8kmApqaLNDaA%2FVaYCG9dZstHazX%2Bwtrjj8vdT%2F79Z4I9cLV1QzuphRYC%2FmhZWX%2BQxvaMPsQXaFRmSuTczKaQqTV4%2FsmWZ0jl7N80lV%2BbqUkCQ7of%2FeFD5B6MCaXAaqpHvRGfWj2QxB%2FxkQ%3D%3D--3p2ctPqUlXT3iYnT--FvICohUtWxrzdY0Q%2F4kDnA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.421183382.1657939431; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 02:43:51 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 02:43:51 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: C501:13B8:66ED0B:AC71BB:62D225E7
+

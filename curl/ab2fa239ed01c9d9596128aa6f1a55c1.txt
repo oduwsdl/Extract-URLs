@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 18 Jul 2022 16:08:00 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=153.471257,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=363.417047,commit_show_header-fragment;desc="commit_show_header fragment";dur=82.35425,nginx;desc="NGINX";dur=1.355833,glb;desc="GLB";dur=7.563918
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/MythTV/mythtv/commit/04828d18b995d7f033f60e6f98ff2f792ffcfe9c
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=elzZ%2B3j4U3DixBqKjAqRI9OSp92lo4ickboGUaPLRKgYp0B20cSE970EOiQ1s%2B%2FbB11PVu9yedHkcy%2Bx3NHEtsDbxTNiwG0jACZ05JLZdRutws2t9z%2Bfgo5N4Ll7oAzJSU5pJ1mcEeC7L8WMq4e%2BW38TXW1spmIdnCLrfDj4Tc64OAizTHlY8HvvgVcYYkHYuM4EscmDtZgbf%2FG0BJFdgDzOnmaJ%2FMPv%2BHfgw8GHzj2bd6RaI3n8em59CRjYHj2CDVJkbAEkzvhkO9p9Sw3o2g%3D%3D--S7WDzwsafUHOg06y--8SA3ABxfRk0BzgLg8TQWlg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1525465621.1658160480; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 16:08:00 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 16:08:00 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: D5EE:136A:88FC08:13AE8CC:62D58560
+

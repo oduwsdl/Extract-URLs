@@ -1,0 +1,38 @@
+HTTP/2 301 
+server: GitHub.com
+date: Mon, 18 Jul 2022 14:02:56 GMT
+content-length: 0
+location: https://github.com/saleor/saleor/issues/5589
+server-timing: nginx;desc="NGINX";dur=0.770118,glb;desc="GLB";dur=6.908224
+x-pjax-url: https://github.com/mirumee/saleor/issues/5589
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=edQt024pQyj%2FGAcnEjlfUf8VBgz%2FfGMYHprTWd4dtWKus1nQgmnZ54ti9PylK48AKyGo7X3g2NTUKa%2BtxoswC8MDP5cDK0pLtfe0YVWzWBqFekoQCMT9eVuP7F0hvwKT2swcJeG4Zx8b9AGfg5yBS1GcJE6fZMzUQ7MUyb0748XETjZc2MJaiYCrn3vNlObCNUvuFpGWPNw6rUQ6gclIpZJ9xsTEiQCHHIldQH1nb1QyOgke0VcBADhRUV2lQRpSQdI7A0v9eBdZlO5EOIYzLA%3D%3D--Lbx3VpkLCnnR1RCY--bAITQOdFo%2Blvn%2Bm8I2kgeA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.844852600.1658152976; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 14:02:56 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 14:02:56 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: C270:476C:FC2BF1:22DF4D3:62D56810
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 18 Jul 2022 14:02:57 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=315.544503,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=236.611584,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=126.457451,nginx;desc="NGINX";dur=0.978595,glb;desc="GLB";dur=6.758659
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/saleor/saleor/issues/5589
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=E%2BTpjbiSAo3zEFJbNy40zvvhPeO6Gs2h5jT4516M6hcau5UY3l7E%2BoTzqejQX2RC%2BSegVzIlfc6sifQFvqyQw5ZcBN1suzoVj4hSHPfyO8truKYpxRhH02OKfAkVEnV6DTDJ9SXZS8oVKQN4NRfxAX%2BiOFEy70WT27J7TRxEjHTQGwC58eATbX0svpfGyIwMSnjsv0zgj8A6JsvK9XhRTftZvlG1y3lxqXLur0UEDWX10iTO%2FTpifsViuql1%2BNzkEn9pSVYIp7l1yHmdThgnnw%3D%3D--0Q%2B0fwRpPNw5k8iT--6KePunAt0th4zTeh01UHsw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.2129423438.1658152976; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 14:02:56 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 14:02:56 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: C270:476C:FC2BFA:22DF4EE:62D56810
+

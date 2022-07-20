@@ -1,0 +1,26 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Jul 2022 05:04:53 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: http://graphics.stanford.edu/projects/gpubench
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:04:16 GMT
+X-From: sfp-web-2
+Vary: Accept-Encoding
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 20 Jul 2022 05:04:54 GMT
+Server: Apache/2.2.15 (CentOS)
+Location: http://graphics.stanford.edu/projects/gpubench/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 05:04:54 GMT
+Server: Apache/2.2.15 (CentOS)
+Accept-Ranges: bytes
+Content-Length: 3911
+Content-Type: text/html; charset=UTF-8
+

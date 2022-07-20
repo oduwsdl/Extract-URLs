@@ -1,0 +1,24 @@
+HTTP/2 301 
+content-length: 0
+location: https://github.com/to-be-added-after-acceptance
+
+HTTP/2 404 
+server: GitHub.com
+date: Tue, 19 Jul 2022 17:16:14 GMT
+content-type: text/plain; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+permissions-policy: interest-cohort=()
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+content-security-policy: default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'
+set-cookie: _gh_sess=jpeCL9UKoxmC6JBw9fmD6XpxcHEjoLCYUXPna9PNb6CuypZN8%2B7OLCyLARKjTkFGf5zDd9tkxcjXB6hqx%2FrwOfOOXJ1n7%2B7onlBcyOoBLIQ9A2x0FFk3lRX3AqXAcXgEJUkcnsjdRL6WJfLhKtn3aNp53gdnfH1%2BwvdaVoyU2w7T1K5qGGzG0DjVtXLoh1Dub1h7MF0LX2v5hxYcGXZQi3Nr8VcNcKTLMUrETNmGQ39PYByxPPM6oTJhKIPAKyt%2FmW6l5yBEfUPwvrg6eKbHSg%3D%3D--B3gUHnn4lbqE74gX--dJ%2FpGWo1H5uPtBS%2BTPSkBg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.519841237.1658250974; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 17:16:14 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 17:16:14 GMT; HttpOnly; Secure; SameSite=Lax
+content-length: 9
+x-github-request-id: DDA0:454F:1DBF235:3577513:62D6E6DD
+

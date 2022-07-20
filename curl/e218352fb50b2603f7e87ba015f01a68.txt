@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Sat, 16 Jul 2022 09:28:10 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=151.771364,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=840.458465,commit_show_header-fragment;desc="commit_show_header fragment";dur=78.641691,nginx;desc="NGINX";dur=1.146118,glb;desc="GLB";dur=5.795112
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/lightningnetwork/lnd/commit/c302f1ea3a91ccfa382d56851d23f4c73656208c
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=gsk7vJH4Tl9UyLN1pFIW8RZo613lp9BlkrCmM3bw77U6fj3CnuFlJORW92PeteoqwNpnFLw6HKr%2FZxrRiUNfUzU8mHqfcHPxp8ShMmJTMkaou%2FKMj3ic9wSPi%2BRlUudr2ffNAUrUa2ah47kNTIQhVKfigaVdJiNfHSIkR78aN2xXNBdL%2B8F%2BztMHQfLn0lqpQ8v9EeZXp9e1EyzKj7Rul0YIdzzvweap09Jm7mDwQm2J8x6qIfCurQfuzbN3k0aFpiq2bLutoOQh%2BdNgs6kxUw%3D%3D--rwdoskJ%2FPb1dT0Lo--FvdGO8gmyC1egQ2Xq2nBCA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1042512879.1657963689; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 09:28:09 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 09:28:09 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: D293:1797:7E6B1C:D2F6FC:62D284A9
+

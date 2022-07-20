@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Wed, 20 Jul 2022 06:43:05 GMT
+content-type: text/html; charset=UTF-8
+location: https://sourceforge.net/projects/unibic/files/data_result.zip/download
+cache-control: no-cache
+pragma: no-cache
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self', upgrade-insecure-requests
+set-cookie: VISITOR=d5ce0257-361e-4f8b-81fe-89fef3b75f14; Max-Age=315360000; Path=/; expires=Sat, 17-Jul-2032 06:43:05 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d9b8742a8f26d3-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+date: Wed, 20 Jul 2022 06:43:05 GMT
+content-type: text/html; charset=UTF-8
+location: https://downloads.sourceforge.net/project/unibic/data_result.zip?ts=gAAAAABi16P5GAZFP-Ub_b7fbTw8-LwubKnT0uTCNPDiHt2SqoDtzuUQnDj3ThIJ6TIARFzcyR5eCICy3bkcjbtQwGXJpj-MqQ%3D%3D&use_mirror=master&r=
+cache-control: no-cache
+pragma: no-cache
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self', upgrade-insecure-requests
+set-cookie: VISITOR=eea1a734-1be0-41a6-b24a-a63fb4667c9a; Max-Age=315360000; Path=/; expires=Sat, 17-Jul-2032 06:43:05 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d9b8751bb326d3-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+server: nginx
+date: Wed, 20 Jul 2022 06:43:05 GMT
+content-type: text/html; charset=UTF-8
+location: https://master.dl.sourceforge.net/project/unibic/data_result.zip?viasf=1
+content-disposition: attachment; filename="data_result.zip"
+set-cookie: sf_mirror_attempt=unibic:master:data_result.zip; Max-Age=120; Path=/; expires=Wed, 20-Jul-2022 06:45:05 GMT
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 20 Jul 2022 06:43:06 GMT
+Content-Type: application/octet-stream
+Content-Length: 31149558
+Connection: keep-alive
+last-modified: Mon, 29 Feb 2016 09:19:01 GMT
+etag: "56d40d05-1db4df6"
+accept-ranges: bytes
+

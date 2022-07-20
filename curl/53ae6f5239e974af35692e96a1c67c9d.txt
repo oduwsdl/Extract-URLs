@@ -1,0 +1,38 @@
+HTTP/2 301 
+server: GitHub.com
+date: Mon, 18 Jul 2022 13:17:48 GMT
+content-length: 0
+location: https://github.com/chakra-core/ChakraCore/commit/08b82b8d33e9b36c0d6628b856f280234c87ba13
+server-timing: nginx;desc="NGINX";dur=1.309029,glb;desc="GLB";dur=6.859105
+x-pjax-url: https://github.com/Microsoft/ChakraCore/commit/08b82b8d33e9b36c0d6628b856f280234c87ba13
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=NpKpKvfvhUK5gqv%2BcHvPQH7fNB2TbMUbINWUlXifWI2ot3V16ZQ8XgrNtaut%2FaDAOdWAI7RNjpYKt%2BlXD59ubqJIWw%2FCzSURIzyVmCorBfdz8LadOzd7rD%2BQaKvNnxNgecLLLkz80Z8oQV9gR9yqcOI10PcmYuouhKPor9%2BxX2mm8l%2F9En8xa%2Bm36RCgSCvvDX9EduGzY1Fey6afPSY59Q8xc8qhADFPXTKobNiSFfTOX8xngrEgojlYmFtL6ez%2B8B8ys%2BDD4XzMrCWEHqC4GA%3D%3D--TZRAH8r0YS%2FQg3jf--7WuGdquwhRMjI7hGa8VB5Q%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1445597540.1658150268; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 13:17:48 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 13:17:48 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: FB2A:6C7D:8FF262:CC0C55:62D55D7C
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 18 Jul 2022 13:17:49 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=149.860493,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=1520.582633,commit_show_header-fragment;desc="commit_show_header fragment";dur=107.966623,nginx;desc="NGINX";dur=1.468508,glb;desc="GLB";dur=6.394542
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/chakra-core/ChakraCore/commit/08b82b8d33e9b36c0d6628b856f280234c87ba13
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=dSUxqNSZfNjr%2FaFZNI39zdd%2FbG1R%2FiENVNlY6hJ3LoTQHeRBzcyX3oKTYt5EWlowikQXrUM3iHW2%2BAeIhrHEfS%2FFphuXWSnnjsRvz4gpYtYFMxm22ItH7JSownx7OeTLZGz0dfQEhUYneRt1Au6r2rT%2FxGANgoZTtYeHWLFZraEC%2BSoKsPPPKzXVHqnu9Q7mZYL2ncb0l9uPReT%2FQFGiVlhgI1801MAD%2Br2vAT7bXsFDwIOfPT65a%2BkZkKDK9KnuqA4gB3aomzj%2B5a%2BmA8BUjQ%3D%3D--%2F%2B%2FXfd90FbfX7VRO--ELhR1KGuU4EqcLsg3uoL1w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.143111301.1658150268; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 13:17:48 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 18 Jul 2023 13:17:48 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: FB2A:6C7D:8FF268:CC0C6A:62D55D7C
+

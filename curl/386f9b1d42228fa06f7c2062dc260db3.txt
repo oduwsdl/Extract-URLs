@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 01:49:17 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=127.27457,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=182.027402,commit_show_header-fragment;desc="commit_show_header fragment";dur=85.555251,nginx;desc="NGINX";dur=0.705928,glb;desc="GLB";dur=26.039928
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/allure-framework/allure-python/commit/34a91fa1f32e9f5279f14a595cb5401469b75ad8
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=l7979vvY7M%2FrZ1UuUjdfjcyTr34EByYIPerUwuKmRlRUHcpHuEyN7K5fLZfITuq1BeSfCw5tuK42XHoB9XhFpCDMn4dQj0Jqmzp%2FJXGo9SWKUTt0Hgb4P7VUI2r5LSLhLICMqyXrhyZpEQnSaAjjPTFGdEfgeccctfEZQH8KwJKOxoWuV2uEUEDUN1mV1sSsIeRTy9eiWDgjspyGCSigTb7LLXqYiKTlV8NIYu6WDcvFOxpyuPLgu0okou%2FNLwtVvYYu0e5XT%2BLXnJDdDx9z8g%3D%3D--VfEaEd8TEtqzIQxt--%2Fz2J6s22iFX0oijUG%2ByNGA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1076489973.1657849757; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 01:49:17 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 01:49:17 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CC23:6B97:99518C:105A383:62D0C79D
+

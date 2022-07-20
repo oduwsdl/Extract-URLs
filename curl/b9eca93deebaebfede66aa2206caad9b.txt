@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 19 Jul 2022 15:55:58 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=151.764934,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=384.552612,commit_show_header-fragment;desc="commit_show_header fragment";dur=73.215593,nginx;desc="NGINX";dur=0.936257,glb;desc="GLB";dur=6.673245
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/tensorflow/tensorflow/commit/87989f69597d6b2d60de8f112e1e3cea23be7298
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=Fn%2FgXQWalAUBbza3j5QSqo1lAJzH3lp%2BFaj%2BcGmURVjSqbqimOfGskjGDb8kwcTUdHEwb%2BeMExAdI7fZmv0p%2BAqXm%2BY8nn43dzquKXS9i8%2FWPTxvpd6JEmzY%2B1JLDe%2FNLQAYdUpna5ymYbfXxux9kNsQIgEhPOge5OGOenM2JYNnJxpBaeLzgGszX0fQxly8WDXZ3%2BbUgEAVtDnlK7%2BjsPbNRFUa1yFMzfkHRNLFweGvjrNdyZpaOmsBTesjB43cv9Enr6tauzY1ixlK%2FT%2BvHw%3D%3D--J1mt%2FM2AKpqDN5vV--%2B75wz47e2IIiJYcvZGZTkQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1432995017.1658246157; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 15:55:57 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 15:55:57 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: D015:1DD7:1361241:2831F08:62D6D40D
+

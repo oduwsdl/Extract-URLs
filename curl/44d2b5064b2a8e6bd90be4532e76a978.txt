@@ -1,0 +1,38 @@
+HTTP/2 301 
+server: GitHub.com
+date: Fri, 15 Jul 2022 13:58:28 GMT
+content-length: 0
+location: https://github.com/moby/moby/issues/8422
+server-timing: nginx;desc="NGINX";dur=1.348959,glb;desc="GLB";dur=6.545962
+x-pjax-url: https://github.com/docker/docker/issues/8422
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=cCmDJE3UMAQDraMZZauZETQqMKmoZw%2F1mRuwNaMsFjK2aPqcdeGnCNAP8yYo9S4qGXqZJYikqqStdACgWe97uhdOqOQJIZUQ5MGLG2Ed5u4Hi3L6CCs2piYQwtVmhZDPG3I8FWK27IrsD8XnRykaW4QtNzPyUFpm4PwXXrMBaAvzAieaorMwo6ReSonjrmlW6bELroHeqhs5r4iAP7waF3gg46%2BJFHFF0SAJNtG8oB8gD%2FDP19adFHOn0Gd9Gm41PMv%2BBv06w1Ek3e9T9%2B0KUg%3D%3D--lK3RH2O%2FWfFr0uNq--3ewVsBtJQFZ0f%2Fax5Bfpmw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1597831703.1657893508; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 13:58:28 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 13:58:28 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: CCC8:6A65:2F0636:4E7D00:62D17284
+
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 13:58:29 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=232.996145,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=310.802951,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=96.934205,nginx;desc="NGINX";dur=1.173635,glb;desc="GLB";dur=15.681718
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/moby/moby/issues/8422
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=SAWiO5a3XA4WHB80O0NHhEFMrg7uc%2FLDfYmlZXH2KuUBWJEpPemSwe%2B5K%2FP3ts9lKotNHYrhSa6QdQKRr1Xv1GyEOQoWHLSpCgXl2L2FUYiY1FpdnYKYwieX5Mhc27vP0s24E32cNWPfz6O98KUo0JqkxCk%2FdjWA3rp3vUMvgHjqFl06YXrL5HH2LjHwYf03n5SgToAXkBVwYSmpAg%2BWqG5teUggW%2BKhUYujeh3SrP5kQuzynjm6bh7hLVWqb66QokwryIXVwe6gNg4mprGgeQ%3D%3D--okZHcbGvSS%2BcdKEW--xrdUwTu0PReKT5OngXj%2BsQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.118644333.1657893508; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 13:58:28 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 13:58:28 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CCC8:6A65:2F0640:4E7D09:62D17284
+

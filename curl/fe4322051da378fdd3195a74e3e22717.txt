@@ -1,0 +1,44 @@
+HTTP/2 302 
+date: Wed, 20 Jul 2022 02:40:51 GMT
+content-type: text/html; charset=utf-8
+location: https://gitlab.com/users/sign_in
+cache-control: no-cache
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/mermaid https://gitlab.com/assets/ blob: data:; connect-src 'self' wss://gitlab.com https://sentry.gitlab.net snowplow.trx.gitlab.net; default-src 'self'; font-src 'self'; form-action 'self' https: http:; frame-ancestors 'self'; frame-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/mermaid; img-src 'self' data: blob: http: https:; manifest-src 'self'; media-src 'self' data:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86&sentry_environment=gprd-cny; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.recaptcha.net https://apis.google.com 'nonce-M5yODCxcVlkZ9o0HsheQLg=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com/assets/ blob: data:
+permissions-policy: interest-cohort=()
+pragma: no-cache
+referrer-policy: strict-origin-when-cross-origin
+set-cookie: experimentation_subject_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqRmpNVGhtTTJRekxUUmtOV1l0TkRBMU1pMWhOemMzTFdFeFl6Tm1ZV1JrT0RrME15ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5leHBlcmltZW50YXRpb25fc3ViamVjdF9pZCJ9fQ%3D%3D--9bdbf86a9d7fc9d671b1727d10163f7d486cc0d7; path=/; expires=Sun, 20 Jul 2042 02:40:51 GMT; secure; HttpOnly; SameSite=None
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 01G8CQNG1ST2PDRYGNDRZ49GZJ
+x-runtime: 0.039235
+x-ua-compatible: IE=edge
+x-xss-protection: 1; mode=block
+gitlab-lb: fe-20-lb-gprd
+gitlab-sv: gke-cny-web
+set-cookie: _gitlab_session=715cf110a8bb0f37fe0b43acc9f7bae1; path=/; expires=Wed, 20 Jul 2022 04:40:51 GMT; secure; HttpOnly; SameSite=None
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1Z5KB9gyToC6N7Nsuk6SZ7y86KmkP84Y%2FQW7x%2FkkuPX2QqSnuiClXok3aksxxfhvm%2FQyu3%2FW46p4gwuaeUHFhUBILm2rv4R6F5P5CBQCbDYri2VJ8ywsOGpOoKoVO9mEsJO%2B57beXyI%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+server: cloudflare
+cf-ray: 72d8559ffbb6269e-MSP
+
+HTTP/2 503 
+date: Wed, 20 Jul 2022 02:40:51 GMT
+content-type: text/html; charset=UTF-8
+x-frame-options: SAMEORIGIN
+permissions-policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kSAT9rbmS0M5z1VAhybmwFdqbDlTOi2KG6ee3Zt18rvbQa25MnrLN1R80yCWezuYwY%2BlvYoJW67lGrTjr5l1MCh0J%2BzpelRU6tuO7V6JAwu14q2o8TIyJNqja9lATiHqSeFJECZvV%2BI%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 72d855a0fe16269e-MSP
+

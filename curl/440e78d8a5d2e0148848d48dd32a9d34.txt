@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Sat, 16 Jul 2022 07:11:52 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=203.369929,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=169.788222,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=89.009072,nginx;desc="NGINX";dur=0.516431,glb;desc="GLB";dur=10.718467
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/KeplerGO/ScientificOpportunities/issues/10
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=wBwwKRnOobN1NpX6tu7H3xftM4APhzWshYXI8mS2YsMtVuAwwtthUtoqCWBZTZ%2BpHlpr4aH0%2FUuehU1gR1VRwHRbt8XjxsLNJX%2Ff6q4k1lSOQZgqw%2BPwNT9y1Zczw16RjQDqQz41sM8xOedXKZLnnqUFi5NlOtP0ugYDnud8zXtkiikVfAhOXNqK2O9G5U84fhMeznSPoGoyQ5qcr9vPxJsyQDjSRgk3KA%2FvHI5TJkzAcFnb5mSB%2BeN4TD9V2m4dzcAD7y2%2BCy5pWuHJNhv0hg%3D%3D--0PzSHLmyXPSui%2FJ%2B--3%2B3EqEfPbxO1VsixK3i4sA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.673952692.1657955512; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 07:11:52 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 07:11:52 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: F885:91ED:E209A4:18F74C6:62D264B8
+

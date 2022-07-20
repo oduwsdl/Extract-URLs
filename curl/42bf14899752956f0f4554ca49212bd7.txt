@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 05:03:52 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=116.995027,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=696.687544,commit_show_header-fragment;desc="commit_show_header fragment";dur=66.835868,nginx;desc="NGINX";dur=1.09245,glb;desc="GLB";dur=6.607347
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/BeamMW/beam/commit/ade19e1f8b1a702ad81d81092ba6a8f6561513ed
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=VWScaDUuLJl0Q7vgczBNEzsiyV%2FyPknNXM2OPg0WtWBz5mZymoKZxNM8pTY%2FUcLcIOsvpo2YLv8YKCHvqxgISxRkLPS5BqJfodISh0wC9VBv5cmdmIi6%2Fsax%2Fl%2B21JWMeRXBjl33cISybC0mXd2Bj7FXu%2Fg9nX1Z542sZNrjNjSQI1V8W%2Fso%2FE%2FtTF8%2BpRM6HxsTB9A8Ylc8eXXnVXj%2Bakhdl7NCFbdZPfz%2BbiiivuxUqJVh1%2B5Pi7BxPOIr1ExcGET4mI3%2FTKgyVpo8ZHBw%2FA%3D%3D--imjBZmiiWelHbxrh--l%2FopNJOuSExP2J1QPGhD1w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1680865329.1657861432; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 05:03:52 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 05:03:52 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: F2D7:120C:614C1F:BF82BF:62D0F537
+

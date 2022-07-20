@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Wed, 20 Jul 2022 06:40:47 GMT
+content-type: text/html; charset=UTF-8
+location: https://sourceforge.net/projects/sserver/files/rcssmanual/manual-7.08.1/manual.pdf/download
+cache-control: no-cache
+pragma: no-cache
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self', upgrade-insecure-requests
+set-cookie: VISITOR=25b60791-3f46-4143-84eb-c1a0a40d769f; Max-Age=315360000; Path=/; expires=Sat, 17-Jul-2032 06:40:47 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d9b5153f3dc643-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+date: Wed, 20 Jul 2022 06:40:47 GMT
+content-type: text/html; charset=UTF-8
+location: https://downloads.sourceforge.net/project/sserver/rcssmanual/manual-7.08.1/manual.pdf?ts=gAAAAABi16NvH3dMeY-5HIoa6_NrJPUqxSDUMOnH5H8J1eVPd3sdQziBeVGu7DyJyTLx3bNKuZJk25wI1kgLZTemUicZvnco8A%3D%3D&use_mirror=master&r=
+cache-control: no-cache
+pragma: no-cache
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self', upgrade-insecure-requests
+set-cookie: VISITOR=70673a9f-b7d8-4ed3-8b9d-f7c7296d5ebc; Max-Age=315360000; Path=/; expires=Sat, 17-Jul-2032 06:40:47 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d9b5162841c643-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+server: nginx
+date: Wed, 20 Jul 2022 06:40:47 GMT
+content-type: text/html; charset=UTF-8
+location: https://master.dl.sourceforge.net/project/sserver/rcssmanual/manual-7.08.1/manual.pdf?viasf=1
+content-disposition: attachment; filename="manual.pdf"
+set-cookie: sf_mirror_attempt=sserver:master:rcssmanual/manual-7.08.1/manual.pdf; Max-Age=120; Path=/; expires=Wed, 20-Jul-2022 06:42:47 GMT
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 20 Jul 2022 06:40:48 GMT
+Content-Type: application/octet-stream
+Content-Length: 1245444
+Connection: keep-alive
+last-modified: Fri, 26 Jul 2002 09:23:13 GMT
+etag: "3d411501-130104"
+accept-ranges: bytes
+

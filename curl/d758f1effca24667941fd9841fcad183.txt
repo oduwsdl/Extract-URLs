@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 09:44:34 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: discussion_layout-fragment;desc="discussion_layout fragment";dur=163.440977,content_1-fragment;desc="content_1 fragment";dur=118.840841,content_2-fragment;desc="content_2 fragment";dur=105.970575,sidebar_content-fragment;desc="sidebar_content fragment";dur=96.996828,nginx;desc="NGINX";dur=0.610413,glb;desc="GLB";dur=6.354475
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/containrrr/watchtower/discussions/567
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=wQRK2bkT8uoSIQt5BHNwJVYPSuDtk8FNpeyAgUSlPCcUi8gfpKEXLRmwmQ6c67ZOuaQKetC7%2B%2FLu8bS%2F9XKJiCCda4YWPzF7ZWU7f%2BVf81kCrW8pyFCR5JVU7mOXGVDRLyQ1C%2FXpLEqO9vMOY9LWF1K3bX1dfuHbAFjMluO3EG9G3Y2rEMm6h6FEAdVZVkqelftxL%2BJCxplhSO4CkCoyjq%2Byq0g5QAlrfczflzyEGe70tuftB7vGlgU6WOr%2BAlD2v9DzMf4du%2BdPhy9%2BQgKDSA%3D%3D--j66S%2B1kl322HUot0--6ubgUhD3PFt7IcEimh%2B2qw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1439884004.1657878274; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 09:44:34 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 09:44:34 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: E5B6:48F1:ECD83:5967E9:62D13701
+

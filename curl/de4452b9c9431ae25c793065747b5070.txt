@@ -1,0 +1,22 @@
+HTTP/2 200 
+server: envoy
+vary: Accept-Encoding, Referer
+cache-control: no-cache, no-store, must-revalidate, max-age=0
+content-type: text/html;charset=UTF-8
+x-b3-traceid: af10f0e9b3fdffd8
+content-security-policy: frame-ancestors 'none';
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 20 Jul 2022 03:37:52 GMT
+pragma: no-cache
+x-envoy-upstream-service-time: 19
+x-magnolia-registration: Registered
+etag: W/"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk"
+set-cookie: atlCohort={"bucketAll":{"bucketedAtUTC":"2022-07-20T03:37:52.021Z","version":"2","index":84,"bucketId":0}}; Max-Age=315360000; Domain=bitbucket.org; Path=/; Expires=Sat, 17 Jul 2032 03:37:52 GMT
+set-cookie: ajs_anonymous_id=%2236c12038-6328-36a1-454a-4227af1b3fda%22; Max-Age=315360000; Domain=bitbucket.org; Path=/; Expires=Sat, 17 Jul 2032 03:37:52 GMT
+set-cookie: bxp_gateway_request_id=68bcbd9d-7b57-eb2a-af24-749bfd0a640a; Max-Age=300; Domain=bitbucket.org; Path=/; Expires=Wed, 20 Jul 2022 03:42:52 GMT
+last-modified: Tue, 19 Jul 2022 23:36:57 GMT
+x-frame-options: deny
+x-powered-by: Express
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+

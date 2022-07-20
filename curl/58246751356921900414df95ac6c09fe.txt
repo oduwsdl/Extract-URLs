@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Sat, 16 Jul 2022 04:19:08 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=121.558045,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=178.641859,commit_show_header-fragment;desc="commit_show_header fragment";dur=63.570217,nginx;desc="NGINX";dur=1.006379,glb;desc="GLB";dur=6.83247
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/jenkinsci/elasticbox-plugin/commit/0083584a760c6800ea63bae8283761cadf2ef448
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=Snn5h2oMGLSccf%2FiIz8G7qX4Ebhu4tJTVI3Ohsd%2Fu7vKUCyZGBMV3G1UPvVQONfIDqkYYSpNhy8YBksZ1fGqY3cNWckTrW21YLo4BhOs1SC14SZwGWZVNDm6EvBoXrZH%2Fg6VArP6nGPfJm4fhg1rIRvJelGpQslsgZSikm%2BKgfL3vyrXmWbbWN9d3ETssVo9buH3qKrNfEXgkYXoN%2FM6sF116laPjrLuoeCFLQb2zyUezlmiquLf9Y%2FygQUrvoD%2BdtH4Wj%2Fjlu5D%2B%2BfLv%2Fl5Jg%3D%3D--h4MjJKMoonlT0dcF--n9kbQmEXWrzPu6j0sSTMZw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.130319103.1657945147; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 04:19:07 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 04:19:07 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: D78C:7D6D:DD3EFA:1C76455:62D23C3B
+

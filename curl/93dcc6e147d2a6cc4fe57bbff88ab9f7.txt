@@ -1,0 +1,39 @@
+HTTP/2 302 
+content-security-policy-report-only: object-src about:; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net sentry.io bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; base-uri 'self'; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Accept-Language, Origin
+x-usage-request-cost: 7704.00
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 4538d74a9e90be84
+x-usage-output-ops: 0
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 20 Jul 2022 04:35:22 GMT
+x-usage-user-time: 0.211455
+x-usage-system-time: 0.019665
+location: https://bbuseruploads.s3.amazonaws.com/c9865894-9a07-4fee-84e3-c73db16aa53b/downloads/813ac2d0-831c-4c76-8ec1-331be1552257/ICE-Implementation-Guide-distrib.pdf?response-content-disposition=attachment%3B%20filename%3D%22ICE-Implementation-Guide-distrib.pdf%22&AWSAccessKeyId=ASIA6KOSE3BNE34N7N6O&Signature=Ap2dPf6qExxLaz6Uo%2BFCuOEkIg8%3D&x-amz-security-token=FwoGZXIvYXdzEO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDFb%2B0OIYcyS0ORPXHCK%2BAXqii3CM7G3HBwTFK0htmb6HuE62lpbtvNZQCHBK3oIXPP9f%2B5wC%2BDJC%2BmL4TQ93ZdDf4hjOsS0ofoGFHv9XIzJO9fQaGfvLWBsqqDmqWzfbOAzfE5iFCg8DBuIQapH8AThZgRk%2FOqHNlXNQtM%2FsMZLQC%2FqqvVqswDo3jKChnhT5UG8hMERxc8dQMdfISXvx9knScrJTifuTMWyqd5Xz2xYYn77yRBCBlFUqqKkUtEHUcszBtpq3rHwL5XjdiPAoiozelgYyLUVQaLP3KuDfydMYLZmF9ARkr6QEXMSKl6xyUSIxzW%2BXmwLgvoOelIdqNHqodg%3D%3D&Expires=1658293522
+expires: Wed, 20 Jul 2022 04:35:22 GMT
+x-served-by: d0dd54428c44
+x-envoy-upstream-service-time: 374
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.downloads.views.download_file
+x-static-version: aaea9521c2f7
+x-render-time: 0.3651113510131836
+x-usage-input-ops: 0
+set-cookie: bb_enable_py3_labs=1; expires=Wed, 20-Jul-2022 05:35:22 GMT; HttpOnly; Max-Age=3600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: aaea9521c2f7
+x-request-count: 1617
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/1.1 403 Forbidden
+x-amz-request-id: C95TV1VDQHNJ1PC8
+x-amz-id-2: AOn3Aui0xL90/hNoEoIfHQyWMcLr83b3d3AU66B4BIaxuc5sSZqIzWVjaZKUpC519eSYHiq/AvM=
+Content-Type: application/xml
+Date: Wed, 20 Jul 2022 04:35:22 GMT
+Server: AmazonS3
+

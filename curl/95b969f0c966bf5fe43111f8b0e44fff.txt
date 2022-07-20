@@ -1,0 +1,20 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Jul 2022 05:25:49 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: /dokuwiki
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:25:12 GMT
+X-From: sfp-web-2
+Vary: Accept-Encoding
+
+HTTP/1.1 429 Too Many Requests
+Server: nginx
+Date: Wed, 20 Jul 2022 05:25:49 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+

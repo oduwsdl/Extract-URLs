@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 18:58:14 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=326.068599,conversation_content-fragment;desc="conversation_content fragment";dur=537.97812,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=205.106715,nginx;desc="NGINX";dur=1.094626,glb;desc="GLB";dur=6.70062
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/ethereum/aleth/pull/5314
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=V6449E1oyAs4JeJZiIjkiYJpGgcb%2BVeY9uwCBQpionA2uS0ghWJz0xmEK4tOxpBM0uhPk6gANNGcdb9op9IAMIW1zF%2BIOdPNpjD6h1xjjqFikX1etQ11A9bj3BaIi%2BiAf0dcpwJDCJwNjr3dRe8Yu70Ho1HmDbWs4ZGyj2pwqolEZ%2Bi9%2FGoCxX%2BAQt5suh63bK5wlQFRPQ%2Ff5cLzfSt5T%2Fl5Bxd34dHOSQIq1DaG41AOe1CHfn9yuap2%2B09o6KQ2Y3RwbGxe7rVjF7KAZNx%2B9w%3D%3D--gq5Nngxk1lGQ4kwz--kWPeKQYpoFk381EpunkuWw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.772887700.1657911493; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 18:58:13 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 18:58:13 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: EC5A:0D5A:24DDAF:797564:62D1B8C5
+

@@ -1,0 +1,44 @@
+HTTP/2 301 
+server: GitHub.com
+date: Sat, 16 Jul 2022 09:27:53 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+permissions-policy: interest-cohort=()
+location: https://github.com/lightning/bolts/pull/654
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=5PTLOgi1bH24FaC1pvHX89eQzPLlV6Z%2BuC%2FpZBgemjEpICTDbDDUX2He8vWMaaD%2BITavQEmS5%2FYOZOG5DpNH8nqNiqyV9xgZKFnLQtDeuHMUYqEF7SMU04WoVovmPeai%2BbVQqSgVecMpaMvYwjoGEHKaRJ5AhUds4UWcQWqnt9TT8iJhzJUHyZvUicarsvVweueWsCpuUJWxkJxydQQqdybVa2V2wXXswe7IlIHZS5dfd71R%2BruFaa6veRsQJLuWlD6JkFl0z%2BBTRJZb%2Fb7exw%3D%3D--4SlPY181HnneDp%2Bl--%2FdDw5%2F0nQlFILrbAJelhqw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1261555425.1657963672; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 09:27:52 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 09:27:52 GMT; HttpOnly; Secure; SameSite=Lax
+content-length: 0
+x-github-request-id: D287:2F6E:676271:B4EB83:62D28498
+
+HTTP/2 200 
+server: GitHub.com
+date: Sat, 16 Jul 2022 09:27:54 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=230.151589,conversation_content-fragment;desc="conversation_content fragment";dur=1068.536091,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=193.363981,nginx;desc="NGINX";dur=1.974987,glb;desc="GLB";dur=6.477074
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/lightning/bolts/pull/654
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=FR5dzURNaXKdfeTEiuLUoHfsBDbFQ5IDRbUTg9dQjjLaxxIaOBcbbvpvio1Oj%2FJiaXtLvR1FqUL4qASljztuZPkQFgRxTLK4vppGmbyyrzmmyZJd9d7bjDBcBI8TouxUlDL8lXnkjvCnVLx2AJiIYI6NtKqAfbchdZZPvs4NhZ5ZXwMao7Rx0Eup3chI8XxhzgN6Ez2Ro5UknXzE3eI6mVf%2F7%2BBYzMnyt7Zmb2mlDKFL4AbzPbFM9%2F%2Fo9MUJ9oiVKDostGWegpL%2FYkIrZBMLVQ%3D%3D--4g0itl6DsZH45TTd--OOdosPzxU1Zmd3ZGjbMzbw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1248872099.1657963673; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 09:27:53 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 16 Jul 2023 09:27:53 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: D287:2F6E:676275:B4EB8A:62D28498
+

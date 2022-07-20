@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 19 Jul 2022 13:05:12 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=322.979947,conversation_content-fragment;desc="conversation_content fragment";dur=472.625724,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=251.219605,nginx;desc="NGINX";dur=1.30647,glb;desc="GLB";dur=7.553357
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/spree/spree/pull/10626
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=B29QDQ5cE2MHbcUe%2FR2NtwFlMviketZOr1YecR2DrY%2Fzo1R9r1pOgeqgb5oOUt4ypfgHdodd9DAVfWRJgIF7sPyXV7v0qq1eQ%2Fd3qZNIj%2BhDPuWHTXZJiGyD%2Bq%2B7QjTUQGI8LSZVVIvxHQPe7mc8Lm5ruZZfj69zy8e%2BOig3C0uPo2W8M7H8rewMF9Zx%2FOoVe%2BGcX9uaYnfqFPvihh57I9FMd3ChjRqn6PsoM7X5WOT0PKUKq3rPyIqkaRyIi%2FTPTWsu%2F50b1aJYCH%2BkvTXiwQ%3D%3D--oGQP3uMcPwdjIalE--EUnyHViXF8LcKK1ud04wLw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1034991590.1658235911; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 13:05:11 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 13:05:11 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: F1EF:68B9:39A71C:F5C869:62D6AC07
+

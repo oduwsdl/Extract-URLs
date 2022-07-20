@@ -1,0 +1,58 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Jul 2022 04:58:40 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: http://sites.google.com/site/bioericscript
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 05:58:03 GMT
+X-From: sfp-web-4
+Vary: Accept-Encoding
+
+HTTP/1.1 302 Moved Temporarily
+Location: https://sites.google.com/site/bioericscript
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 20 Jul 2022 04:58:40 GMT
+Expires: Wed, 20 Jul 2022 04:58:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+
+HTTP/2 302 
+content-type: text/html; charset=UTF-8
+location: /site/bioericscript/
+date: Wed, 20 Jul 2022 04:58:41 GMT
+expires: Wed, 20 Jul 2022 04:58:41 GMT
+cache-control: private, max-age=0
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+accept-ranges: none
+vary: Accept-Encoding
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-frame-options: SAMEORIGIN
+x-robots-tag: noarchive
+last-modified: Thu, 07 Jul 2022 07:20:20 GMT
+etag: "1657178420000|#public|0|en|||0|-2030686529|459439018"
+expires: Wed, 20 Jul 2022 04:58:41 GMT
+date: Wed, 20 Jul 2022 04:58:41 GMT
+cache-control: private, max-age=5
+content-length: 38339
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 19 Jul 2022 05:51:04 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=170.158731,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=442.780137,commit_show_header-fragment;desc="commit_show_header fragment";dur=92.847793,nginx;desc="NGINX";dur=0.782046,glb;desc="GLB";dur=8.731141
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/ReactiveX/RxJava/commit/1c47b0c
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=C70JaUZ8XVWMzTIWQYzQSXFh3ymcoE%2FWEP7GDvk2GxdHGAEPgRdJpiU9O1KfucK2nIM3BnU6P%2FvwYvoiYyAa%2Bnsn7S%2BiJBBiErkVqOn1QKIyh55Noahav7q%2BM2EqH2gRjJp%2FNUJSpN3p29SsW8kW93sZWw%2BXrzwg1viOBRhd5W3NGXmxLNQBsw3Fa3isccjSpTr5o%2F2Tu07K7w4n1cJGdIgnGdM%2B2FRsU6e9IxMFXpxKkU%2BeP7fVgCIRcvXY5PWWnz4HHBzdF4HbqruaXgHOhw%3D%3D--hyEDtA6SHHfrI60A--QWnE4GRnqNHIQYMVpyEttA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.305773950.1658209863; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 05:51:03 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 05:51:03 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: EE51:7D6D:1C8299D:3B6B194:62D64647
+

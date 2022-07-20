@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:48:31 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 238
+Connection: keep-alive
+Location: https://wapiti.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:46:59 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:48:31 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Mon, 07 Feb 2022 08:05:48 GMT
+etag: W/"357f-5d76911828876"
+cache-control: max-age=3600
+expires: Wed, 20 Jul 2022 06:48:29 GMT
+x-from: sfp-ioweb-2
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d9688a6dba26bb-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

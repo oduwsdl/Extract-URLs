@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:38:40 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: http://www.peterborgapps.com/smultron/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:37:45 GMT
+X-From: sfp-web-8
+Vary: Accept-Encoding
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Wed, 20 Jul 2022 05:38:40 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://www.peterborgapps.com/smultron/
+X-Cache: Redirect from cloudfront
+Via: 1.1 de349bd2105a0a744704f391ff854e62.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD89-P1
+X-Amz-Cf-Id: XUsBXJ-OjerQePhA8dnc_1kg1M9gufz0SWfE9ptQgrl8TKVwzCqZ_w==
+
+HTTP/2 200 
+content-type: text/html
+content-length: 30181
+last-modified: Thu, 07 Jul 2022 15:28:23 GMT
+x-amz-version-id: KDYn5.tbFBaVxeoyG999kgpdH3ZCk59V
+server: AmazonS3
+date: Wed, 20 Jul 2022 04:19:48 GMT
+etag: "ebc62dd4e16546c090751e1407e91202"
+vary: Accept-Encoding
+via: 1.1 a7a1b4c19abc42d237405ce4c4069f10.cloudfront.net (CloudFront)
+age: 4734
+x-frame-options: DENY
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'none'; img-src 'self'; frame-ancestors 'none'; script-src 'none'; style-src 'self'; object-src 'none'
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+x-cache: Hit from cloudfront
+x-amz-cf-pop: IAD89-P1
+x-amz-cf-id: iriG4_WFn5cp85nHvy13yqrCy4Hl5X0PsqCRCAkROyGzsj-fjPWIJg==
+

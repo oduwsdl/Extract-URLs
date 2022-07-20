@@ -1,0 +1,32 @@
+HTTP/2 200 
+date: Wed, 20 Jul 2022 03:07:43 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/mermaid https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com https://ec2.ap-east-1.amazonaws.com https://ec2.ap-northeast-1.amazonaws.com https://ec2.ap-northeast-2.amazonaws.com https://ec2.ap-northeast-3.amazonaws.com https://ec2.ap-south-1.amazonaws.com https://ec2.ap-southeast-1.amazonaws.com https://ec2.ap-southeast-2.amazonaws.com https://ec2.ca-central-1.amazonaws.com https://ec2.eu-central-1.amazonaws.com https://ec2.eu-north-1.amazonaws.com https://ec2.eu-west-1.amazonaws.com https://ec2.eu-west-2.amazonaws.com https://ec2.eu-west-3.amazonaws.com https://ec2.me-south-1.amazonaws.com https://ec2.sa-east-1.amazonaws.com https://ec2.us-east-1.amazonaws.com https://ec2.us-east-2.amazonaws.com https://ec2.us-west-1.amazonaws.com https://ec2.us-west-2.amazonaws.com https://ec2.af-south-1.amazonaws.com https://iam.amazonaws.com snowplow.trx.gitlab.net https://sourcegraph.com/.api/; default-src 'self'; font-src 'self'; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com; img-src * data: blob:; manifest-src 'self'; media-src 'self' data:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com 'nonce-cdi41Qsh5qqa8BLamow3Rg=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:; form-action 'self' https: http: https:
+etag: W/"2ad55a615a81cc3737decf4701681a65"
+permissions-policy: interest-cohort=()
+pragma: no-cache
+referrer-policy: strict-origin-when-cross-origin
+set-cookie: experimentation_subject_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqUXdNVFF6TWpVNExXRXhaRFV0TkdFME5pMWhOelpsTFRoak5HUmhPVEU1WWpWbE1TST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5leHBlcmltZW50YXRpb25fc3ViamVjdF9pZCJ9fQ%3D%3D--90d1a1a1d3d0f1db1f9d6e3a4f165ab6f1a88927; path=/; expires=Sun, 20 Jul 2042 03:07:43 GMT; secure; HttpOnly; SameSite=None
+vary: Accept
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 01G8CS6P35NCQD33Q8B2VX10VB
+x-runtime: 0.425498
+x-ua-compatible: IE=edge
+x-xss-protection: 1; mode=block
+gitlab-lb: fe-13-lb-gprd
+gitlab-sv: web-gke-us-east1-c
+set-cookie: event_filter=all; path=/; Secure; SameSite=None
+set-cookie: logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltRTVNRE5rWXpFMUxXTXpOVFV0TkROalpTMDROREk1TFdVek5qVmpZbUl6WTJNNU15ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--4ed94bb4082a422fcebb3c952131f60ce4f8bb31; domain=.gitlab.com; path=/; expires=Sun, 20 Jul 2042 03:07:43 GMT; secure; HttpOnly; SameSite=None
+set-cookie: _gitlab_session=6ed02e692572173a20bca6d5f3e3f907; path=/; expires=Wed, 20 Jul 2022 05:07:43 GMT; secure; HttpOnly; SameSite=None
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=stDUPiPDAkp%2FWvg6%2FcPDlz9i9gYfJr1HyulXvJ6Ti9ESTdPJb3sWvwIPVDSgGilHLvAlqH03w4RBZ%2BUgp72RoqdS95kltYO6JZNzYtkiLO5ipWyMFA6oJKx6dU9%2FUwe3FHfhPsfnS5c%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+server: cloudflare
+cf-ray: 72d87cf9c90f26ff-MSP
+

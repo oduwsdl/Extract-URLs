@@ -1,0 +1,26 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Jul 2022 04:59:21 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: http://exist-db.org
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 05:57:49 GMT
+X-From: sfp-web-7
+Vary: Accept-Encoding
+
+HTTP/1.1 302 Found
+Date: Wed, 20 Jul 2022 04:59:21 GMT
+Server: Jetty(9.4.44.v20210927)
+Location: http://exist-db.org/exist/apps/homepage/index.html
+
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 04:59:21 GMT
+Server: Jetty(9.4.44.v20210927)
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Mon, 14 Feb 2022 17:34:02 GMT
+Created: Mon, 14 Feb 2022 17:34:02 GMT
+Content-Length: 73728
+

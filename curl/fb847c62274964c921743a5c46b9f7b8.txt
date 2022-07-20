@@ -1,0 +1,36 @@
+HTTP/2 302 
+date: Wed, 20 Jul 2022 06:27:15 GMT
+content-type: text/html; charset=UTF-8
+location: https://downloads.sourceforge.net/project/louvain/GenericLouvain/louvain-generic.tar.gz?ts=gAAAAABi16BDHZuG643kY1NTDqAl0atsicRuAMMZyH8kW6J_I2s6u6HUMqYJr5iPtVsDqn5puDMK4pcMjY6SH5hgH6O10LWL1w%3D%3D&use_mirror=versaweb&r=
+cache-control: no-cache
+pragma: no-cache
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self', upgrade-insecure-requests
+set-cookie: VISITOR=70e594a3-46f8-41b1-a783-71ef0fdb806b; Max-Age=315360000; Path=/; expires=Sat, 17-Jul-2032 06:27:15 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d9a142391cc63f-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+server: nginx
+date: Wed, 20 Jul 2022 06:27:15 GMT
+content-type: text/html; charset=UTF-8
+location: https://versaweb.dl.sourceforge.net/project/louvain/GenericLouvain/louvain-generic.tar.gz
+content-disposition: attachment; filename="louvain-generic.tar.gz"
+set-cookie: sf_mirror_attempt=louvain:versaweb:GenericLouvain/louvain-generic.tar.gz; Max-Age=120; Path=/; expires=Wed, 20-Jul-2022 06:29:15 GMT
+
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 06:27:16 GMT
+Content-Type: application/x-gzip
+Content-Length: 32868
+Last-Modified: Fri, 25 Apr 2014 12:22:00 GMT
+Connection: close
+ETag: "535a5368-8064"
+Server: nginx centminmod
+Accept-Ranges: bytes
+

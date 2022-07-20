@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 19 Jul 2022 21:43:53 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=117.88884,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=398.103314,commit_show_header-fragment;desc="commit_show_header fragment";dur=77.355209,nginx;desc="NGINX";dur=0.619964,glb;desc="GLB";dur=10.488902
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/weidai11/cryptopp/commit/c8e2f8959414846031634477b2a0614434843ca3
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=%2BOhlO5BvK0vy%2Bk22YAFFJi2LG6c%2F2PkC3H8%2BQNRk%2FXD1d6gbuAwAkt2eWFBATPauwE%2BogzovGgSDWqMLz0Fj%2F74yO9EbhepJTVhc6Y3YhNaPYDzvl2LO9a%2BL86HHaT4KDoGf3vt9gQb7V25c8%2B9fnXSzpE57dKOEh%2BXolM%2F82nrfbb%2FeG2uW14vvPTslS4h%2FguGTAn8Kl5hPgasQ54H7QGvehmyC4ESe06UMdh8IauBHTLmpqdvUI6CyNO0tKQnym3j6fL%2BIJz1WakVTjIxrIw%3D%3D--aA2pf%2FmgBdD%2BIFle--pVeCcQg%2FKHr2LhWRD%2Bk9GQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1076841236.1658267032; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 21:43:52 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 21:43:52 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CAA5:39A5:10E328:1D3F5B:62D72598
+

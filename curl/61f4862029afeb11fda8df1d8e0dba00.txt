@@ -1,0 +1,47 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Jul 2022 04:46:34 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: https://sourceforge.net/p/aoflagger/wiki/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 05:45:39 GMT
+X-From: sfp-web-8
+Vary: Accept-Encoding
+
+HTTP/2 301 
+date: Wed, 20 Jul 2022 04:46:34 GMT
+content-type: text/html; charset=UTF-8
+location: https://sourceforge.net/p/aoflagger/wiki/Home/
+cache-control: no-cache
+pragma: no-cache
+set-cookie: _session_id=916306d464665a5376c5929ae02cc53207ad53c070d36bd826fe875b83d31b566bdaaf4fb53f0eaa; secure; Path=/
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d90dca4d9126fb-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 04:46:35 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
+set-cookie: _session_id=227f2f597a6d43b5257518b576351b2e7fc75b6a40e74e164b5159f52cd9eb0707f4ac40293a1d60; secure; Path=/
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d90dcb1f4326fb-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

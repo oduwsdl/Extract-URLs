@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:21:01 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 262
+Connection: keep-alive
+Location: https://ngspice.sourceforge.io/docs/ngspice-manual.pdf
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:20:24 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:21:01 GMT
+content-type: application/pdf
+content-length: 2419497
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Wed, 22 Jun 2022 12:07:44 GMT
+etag: "24eb29-5e2082f42acd1"
+cache-control: max-age=3600
+expires: Wed, 20 Jul 2022 05:32:51 GMT
+x-from: sfp-ioweb-1
+strict-transport-security: max-age=31536000
+cf-cache-status: HIT
+accept-ranges: bytes
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d940425f8526f2-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

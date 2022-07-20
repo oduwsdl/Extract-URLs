@@ -1,0 +1,38 @@
+HTTP/2 302 
+server: GitHub.com
+date: Fri, 15 Jul 2022 14:10:44 GMT
+content-length: 0
+location: https://github.com/dougwilson/nodejs-depd/pull/22
+server-timing: nginx;desc="NGINX";dur=0.623427,glb;desc="GLB";dur=7.375396
+x-pjax-url: https://github.com/dougwilson/nodejs-depd/issues/22
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=ptBTo2EPRFfXhUa9uCNGDt4rB928Aj9f7v3555qI0WdoMX35FPCtZLm%2Bjf7SkE7dXhC6CQS%2Bhuz7bMR%2BubT69g1Rm2OX8Id1YuSxHbJlVipU9zpEBtqQxrPPjBg8vcbps1VE9iM0Oqe1OSUNEF2pfMAQI%2BRvlsiNZHOhyJVDWd6pszunI635voXd8drfa8sWbfzZIYmC4WERig%2BAMlOnKztXkkFdF77G7bad4cCadMh7cguTWZ2FXX63PlUeOWqAPr2imkJcgC7amI5D5sd4gA%3D%3D--MRZpfnCHg8cXBbPn--E6GPo87O19LjTpMftIHgDg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.60649717.1657894244; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 14:10:44 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 14:10:44 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: CEF2:4551:AA475A:16A0849:62D17564
+
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 14:10:45 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=297.969491,conversation_content-fragment;desc="conversation_content fragment";dur=505.046298,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=156.819526,nginx;desc="NGINX";dur=3.344221,glb;desc="GLB";dur=10.037268
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/dougwilson/nodejs-depd/pull/22
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=l117ZzQYSgzcJV7Rmco%2BqU9kn1x3hD4w7rUOvLZUycOqINYocJ3wSmG4bqu1HjHduP67AOs%2Fd8%2FN2Aafb9ZJMXwAJAnaq0UBNRaEJztC0wjhVVex6wvAuOTRB76U9iRNs1xGSmE7hV6QF46dUNg8WEVFMym7fMgio4kWVhm0HmFDjd6wuyWc0FwUhnAMRy1XMdYWPajUKG0UMefNw4%2FWeha9CAQHbkYJ2xW5yJhXF0urFNtZiMbA1qHzA3XZ9o5cf8owe2ZMTJPiDsfG5Mir5w%3D%3D--Z5Vl9Jfx%2F3Fm1pkM--H%2FRqE1Zp92DiVKu%2FIDkPsQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1462158733.1657894244; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 14:10:44 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 14:10:44 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CEF2:4551:AA4763:16A0861:62D17564
+

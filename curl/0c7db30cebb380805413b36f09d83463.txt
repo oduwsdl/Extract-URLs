@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:26:25 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 235
+Connection: keep-alive
+Location: https://pmd.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:25:48 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:26:25 GMT
+content-type: text/html
+content-length: 284
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Sat, 25 Jul 2015 14:40:42 GMT
+etag: "11c-51bb41ad84e80"
+cache-control: max-age=3600
+expires: Wed, 20 Jul 2022 06:26:23 GMT
+x-from: sfp-ioweb-2
+strict-transport-security: max-age=31536000
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d94828086d26cf-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

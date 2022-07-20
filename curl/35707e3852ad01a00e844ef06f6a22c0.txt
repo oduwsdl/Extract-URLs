@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:52:30 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 238
+Connection: keep-alive
+Location: https://zipios.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:50:58 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:52:31 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Sat, 13 Jul 2019 01:09:57 GMT
+etag: W/"16b5-58d85af6f85ae"
+cache-control: max-age=3600
+expires: Wed, 20 Jul 2022 06:52:27 GMT
+x-from: sfp-ioweb-1
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d96e635bff26db-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

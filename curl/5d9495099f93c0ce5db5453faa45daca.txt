@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:06:00 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 252
+Connection: keep-alive
+Location: https://healpix.sourceforge.io/pdf/intro.pdf
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:04:28 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:06:00 GMT
+content-type: application/pdf
+content-length: 689627
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Tue, 25 Jan 2022 15:49:10 GMT
+etag: "a85db-5d66a06a66980"
+cache-control: max-age=3600
+expires: Wed, 20 Jul 2022 06:05:58 GMT
+x-from: sfp-ioweb-2
+strict-transport-security: max-age=31536000
+cf-cache-status: MISS
+accept-ranges: bytes
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d92a417e9ec647-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

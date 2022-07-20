@@ -1,0 +1,34 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Jul 2022 05:46:56 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: http://umbrello.kde.org
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:46:03 GMT
+X-From: sfp-web-3
+Vary: Accept-Encoding
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 20 Jul 2022 05:46:56 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Location: https://umbrello.kde.org/
+Cache-Control: max-age=0
+Expires: Wed, 20 Jul 2022 05:46:56 GMT
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:46:57 GMT
+server: Apache/2.4.29 (Ubuntu)
+cache-control: max-age=0
+expires: Wed, 20 Jul 2022 05:46:57 GMT
+strict-transport-security: max-age=15768000
+referrer-policy: strict-origin-when-cross-origin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+permissions-policy: interest-cohort=()
+content-type: text/html; charset=UTF-8
+

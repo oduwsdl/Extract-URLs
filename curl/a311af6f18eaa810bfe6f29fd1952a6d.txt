@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 19:30:41 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=308.560501,conversation_content-fragment;desc="conversation_content fragment";dur=543.109937,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=161.082377,nginx;desc="NGINX";dur=0.930706,glb;desc="GLB";dur=6.744778
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/facebook/jest/pull/3001
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=SiLhdUdD3drs6DVt9yPuRqkiAHOTevTVWi00AAkgDWEhPd%2B8zE1Sz%2BXJF%2F9H66Hw6I%2Bq4sBj5kl8AlCw7m2t0GqLgiuhwIbdLKlo%2FnkqAfSZv70xN78NWIlW1bLjoE01GSiYVj6zbf8rCMdU6eAOdDAoNJuhTX55PjK16GLCX7md%2Flm2AV1TOYJQ%2FSv%2B%2FLafyfDI6p3B0NYAxIeXpMdzYB0PqHQI9rHSae9wRvryJvvEx4y9dY3Z9z5znCZpRsFuCQ0zMJHSxP%2FOO05Lx8Kv5g%3D%3D--%2BlZRd3rdBb2Uqabi--87bcO9AcJoTjJTW9cbLq9w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1200419069.1657913441; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 19:30:41 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 19:30:41 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: F2BA:1BE1:BD0BBB:18ED2C9:62D1C061
+

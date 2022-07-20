@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 19 Jul 2022 15:34:15 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=239.6714,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=510.571845,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=144.939927,nginx;desc="NGINX";dur=0.700783,glb;desc="GLB";dur=8.82271
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/TEIC/TEI/issues/1510
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=28I53nPsT7BMViH9r9GjYWBlp2Eg6WZMmjgCD2MrPlOBOhUoldmUsJaqxPLxud%2FtOnaopZbQP0dm7GutyWSFwuNgAAdqnP%2F0Nu4OOSCU1bORruRVG7scII2gvjsBdx7JhJaM%2Ff8JMvhvy7oFBGPxjdNm76J5Y7dwVI0rFNM0SwHBxgkqhe1bVxsAfXU7Z3kFcPP5DdPAxT9Md2gpCtMjPgLNEPCvTO%2FasaMqhLLgB8COH4UxubUUEtthI3gyMI1LxCCkrKP9DbUIFsatOY35pw%3D%3D--ds6HycYFfdei32dZ--Yw4B9RDFeVTJaZ8VyMWw6g%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1228246837.1658244854; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 15:34:14 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 19 Jul 2023 15:34:14 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CC94:08B3:49A0B:868D5:62D6CEF6
+

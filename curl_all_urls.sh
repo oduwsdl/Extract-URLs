@@ -10,6 +10,7 @@ while read l; do
         if [ ! -f "$FILE" ]; then
             curl -LI $u -s > curl/$md5ofurl.txt
             echo $u curl/$md5ofurl.txt >> curl_map.txt
+            sleep 1
         fi
     fi
     ((n++))

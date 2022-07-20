@@ -1,0 +1,43 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Jul 2022 05:52:33 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Vary: Host
+Location: http://sourceforge.net/p/zkcm/home/Home/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:51:38 GMT
+X-From: sfp-web-8
+Vary: Accept-Encoding
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 20 Jul 2022 05:52:34 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Location: https://sourceforge.net/p/zkcm/home/Home/
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 72d96e752a08c633-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:52:34 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
+set-cookie: _session_id=d781435272c799e9fc44a6afa15a5b79bc9aaa6d8d678214770b9a5e27f8ccf8af6965f5783b6379; secure; Path=/
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d96e766ef626ab-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

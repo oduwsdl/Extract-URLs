@@ -1,0 +1,23 @@
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 15 Jul 2022 00:18:00 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+permissions-policy: interest-cohort=()
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=132.695006,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=461.619334,commit_show_header-fragment;desc="commit_show_header fragment";dur=76.792152,nginx;desc="NGINX";dur=0.718339,glb;desc="GLB";dur=6.140377
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/adangel/pmd/commit/7f113dfe7ebc0a015c14a9c02637e39302000d01
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=uOsj0EIe39AOQ3Cl0KBobS5DGCBX06ciQvB5%2B78VVj91wQjRyhv3cv1nl9OHZaCO%2Bs7%2Fy0nRnDQMmmPG9GHfy%2BHjvwrrw2WUNSWahpdHymEYhjRO7R%2F1jApr0N72XsOrqV2I9E4YydvORJhOaZ3a8uWCrfE28AhJyFyIkxmRrL1dKUvS8GwV7iqHcBVl8JIiuxew0JrAtyKhhmkXFTd8DsOltMIpmBi0VOKgXC6BM07OYej%2Bmr%2Fm3EA11s4fd1pKJPAj0Ew2QZr9vB0lm95beg%3D%3D--9dzAiXedzVV%2Fx7bU--zSn8MgDhbt%2F1nf7fIQZtPg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.643518586.1657844279; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 00:17:59 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 15 Jul 2023 00:17:59 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: FAF3:54E9:324F73:7A4CCA:62D0B237
+

@@ -1,0 +1,73 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:40:29 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 241
+Connection: keep-alive
+Location: http://www.statsmodels.org/stable
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:39:53 GMT
+Vary: Accept-Encoding
+
+HTTP/1.1 301 Moved Permanently
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.statsmodels.org/stable
+X-GitHub-Request-Id: 19EE:6C0B:103F71:1DFC51:62D7954D
+Content-Length: 162
+Accept-Ranges: bytes
+Date: Wed, 20 Jul 2022 05:40:29 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-msp11874-MSP
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1658295630.824779,VS0,VE131
+Vary: Accept-Encoding
+X-Fastly-Request-ID: d21319b0bb0742ce308f5ec0c60157ce95b9d197
+
+HTTP/2 301 
+server: GitHub.com
+content-type: text/html
+location: https://www.statsmodels.org/stable/
+access-control-allow-origin: *
+expires: Wed, 20 Jul 2022 05:50:30 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 1E74:40CE:F59E3:1D195E:62D7954E
+accept-ranges: bytes
+date: Wed, 20 Jul 2022 05:40:30 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-msp11831-MSP
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1658295630.229980,VS0,VE34
+vary: Accept-Encoding
+x-fastly-request-id: 5cfddffa37e1905a2ae804389eefc0ab1bff6792
+content-length: 162
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+x-origin-cache: HIT
+last-modified: Tue, 19 Jul 2022 07:40:42 GMT
+access-control-allow-origin: *
+etag: "62d65ffa-75c4"
+expires: Wed, 20 Jul 2022 05:50:30 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: BEB2:2CA5:66647:134BF4:62D7954E
+accept-ranges: bytes
+date: Wed, 20 Jul 2022 05:40:30 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-msp11831-MSP
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1658295630.287602,VS0,VE62
+vary: Accept-Encoding
+x-fastly-request-id: 0bb88f6a674227446d6a754040a6445ebc13744a
+content-length: 30148
+

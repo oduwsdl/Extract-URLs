@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 20 Jul 2022 05:02:06 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 237
+Connection: keep-alive
+Location: https://frotz.sourceforge.io/
+Cache-Control: max-age=3600
+Expires: Wed, 20 Jul 2022 06:00:34 GMT
+Vary: Accept-Encoding
+
+HTTP/2 200 
+date: Wed, 20 Jul 2022 05:02:07 GMT
+content-type: text/html
+content-length: 266
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Wed, 20 Feb 2019 10:35:29 GMT
+etag: "10a-58250eaa71ff6"
+cache-control: max-age=3600
+expires: Wed, 20 Jul 2022 06:02:03 GMT
+x-from: sfp-ioweb-1
+strict-transport-security: max-age=31536000
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 72d9248ddb3126a7-MSP
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
