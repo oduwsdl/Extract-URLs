@@ -1,8 +1,8 @@
+# Input: github_surt.csv, gitlab_surt.json, bitbucket_surt.csv, sourceforge_surt.csv (these files combine the corpora)
+# Output: dedupe_surt.jsonl 
+
 import jsonlines
-import json
 import csv
-import re
-import os
 
 json_file = open('data_processing/dedupe_surt.jsonl', 'w')
 jsonl_writer = jsonlines.Writer(json_file)

@@ -1,3 +1,7 @@
+# Input: dedupe_surt.jsonl
+# Output: timemap_results.csv (File, SURT, URL, TimeMap, Error), timemap_map.txt, timemap/
+# Notes: Creates a TimeMap for each deduped URL
+
 import csv
 import jsonlines
 import subprocess
