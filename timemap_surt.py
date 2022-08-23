@@ -14,7 +14,7 @@ with jsonlines.open('data_processing/dedupe_surt.jsonl', 'r') as jsonl_f:
 
 timemap_results = open("timemap_results.csv", "w")
 timemap_results_csv = csv.writer(timemap_results, delimiter=' ')
-timemap_results_csv.writerow(['File', 'SURT', 'URL', 'TimeMap(Yes/No)', 'Error(Yes/No)'])
+timemap_results_csv.writerow(['URL', 'SURT', 'File', 'TimeMap(Yes/No)', 'Error(Yes/No)'])
 
 before_has_timemap = 0
 after_has_timemap = 0
