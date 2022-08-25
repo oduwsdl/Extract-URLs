@@ -8,24 +8,35 @@ sf_sitemap = ['sourceforge.net/create$', 'sourceforge.net/create/.*', 'sourcefor
 bb_sitemap = ['bitbucket.org/product$', 'bitbucket.org/product/.*', 'bitbucket.org/blog$', 'bitbucket.org/blog/.*']
 sitemaps = gh_sitemap + gl_sitemap + sf_sitemap + bb_sitemap
 
-with open("timemap_map.txt", "r") as f:
-    lines = f.readlines()
-with open("temp_timemap_map.txt", "w") as f:
-    for line in lines:
-        data = line.strip().split()
-        url = data[0]
-        timemap = data[2]
-        # if re.search(r"(?=("+"|https?:\/\/".join(sitemaps)+r"))", url) is not None:
-            # os.remove(timemap)
-        if re.search(r"(?=("+"|https?:\/\/".join(sitemaps)+r"))", url) is None:
-            f.write(line)
+# with open("timemap_map.txt", "r") as f:
+#     lines = f.readlines()
+# with open("temp_timemap_map.txt", "w") as f:
+#     for line in lines:
+#         data = line.strip().split()
+#         url = data[0]
+#         timemap = data[2]
+#         # if re.search(r"(?=("+"|https?:\/\/".join(sitemaps)+r"))", url) is not None:
+#             # os.remove(timemap)
+#         if re.search(r"(?=("+"|https?:\/\/".join(sitemaps)+r"))", url) is None:
+#             f.write(line)
+
+# with open("timemap_results.csv", "r") as f:
+#     lines = f.readlines()
+# with open("temp_timemap_results.csv", "w") as f:
+#     for line in lines:
+#         data = line.strip().split()
+#         url = data[0]
+#         timemap = data[2]
+#         if re.search(r"(?=("+"|https?:\/\/".join(sitemaps)+r"))", url) is None:
+#             f.write(line)
 
 with open("timemap_results.csv", "r") as f:
-    lines = f.readlines()
-with open("temp_timemap_results.csv", "w") as f:
-    for line in lines:
-        data = line.strip().split()
-        url = data[0]
-        timemap = data[2]
-        if re.search(r"(?=("+"|https?:\/\/".join(sitemaps)+r"))", url) is None:
-            f.write(line)
+    file = csv.DictReader(f, delimiter=' ')
+    timemaps = []
+    
+    for col in file:
+        timemaps.append(col['File'])
+    
+for filename in os.listdir('timemap/'):
+    if "timemap/" + filename not in timemaps:
+        os.remove("timemap/" + filename)
