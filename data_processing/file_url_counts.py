@@ -54,8 +54,12 @@ for corpus in corpora:
     bb = []
 
     for dir in repo_json:
-        year = dir[0:4]
-        date = dir[0:4] + "-" + dir[4:]
+        if corpus == "pmc":
+            date = dir[0:4] + "-" + dir[4:]
+            year = dir[0:4]
+        elif corpus == "arxiv":
+            date = "20" + dir[0:2] + "-" + dir[2:]
+            year = "20" + dir[0:2]
         for file in repo_json[dir]["files"]:
             try:
                 sourceforge_count = repo_json[dir]["files"][file]["sourceforge"]["url_count"]

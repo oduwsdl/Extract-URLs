@@ -4,6 +4,7 @@
 
 import json
 import csv
+from sqlite3 import Date
 
 corpora = ["pmc", "arxiv"]
 for corpus in corpora:
@@ -30,6 +31,10 @@ for corpus in corpora:
     total_gitlab_count = 0
     total_bitbucket_count = 0
     for dir in repo_json:
+        if corpus == "pmc":
+            date = dir[0:4] + "-" + dir[4:]
+        elif corpus == "arxiv":
+            date = "20" + dir[0:2] + "-" + dir[2:]
         sourceforge_count = repo_json[dir]["sourceforge"]["url_count"]
         github_count = repo_json[dir]["github"]["url_count"]
         gitlab_count = repo_json[dir]["gitlab"]["url_count"]
@@ -48,12 +53,12 @@ for corpus in corpora:
             url_count = url_count + dir_json[dir]["files"][file]["url_count"]
         total_file_count = total_file_count + file_count
         total_url_count = total_url_count + url_count
-        csvwriter2.writerow([dir[0:4] + "-" + dir[4:], file_count])
-        csvwriter.writerow([dir[0:4] + "-" + dir[4:], url_count, "Total"])
-        csvwriter.writerow([dir[0:4] + "-" + dir[4:], sourceforge_count, "SourceForge"])
-        csvwriter.writerow([dir[0:4] + "-" + dir[4:], github_count, "GitHub"])
-        csvwriter.writerow([dir[0:4] + "-" + dir[4:], gitlab_count, "GitLab"])
-        csvwriter.writerow([dir[0:4] + "-" + dir[4:], bitbucket_count, "Bitbucket"])
+        csvwriter2.writerow([date, file_count])
+        csvwriter.writerow([date, url_count, "Total"])
+        csvwriter.writerow([date, sourceforge_count, "SourceForge"])
+        csvwriter.writerow([date, github_count, "GitHub"])
+        csvwriter.writerow([date, gitlab_count, "GitLab"])
+        csvwriter.writerow([date, bitbucket_count, "Bitbucket"])
     print("Total file count: " + str(total_file_count))
     print("Total URL count: " + str(total_url_count))
     print("SourceForge count: " + str(total_sourceforge_count))
