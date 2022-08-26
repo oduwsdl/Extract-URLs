@@ -40,14 +40,6 @@ for corpus in corpora:
     csvwriter = csv.writer(csv_file)
     csvwriter.writerow(['Filename', 'URLCount', 'Category', 'Year', 'Date'])
 
-    csv_file2 = open("./data_processing/" + prefix + "ecdf_numbers.csv", "w")
-    csvwriter2 = csv.writer(csv_file2)
-    csvwriter2.writerow(['URLCount', 'ecdf', 'Category'])
-
-    csv_file3 = open("./data_processing/" + prefix + "ccdf_numbers.csv", "w")
-    csvwriter3 = csv.writer(csv_file3)
-    csvwriter3.writerow(['URLCount', 'cdf', 'Category'])
-
     sf = []
     gh = []
     gl = []
@@ -85,33 +77,41 @@ for corpus in corpora:
                 bb.append(bitbucket_count)
             except:
                 pass
-
-    sf_ecdf = ECDF(sf)
-    gh_ecdf = ECDF(gh)
-    gl_ecdf = ECDF(gl)
-    bb_ecdf = ECDF(bb)
-
-    CCDF(sf, "SourceForge")
-    CCDF(gh, "GitHub")
-    CCDF(gl, "GitLab")
-    CCDF(bb, "Bitbucket")
-
-    csvwriter2.writerow([0, 0, "SourceForge"])
-    for i in range(len(sf_ecdf.x)):
-        csvwriter2.writerow([sf_ecdf.x[i], sf_ecdf.y[i]*100, "SourceForge"])
-
-    csvwriter2.writerow([0, 0, "GitHub"])
-    for i in range(len(gh_ecdf.x)):
-        csvwriter2.writerow([gh_ecdf.x[i], gh_ecdf.y[i]*100, "GitHub"])
-
-    csvwriter2.writerow([0, 0, "GitLab"])
-    for i in range(len(gl_ecdf.x)):
-        csvwriter2.writerow([gl_ecdf.x[i], gl_ecdf.y[i]*100, "GitLab"])
-
-    csvwriter2.writerow([0, 0, "Bitbucket"])
-    for i in range(len(bb_ecdf.x)):
-        csvwriter2.writerow([bb_ecdf.x[i], bb_ecdf.y[i]*100, "Bitbucket"])
-
     csv_file.close()
-    csv_file2.close()
-    csv_file3.close()
+
+csv_file2 = open("./data_processing/total_ecdf_numbers.csv", "w")
+csvwriter2 = csv.writer(csv_file2)
+csvwriter2.writerow(['URLCount', 'ecdf', 'Category'])
+
+csv_file3 = open("./data_processing/total_ccdf_numbers.csv", "w")
+csvwriter3 = csv.writer(csv_file3)
+csvwriter3.writerow(['URLCount', 'cdf', 'Category'])
+
+sf_ecdf = ECDF(sf)
+gh_ecdf = ECDF(gh)
+gl_ecdf = ECDF(gl)
+bb_ecdf = ECDF(bb)
+
+CCDF(sf, "SourceForge")
+CCDF(gh, "GitHub")
+CCDF(gl, "GitLab")
+CCDF(bb, "Bitbucket")
+
+csvwriter2.writerow([0, 0, "SourceForge"])
+for i in range(len(sf_ecdf.x)):
+    csvwriter2.writerow([sf_ecdf.x[i], sf_ecdf.y[i]*100, "SourceForge"])
+
+csvwriter2.writerow([0, 0, "GitHub"])
+for i in range(len(gh_ecdf.x)):
+    csvwriter2.writerow([gh_ecdf.x[i], gh_ecdf.y[i]*100, "GitHub"])
+
+csvwriter2.writerow([0, 0, "GitLab"])
+for i in range(len(gl_ecdf.x)):
+    csvwriter2.writerow([gl_ecdf.x[i], gl_ecdf.y[i]*100, "GitLab"])
+
+csvwriter2.writerow([0, 0, "Bitbucket"])
+for i in range(len(bb_ecdf.x)):
+    csvwriter2.writerow([bb_ecdf.x[i], bb_ecdf.y[i]*100, "Bitbucket"])
+
+csv_file2.close()
+csv_file3.close()
