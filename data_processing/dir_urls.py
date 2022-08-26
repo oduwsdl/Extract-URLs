@@ -22,10 +22,11 @@ for corpus in corpora:
 
     csv_file2 = open("./data_processing/" + prefix + "file_count.csv", "w")
     csvwriter2 = csv.writer(csv_file2)
-    csvwriter2.writerow(['Directory', 'FileCount'])
+    csvwriter2.writerow(['Directory', 'FileCount', 'FileWithURL'])
 
     total_file_count = 0
     total_url_count = 0
+    total_url_files = 0
     total_sourceforge_count = 0
     total_github_count = 0
     total_gitlab_count = 0
@@ -48,12 +49,16 @@ for corpus in corpora:
         dir_file.close()
         url_count = 0
         file_count = 0
+        url_files = 0
         for file in dir_json[dir]["files"]:
             file_count = file_count + 1
             url_count = url_count + dir_json[dir]["files"][file]["url_count"]
+            if url_count != 0:
+                url_files = url_files + 1
         total_file_count = total_file_count + file_count
+        total_url_files = total_url_files +  url_files
         total_url_count = total_url_count + url_count
-        csvwriter2.writerow([date, file_count])
+        csvwriter2.writerow([date, file_count, url_files])
         csvwriter.writerow([date, url_count, "Total"])
         csvwriter.writerow([date, sourceforge_count, "SourceForge"])
         csvwriter.writerow([date, github_count, "GitHub"])
@@ -61,6 +66,7 @@ for corpus in corpora:
         csvwriter.writerow([date, bitbucket_count, "Bitbucket"])
     print("Total file count: " + str(total_file_count))
     print("Total URL count: " + str(total_url_count))
+    print("Total file with URL count: " + str(total_url_files))
     print("SourceForge count: " + str(total_sourceforge_count))
     print("GitHub count: " + str(total_github_count))
     print("GitLab count: " + str(total_gitlab_count))
