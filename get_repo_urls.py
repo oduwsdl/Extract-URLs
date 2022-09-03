@@ -208,6 +208,7 @@ for corpus in corpora:
                         bb_surt_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
             
             for url in text_urls:
+                s = surt(url.strip())
                 sf = re.search(r"(sourceforge.net)", url)
                 if sf is not None:
                     sourceforge_dict["text_urls"].append(url)

@@ -14,8 +14,8 @@ for file_name in file_list:
     prev_surt = ''
     surt = {}
     for row in csv_reader:
-        curr_surt = row[0]
-        curr_surt_dict = {'url': row[1], 'dir': row[2], 'file': row[3], 'corpus': row[4], 'GHP': row[5]}
+        curr_surt = row[1]
+        curr_surt_dict = {'url': row[0], 'dir': row[2], 'file': row[3], 'corpus': row[4], 'GHP': row[5]}
         if prev_surt == '':
             surt_list = []
             surt_list.append(curr_surt_dict)
