@@ -1,10 +1,8 @@
-import requests
 import jsonlines
-import time
+import os
 import re
 import csv
 import subprocess
-import ast
 import sys
 
 auth_token = sys.argv[1]
@@ -16,11 +14,23 @@ sf_stats = {'incorrect_url': 0, 'correct_url': 0, 'missing_swh': 0, 'found_swh':
 rate_limit_remaining = '1'
 rate_limit_reset = '0'
 
-swh_results_file = open("./data_processing/test_swh_results.csv", "w")
-swh_results_csv = csv.writer(swh_results_file, delimiter=',')
-swh_results_csv.writerow(['SURT', 'URL', 'GHP', 'HeaderFile', 'ResponseFile', 'CorrectURL?', 'InSWH?'])
+host = os.uname()[1]
+if host == 'terra':
+   input_file = 'part_dedupe_surt_1.jsonl'
+   output_file = 'part_swh_results_1.csv'
+elif host == 'wsdl-docker':
+   input_file = 'part_dedupe_surt_2.jsonl'
+   output_file = 'part_swh_results_2.csv'
+elif host == 'wsdl-docker-private':
+   input_file = 'part_dedupe_surt_3.jsonl'
+   output_file = 'part_swh_results_3.csv'
 
-with jsonlines.open('data_processing/test_dedupe_surt.jsonl', 'r') as jsonl_f:
+swh_results_file = open("./data_processing/" + output_file, "w")
+swh_results_csv = csv.writer(swh_results_file, delimiter=',')
+# swh_results_csv.writerow(['SURT', 'URL', 'GHP', 'HeaderFile', 'ResponseFile', 'CorrectURL?', 'InSWH?'])
+
+
+with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
    for line in jsonl_f:
       surt = str(line['surt'])
       url = str(line['info'][0]['url'])
