@@ -25,6 +25,9 @@ elif host == 'wsdl-docker-private':
    input_file = 'part_dedupe_surt_3.jsonl'
    output_file = 'part_swh_results_3.csv'
 
+input_file = 'test_dedupe_surt.jsonl'
+output_file = 'test_swh_results.csv'
+
 swh_results_file = open("./data_processing/" + output_file, "w")
 swh_results_csv = csv.writer(swh_results_file, delimiter=',')
 # swh_results_csv.writerow(['SURT', 'URL', 'GHP', 'HeaderFile', 'ResponseFile', 'CorrectURL?', 'InSWH?'])

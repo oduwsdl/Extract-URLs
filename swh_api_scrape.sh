@@ -1,3 +1,5 @@
+#!/bin/bash
+
 URL=$1
 RESET=$2
 REMAINING=$3
