@@ -22,11 +22,11 @@ elif host == 'wsdl-docker':
    input_file = 'part_dedupe_surt_2.jsonl'
    output_file = 'part_swh_results_2.csv'
 elif host == 'wsdl-docker-private':
-   input_file = 'part_dedupe_surt_3.jsonl'
-   output_file = 'part_swh_results_3.csv'
+   input_file = 'part_dedupe_surt_0.jsonl'
+   output_file = 'part_swh_results_0.csv'
 
-input_file = 'test_dedupe_surt.jsonl'
-output_file = 'test_swh_results.csv'
+#input_file = 'test_dedupe_surt.jsonl'
+#output_file = 'test_swh_results.csv'
 
 swh_results_file = open("./data_processing/" + output_file, "w")
 swh_results_csv = csv.writer(swh_results_file, delimiter=',')
