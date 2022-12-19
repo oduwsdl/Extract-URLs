@@ -7,7 +7,6 @@ TOKEN=$6
 if [ ! -f "$4" ]; then
     while [ "$URL" ]; do
         if (( REMAINING == 0 )); then 
-            echo "SLEEPING"
             NOW=$(date +%s)
             TIME=$(( RESET - NOW + 1))
             sleep $TIME
@@ -25,4 +24,6 @@ if [ ! -f "$4" ]; then
         echo $PULL >> $5
     done
     echo $CODE $RESET $REMAINING
+else
+    echo "Repeat"
 fi

@@ -1,5 +1,13 @@
 #!/bin/bash
 python3 get_repo_urls.py
+sort -o repo_results/temp_github_surt.csv repo_results/github_surt.csv
+mv repo_results/temp_github_surt.csv repo_results/github_surt.csv 
+sort -o repo_results/temp_gitlab_surt.csv repo_results/gitlab_surt.csv
+mv repo_results/temp_gitlab_surt.csv repo_results/gitlab_surt.csv 
+sort -o repo_results/temp_sourceforge_surt.csv repo_results/sourceforge_surt.csv
+mv repo_results/temp_sourceforge_surt.csv repo_results/sourceforge_surt.csv 
+sort -o repo_results/temp_bitbucket_surt.csv repo_results/bitbucket_surt.csv
+mv repo_results/temp_bitbucket_surt.csv repo_results/bitbucket_surt.csv
 python3 ./data_processing/dir_urls.py
 python3 ./data_processing/file_url_counts.py
 ./data_processing/url_freq.sh

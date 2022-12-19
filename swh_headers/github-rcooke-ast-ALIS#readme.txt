@@ -1,1 +1,0 @@
-HTTP/1.1 404 Not Found Date: Sat, 10 Dec 2022 07:06:28 GMT Server: gunicorn/19.9.0 Content-Type: text/html; charset=utf-8 X-Frame-Options: SAMEORIGIN Content-Length: 12014 Vary: Cookie Via: 1.1 archive.softwareheritage.org X-Varnish: 833949 Age: 0 Via: 1.1 varnish (Varnish/6.1) Strict-Transport-Security: max-age=15768000; Connection: keep-alive 
