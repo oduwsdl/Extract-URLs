@@ -46,9 +46,9 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
          result = re.match(r'(http|https|git):\/\/(www.|)github.com\/([^\/]+)\/([^\/(\.)]\w+)', url)
          if result != None and result != "":
             repo_url = result[0]
+            print(repo_url)
             file = 'github-' + result[3] + '-' + result[4] + '.txt'
             output = subprocess.check_output('./swh_api_scrape.sh https://archive.softwareheritage.org/api/1/origin/' + repo_url + '/visits/ ' + rate_limit_reset + ' ' + rate_limit_remaining + ' swh_headers/' + file + ' swh_response/' + file + ' ' + auth_token, shell=True, text=True).strip().split()
-            print(output)
             if output[0] != "Repeat":
                http_code = output[0]
                try: 
