@@ -14,8 +14,8 @@ sf_stats = {'incorrect_url': 0, 'correct_url': 0, 'missing_swh': 0, 'found_swh':
 rate_limit_remaining = '1'
 rate_limit_reset = '0'
 
-host = os.uname()[1]
-# host = 'test'
+# host = os.uname()[1]
+host = 'test'
 if host == 'terra':
    input_file = 'part_dedupe_surt_0.jsonl'
    output_file = 'part_swh_results_0.csv'
@@ -43,7 +43,7 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
       ghp = str(line['GHP'])
 
       if ghp == "GitHub":
-         result = re.match(r'(http|https|git):\/\/(www.|)github.com\/([^\/]+)\/([^\/(\.)]\w+)', url)
+         result = re.match(r'(http|https|git):\/\/(www.|)github.com\/([^\/]+)\/([^\/(\.)][a-zA-Z0-9-_]+)', url)
          if result != None and result != "":
             repo_url = result[0]
             print(repo_url)
@@ -68,7 +68,7 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
             swh_results_csv.writerow([surt, url, ghp, ' ', ' ', 'No', 'No'])
             gh_stats['incorrect_url'] += 1
       elif ghp == "GitLab":
-         result = re.match(r'(http|https):\/\/(www.|)gitlab.com\/([^\/]+)\/([^\/(\.)]\w+)', url)
+         result = re.match(r'(http|https):\/\/(www.|)gitlab.com\/([^\/]+)\/([^\/(\.)][a-zA-Z0-9-_]+)', url)
          if result != None and result != "":
             repo_url = result[0] + '.git'
             file = 'gitlab-' + result[3] + '-' + result[4] + '.txt'
@@ -92,7 +92,7 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
             swh_results_csv.writerow([surt, url, ghp, ' ', ' ', 'No', 'No'])
             gl_stats['incorrect_url'] += 1
       elif ghp == "Bitbucket":
-         result = re.match(r'(http|https):\/\/(www.|\w+@|)bitbucket.org\/([^\/]+)\/([^\/(\.)]\w+)', url)
+         result = re.match(r'(http|https):\/\/(www.|\w+@|)bitbucket.org\/([^\/]+)\/([^\/(\.)][a-zA-Z0-9-_]+)', url)
          if result != None and result != "": 
             repo_url = result[0]
             file = 'bitbucket-' + result[3] + '-' + result[4] + '.txt'
@@ -116,7 +116,7 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
             swh_results_csv.writerow([surt, url, ghp, ' ', ' ', 'No', 'No'])
             bb_stats['incorrect_url'] += 1
       elif ghp == "SourceForge":
-         result = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/(projects|p)\/([^\/(\.)]\w+)', url)
+         result = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/(projects|p)\/([^\/(\.)][a-zA-Z0-9-_]+)', url)
          if result != None and result != "": 
             repo = result[4]
             repo_url = r"https://svn.code.sf.net/p/" + repo + r"/code"
@@ -140,6 +140,8 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
          else:
             swh_results_csv.writerow([surt, url, ghp, ' ', ' ', 'No', 'No'])
             sf_stats['incorrect_url'] += 1
+
+swh_results_file.close()
 
 print(gh_stats)
 print(gl_stats)
