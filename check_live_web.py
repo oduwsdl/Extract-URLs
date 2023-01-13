@@ -8,8 +8,8 @@ import sys
 # input_file = "data_processing/dedupe_swh_results.csv"
 # output_file = "swh_curl_map.csv"
 
-# host = os.uname()[1]
-host = 'test'
+host = os.uname()[1]
+# host = 'test'
 if host == 'terra':
 	input_file = 'part_dedupe_surt_0.jsonl'
 	output_file = 'swh_curl_map_0.csv'
