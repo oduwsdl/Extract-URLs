@@ -37,32 +37,30 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
 			result = re.match(r'(http|https|git):\/\/(www.|)github.com\/([^\/]+)\/([^\/(\.)][a-zA-Z0-9-_]+)', url)
 			if result != None and result != "":
 				repo_url = result[0]
-				file = 'swh_curl/github-' + result[3] + '-' + result[4] + '.txt'
 			else:
-				result = re.match(r'(http|https|git):\/\/(www.|)github.com\/(.*)', url)
 				repo_url = ' '
-				file = 'swh_curl/github' + '-'.join(result[3].split('/')) + '.txt'
+			whole_url = re.match(r'(http|https|git):\/\/(www.|)github.com\/(.*)', url)
+			file = 'swh_curl/github' + '-'.join(whole_url[3].split('/')) + '.txt'
 			os.system('./curl_url.sh ' + url + ' ' + file)
 			curl_results_csv.writerow([url, ghp, repo_url, file])
 		elif ghp == "GitLab":
 			result = re.match(r'(http|https):\/\/(www.|)gitlab.com\/([^\/]+)\/([^\/(\.)][a-zA-Z0-9-_]+)', url)
 			if result != None and result != "":
 				repo_url = result[0] + '.git'
-				file = 'swh_curl/gitlab-' + result[3] + '-' + result[4] + '.txt'
 			else: 
-				result = re.match(r'(http|https):\/\/(www.|)gitlab.com\/(.*)', url)
 				repo_url = ' '
-				file = 'swh_curl/gitlab' + '-'.join(result[3].split('/')) + '.txt'
+			whole_url = re.match(r'(http|https):\/\/(www.|)gitlab.com\/(.*)', url)
+			file = 'swh_curl/gitlab' + '-'.join(whole_url[3].split('/')) + '.txt'
 			os.system('./curl_url.sh ' + url + ' ' + file)
 			curl_results_csv.writerow([url, ghp, repo_url, file])
 		elif ghp == "Bitbucket":
 			result = re.match(r'(http|https):\/\/(www.|\w+@|)bitbucket.org\/([^\/]+)\/([^\/(\.)][a-zA-Z0-9-_]+)', url)
 			if result != None and result != "": 
 				repo_url = result[0]
-				file = 'swh_curl/bitbucket-' + result[3] + '-' + result[4] + '.txt'
 			else: 
-				result = re.match(r'(http|https):\/\/(www.|\w+@|)bitbucket.org\/(.*)', url)
-				file = 'swh_curl/bitbucket' + '-'.join(result[3].split('/')) + '.txt'
+				repo_url = ' '
+			whole_url = re.match(r'(http|https):\/\/(www.|\w+@|)bitbucket.org\/(.*)', url)
+			file = 'swh_curl/bitbucket' + '-'.join(whole_url[3].split('/')) + '.txt'
 			os.system('./curl_url.sh ' + url + ' ' + file)
 			curl_results_csv.writerow([url, ghp, repo_url, file])
 		elif ghp == "SourceForge":
@@ -70,10 +68,10 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
 			if result != None and result != "": 
 				repo = result[4]
 				repo_url = r"https://svn.code.sf.net/p/" + repo + r"/code"
-				file = 'swh_curl/sourceforge-' + repo + '.txt'
 			else:
-				result = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/(.*)', url)
-				file = 'swh_curl/sourceforge' + '-'.join(result[3].split('/')) + '.txt'
+				repo_url = ' '
+			whole_url = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/(.*)', url)
+			file = 'swh_curl/sourceforge' + '-'.join(whole_url[3].split('/')) + '.txt'
 			os.system('./curl_url.sh ' + url + ' ' + file)
 			curl_results_csv.writerow([url, ghp, repo_url, file])
 
