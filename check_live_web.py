@@ -30,7 +30,7 @@ curl_results_csv = csv.writer(curl_results_file, delimiter=',')
 with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
 	for line in jsonl_f:
 		surt = str(line['surt'])
-		url = str(line['info'][0]['url'])
+		url = str(line['info'][0]['url']).lower()
 		ghp = str(line['GHP'])
 
 		if ghp == "GitHub":

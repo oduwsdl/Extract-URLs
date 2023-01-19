@@ -14,8 +14,8 @@ sf_stats = {'incorrect_url': 0, 'correct_url': 0, 'missing_swh': 0, 'found_swh':
 rate_limit_remaining = '1'
 rate_limit_reset = '0'
 
-# host = os.uname()[1]
-host = 'test'
+host = os.uname()[1]
+# host = 'test'
 if host == 'terra':
    input_file = 'part_dedupe_surt_0.jsonl'
    output_file = 'part_swh_results_0.csv'

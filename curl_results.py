@@ -6,11 +6,11 @@ http_404 = 0
 http_200 = 0
 http_none = 0
 http_other = 0
-with open('curl_map.txt', newline='') as map_file:
-    curl_map = csv.reader(map_file, delimiter=' ')
+with open('data_processing/test_curl_map.csv', newline='') as map_file:
+    curl_map = csv.reader(map_file, delimiter=',')
     for row in curl_map:
-        short_url = row[0]
-        file_name = row[1]
+        url = row[0]
+        file_name = row[3]
         with open(file_name, 'r') as f:
             status = ""
             for line in f:
@@ -30,8 +30,4 @@ with open('curl_map.txt', newline='') as map_file:
                 http_none = http_none + 1
             else: 
                 http_other = http_other + 1
-            print(short_url + " " + location + " " + status)
-print("404: " + str(http_404))
-print("200: " + str(http_200))
-print("None: " + str(http_none))
-print("Other: " + str(http_other))
+            print(url + " " + location + " " + status)
