@@ -1,0 +1,43 @@
+HTTP/2 308 
+date: Tue, 17 Jan 2023 10:00:19 GMT
+content-length: 0
+location: https://gitlab.com/Empusa
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jh%2FpyM0w%2B04tc8%2BQrmTYK8Ic5OqMjq6SRTR67ROxA8CfmTYIM8ZW70y%2BOIcOIOeBJlggO73bh4z7ZlzCdMdF1%2B3qCCWZtsKf7a2Hpd51pp5eZ66A2qBH%2F1aiurWj0WrS"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+set-cookie: _cfuvid=idkNwWlZo9yTe13Jkma_zxMfemCVSXpdVAeYc4ESjto-1673949619944-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 78ae3e445fa057af-IAD
+
+HTTP/2 200 
+date: Tue, 17 Jan 2023 10:00:20 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/ https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com snowplow.trx.gitlab.net; default-src 'self'; font-src 'self'; form-action 'self' https: http:; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com https://*.zuora.com/apps/PublicHostedPageLite.do; img-src * data: blob:; manifest-src 'self'; media-src 'self' data: http: https:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com https://*.zuora.com/apps/PublicHostedPageLite.do 'nonce-nNp3uXvQUMfvzFzS7phvnQ=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:
+etag: W/"13618794279166da9123593cd58ad071"
+permissions-policy: interest-cohort=()
+pragma: no-cache
+referrer-policy: strict-origin-when-cross-origin
+set-cookie: tier_badge_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltVTBORFU1TkRRNExUUTJObUV0TkdKak1DMWhZemt6TFdJNU1ESmpORFU1Wm1OaU1DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS50aWVyX2JhZGdlX2lkIn19--bbbacca6f24cf367393b47749c22434e17239929; domain=.gitlab.com; path=/; expires=Sat, 17 Jan 2043 10:00:20 GMT; secure; HttpOnly; SameSite=None
+vary: Accept
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 01GPZJR9SZZG8TEA0V5TSKC9CH
+x-runtime: 0.252748
+x-ua-compatible: IE=edge
+x-xss-protection: 1; mode=block
+gitlab-lb: fe-17-lb-gprd
+gitlab-sv: web-gke-us-east1-d
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QOOJxSUojq71xiL%2F4Jiy8wc2J3rc2OZPVDjzChEAZRq0bTP%2Bea14%2Bu6y6slo6sRhP8ORwicqlo%2Br2CN33ZEehUoJMus%2BtHZTansRTsxyq1lS8kwQ1rCo563Np30%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+set-cookie: _gitlab_session=61a9b0c89b168d9a02f92204c542e828; path=/; expires=Tue, 17 Jan 2023 12:00:20 GMT; secure; HttpOnly; SameSite=None
+set-cookie: _cfuvid=psir_sLViT3jIJA7H4ugmiOVCA1hp5HQwuDhH0iAKsY-1673949620333-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 78ae3e44d9c213b7-IAD
+

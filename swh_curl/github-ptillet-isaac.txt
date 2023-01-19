@@ -1,0 +1,36 @@
+HTTP/2 301 
+server: GitHub.com
+date: Mon, 16 Jan 2023 20:28:42 GMT
+content-length: 0
+location: https://github.com/openai/triton/pull/20
+server-timing: nginx;desc="NGINX";dur=1.444486,glb;desc="GLB";dur=7.329388
+x-pjax-url: https://github.com/ptillet/isaac/pull/20
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=hvVwEF9PQbW4rCcdfjzxkOzDG8ilQkYwF8MyM4Up56nfGTrzur%2BJFpQ7u2tjoCKmDJEAZ5xyBEKqDH3TnBl%2B2YQi1pMRqUD6wf2UxEdnXLm7%2FtSek7sFp40CVAdrOGJp%2F3zH6XFSF5x4jnDIV4%2F09OYT8soHiT5Pz3f8CKwgnJ2y6TiQembnV1R9koHEKzQSPXva%2B3VjFplRUHXrfIBEltNVT9LSyyFmcdoKBQpkvZB3Qn%2Bo0D3fxgEc46r4hWnqfba%2BMpt4QaUaM%2BJ7JufZag%3D%3D--eTfyS%2F1FwUE3%2Bs2w--EDCFgLQ3J%2BY6zn081%2F07YQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1420341837.1673900922; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 20:28:42 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 20:28:42 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: D210:1A02:38307AB:51701AE:63C5B37A
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 16 Jan 2023 20:28:42 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=327.25526,conversation_content-fragment;desc="conversation_content fragment";dur=382.879879,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=169.331309,nginx;desc="NGINX";dur=1.341572,glb;desc="GLB";dur=7.321551
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/openai/triton/pull/20
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=lnsbTHZLGmDGoTFHqKgqfJtudpMes%2B0OnYWC716IWDGxeP6eTAUnxAR1jBHeJ1H1VR6cGSBe4xNxWm0lSbcVJI%2FgZ0a86a1VVR8iGDsKHwunq3tLxVD5UNFvBkF7c3zJsO2cXZglvaCo3MnWah5nvzp9ejP2enAfsqvZjqKRrPr6reMRDvzWmzmayddJijaxZGd68G41lr3eI2upmMbsceNmkF191Yx1CfM5SmHwMKKBcfdXlEczhJ42jjcrwGRthJ7qaLa53cXzWS%2BxaswzTw%3D%3D--muOWxr%2BEKQK5J1IS--0BwIuDkK2kgcweRnfdf0jQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1438578168.1673900922; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 20:28:42 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 20:28:42 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: D210:1A02:38307BF:51701C2:63C5B37A
+

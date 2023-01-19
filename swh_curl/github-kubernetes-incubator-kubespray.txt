@@ -1,0 +1,38 @@
+HTTP/2 301 
+server: GitHub.com
+date: Tue, 17 Jan 2023 07:00:30 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+location: https://github.com/kubernetes-sigs/kubespray
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=M7NetEC%2BjWd6jhdF%2B7aHHQJncNorRSVsAwYNq%2FmZF7C8qefdxa%2BPMweAP3cqyy3zzuHOANOoaNXk67peEuf0ClE0KQOASXL5Oulpbj2DdY3TyNwjPxr6qf7IImbf%2BD3u%2BW%2BrsfEbHKAyzzsaJAmMcxPbpgX3VNqJvRnWQ6x00kJKVdSNLmP7WvoZa2zEYmlGTH2FtqVn81U3YmzKpCxJ%2F7gg%2FxZMjySEwHhzITtoXeK5DQ0o95Ot925Qd0KRsmlD5SqpfWvIPwMlKlcrlp%2F7UQ%3D%3D--pEpDjUPxIhlES2TR--UKAeaGuGQinvCNgD%2B98dAw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.61476334.1673938830; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:00:30 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:00:30 GMT; HttpOnly; Secure; SameSite=Lax
+content-length: 0
+x-github-request-id: CB6C:0FE2:57F2B8B:7F1807D:63C6478E
+
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 17 Jan 2023 07:00:30 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+etag: W/"4a8eebb755edfa0668891c3465034a61"
+cache-control: max-age=0, private, must-revalidate
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=29vgiF9dQ0msYEF2x3ovppzJNM2%2B%2FxONA7OhTPGKuUaWTNkHIUoDWPMpFEXwTS%2Bo4FHNY0GY%2FZJZqAT12IgJKHUpiyR3A0dxzO%2BIKB5%2BmNLi4HEu8qDInBSMjLICDIkEYIJjn59wxM8HnUgApbPSgWPG%2BefM1wnLq8USngOfcA%2FHuC8z5Bo%2BWBrBC0XaaAj%2B2Sq%2FS3jH%2F1MN5R6lcLWpxui05CirqjDQcKnznUYNQ11xoSbwhy5t%2FJNVEPBY8f1rlmbMaUppGG8jcB9RNCsK5Q%3D%3D--nwhFy4qDT7rhIBIT--K1TTRrHTWmi%2FijvtRMBX%2BQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1612507229.1673938830; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:00:30 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:00:30 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CB6C:0FE2:57F2B9C:7F1809A:63C6478E
+

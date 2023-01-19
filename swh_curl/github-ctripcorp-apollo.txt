@@ -1,0 +1,36 @@
+HTTP/2 301 
+server: GitHub.com
+date: Mon, 16 Jan 2023 18:39:06 GMT
+content-length: 0
+location: https://github.com/apolloconfig/apollo/issues/3012
+server-timing: nginx;desc="NGINX";dur=1.529245,glb;desc="GLB";dur=7.380214
+x-pjax-url: https://github.com/ctripcorp/apollo/issues/3012
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=o1qngpndhoWVNp3hpdiE1hB7moJKW6q8Z6z6hgENsunAzcslNus8TgkJ9gi5%2BF%2BBRPFjNMTRJ2e2YEQps1R6MniUMcogDZ6bRO%2Fko2RIEpNy8BcGslGfSrIwDMtWuJEQO78I47%2BaPHa6zJe08qSasme750CPl%2BR9gd9ybOkWEuZwa9m%2BA6XWy0TYfJB0hyvoVOE4p9loCFLAnWXi2%2FPvAFgJlXRgeRgQtiN%2BJX2YE2iOYz1LVJveNEd3CsL1KSNXqyPb4qYgtKCdA7Z9pYZnrw%3D%3D--CK9kOu3gsfCT0MsR--iPzinm%2BdKYGECtOdcsnsRg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.34945281.1673894346; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:39:06 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:39:06 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: 8124:56AC:207638B:2F5F80C:63C599CA
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 16 Jan 2023 18:39:06 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=333.929366,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=441.289011,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=122.239382,nginx;desc="NGINX";dur=1.299497,glb;desc="GLB";dur=6.411491
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/apolloconfig/apollo/issues/3012
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=o%2BNscwLyNgJAfRGE8V5Ih07PYieTcq94t7v4X%2Bh0XhiTQ27sXfXMB0Fe6p27WYUpbZnU3%2F5%2FG8b8mqa3VKteT0P%2Bs0Yq475BkS1Tm2tQXWwRmKicnyMVZns8tsZd%2BEFPE3wHd4ljzdOG19D%2BQkMnBbKRgvXzvQgb2CQoAINLRjkxVIA1lUMxf%2F8LHEmlV%2FM7Q48jGLU5iWQT5EGbJD01GY1QTsxbDBfJmelmsDB1bP%2BNdyew68A4GMFDsP6%2B5N6ZTqdxEjRtwI3QAn8BbuAj%2BQ%3D%3D--41mQcgdESUdxWg6A--0kFgnkwd7o%2BQJ3I39GvOpA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.144159969.1673894346; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:39:06 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:39:06 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 8124:56AC:207639B:2F5F824:63C599CA
+

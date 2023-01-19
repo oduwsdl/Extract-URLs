@@ -1,0 +1,44 @@
+HTTP/2 308 
+date: Tue, 17 Jan 2023 10:00:24 GMT
+content-length: 0
+location: https://gitlab.com/PAM-PIE/PAM
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rRNVP0JE6hupfvon%2BeWKiQr6yNq3yR99LqR0S9bUrbnkQuKmRNHcwM85jcerh6IjgwSuXmK%2FpuDSr%2Bwyx8r6lZhwDRi3seOiAXosa0Yof%2BLdd00g8jdJGhHte4h%2BttBB"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+set-cookie: _cfuvid=mMlcK1mjI8_2gql_mwNje9DbYScP8zgXvtraHi54DW0-1673949624678-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 78ae3e61eb558212-IAD
+
+HTTP/2 200 
+date: Tue, 17 Jan 2023 10:00:25 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/ https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com snowplow.trx.gitlab.net https://sourcegraph.com/.api/; default-src 'self'; font-src 'self'; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com https://*.zuora.com/apps/PublicHostedPageLite.do; img-src * data: blob:; manifest-src 'self'; media-src 'self' data: http: https:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com https://*.zuora.com/apps/PublicHostedPageLite.do 'nonce-BEiiL4Y1UgF7DtRzyXBbqQ=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:; form-action 'self' https: http: http: https:
+etag: W/"0c6203c127e3989f9f40fb2458549c39"
+permissions-policy: interest-cohort=()
+pragma: no-cache
+referrer-policy: strict-origin-when-cross-origin
+set-cookie: event_filter=all; path=/; Secure; SameSite=None
+vary: Accept
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 01GPZJREDE7XD5EMK780N9F1JG
+x-runtime: 0.401906
+x-ua-compatible: IE=edge
+x-xss-protection: 1; mode=block
+gitlab-lb: fe-13-lb-gprd
+gitlab-sv: web-gke-us-east1-c
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ghz8U0fBfbs2FUlseYUvp1AVUE9flvlHg8Rv63bSVSrnZrYi%2F1LoD3bqA2381cm%2BDgyrNpDi7qkYCWHimfUiaeCPoN2Njtzmd4yr6j5q9oVRFvCizIIp3mAz8ec%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000
+set-cookie: tier_badge_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltSm1PVFl4WkdWbUxUbGtaakV0TkdOaU15MDRPR1pqTFRrell6UTRNbVJrWldFek5TST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS50aWVyX2JhZGdlX2lkIn19--ee2b9fdb8777aaefe49f001f804a4b079ede8a36; domain=.gitlab.com; path=/; expires=Sat, 17 Jan 2043 10:00:24 GMT; secure; HttpOnly; SameSite=None
+set-cookie: _gitlab_session=89b53c2fd658cf5d711c5e8b127b47d1; path=/; expires=Tue, 17 Jan 2023 12:00:25 GMT; secure; HttpOnly; SameSite=None
+set-cookie: _cfuvid=EDqnaac_qh2FgVZPadmbw_AKOpdFLUpsk466mC8CyRM-1673949625163-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 78ae3e626a8b82ff-IAD
+

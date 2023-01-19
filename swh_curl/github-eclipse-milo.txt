@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 16 Jan 2023 21:13:05 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=303.673973,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=484.402106,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=116.901017,nginx;desc="NGINX";dur=0.645488,glb;desc="GLB";dur=10.110514
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/eclipse/milo/issues/244
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=YepgQhODe2IkqAY3xMfbl3%2FOIhbLfN8KvztquRwb6hHCLOlF3EMy7fPp3ux8JYLk988r%2FNXi6Es5POgNROLS4FpyQEeD1acX6nkCuILTTkjTgZhDNp7q6KeCzMKSbPuxJK5u3udrLIUjS0dUgy82sWIa%2BHFyeoNa6rSVB9HtdyxHJCqogZP3i5SAN101kVYM0PAMJOh9fjjGzWZqym%2FHcz8EEIilRIrwuc9uNN2Nsdp1qldPyFUDqQ32xyTjSBFZSrHQL8HxQGlUUxBOjuXMtQ%3D%3D--0l26%2FahsRujw9Fzm--81SGwA1umZtoOwqrWeDKnQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.79323399.1673903584; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 21:13:04 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 21:13:04 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 85A8:53EE:203633D:2F54BA0:63C5BDE0
+

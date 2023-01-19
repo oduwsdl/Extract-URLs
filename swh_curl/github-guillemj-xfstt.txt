@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 17 Jan 2023 01:23:29 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=128.43653,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=178.809877,commit_show_header-fragment;desc="commit_show_header fragment";dur=82.730629,nginx;desc="NGINX";dur=0.975181,glb;desc="GLB";dur=8.696093
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/guillemj/xfstt/commit/91c358eeb4380e8235c66fa15456a039ff869509
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=hAP2IyOzGYS037dfsTxip9kGg5nXAEht9VDJEPFbruBsgEfl8ft4SffHe4NMsySg3g2wFt0cZAY%2F3RqvScDlw1PfWQYkMiZ%2BSGJmsKj7UT3OezTEpR%2BvCJnyS780%2FWWI5Q6wn4eRB9oIbx9n8hq9xkn7offd%2B3RQoN4Bp4COXqJ15dfgf90LPsWjf12Z3CYknUpvDCrlrE8RdaMiFyqqxX2MynZHGCxB%2BkawINU6xOXyz%2BJQEiDSt1S6r6GYwhFVhgqxA276U6eYupi17RsLMg%3D%3D--QVjtq7CG93vlQqO9--IlOvuyP0gNBZu8qlwGxzzQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1167452626.1673918609; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 01:23:29 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 01:23:29 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 9E56:713A:5379A1A:78F1A67:63C5F891
+

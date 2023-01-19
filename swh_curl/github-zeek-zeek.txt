@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 17 Jan 2023 08:01:02 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=503.60573,conversation_content-fragment;desc="conversation_content fragment";dur=997.201407,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=278.675841,nginx;desc="NGINX";dur=0.852566,glb;desc="GLB";dur=8.035661
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/zeek/zeek/pull/76
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=k5ffcQJxg%2FllgIvMAdclC88Kap3VW%2Fh0hd3GpA8T%2BcQaw1asgQJHh5oG7zdSTTWwnhVsyonhJqOEQSqr4ztnSO5DZbbN6f%2BLBZRkADanqGg%2F2qHBFiDF6nuiWdMWEzegkZVHaTEyga%2FFpXpf0EEzAyBmK1YtjQ85UOf0clGsPn4PPAn0283NhOxIblwWXJRCUFdqwv1umNJ%2BJEe2KaR%2FeOv0g0O260aLuM1tFmGxr864KRqzo1WMP%2B4tYUicp974ZXqh2prEq3hHne8GDOCvVA%3D%3D--YG3urLxeO0eK%2F%2FjB--WBfNjFpOmezBgf1sXJU2hA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.281438830.1673942461; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 08:01:01 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 08:01:01 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: DAD6:07B8:2C53070:40D34F5:63C655BD
+

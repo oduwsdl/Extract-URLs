@@ -1,0 +1,36 @@
+HTTP/2 301 
+server: GitHub.com
+date: Tue, 17 Jan 2023 07:01:29 GMT
+content-length: 0
+location: https://github.com/kubernetes/enhancements/issues/539
+server-timing: nginx;desc="NGINX";dur=1.116086,glb;desc="GLB";dur=7.748053
+x-pjax-url: https://github.com/kubernetes/features/issues/539
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=cMbdW91%2BgpCBvTZ7yEEAVaMsVLaVhEaJIefpmTMc5QAjktMdDs%2Bu7LQqYOREa3NlfoiFilg0b5BagwaKvq01IQOng79bgGuzkS9mIqMLIC9m8QWL4miZLOde84nEL5hUG6BEfRteF1CehBnxoVDFODgFaOn0rdCO%2FuIxUZVGRw2WFtDHhcnHqbYjwzWAEkT4wl%2FpkEUwFLkbVihL2kdXT0zbMzXaM9X5K5IbJxuuVXzACrm%2BQjVQ4xn8bFKcpf0c2SHcObcirRObPWf8%2BRFLKA%3D%3D--MAvpoz1vNflETh3p--xRyWHNKupsCasPi%2F0GguOA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.651693959.1673938889; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:01:29 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:01:29 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: 9AB2:1814:4047ED0:5D2B352:63C647C9
+
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 17 Jan 2023 07:01:29 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=379.298905,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=392.944939,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=123.0688,nginx;desc="NGINX";dur=1.765137,glb;desc="GLB";dur=8.949108
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/kubernetes/enhancements/issues/539
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=9RWiWt04HUMAKD0Mh5CTiCpyU1f%2FzVaqNUyD%2BpxwbpH%2Fau5P3Vdbsuu%2F%2F2hf%2BwXHdX4FKKpxYWfN6lmnQh3SSXqRru4IXMnGq9YrjjRHiZmSDfAtNlkj1xIa%2FxLglfB9kX2ysi2YjcdHJ49FtSnHZ9NEkZSXa4ol6fucf1vNTaSgozYWOFnR4T6864dgX9x42DYcwlaiYHrqwfSkqMvPInpJu%2BMkSDjy%2BbKrsxgQMHkxiqCWutiqL3ENi2ya3iBwvLORbF1bD%2Fvr2u1m%2B99Tbg%3D%3D--4XqmV8lNRgt5EzS4--d%2FmmG7aj1M0BvDk%2BbLY7yw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1568564546.1673938889; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:01:29 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 07:01:29 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 9AB2:1814:4047EDA:5D2B36B:63C647C9
+

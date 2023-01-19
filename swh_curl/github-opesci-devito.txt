@@ -1,0 +1,36 @@
+HTTP/2 301 
+server: GitHub.com
+date: Mon, 16 Jan 2023 18:38:59 GMT
+content-length: 0
+location: https://github.com/devitocodes/devito/pull/760
+server-timing: nginx;desc="NGINX";dur=1.530022,glb;desc="GLB";dur=7.601109
+x-pjax-url: https://github.com/opesci/devito/pull/760
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=Yw%2FMdpZeC8Fs1RgnN3RN32iWCYzeZo59iCLMlUXBjwEiszrpSutEIJPzELCXu26FHsB6s8h1EajNjuFXF%2BG1yxEaccVmsyG86Y33LAfcLrz7f7uiGbgU2wvo6IIZjPXf04PV48q2PTw5JvkL3NVDTEaC2vmefKXWXcBMaWoS9pE1BlFFYJ2mnjxfSP3UTi%2FwF9nrX1ygUWTqZsG4Q1mcdnDx%2B%2B4G%2FFKwxLHB87Eo0q73fEWsNL6%2BkzLWVoqlbodOzB0WlT3OExZ2RcCle9SnXg%3D%3D--lbrtDhUBM8%2BhOFS6--%2BN4234BMkWBk5OmzkTCp0Q%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.340050934.1673894339; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:38:59 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:38:59 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: BDE2:4485:1F35E81:2DD81D2:63C599C3
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 16 Jan 2023 18:39:00 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=368.290981,conversation_content-fragment;desc="conversation_content fragment";dur=843.330305,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=559.576565,nginx;desc="NGINX";dur=0.896507,glb;desc="GLB";dur=7.175411
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/devitocodes/devito/pull/760
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=kgUQYWj3u%2F5MbmRm3CPkeBLn1uZRHbJ6Ltcs5tHehWrOOsrTGW8FD8pv%2BtYK4LLxpMhBAtUoRfYXKqWp1xP3GjGnUGWJwitMBCbGRSfiCF71KgqPO4E%2BLFJgSJA4%2BVvlES%2FqhOtPBYg3EgKNtYZLE63UiMJV6Ct6qIw5kGf1TxS%2BozdEu0F%2Bel2vDZHWERzzNvz76bGYdwwlPCKFUUdPvwjQlNZQ6ob8cfFPsTMJ0K2ksMCQFzblWGnp5Gm%2Bkie1YI0z08uleLSdpIUuLwia1g%3D%3D--IqjzQELO8rZ09XO3--B3z%2FrUCCDXYlyb5fRZbjOw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1971711758.1673894339; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:38:59 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 18:38:59 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: BDE2:4485:1F35E8D:2DD81E5:63C599C3
+

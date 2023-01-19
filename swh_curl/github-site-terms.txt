@@ -1,0 +1,77 @@
+HTTP/2 301 
+server: GitHub.com
+date: Tue, 17 Jan 2023 00:45:44 GMT
+content-type: text/html
+content-length: 0
+location: https://docs.github.com/en/github/site-policy/github-terms-of-service
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+vary: Accept-Encoding, Accept, X-Requested-With
+set-cookie: _gh_sess=PnoAGWZFYNHCKzoN%2BZYNl33h3vLw7Pd0fGkoKSa%2BG8azKECoowH%2Bh4XCpeZGEA7eguwc3xT6cAU7%2Bio6HnM3byLh9hYD4yFDYLO1Ps%2Bhdwy771ProjjyM1aIxQ4ORc6ps6hR7P7bWh5lY3v1SRzLYBRMRVdWlAR6URIOlSi8Gt6OqsQm7JT39DEo5O47sfVOCW6AdS4lXrPjy7XfjvbnkNzIdafUu1glIigxBh2Gn9nRb0v%2BHYRBuX0ZpprVB9Zdu4bCEhTE45V6u9wU4S6I9w%3D%3D--wRg%2FSfLwCAtm%2Buz6--FUTceGltxU1R8sKPFl3I%2BA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1523633846.1673916344; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 00:45:44 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 00:45:44 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: 939E:033B:C0E3FF:11BFB77:63C5EFB8
+
+HTTP/2 301 
+cache-control: public, max-age=60
+content-type: text/plain; charset=utf-8
+location: /en/site-policy/github-terms/github-terms-of-service
+access-control-allow-origin: *
+content-security-policy: default-src 'none';prefetch-src 'self';connect-src 'self';font-src 'self' data: githubdocs.azureedge.net;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: githubdocs.azureedge.net placehold.it;object-src 'self';script-src 'self' data: githubdocs.azureedge.net;frame-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com https://www.youtube-nocookie.com;frame-ancestors 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com;style-src 'self' 'unsafe-inline' data: githubdocs.azureedge.net;child-src 'self';upgrade-insecure-requests;base-uri 'self';form-action 'self';script-src-attr 'none'
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+x-download-options: noopen
+x-content-type-options: nosniff
+origin-agent-cluster: ?1
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+x-xss-protection: 0
+x-azure-ref: 0hCjFYwAAAABhphulr4rpTrEJGQosT/tCUEhMMzBFREdFMDMxNwA1OTZkNzhhMi1jYTVmLTQ3OWQtYmNkYy0wODM1ODMzMTc0YjI=
+accept-ranges: bytes
+date: Tue, 17 Jan 2023 00:45:44 GMT
+via: 1.1 varnish
+age: 50997
+x-served-by: cache-iad-kcgs7200171-IAD
+x-cache: CONFIG_NOCACHE, HIT
+x-cache-hits: 1
+x-timer: S1673916345.992099,VS0,VE2
+vary: Accept
+strict-transport-security: max-age=31557600
+content-length: 86
+
+HTTP/2 200 
+cache-control: public, max-age=60
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+content-security-policy: default-src 'none';prefetch-src 'self';connect-src 'self';font-src 'self' data: githubdocs.azureedge.net;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: githubdocs.azureedge.net placehold.it;object-src 'self';script-src 'self' data: githubdocs.azureedge.net;frame-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com https://www.youtube-nocookie.com;frame-ancestors 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com;style-src 'self' 'unsafe-inline' data: githubdocs.azureedge.net;child-src 'self';upgrade-insecure-requests;base-uri 'self';form-action 'self';script-src-attr 'none'
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+x-download-options: noopen
+x-content-type-options: nosniff
+origin-agent-cluster: ?1
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+x-xss-protection: 0
+x-powered-by: Next.js
+x-azure-ref: 0nijFYwAAAAA7LKQ2CHwYRYJ9syE6W3BBUEhMMzBFREdFMDMwOQA1OTZkNzhhMi1jYTVmLTQ3OWQtYmNkYy0wODM1ODMzMTc0YjI=
+accept-ranges: bytes
+date: Tue, 17 Jan 2023 00:45:45 GMT
+via: 1.1 varnish
+age: 50971
+x-served-by: cache-iad-kcgs7200171-IAD
+x-cache: CONFIG_NOCACHE, HIT
+x-cache-hits: 1
+x-timer: S1673916345.999857,VS0,VE4
+vary: Accept-Encoding
+strict-transport-security: max-age=31557600
+content-length: 320720
+

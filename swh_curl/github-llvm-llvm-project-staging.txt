@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 17 Jan 2023 08:23:45 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=147.874489,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=348.564521,commit_show_header-fragment;desc="commit_show_header fragment";dur=89.960831,nginx;desc="NGINX";dur=0.768026,glb;desc="GLB";dur=6.601932
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/llvm/llvm-project-staging/commit/d96c1bbaa03574daf759e5e9a6c75047c5e3af64
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=OnKhY87tYHXhifMZ%2FTsKi4PyCVAtfyGVXckDKEHTWVph4wb0K8t9sXFK5H1uv4xGx3Co4X1t7lHx%2B7mmbOVzZDpON6EZ0Feobs2OPx3X%2BEQ%2BqBW77AavssSte9fI6cnXgUUm9RMSsNG9l5svyAKlxD43hrB0%2BGMNok107i0qdYBI7ZsEedpcsNEhFFk1xErHEoWVtG2aKJ%2BCvkiMH3vkm8lxB2FLqUM6r9dr%2FOzIX80JbmZtOfwmrwYc81BTmi%2FS%2B5zaL%2BuSi%2B4jY8s%2BwkuFnQ%3D%3D--VYAy%2BZO2kxupmbWB--m9Kg4IxU3Ii9Wz1LtEQiow%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1704995225.1673943825; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 08:23:45 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 08:23:45 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 974C:4833:1318BE2:1C1414E:63C65B11
+

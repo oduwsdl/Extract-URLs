@@ -1,0 +1,40 @@
+HTTP/2 302 
+server: GitHub.com
+date: Mon, 16 Jan 2023 18:43:03 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/204743853/35f4a400-f2ad-11e9-90ba-64cf82aa9c3d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230116%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230116T184302Z&X-Amz-Expires=300&X-Amz-Signature=211b518e101d6876d78aba958c3901e6c7dd52a74de862030e3475945adbd35c&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=204743853&response-content-disposition=attachment%3B%20filename%3DMNLI_BERT.zip&response-content-type=application%2Foctet-stream
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+content-length: 0
+x-github-request-id: B52C:73B4:4CFB778:6F8AC33:63C59AB6
+
+HTTP/2 200 
+content-type: application/octet-stream
+last-modified: Tue, 07 Dec 2021 06:36:36 GMT
+etag: "0x8D9B94BEB13954C"
+server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id: ad1877cf-d01e-0027-12da-2935a1000000
+x-ms-version: 2020-04-08
+x-ms-creation-time: Tue, 17 Aug 2021 05:10:20 GMT
+x-ms-lease-status: unlocked
+x-ms-lease-state: available
+x-ms-blob-type: BlockBlob
+content-disposition: attachment; filename=MNLI_BERT.zip
+x-ms-server-encrypted: true
+fastly-restarts: 1
+accept-ranges: bytes
+age: 0
+date: Mon, 16 Jan 2023 18:43:03 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kcgs7200033-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1673894583.043014,VS0,VE81
+content-length: 405704959
+

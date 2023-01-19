@@ -1,0 +1,38 @@
+HTTP/2 302 
+server: GitHub.com
+date: Mon, 16 Jan 2023 22:31:15 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+location: https://github.com/facebook/infer/tree/main/infer/tests
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=vA%2FN6gvZTFM4XjdCyN7IIDq%2Bjm5ZeUDE3Bx%2F88e1QwVP%2BIZ9vakiImWLXu%2Fc4LDN0hIHb1ZbF6104kdLZAYn9mOBqaBn4XNX1dfxg3504dvncC6eUz%2F4lG%2FgbSV9Vh%2B1r4wRx3sLargWLnVdstNkzfq%2Fy2Gnwgm%2B%2BAv3UDIEEOLxVldzYTio4LSrcN4xLaMBsZ%2BBAPQM9Dl1M1dzcPqBNL5U6hTETT8w6408k%2FzqLnYJV9TVA7E7v2pK%2BFROiE6Do5PfCNdOBpiVmFpQMEi6tw%3D%3D--aMu%2FcW0C2lybBPom--1zhtuY%2FWzraEOc3aKNM%2Bgg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1548333406.1673908275; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 22:31:15 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 22:31:15 GMT; HttpOnly; Secure; SameSite=Lax
+content-length: 0
+x-github-request-id: 8E1E:5B58:A24659:F0CC6F:63C5D033
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 16 Jan 2023 22:31:15 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+etag: W/"b8943c01e2216937cc3cc7f222cd86c5"
+cache-control: max-age=0, private, must-revalidate
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=wWehnrz5Mm9v5v8loaSi%2BYTklBcZhe8g%2FPlxJdxDSGYuZ7PMZJTSieh%2Br87nRmiqV2eojwHi5xRQOvBEiqNNzllwV8U4ewcbZ4kzsFI7sNtbLLmdgB1rQV18GofL24%2FuDlb12y8QwZAozWahocfII7VFUtX%2FYwGU8CYe%2BkOR6P%2FjOy1e9Aj3g4iMJrDxmFhRbHvQmwlMSDGoasQU67aoAjOVxRloDoK%2FrKOGTJsytToYo9EQV%2FQiUrnhYoO4LK0ugS0%2BRbZDhPRgXH%2Fuw7%2BS8g%3D%3D--hpYxJ%2BcNht8iqWnh--9YY2UTRN7%2FlhlXmeBKwarw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1245464883.1673908275; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 22:31:15 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 22:31:15 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 8E1E:5B58:A24674:F0CC95:63C5D033
+
