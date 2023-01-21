@@ -1,13 +1,12 @@
 #!/bin/bash
-md5ofurl=`echo $1 | md5sum | awk '{print $1}'`
-FILE=timemap/$md5ofurl.txt
+URL=$1
+FILE=$2
 if [ -f "$FILE" ]; then
     if [ "$3" != "skip" ]; then
-        curl -A "MemGator evogt001@odu.edu" -s https://memgator.cs.odu.edu/timemap/json/$1 > $FILE
+        curl -A "MemGator evogt001@odu.edu" -s https://memgator.cs.odu.edu/timemap/json/$URL > $FILE
         sleep 3
     fi
 else 
-    curl -A "MemGator evogt001@odu.edu" -s https://memgator.cs.odu.edu/timemap/json/$1 > $FILE
-    echo $1 $2 $FILE >> timemap_map.txt
+    curl -A "MemGator evogt001@odu.edu" -s https://memgator.cs.odu.edu/timemap/json/$URL > $FILE
     sleep 3
 fi
