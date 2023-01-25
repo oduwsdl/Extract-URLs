@@ -1,7 +1,6 @@
 import os
 import csv
 import re
-import ast
 import jsonlines
 from datetime import datetime
 
@@ -10,7 +9,7 @@ output_file = "url_swh_dates.csv"
 
 dates_file = open("./data_processing/" + output_file, "w")
 dates_csv = csv.writer(dates_file, delimiter=',')
-dates_csv.writerow(['URL', 'EarliestVisit', 'Average', 'NumVisits', 'MinDays', 'MaxDays'])
+dates_csv.writerow(['URL', 'EarliestVisit', 'LatestVisit', 'Average', 'NumVisits', 'MinDays', 'MaxDays'])
 
 with open('data_processing/' + input_file, newline='') as swh_results_file:
     swh_results = csv.reader(swh_results_file, delimiter=',')
@@ -21,6 +20,7 @@ with open('data_processing/' + input_file, newline='') as swh_results_file:
         if in_swh == "Yes":
             response_file = row[4]
             earliest = ""
+            latest = ""
             average = ""
             sum_days = 0
             min_days = ""
@@ -39,7 +39,9 @@ with open('data_processing/' + input_file, newline='') as swh_results_file:
                             num_visits += 1
                             d = l['date']
                             curr_visit = datetime.strptime(d[0:10], '%Y-%m-%d')
-                            if num_visits > 1:
+                            if num_visits == 1:
+                                latest = curr_visit
+                            elif num_visits > 1:
                                 delta = prev_visit - curr_visit
                                 days = delta.days
                                 sum_days += days
@@ -51,11 +53,9 @@ with open('data_processing/' + input_file, newline='') as swh_results_file:
                                     max_days = days
                                 elif days > max_days:
                                     max_days = days
-                                prev_visit = curr_visit
-                            else:
-                                prev_visit = curr_visit
+                            prev_visit = curr_visit
                 earliest = str(curr_visit)[0:10]
                 if num_visits > 1:
                     average = sum_days / (num_visits - 1)
-            dates_csv.writerow([url, earliest, average, num_visits, min_days, max_days])
+            dates_csv.writerow([url, earliest, latest, average, num_visits, min_days, max_days])
                 
