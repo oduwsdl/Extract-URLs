@@ -8,8 +8,9 @@ import sys
 # input_file = "data_processing/dedupe_swh_results.csv"
 # output_file = "swh_curl_map.csv"
 
-host = os.uname()[1]
+# host = os.uname()[1]
 # host = 'test'
+host = "sf"
 if host == 'terra':
 	input_file = 'part_dedupe_surt_0.jsonl'
 	output_file = 'swh_curl_map_0.csv'
@@ -22,14 +23,16 @@ elif host == 'wsdl-docker-private':
 elif host == "test":
     input_file = 'test_surt.jsonl'
     output_file = "test_curl_map.csv"   
+elif host == 'sf':
+	input_file = 'sf_surt.jsonl'
+	output_file = 'sf_curl_map.csv'
 
 curl_results_file = open("./data_processing/" + output_file, "a")
 curl_results_csv = csv.writer(curl_results_file, delimiter=',')
-# curl_results_csv.writerow(['URL', 'CurlFile'])
+# curl_results_csv.writerow(['URL', 'GHP', 'RepoURL', 'File'])
 
 with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
 	for line in jsonl_f:
-		surt = str(line['surt'])
 		url = str(line['info'][0]['url']).lower()
 		ghp = str(line['GHP'])
 
@@ -70,8 +73,20 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
 				repo_url = r"https://svn.code.sf.net/p/" + repo + r"/code"
 			else:
 				repo_url = ' '
-			whole_url = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/(.*)', url)
-			file = 'swh_curl/sourceforge' + '-'.join(whole_url[3].split('/')) + '.txt'
+			# Check if URL type is sourceforge.net/p/project_name or sourceforge.net/project/project_name
+			url_1 = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/(projects|p)\/([^\/(\.)][a-zA-Z0-9\-_]+)', url)
+			if url_1 != None and url_1 != "":
+				file = 'swh_curl/sourceforge' + '-'.join(url_1[3].split('/')) + '.txt'
+			else:
+				# Check if URL type is project_name.sourceforge.net/extra
+				url_2 = re.match(r'(http|https):\/\/([a-zA-Z0-9\-_]+).sourceforge.net\/?(.*)', url)
+				if url_2 != None and url_2 != "":
+					prefix = url_2[2]
+					suffix = url_2[3]
+					if suffix != "":
+						file = 'swh_curl/sourceforge-' + prefix + '-' + '-'.join(suffix.split('/')) + '.txt'
+					else:
+						file = 'swh_curl/sourceforge-' + prefix + '.txt'
 			os.system('./curl_url.sh ' + url + ' ' + file)
 			curl_results_csv.writerow([url, ghp, repo_url, file])
 
