@@ -1,0 +1,52 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:59:04 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 245
+location: https://oprofile.sourceforge.io/about
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:59:01 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3ee3acbe99c49-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:59:05 GMT
+content-type: text/html; charset=iso-8859-1
+location: http://oprofile.sourceforge.io/about/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:59:04 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 78f3ee3bf9d19c7e-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:59:05 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://oprofile.sourceforge.io/about/
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 78f3ee3cdaed6fcd-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:59:05 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:59:04 GMT
+x-from: sfp-ioweb-2
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 78f3ee3dfd689c7e-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

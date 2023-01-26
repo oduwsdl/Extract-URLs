@@ -1,0 +1,36 @@
+HTTP/2 301 
+server: GitHub.com
+date: Wed, 25 Jan 2023 00:59:14 GMT
+content-length: 0
+location: https://github.com/herbie-fp/herbie/issues/261
+server-timing: nginx;desc="NGINX";dur=0.668701,glb;desc="GLB";dur=6.376805
+x-pjax-url: https://github.com/uwplse/herbie/issues/261
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=UurF28fz%2FG1KaQG0qkHLTqHTpHVYGiNmA3R8EaUlDGWE482yeQCDIm%2BUilc9dSf4i3bj2a4Yndl0QbohbdOw4gCDmq4yibccOfLnN52q3v4M0k%2F%2FcN70K4rwr8JVNHakiXtGTMNfwC1M5DrC8VSV2EIp90YtneoR%2FbmKf%2F%2FndCMo4L5n6R4L%2BMc9m7AqG1HL1jK%2FpjMNbnqtWvHH%2BVlIXkMAHaOFe2sukcF6pcilFzivSmTcJA%2BS0Uw1fmAttQra3BV%2BnW99onUZ7KRq3XXGLg%3D%3D--%2BFZgj1E54qD8ajWh--VgLqrQOYcQGGHnR8kFIvIQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.178553068.1674608354; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 00:59:14 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 00:59:14 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: 91C6:220C:71E8246:A581604:63D07EE2
+
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 25 Jan 2023 00:59:15 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=305.618379,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=513.02588,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=163.312384,nginx;desc="NGINX";dur=0.974484,glb;desc="GLB";dur=5.684499
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/herbie-fp/herbie/issues/261
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=qfk%2Ft%2F6eLGRcPHaqRQkLsC6mn%2Fk5AofiktrrONjHhvkf9h3ieH7yH0JxywlPHqXNq5v4dw3JPc%2BsTye%2B5F0Gyy%2BStfljSCfkl9SXJvF9ZpVYH%2BHOzP3xkPzcs5e6wZV2xxk6fTvo2dTyTrxaXKfAAWy7RlnGEEMos2qBhWh92CUD1XrnAP%2BVp50C5xJLAtIu1EIJfZF4gdYD7MaWJghvysTotsXy%2B5l20iJNTm98QR78hRlC9r2eSxg5GQg48I9IDwpofIwImW9JKhH4nBgYow%3D%3D--S%2BkoEdLQQOiAS7YJ--Ql%2FxMx5h7T9CYSRoEd4k0g%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1329861364.1674608354; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 00:59:14 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 00:59:14 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 91C6:220C:71E8256:A581611:63D07EE2
+

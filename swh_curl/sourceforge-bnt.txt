@@ -1,0 +1,32 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:15:56 GMT
+content-type: text/html
+content-length: 0
+location: http://www.cs.ubc.ca/~murphyk/Software/BNT/bnt.html
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:15:41 GMT
+x-from: sfp-web-2
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3af0828002432-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:15:57 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Location: https://www.cs.ubc.ca/~murphyk/Software/BNT/bnt.html
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Wed, 25 Jan 2023 20:15:57 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Last-Modified: Tue, 12 Apr 2022 19:17:36 GMT
+ETag: "f6-5dc79e9dc7f3e"
+Accept-Ranges: bytes
+Content-Length: 246
+Vary: Accept-Encoding
+Content-Type: text/html
+

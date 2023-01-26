@@ -1,0 +1,58 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:46:11 GMT
+content-type: text/html
+content-length: 717
+location: http://ltfat.github.io
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:40:32 GMT
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3db5a89157fd9-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+permissions-policy: interest-cohort=()
+Location: http://ltfat.org/
+X-GitHub-Request-Id: E5C6:442A:C222B:FE598:63D19513
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:46:11 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200039-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674679572.760365,VS0,VE6
+Vary: Accept-Encoding
+X-Fastly-Request-ID: fc35255d9917e9ee6492710679001ccdab1a4021
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 8233
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Mon, 16 Jan 2023 16:06:06 GMT
+Access-Control-Allow-Origin: *
+ETag: "63c575ee-2029"
+expires: Wed, 25 Jan 2023 20:56:12 GMT
+Cache-Control: max-age=600
+x-proxy-cache: MISS
+X-GitHub-Request-Id: FE54:41F8:B6771:F2A08:63D19514
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:46:12 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200160-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674679572.151313,VS0,VE7
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 202f8fecba7b2a7d5d52f98854334c27760be6f4
+

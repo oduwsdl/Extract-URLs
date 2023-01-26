@@ -1,63 +1,63 @@
 HTTP/2 301 
-content-security-policy-report-only: style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; object-src 'none'; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; base-uri 'self'; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+content-security-policy-report-only: object-src 'none'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; base-uri 'self'; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
 server: envoy
 x-usage-quota-remaining: -1000000.000
 vary: Accept-Language, Origin
-x-usage-request-cost: 450.77
+x-usage-request-cost: 778.27
 cache-control: max-age=900
 content-type: text/html; charset=utf-8
-x-b3-traceid: 37ff927ffec11fc6
+x-b3-traceid: 5b4c6b8e3e9e5438
 x-usage-output-ops: 0
 x-used-mesh: False
 x-dc-location: Micros-3
 strict-transport-security: max-age=31536000; includeSubDomains; preload
-date: Tue, 17 Jan 2023 10:54:42 GMT
-x-usage-user-time: 0.009899
-x-usage-system-time: 0.003624
+date: Wed, 25 Jan 2023 06:42:04 GMT
+x-usage-user-time: 0.023348
+x-usage-system-time: 0.000000
 location: /tunka/
-x-served-by: 510aab4ecffe
-x-envoy-upstream-service-time: 24
+x-served-by: 6b9ffd50915f
+x-envoy-upstream-service-time: 57
 content-language: en
 x-usage-throttled: True
 x-view-name: django.views.generic.base.RedirectView
-x-static-version: 868d5a54466b
-x-render-time: 0.009254217147827148
+x-static-version: 0d1391d200cb
+x-render-time: 0.012777566909790039
 x-usage-input-ops: 0
 x-frame-options: SAMEORIGIN
-x-version: 868d5a54466b
-x-request-count: 2193
+x-version: 0d1391d200cb
+x-request-count: 2948
 x-cache-info: caching
 content-length: 0
 
 HTTP/2 200 
-content-security-policy-report-only: base-uri 'self'; object-src 'none'; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net 'nonce-pkSkQiJqmBpFPMNWRxfNhw=='; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+content-security-policy-report-only: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; base-uri 'self'; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net 'nonce-g12Z3gc4pY0zpRsygm0BJw=='; object-src 'none'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
 server: envoy
 x-usage-quota-remaining: -1000000.000
 vary: Referer, Cookie, Accept-Language, Origin, Accept-Encoding
-x-usage-request-cost: 4256.67
+x-usage-request-cost: 4205.33
 cache-control: max-age=0, no-cache, no-store, must-revalidate
 content-type: text/html; charset=utf-8
-x-b3-traceid: 74b13c70c5094bc1
+x-b3-traceid: 1f071492c8cace87
 x-usage-output-ops: 0
 x-used-mesh: False
 x-dc-location: Micros-3
 strict-transport-security: max-age=31536000; includeSubDomains; preload
-date: Tue, 17 Jan 2023 10:54:42 GMT
-x-usage-user-time: 0.107124
-x-usage-system-time: 0.020576
-x-served-by: de1ef266406b
-expires: Tue, 17 Jan 2023 10:54:42 GMT
-x-envoy-upstream-service-time: 200
+date: Wed, 25 Jan 2023 06:42:04 GMT
+x-usage-user-time: 0.126160
+x-usage-system-time: 0.000000
+x-served-by: c941ba6257af
+expires: Wed, 25 Jan 2023 06:42:04 GMT
+x-envoy-upstream-service-time: 202
 content-language: en
 x-usage-throttled: True
 x-view-name: bitbucket.apps.bb.views.ProfileRepositories
-x-static-version: 868d5a54466b
-x-render-time: 0.1884918212890625
+x-static-version: 0d1391d200cb
+x-render-time: 0.18837666511535645
 x-usage-input-ops: 0
-set-cookie: csrftoken=2wj2RW96O8SJHwBz2nV2wgm3Dtrth3jD0ombj7l1oK7onj0TYE5LrXhhclxtiU5A; expires=Tue, 16-Jan-2024 10:54:42 GMT; Max-Age=31449600; Path=/; Secure
+set-cookie: csrftoken=hcckW6fooMa4fN4pUzAXUuFQN3ZHS2BLk7Dr1xweurMPjVzTj9M7SAvEFCcZXxbQ; expires=Wed, 24-Jan-2024 06:42:04 GMT; Max-Age=31449600; Path=/; Secure
 x-frame-options: SAMEORIGIN
-x-version: 868d5a54466b
-x-request-count: 1606
+x-version: 0d1391d200cb
+x-request-count: 533
 x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
-content-length: 71293
+content-length: 59667
 

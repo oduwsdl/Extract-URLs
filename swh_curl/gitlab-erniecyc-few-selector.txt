@@ -1,33 +1,33 @@
 HTTP/2 302 
-date: Tue, 17 Jan 2023 09:31:12 GMT
+date: Wed, 25 Jan 2023 05:19:10 GMT
 content-type: text/html; charset=utf-8
 location: https://gitlab.com/users/sign_in
 cache-control: no-cache
-content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/ https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com snowplow.trx.gitlab.net https://sourcegraph.com/.api/; default-src 'self'; font-src 'self'; form-action 'self' https: http:; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com https://*.zuora.com/apps/PublicHostedPageLite.do; img-src * data: blob:; manifest-src 'self'; media-src 'self' data: http: https:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com https://*.zuora.com/apps/PublicHostedPageLite.do 'nonce-h1mWrE8Qe1TX3kjH7fRTwg=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://*.zuora.com/apps/PublicHostedPageLite.do https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/ https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com snowplow.trx.gitlab.net https://sourcegraph.com/.api/; default-src 'self'; font-src 'self'; form-action 'self' https: http:; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com https://*.zuora.com/apps/PublicHostedPageLite.do; img-src * data: blob:; manifest-src 'self'; media-src 'self' data: http: https:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com https://*.zuora.com/apps/PublicHostedPageLite.do 'nonce-OKQRRAVOH/N/HtZ+mAS2Ng=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:
 permissions-policy: interest-cohort=()
 pragma: no-cache
 referrer-policy: strict-origin-when-cross-origin
-set-cookie: _gitlab_session=82fddf4abb25bf3f23c64574e80c87f5; path=/; expires=Tue, 17 Jan 2023 11:31:12 GMT; secure; HttpOnly; SameSite=None
+set-cookie: _gitlab_session=afb5fd4708bd166309ede45d1c35d6e6; path=/; expires=Wed, 25 Jan 2023 07:19:10 GMT; secure; HttpOnly; SameSite=None
 x-content-type-options: nosniff
 x-download-options: noopen
 x-frame-options: SAMEORIGIN
 x-permitted-cross-domain-policies: none
-x-request-id: 01GPZH2Z0395PJ4NRYAEQSME8P
-x-runtime: 0.039882
+x-request-id: 01GQKNV82W9EJY64MWKX0BZD5C
+x-runtime: 0.040319
 x-ua-compatible: IE=edge
 x-xss-protection: 1; mode=block
-gitlab-lb: fe-01-lb-gprd
+gitlab-lb: fe-22-lb-gprd
 gitlab-sv: web-gke-us-east1-c
 cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5otyxbFq5%2BUD940xDbOMF0g8tDKaDQJnXrOy3MtL6ZTAzX%2BTFfr6DLY10IagUtwq9gNHyILGLFynGVnwMkR0EEb27BEH6e%2FGRpLnGeXk7fWsvWKzXI7K3DjuRSU%3D"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uhWfydsczHhyTfb3xW248DA3xCeGWDd2zRcFLeXA2jOIRMLBMgoRuGEWqatqvSyxVKfNZz1HSVYD%2Bwdezk1xtkN2Wau1OrPaYezB7psVQc5A0PhQEoD9HIg9%2BVg%3D"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
 strict-transport-security: max-age=31536000
-set-cookie: _cfuvid=_GCf3YTmjuWrvX9FsoRJd7dJ5_mpsupPCEtTbRZhpU0-1673947872308-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
+set-cookie: _cfuvid=6DfXBnsvJ9jrNF1gux9b1jcy_kxyZy5R02xwQgsbCIE-1674623950991-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 78ae13994b47174f-IAD
+cf-ray: 78ee8d6d1abd8284-IAD
 
 HTTP/2 503 
-date: Tue, 17 Jan 2023 09:31:12 GMT
+date: Wed, 25 Jan 2023 05:19:11 GMT
 content-type: text/html; charset=UTF-8
 cross-origin-embedder-policy: require-corp
 cross-origin-opener-policy: same-origin
@@ -37,10 +37,10 @@ referrer-policy: same-origin
 x-frame-options: SAMEORIGIN
 cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 expires: Thu, 01 Jan 1970 00:00:01 GMT
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qDde94rEWkjdvJTtBrePCc8%2Fn6zWraA51jdV9kdEX7H974lBBZ3tlgGYfsAolOz%2Bpy95CSdFtcZqhe7jm14sZ8aCvMDjZBl%2BeJ%2FEzapsJFvQkMdV1QorxpuLgow%3D"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ekp%2FFjisb4wrXw2E%2BFwBXK%2FzHzCGsMLNtLZvwFhx6%2BKWCqZr3GXKp68O86MPeShw00h0jZ%2B5TVlIZdbPResW1VYyYywOBfVwDSd2kOf3H66FeaJ9LToSPtAJOMM%3D"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
 server: cloudflare
-cf-ray: 78ae1399fbc7174f-IAD
+cf-ray: 78ee8d6dbb948284-IAD
 

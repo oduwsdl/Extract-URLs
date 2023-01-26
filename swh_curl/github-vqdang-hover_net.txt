@@ -1,18 +1,19 @@
-HTTP/2 404 
+HTTP/2 200 
 server: GitHub.com
-date: Tue, 17 Jan 2023 05:42:03 GMT
-content-type: text/plain; charset=utf-8
+date: Wed, 25 Jan 2023 01:37:20 GMT
+content-type: text/html; charset=utf-8
 vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-cache-control: no-cache
+etag: W/"352c9508280135cb6ae4af5114f04518"
+cache-control: max-age=0, private, must-revalidate
 strict-transport-security: max-age=31536000; includeSubdomains; preload
 x-frame-options: deny
 x-content-type-options: nosniff
 x-xss-protection: 0
-referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
-content-security-policy: default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'
-set-cookie: _gh_sess=xslnSo5qkTd16nU2L4VsWhludtgrP8Jd5RMrQjUPfFzYbI6QoZbITMQyCuq8wqhgYm6kNh4HCnA1L3onaW7EH4nUzJOYX8xISJWRKdZBX7mzOCkwLX1003xulxkySoSRRqXAQDoH5BMfK3z5%2BPgT0oqsxsRSjWlNHsAttucI%2FygVtKi%2FGwz%2BmMZS1C%2FzT6fOrk119dAr1ohl088Xeq%2FIa%2FnC5uorj%2Fo5nVUtN8a17DhYeftVe241re3kcokaWW%2BfwF9rN4hJXUR9BUCkSmK1Qg%3D%3D--Ev0vD2FpfyM1tcPD--SiwIyIwQZW%2FJpkGqjxPeFQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-set-cookie: _octo=GH1.1.1635008339.1673934123; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 05:42:03 GMT; Secure; SameSite=Lax
-set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 05:42:03 GMT; HttpOnly; Secure; SameSite=Lax
-content-length: 9
-x-github-request-id: C694:6410:28FA5BF:3BD24C7:63C6352B
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=56U6HSX%2FI5KQgaWnhnCe2vGQhy3VQGFjG1YpgSR2%2BhDTXX7qMh3IpnERzKUBUBWugZ2epXrfHzCpgMDf5w%2B7hROkm5j7dGM8JwiKX8OT%2FNTxgFAW%2BoeRdhpp1K81JPam1bJhEES%2B9BYXru9aToqTOCDI5rZt1lwZRJHK%2F%2BrFs8AXe56ZMGPTfuzVM4rZ36Sdu1I0U5HtxlSksj0GT3V3skVbp66yUDd5kFJk1DKjE3LsNhi1u03Wf04pEIoQpG%2FfCBTNxXXFC6OnZkpRGcrc6w%3D%3D--kgjuX%2FmWd8WqetGH--3N38h7kTtJRFEk0mGqOHgA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.218595597.1674610640; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 01:37:20 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 01:37:20 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: B024:6F25:C1E772:120A1DD:63D087D0
 

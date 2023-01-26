@@ -1,0 +1,47 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 21:28:58 GMT
+content-type: text/html
+content-length: 0
+location: http://www.sguil.net
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 22:28:55 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f41a051f095991-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 25 Jan 2023 21:28:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Location: http://bammv.github.io/sguil/index.html
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 4758
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+permissions-policy: interest-cohort=()
+Last-Modified: Fri, 07 Nov 2014 03:52:44 GMT
+Access-Control-Allow-Origin: *
+ETag: "545c420c-1296"
+expires: Wed, 25 Jan 2023 21:38:59 GMT
+Cache-Control: max-age=600
+x-proxy-cache: MISS
+X-GitHub-Request-Id: ACFE:5B14:D110A:10D2B6:63D19F1B
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 21:28:59 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200169-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674682139.374992,VS0,VE10
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 79403ae9017882f85a828726fd8a44ae6c38665b
+

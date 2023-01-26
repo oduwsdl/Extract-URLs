@@ -1,0 +1,46 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:31:01 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 234
+location: http://freenetproject.org/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:30:45 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3c522fe667fe1-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Wed, 25 Jan 2023 20:31:01 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://freenetproject.org/
+X-Cache: Redirect from cloudfront
+Via: 1.1 872e43fac89d80c9557000efb9c31650.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD12-P3
+X-Amz-Cf-Id: 7hlgrLiv6BO_0QDDdl2GhaJjbBXc_W7ht4ohqdndlGDYLrrY7u7Qow==
+
+HTTP/2 200 
+content-type: text/html
+content-length: 8954
+last-modified: Wed, 11 Jan 2023 21:38:15 GMT
+server: AmazonS3
+cache-control: public, max-age=500
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+public-key-pins-report-only: pin-sha256="++MBgDH5WGvL9Bcn5Be30cRcL0f5O+NyoXuWtQdX1aI="; pin-sha256="C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M="; max-age=604800; report-uri="https://freenet.report-uri.io/r/default/hpkp/reportOnly"; includeSubDomains
+public-key-pins: pin-sha256="++MBgDH5WGvL9Bcn5Be30cRcL0f5O+NyoXuWtQdX1aI="; pin-sha256="9+ze1cZgR9KO1kZrVDxA4HQ6voHRCSVNz4RdTCx4U8U="; pin-sha256="NqvDJlas/GRcYbcWE8S/IceH9cq77kg0jVhZeAPXq8k="; pin-sha256="f0KW/FtqTjs108NpYj42SrGvOB2PpxIVM8nWxjPqJGE="; pin-sha256="C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M="; pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="; max-age=2592000; report-uri="https://freenet.report-uri.io/r/default/hpkp/enforce"; includeSubDomains
+date: Wed, 25 Jan 2023 20:31:02 GMT
+etag: "0958e7154120a75cf65529ae2433e767"
+vary: Accept-Encoding
+x-cache: RefreshHit from cloudfront
+via: 1.1 e21fbbed60133ff896ee44224814dc5c.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD12-P3
+x-amz-cf-id: lcXrkFLyEj0eLqoC10BTjZ90TRccLu78zFlnBurBFUrwBqmUvVXMrw==
+

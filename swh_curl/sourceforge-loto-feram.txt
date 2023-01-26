@@ -1,0 +1,45 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:45:47 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 242
+location: http://loto.sourceforge.net/feram/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:45:32 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3dac0c989177f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:45:47 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Wed, 25 Jan 2023 21:45:47 GMT
+Location: https://loto.sourceforge.net/feram/
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 78f3dac1fcbb8024-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:45:47 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: negotiate,accept-language,Host
+vary: Accept-Encoding
+content-location: index.en.html
+tcn: choice
+last-modified: Wed, 13 Jul 2022 06:04:04 GMT
+etag: W/"a356-5e3a98d5c9d3f;a9-5e3a98d7e5232"
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:45:33 GMT
+x-from: sfp-web-2
+content-language: en
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3dac20b49177f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

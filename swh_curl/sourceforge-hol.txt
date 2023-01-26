@@ -1,0 +1,30 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:36:05 GMT
+content-type: text/html
+content-length: 0
+location: http://hol-theorem-prover.org
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:36:02 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3cc8d787605fe-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Location: https://hol-theorem-prover.org/
+Date: Wed, 25 Jan 2023 20:36:06 GMT
+Server: lighttpd/1.4.68
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+etag: "1375792179"
+last-modified: Mon, 13 Jun 2022 23:26:03 GMT
+content-length: 12964
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:36:06 GMT
+server: lighttpd/1.4.68
+

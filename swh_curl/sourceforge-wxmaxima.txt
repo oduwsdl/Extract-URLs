@@ -1,0 +1,35 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 22:29:07 GMT
+content-type: text/html
+content-length: 0
+location: http://andrejv.github.com/wxmaxima/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 23:27:22 GMT
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f472239b941775-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-Length: 9587
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+x-pages-interstitial: 1
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+X-GitHub-Request-Id: BE6C:4955:118179:1635B9:63D1AD33
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 22:29:07 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200031-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674685748.936605,VS0,VE5
+Vary: Accept-Encoding
+X-Fastly-Request-ID: e97c1a13eed149acd96a781db0cbcbd34a60e7cd
+

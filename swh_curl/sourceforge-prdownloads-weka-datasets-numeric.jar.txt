@@ -1,0 +1,24 @@
+HTTP/2 301 
+server: nginx
+date: Wed, 25 Jan 2023 21:03:15 GMT
+content-type: text/html; charset=UTF-8
+location: https://downloads.sourceforge.net/project/weka/datasets/datasets-numeric/datasets-numeric.jar
+
+HTTP/2 302 
+server: nginx
+date: Wed, 25 Jan 2023 21:03:17 GMT
+content-type: text/html; charset=UTF-8
+location: https://gigenet.dl.sourceforge.net/project/weka/datasets/datasets-numeric/datasets-numeric.jar
+content-disposition: attachment; filename="datasets-numeric.jar"
+set-cookie: sf_mirror_attempt=weka:gigenet:datasets/datasets-numeric/datasets-numeric.jar; Max-Age=120; Path=/; expires=Wed, 25-Jan-2023 21:05:17 GMT
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jan 2023 21:20:12 GMT
+Content-Type: application/java-archive
+Content-Length: 169344
+Last-Modified: Mon, 22 Sep 2003 03:32:26 GMT
+Connection: close
+ETag: "3f6e6d4a-29580"
+Accept-Ranges: bytes
+

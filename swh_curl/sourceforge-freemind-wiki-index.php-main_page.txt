@@ -1,0 +1,41 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:30:59 GMT
+content-type: text/html; charset=utf-8
+location: http://freemind.sourceforge.net/wiki/index.php/Main_page
+vary: Accept-Encoding
+vary: Accept-Encoding
+cache-control: s-maxage=1200, must-revalidate, max-age=0, max-age=3600
+last-modified: Wed, 25 Jan 2023 20:30:45 GMT
+expires: Wed, 25 Jan 2023 21:30:45 GMT
+x-from: sfp-web-2
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3c517da678284-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:30:59 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Wed, 25 Jan 2023 21:30:59 GMT
+Location: https://freemind.sourceforge.net/wiki/index.php/Main_page
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 78f3c518bdea81a0-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 404 
+date: Wed, 25 Jan 2023 20:31:00 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+content-language: en
+cache-control: s-maxage=18000, must-revalidate, max-age=0, max-age=3600
+expires: Wed, 25 Jan 2023 21:30:47 GMT
+x-from: sfp-web-7
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3c518cc7c8284-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

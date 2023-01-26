@@ -1,0 +1,42 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:35:23 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 243
+location: http://hdrvdp.sourceforge.net/wiki/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:35:10 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3cb85aed76fdd-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:35:23 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Wed, 25 Jan 2023 21:35:23 GMT
+Location: https://hdrvdp.sourceforge.net/wiki/
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 78f3cb86cc2905f8-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:35:24 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding,Cookie
+vary: Accept-Encoding
+x-content-type-options: nosniff
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Wed, 10 Jun 2020 14:19:04 GMT
+content-language: en-gb
+x-from: sfp-web-3
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3cb86e87b6fdd-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

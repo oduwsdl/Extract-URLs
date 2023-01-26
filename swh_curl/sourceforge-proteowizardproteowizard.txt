@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 25 Jan 2023 20:10:29 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://sourceforge.net/p/sfuzz/_list/git
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:10:29 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
+content-security-policy: frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; form-action 'self'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; object-src 'none'; upgrade-insecure-requests; frame-ancestors 'self'
+content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'
+set-cookie: _session_id=af6ce90f2029fe3179ef38196c422747836c098cde76ec9a7a9d33f641e856a2713864bcf666b76d; secure; Path=/
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server-timing: cf-q-config;dur=4.9999944167212e-06
+server: cloudflare
+cf-ray: 78f3a70fcd597fb5-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

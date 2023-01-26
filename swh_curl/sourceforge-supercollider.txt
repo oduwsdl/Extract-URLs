@@ -1,0 +1,58 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 22:13:08 GMT
+content-type: text/html
+content-length: 0
+location: http://supercollider.github.io/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 23:12:54 GMT
+x-from: sfp-web-2
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f45ab7ab577fd9-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+permissions-policy: interest-cohort=()
+Location: https://supercollider.github.io/
+X-GitHub-Request-Id: ADCE:1A20:E9D4E:126C20:63D19FCF
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 22:13:08 GMT
+Via: 1.1 varnish
+Age: 2469
+X-Served-By: cache-iad-kiad7000166-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1674684789.570998,VS0,VE2
+Vary: Accept-Encoding
+X-Fastly-Request-ID: f85b4e4cea8c2a61d563517c3faa0c2c810364d1
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+permissions-policy: interest-cohort=()
+last-modified: Mon, 14 Nov 2022 02:46:00 GMT
+access-control-allow-origin: *
+etag: "6371abe8-4581"
+expires: Wed, 25 Jan 2023 21:41:59 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 96F8:7D4F:D4D8C:111BE0:63D19FCF
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 22:13:09 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000087-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1674684789.267621,VS0,VE7
+vary: Accept-Encoding
+x-fastly-request-id: 17f974dc1377aed355bd49f891592b1f43acabee
+content-length: 17793
+

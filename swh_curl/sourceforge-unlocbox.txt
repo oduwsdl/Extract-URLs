@@ -1,0 +1,65 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 22:20:59 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 238
+location: https://lts2.epfl.ch/unlocbox/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 23:20:45 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f46638d9d77f9a-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 25 Jan 2023 22:21:00 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Location: https://epfl-lts2.github.io/unlocbox-html
+Vary: Cookie,Accept-Language
+Content-Language: en
+Strict-Transport-Security: max-age=31536000
+
+HTTP/2 301 
+server: GitHub.com
+content-type: text/html
+permissions-policy: interest-cohort=()
+location: https://epfl-lts2.github.io/unlocbox-html/
+x-github-request-id: AD18:3917:EC7D4:1358C2:63D1AB4E
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 22:21:02 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000128-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674685262.067937,VS0,VE7
+vary: Accept-Encoding
+x-fastly-request-id: 5293a9f31b74fba4d8180ade7450f5bb9af8475c
+content-length: 162
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+permissions-policy: interest-cohort=()
+last-modified: Wed, 19 Oct 2022 08:48:00 GMT
+access-control-allow-origin: *
+etag: "634fb9c0-bb8"
+expires: Wed, 25 Jan 2023 22:31:02 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 7B62:4196:10DA4E:1571FD:63D1AB4E
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 22:21:02 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000128-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674685262.081659,VS0,VE8
+vary: Accept-Encoding
+x-fastly-request-id: 6f3d9f866e7cfce518012d61c82256977e6bbd3d
+content-length: 3000
+

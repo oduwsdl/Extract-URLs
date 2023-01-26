@@ -1,22 +1,22 @@
 HTTP/2 308 
-date: Tue, 17 Jan 2023 10:00:31 GMT
+date: Wed, 25 Jan 2023 05:47:40 GMT
 content-length: 0
 location: https://gitlab.com/ebothmann/blockgen-archive
 cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dJnUz9lg3j9htQqJXSOD1wpOqq5X4dsujoSAatDayN9sEluQELYpG7wGgDgGOEIEGhpLGtSfBmq%2B6Or6v0uaoCndCIOX6oTm0iBCM5Pv1eMOHTchdUvGE%2Fd3V3xGuvni"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xs8S3pvalUVEe1RY%2F1h8QUUCARZ6gLiGPzbKRGuB5LkH6sSfnKrLso9%2FfFB912e4F4wUczmGLZQL0uSoQhiXc6Yq0ZFwYlmxk%2B90ZwZdCfwif4sJavWkUP%2FlQukYiN1X"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-set-cookie: _cfuvid=OecDmKM_7YJWoSimOgK1QCPe1ug_eIyiHwkFSe15odM-1673949631337-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
+set-cookie: _cfuvid=.UNXB68rIGByB8VKWqSRpAeEddmv7WmazJVKzSo5Nxs-1674625660275-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 78ae3e8b8cc7c1c0-IAD
+cf-ray: 78eeb7286e6f172d-IAD
 
 HTTP/2 200 
-date: Tue, 17 Jan 2023 10:00:31 GMT
+date: Wed, 25 Jan 2023 05:47:40 GMT
 content-type: text/html; charset=utf-8
 cache-control: max-age=0, private, must-revalidate
-content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/ https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com snowplow.trx.gitlab.net https://sourcegraph.com/.api/; default-src 'self'; font-src 'self'; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com https://*.zuora.com/apps/PublicHostedPageLite.do; img-src * data: blob:; manifest-src 'self'; media-src 'self' data: http: https:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com https://*.zuora.com/apps/PublicHostedPageLite.do 'nonce-+89Wk5m+ssjvtY1y8zt5Hw=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:; form-action 'self' https: http: https:
-etag: W/"80ef0f9857e2a8322745b2f757272254"
+content-security-policy: base-uri 'self'; child-src https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://content-cloudresourcemanager.googleapis.com https://www.googletagmanager.com/ns.html https://*.zuora.com/apps/PublicHostedPageLite.do https://gitlab.com/admin/ https://gitlab.com/assets/ https://gitlab.com/-/speedscope/index.html https://gitlab.com/-/sandbox/ https://gitlab.com/assets/ blob: data:; connect-src 'self' https://gitlab.com wss://gitlab.com https://sentry.gitlab.net https://customers.gitlab.com https://snowplow.trx.gitlab.net https://sourcegraph.com snowplow.trx.gitlab.net https://sourcegraph.com/.api/; default-src 'self'; font-src 'self'; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://www.recaptcha.net/ https://content.googleapis.com https://content-cloudresourcemanager.googleapis.com https://content-compute.googleapis.com https://content-cloudbilling.googleapis.com https://*.codesandbox.io https://customers.gitlab.com https://*.zuora.com/apps/PublicHostedPageLite.do; img-src * data: blob:; manifest-src 'self'; media-src 'self' data: http: https:; object-src 'none'; report-uri https://sentry.gitlab.net/api/105/security/?sentry_key=a42ea3adc19140d9a6424906e12fba86; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/ https://apis.google.com https://*.zuora.com/apps/PublicHostedPageLite.do 'nonce-50yo61B2svv7b0LX92sMpw=='; style-src 'self' 'unsafe-inline'; worker-src https://gitlab.com blob: data:; form-action 'self' https: http: https:
+etag: W/"8c40312408674d883996e65c1f399d92"
 permissions-policy: interest-cohort=()
 pragma: no-cache
 referrer-policy: strict-origin-when-cross-origin
@@ -26,18 +26,18 @@ x-content-type-options: nosniff
 x-download-options: noopen
 x-frame-options: SAMEORIGIN
 x-permitted-cross-domain-policies: none
-x-request-id: 01GPZJRMXY2ZREZ78QFYBNHHD4
-x-runtime: 0.339415
+x-request-id: 01GQKQFDE639YW3QYPJWANFMNK
+x-runtime: 0.604354
 x-ua-compatible: IE=edge
 x-xss-protection: 1; mode=block
-gitlab-lb: fe-23-lb-gprd
+gitlab-lb: fe-08-lb-gprd
 gitlab-sv: web-gke-us-east1-d
 cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KvXNFop%2BgGJ%2Fq66dV4sAQQUvBehEC%2BaBVC%2BQ9mPKpjvxVfJgMF2AuigOSRuEJslqzrEkRxM1P0MaKfM0KnTb78Uw6mpOnvAVatk9ugqC1mpkLky8EyZINAJtV0w%3D"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yGTpW01zsg3Aahvqecg2wxufAZR2ur5YnBxSEaO0W3Y0w9YJh8xd6le%2FYxlLrdTFnyjK7YkuZXPQ26BDj0awX7stMLWHCpQP4bgL%2FKGZaiAtb3aqkkurzIpr1vI%3D"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
 strict-transport-security: max-age=31536000
-set-cookie: _gitlab_session=7ded74cfe7c6e28ae9fed5ececebd213; path=/; expires=Tue, 17 Jan 2023 12:00:31 GMT; secure; HttpOnly; SameSite=None
-set-cookie: _cfuvid=0Qi5zBfcbAlwesOujrOvDQgdLb4aC3IiizlFxXLxrPc-1673949631775-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
+set-cookie: _gitlab_session=a140cbc57954700b4dae4e615a8f6217; path=/; expires=Wed, 25 Jan 2023 07:47:40 GMT; secure; HttpOnly; SameSite=None
+set-cookie: _cfuvid=ohPZslaHFPG3iEQ8v1dDZI9g59_Sn.KJTNp5dSPCSuA-1674625660978-0-604800000; path=/; domain=.gitlab.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 78ae3e8c0e0d2010-IAD
+cf-ray: 78eeb728fbad8192-IAD
 

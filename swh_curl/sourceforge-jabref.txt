@@ -1,0 +1,56 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:38:58 GMT
+content-type: text/html
+content-length: 0
+location: http://www.jabref.org/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:33:49 GMT
+x-from: sfp-web-4
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3d0c6cdbe57d0-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.jabref.org/
+X-GitHub-Request-Id: F778:69FD:7E134:A9684:63D18879
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:38:58 GMT
+Via: 1.1 varnish
+Age: 2793
+X-Served-By: cache-iad-kcgs7200044-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1674679139.558936,VS0,VE1
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 86456937d8922a1566420328e0da2fb39fcfc7b1
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Mon, 23 Jan 2023 19:16:49 GMT
+access-control-allow-origin: *
+etag: "63cedd21-12693"
+expires: Wed, 25 Jan 2023 20:02:25 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: D852:48AC:88962:AC0E6:63D18879
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:38:58 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000025-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1674679139.589030,VS0,VE7
+vary: Accept-Encoding
+x-fastly-request-id: ccfeb3eabfbf32bb05e1b4bb2304b202882f1791
+content-length: 75411
+

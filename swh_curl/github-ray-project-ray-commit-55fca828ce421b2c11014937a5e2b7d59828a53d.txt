@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 24 Jan 2023 17:19:08 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=174.439253,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=533.365263,commit_show_header-fragment;desc="commit_show_header fragment";dur=133.150187,nginx;desc="NGINX";dur=0.568908,glb;desc="GLB";dur=10.92186
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/ray-project/ray/commit/55fca828ce421b2c11014937a5e2b7d59828a53d
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=CPVX7j9MJgkktiW90Ds9AdNpX9iENsd393b2Xi6m8bZrBVP9ylvCHqIrMcm%2F9ex5dOe%2F1K5cHvCB8g7h7hy4UuoSs7Bsh7R5ZLbk1VeeJ4xAwcF%2FSA7yrtDAt0%2BD30SG3Ae4SwMRGiqd4TXWhwmBxXWwpQIURurqk7WJaOtvnWXIM0Lx707BOnP5WT4w1FtvZAfWl3UZiLRhpZlHt0AiloHjr6G711%2FvVSXlXdPUmvoWC8jDUH6ozMum1ar5spFitMw0bM4hFHc4fJdPhOY9OA%3D%3D--I94KdmYTkj92%2FoFe--a7Mr70%2Fbtp4woZCFIv2LCg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.699605506.1674580748; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 17:19:08 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 17:19:08 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 89EA:16AB:1645B93:211C318:63D0130C
+

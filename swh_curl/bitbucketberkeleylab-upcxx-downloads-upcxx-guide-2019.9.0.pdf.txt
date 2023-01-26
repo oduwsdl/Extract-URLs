@@ -1,0 +1,39 @@
+HTTP/2 302 
+content-security-policy-report-only: connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; base-uri 'self'; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; object-src 'none'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -951561.786
+vary: Accept-Language, Origin
+x-usage-request-cost: 10979.33
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 15db3e23b38bfd27
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 25 Jan 2023 05:58:13 GMT
+x-usage-user-time: 0.282253
+x-usage-system-time: 0.047127
+location: https://bbuseruploads.s3.amazonaws.com/7ca07752-b51f-4dc7-9465-fbb2d66da7f6/downloads/135958ca-f16e-48e1-a87d-53639f4c8436/upcxx-guide-2019.9.0.pdf?response-content-disposition=attachment%3B%20filename%3D%22upcxx-guide-2019.9.0.pdf%22&AWSAccessKeyId=ASIA6KOSE3BNJJHXH2GI&Signature=hbrNbIUS9x3r%2F%2BfnYaX8quRnqhQ%3D&x-amz-security-token=FwoGZXIvYXdzEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDLP09lG9ohlfKPGjziK%2BAfUY9Dh7WaSdpg2d4tHhtnzA8V%2FtvrE%2BW2RwQsGj6R17i9RohagFUhUN4DayREntBzEbEP1h9ov2ZgmXOtF%2FXDzfq2utsRqC6%2FRmKz3iUwbhnSlUPedPTiBJikUR%2FSgiW8C1oUjKnHaRm%2B%2FTOlz1Gq3v4tuDiYdiB6JP5lPbC%2Fs2KgSYrDVEKZ2So8l2ZnaXP94DdzDMw%2FvVMBdBLH5ZsV4%2FHGbNr%2BrDN3Ow4dpcjCQWvnaPOqoBeR%2FONQ5jpAco9YnDngYyLcC5kz1NuqjkoYl05u%2BDsANaWRCZpCvpzeln3VXgi1t5kQNvBzY8mb3RJ06t3w%3D%3D&Expires=1674628093
+expires: Wed, 25 Jan 2023 05:58:13 GMT
+x-served-by: 3de7d1f6c7a7
+x-envoy-upstream-service-time: 457
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.downloads.views.download_file
+x-static-version: 0d1391d200cb
+x-render-time: 0.44409656524658203
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 0d1391d200cb
+x-request-count: 1587
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/1.1 403 Forbidden
+x-amz-request-id: 4J0JMDMT2X6D2K9X
+x-amz-id-2: w1Qdyk/7jkFVw8zrdP6CXKJ2rJ2llmHpfKgOqzftyhWhy5GNVFct8xplFhgan8vkOVzO6LOTueE=
+Content-Type: application/xml
+Date: Wed, 25 Jan 2023 05:58:12 GMT
+Server: AmazonS3
+

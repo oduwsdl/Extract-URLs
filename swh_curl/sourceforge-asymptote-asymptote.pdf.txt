@@ -1,0 +1,33 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:13:37 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 254
+location: https://asymptote.sourceforge.io/asymptote.pdf
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:13:21 GMT
+vary: Accept-Encoding
+cf-cache-status: MISS
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3aba1ebae3800-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:13:37 GMT
+content-type: application/pdf
+content-length: 1288720
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Mon, 23 Jan 2023 05:01:26 GMT
+etag: "13aa10-5f2e74a9865e3"
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:13:30 GMT
+x-from: sfp-ioweb-3
+strict-transport-security: max-age=31536000
+access-control-allow-origin: *
+cf-cache-status: MISS
+accept-ranges: bytes
+server: cloudflare
+cf-ray: 78f3aba31e3d05ed-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

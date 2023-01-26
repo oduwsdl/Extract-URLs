@@ -1,0 +1,60 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 21:01:33 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 228
+location: http://plantuml.com/
+cache-control: max-age=864000
+expires: Sat, 04 Feb 2023 21:01:17 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3f1d9cbdf5836-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public, max-age=86400
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 25 Jan 2023 21:01:33 UTC
+Display: staticcontent_sol
+Location: https://plantuml.com/
+Response: 301
+Server: Apache/2.4.39 (Ubuntu)
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Hit ds;mm;cc21b78cea27501d4d1e2b9bb8a93bd8;2-173770-390;912eb293-ff73-4277-6b76-1dae51d02828
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 301
+X-Origin-Cache-Control: 
+X-Sol: pub_site
+
+HTTP/2 200 
+cache-control: private, max-age=0, must-revalidate, no-cache, no-store
+content-type: text/html
+date: Wed, 25 Jan 2023 21:01:33 UTC
+display: pub_site_sol
+etag: "63cede64-1f42"
+expires: Tue, 24 Jan 2023 21:01:33 GMT
+last-modified: Tue, 24 Jan 2023 19:08:54 GMT
+pagespeed: off
+response: 200
+server: PlantUML/0.6
+set-cookie: ezoadgid_173770=-2; Path=/; Domain=plantuml.com; Expires=Wed, 25 Jan 2023 21:31:33 UTC
+set-cookie: ezoref_173770=; Path=/; Domain=plantuml.com; Expires=Wed, 25 Jan 2023 23:01:33 UTC
+set-cookie: ezosuibasgeneris-1=353b57f0-c0c0-459a-73b2-e40d2a9656c2; Path=/; Domain=plantuml.com; Expires=Thu, 25 Jan 2024 21:01:33 UTC; Secure; SameSite=None
+set-cookie: ezoab_173770=mod1-c; Path=/; Domain=plantuml.com; Expires=Wed, 25 Jan 2023 23:01:33 UTC
+set-cookie: active_template::173770=pub_site.1674680493; Path=/; Domain=plantuml.com; Expires=Fri, 27 Jan 2023 21:01:33 UTC
+set-cookie: ezopvc_173770=1; Path=/; Domain=plantuml.com; Expires=Wed, 25 Jan 2023 21:31:33 UTC
+set-cookie: ezepvv=221; Path=/; Domain=plantuml.com; Expires=Thu, 26 Jan 2023 21:01:33 UTC
+set-cookie: ezovid_173770=478609025; Path=/; Domain=plantuml.com; Expires=Wed, 25 Jan 2023 21:31:33 UTC
+set-cookie: lp_173770=https://plantuml.com/; Path=/; Domain=plantuml.com; Expires=Wed, 25 Jan 2023 21:31:33 UTC
+set-cookie: ezovuuidtime_173770=1674680493; Path=/; Domain=plantuml.com; Expires=Fri, 27 Jan 2023 21:01:33 UTC
+set-cookie: ezovuuid_173770=34597761-c2ba-4f14-4e12-90c4971de948; Path=/; Domain=plantuml.com; Expires=Wed, 25 Jan 2023 21:31:33 UTC
+vary: Accept-Encoding,User-Agent
+x-donate: https://plantuml.com/paypal
+x-ezoic-cdn: Hit ds;mm;303c567922f7e338f06f92962a7d2270;2-173770-390;7f4659b4-ae20-46f8-6aed-e377d67af6ce
+x-middleton-display: pub_site_sol
+x-middleton-response: 200
+x-origin-cache-control: max-age=30118
+x-patreon: Support us on https://plantuml.com/patreon
+x-sol: pub_site
+

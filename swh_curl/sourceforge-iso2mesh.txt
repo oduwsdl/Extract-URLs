@@ -1,0 +1,64 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:38:22 GMT
+content-type: text/html
+content-length: 2
+location: http://iso2mesh.sf.net/cgi-bin/index.cgi
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:38:09 GMT
+x-from: sfp-web-7
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3cfe58d5c8221-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:38:22 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Wed, 25 Jan 2023 21:38:22 GMT
+Location: https://iso2mesh.sf.net/cgi-bin/index.cgi
+Server: cloudflare
+CF-RAY: 78f3cfe65acb173f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:38:22 GMT
+content-type: text/html; charset=iso-8859-1
+location: http://iso2mesh.sourceforge.net/cgi-bin/index.cgi
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:38:12 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 78f3cfe6b8848027-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:38:22 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Wed, 25 Jan 2023 21:38:22 GMT
+Location: https://iso2mesh.sourceforge.net/cgi-bin/index.cgi
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 78f3cfe97b4a819d-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:38:28 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=0
+expires: Wed, 25 Jan 2023 20:38:09 GMT
+x-from: sfp-web-2
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3cfe9aba88221-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 24 Jan 2023 14:42:59 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=301.361933,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=418.275016,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=141.993674,nginx;desc="NGINX";dur=1.981746,glb;desc="GLB";dur=8.112824
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/p4lang/p4-spec/issues/411
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=OkBXAYy%2B8Q%2BS%2BJHC0uROQo2dyeSNZpv3E1gsp7l%2FqgY3Rm8OPqOZoYPaqRKqTQZYrAG8TBn3EGmLdP7w%2BRSBVu9nfTYiOiLvyYi4cF4GkFIfSzO1Ubg8RZcbTsaITFVCEtFLjufeE0qgY90tjn5rqPV1l2UfHEdracQosWO9pFIFz%2FoQfWIFgoQQcSfnh40o51Q3pOQ3fqMpFbi8yXT%2Fi2UAFjyituyyE%2F0%2BtZP6j8IZ3nOpkdyR3J3BUL%2FvzERhlIJbYd%2BHCxWoeQ2PpsQwzg%3D%3D--umAQtifbX3%2FXi4tM--DqBKsd%2Fvzph2Wu0GQMCnsA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.847309275.1674571379; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 14:42:59 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 14:42:59 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: A1AA:3041:8BA8E95:C5DD183:63CFEE73
+

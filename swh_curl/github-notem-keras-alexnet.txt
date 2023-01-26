@@ -1,21 +1,19 @@
 HTTP/2 200 
 server: GitHub.com
-date: Mon, 16 Jan 2023 17:43:39 GMT
+date: Tue, 24 Jan 2023 13:30:49 GMT
 content-type: text/html; charset=utf-8
-cache-control: max-age=0, private, must-revalidate
-content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
-referrer-policy: no-referrer-when-downgrade
-server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=147.003283,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=243.568763,commit_show_header-fragment;desc="commit_show_header fragment";dur=148.457617,nginx;desc="NGINX";dur=1.696167,glb;desc="GLB";dur=6.791262
-strict-transport-security: max-age=31536000; includeSubdomains; preload
 vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-x-content-type-options: nosniff
+etag: W/"a0260fd6852ef28f95c8ef080ba4e0c5"
+cache-control: max-age=0, private, must-revalidate
+strict-transport-security: max-age=31536000; includeSubdomains; preload
 x-frame-options: deny
-x-pjax-url: https://github.com/notem/keras-alexnet/commit/94638c596ca6f3f474241e8a058fd893e1f5ffaa
-x-voltron-version: cc85742
+x-content-type-options: nosniff
 x-xss-protection: 0
-set-cookie: _gh_sess=p3aQq7O2zzwRVtPqA4MTKG8TLXRGyfPmPYr7V6L2DbxJVvHAlM4PLTnRwXZDEKUZ45SNApU7%2BNrR9aHvvvhpX2%2BlzZZhC91FeWxnbzC5DkSC8t6Q9PZfFs9AcuEOWbE4mgZud6b%2FNCK49J%2FzjSUIS%2FwubN0tvSGuqUjNYO0wm4Thr6z2DsnWo%2FHipCnZ19wxZu0MtJIM8cCxw%2FZyXPHkEEVZPeethh1Jxug%2F423sA2HoG%2FZp1VmYMSOAKjlyFJ0IoY2zFjoFc%2BffQlDpjl6G2Q%3D%3D--UQm6pqOiYEiXECfB--bxC7LYc9Xm4d7I3szfLd1w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-set-cookie: _octo=GH1.1.1317117613.1673891019; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 17:43:39 GMT; Secure; SameSite=Lax
-set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 16 Jan 2024 17:43:39 GMT; HttpOnly; Secure; SameSite=Lax
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=wd9to0ZPN0Nyt3HZflp%2FnoRn%2FVgcMCDeIDGc3APX%2FbAW3GtP%2B%2B978yaZZBVV5rZbiGJsHA3p%2BxpvkXbFsKUiPw9DfA76U3zuiZ0b9FcQtC0wYILNCcAgn9o5HH8wisozvDlEEoiNLWGo5vBFMhnYlaJDBOegaA1xYfBSoXZmKUV%2B10ooLA0QEmgNBtat4iyYRb7BOO7dh3eFZmXnxtcUtdAZamjbcXbnUs6bUBa7vT2t4WaaJAksb%2B8ggSHNzM6B%2FJuKuCqPwe1gR4MdqAgq6A%3D%3D--DHtTl3JSvp3oweYo--6KNDCKEv%2FAG%2B5EcJeZ7QRQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1282422724.1674567049; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 13:30:49 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 13:30:49 GMT; HttpOnly; Secure; SameSite=Lax
 accept-ranges: bytes
-x-github-request-id: 9A40:11F6:496382:6F3CC4:63C58CCB
+x-github-request-id: 9ED4:21DF:7EB1578:B5073D8:63CFDD89
 

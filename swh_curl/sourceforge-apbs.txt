@@ -1,0 +1,52 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:12:19 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 245
+location: http://www.poissonboltzmann.org/apbs/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:12:09 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3a9bd0e3658c0-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.poissonboltzmann.org/apbs/
+X-GitHub-Request-Id: 1AB4:9268:79059:9D56A:63D18937
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:12:19 GMT
+Via: 1.1 varnish
+Age: 1004
+X-Served-By: cache-iad-kiad7000167-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1674677540.507151,VS0,VE8
+Vary: Accept-Encoding
+X-Fastly-Request-ID: f5384f78191de5c8999e5c0faee76d5b1a0d7a26
+
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+etag: "63cf03be-247b"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-proxy-cache: MISS
+x-github-request-id: D616:7FFB:8F67F:B3AF8:63D18938
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:12:19 GMT
+via: 1.1 varnish
+age: 1003
+x-served-by: cache-iad-kiad7000048-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1674677540.544233,VS0,VE2
+vary: Accept-Encoding
+x-fastly-request-id: 5cb7237f504e6916677d496ad434a3b81cd2cdab
+content-length: 9339
+

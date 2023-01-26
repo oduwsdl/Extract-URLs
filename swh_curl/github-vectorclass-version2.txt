@@ -1,41 +1,19 @@
-HTTP/2 302 
+HTTP/2 200 
 server: GitHub.com
-date: Tue, 17 Jan 2023 05:15:38 GMT
+date: Wed, 25 Jan 2023 01:11:20 GMT
 content-type: text/html; charset=utf-8
 vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/200029512/cfa76900-7bdf-11ea-8939-d6a157aaf7fc?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230117T051538Z&X-Amz-Expires=300&X-Amz-Signature=6885c9e4521978853201389c678e95740c4dc6378886411c45bb72ca196a288c&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=200029512&response-content-disposition=attachment%3B%20filename%3Dvcl_manual.pdf&response-content-type=application%2Foctet-stream
-cache-control: no-cache
+etag: W/"de2373131781b1255a365cc325a4ef43"
+cache-control: max-age=0, private, must-revalidate
 strict-transport-security: max-age=31536000; includeSubdomains; preload
 x-frame-options: deny
 x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: no-referrer-when-downgrade
 content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
-content-length: 0
-x-github-request-id: 93A0:2F00:42D01B7:604584D:63C62EFA
-
-HTTP/2 200 
-content-type: application/octet-stream
-content-md5: 1D7ZUbEfcapAKXnCcJMeag==
-last-modified: Tue, 07 Dec 2021 06:01:43 GMT
-etag: "0x8D9B9470B2E50F6"
-server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
-x-ms-request-id: 71eb39fd-501e-005b-6c32-2a1b5e000000
-x-ms-version: 2020-04-08
-x-ms-creation-time: Tue, 17 Aug 2021 04:38:13 GMT
-x-ms-lease-status: unlocked
-x-ms-lease-state: available
-x-ms-blob-type: BlockBlob
-content-disposition: attachment; filename=vcl_manual.pdf
-x-ms-server-encrypted: true
-fastly-restarts: 1
+set-cookie: _gh_sess=tRiQaAUiBp0fn6hQPXoO40P8uq9LUsMdVCAi%2BOkM2dzQiPuB1e3W49Jk7aWgvdo2PxNzmxmy0FONTP7UUZZIpZ9cV46i7dOW4mY1b7W0UruPtqqVf%2BDRTpR4e6WyI5U8ifWrA5twjSzpXbxfKb44NPp4Ap96fLOn7TtkAHLasQuevuTKxRqs%2BVCUEvcEnUdJnycHC3BRgiL%2BsKSv6HSxGMUWOHMisTQYgz2LdMW%2BB%2B7%2Fvq8SssDWM7IfRBFKpj9GJYgDFw5B0vyGyGBDgWpscQ%3D%3D--LpL8MGiLReLecGB%2B--Q4l5lBYdAVGjKd%2FsdH1o3g%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.792841707.1674609080; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 01:11:20 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 01:11:20 GMT; HttpOnly; Secure; SameSite=Lax
 accept-ranges: bytes
-date: Tue, 17 Jan 2023 05:15:38 GMT
-via: 1.1 varnish
-age: 0
-x-served-by: cache-iad-kcgs7200125-IAD
-x-cache: MISS
-x-cache-hits: 0
-x-timer: S1673932539.506928,VS0,VE77
-content-length: 645127
+x-github-request-id: C0E8:2F5A:1FECDEA:2F46CF2:63D081B8
 

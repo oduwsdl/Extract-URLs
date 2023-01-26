@@ -1,0 +1,56 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:40:55 GMT
+content-type: text/html
+content-length: 0
+location: http://www.jikesrvm.org/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:40:45 GMT
+x-from: sfp-web-3
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3d3a1ca1a05fd-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.jikesrvm.org/
+X-GitHub-Request-Id: A536:3CD4:B3BC6:E34B1:63D193D7
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:40:55 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200119-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674679256.542268,VS0,VE5
+Vary: Accept-Encoding
+X-Fastly-Request-ID: caf54aa6ab49a72e2dde492b854daa2009957631
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Mon, 27 Dec 2021 13:15:36 GMT
+access-control-allow-origin: *
+etag: "61c9bc78-18bc"
+expires: Wed, 25 Jan 2023 20:50:57 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 0E56:547D:AA1D0:D9F5D:63D193D9
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:40:57 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000146-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674679257.141933,VS0,VE8
+vary: Accept-Encoding
+x-fastly-request-id: ec410f7ea2f78e8eda371570f51fc524ef03363c
+content-length: 6332
+

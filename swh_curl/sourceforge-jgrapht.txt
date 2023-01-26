@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:40:48 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 231
+location: http://www.jgrapht.org/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:40:45 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3d3793cf45740-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://jgrapht.org/
+X-GitHub-Request-Id: 727C:7DCC:A861D:D82CE:63D193D1
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:40:49 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200079-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674679249.075805,VS0,VE4
+Vary: Accept-Encoding
+X-Fastly-Request-ID: f2c2476a8526a5648720953d1967ce40b73aa9a7
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Tue, 25 Oct 2022 14:35:49 GMT
+access-control-allow-origin: *
+etag: "6357f445-4497"
+expires: Wed, 25 Jan 2023 19:09:15 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 6882:37CA:470D5:5CCD4:63D17C03
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:40:50 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kcgs7200097-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1674679251.836613,VS0,VE6
+vary: Accept-Encoding
+x-fastly-request-id: dae72ec2f7b260cd45474a4e848499289dc0fafc
+content-length: 17559
+

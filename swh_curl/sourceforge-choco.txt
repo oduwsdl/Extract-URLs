@@ -1,0 +1,56 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:20:20 GMT
+content-type: text/html
+content-length: 0
+location: http://choco-solver.org/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:20:17 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3b57c0b162429-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://choco-solver.org/
+X-GitHub-Request-Id: DC80:152F:A6CD4:D1232:63D18F04
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:20:20 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kiad7000121-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674678021.878315,VS0,VE5
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 2a2208a05e3121b2df6b70a55f96911b815ef6a7
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Fri, 02 Dec 2022 15:55:27 GMT
+access-control-allow-origin: *
+etag: "638a1fef-3c34"
+expires: Wed, 25 Jan 2023 20:30:22 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 13F6:0A7F:8739A:B06AD:63D18F06
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:20:22 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000062-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674678022.458995,VS0,VE8
+vary: Accept-Encoding
+x-fastly-request-id: 17f0365166b17dd76526c886f32d25ca40d2c04d
+content-length: 15412
+

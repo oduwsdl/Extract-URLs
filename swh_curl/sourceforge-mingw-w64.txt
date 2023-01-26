@@ -1,0 +1,60 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:51:49 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 228
+location: http://mingw-w64.org
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:51:46 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3e39b0e8c5890-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 307 Temporary Redirect
+Location: http://www.mingw-w64.org/
+Date: Wed, 25 Jan 2023 20:51:49 GMT
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.mingw-w64.org/
+X-GitHub-Request-Id: 6832:04F4:B004A:E260D:63D19666
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:51:50 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200100-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674679910.033686,VS0,VE5
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 067e56e17b5e28dc63d8e252660126b06e336632
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Sat, 21 Jan 2023 11:02:32 GMT
+access-control-allow-origin: *
+etag: "63cbc648-5e00"
+expires: Wed, 25 Jan 2023 21:01:50 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 23B0:2D99:AD6ED:DFCCF:63D19666
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:51:50 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000117-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674679910.074203,VS0,VE7
+vary: Accept-Encoding
+x-fastly-request-id: 95399bfc9cec01f647002055365870d29944a3d8
+content-length: 24064
+

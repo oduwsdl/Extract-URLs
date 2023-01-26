@@ -1,0 +1,29 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:51:53 GMT
+content-type: text/html
+content-length: 0
+location: http://constraintmodelling.org/minion/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:51:42 GMT
+x-from: sfp-web-3
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3e3ac68808f20-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 302 Found
+Date: Wed, 25 Jan 2023 20:51:54 GMT
+Server: Apache/2.4.37 (AlmaLinux) OpenSSL/1.1.1k
+Location: https://constraintmodelling.org/minion/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Wed, 25 Jan 2023 20:51:55 GMT
+Server: Apache/2.4.37 (AlmaLinux) OpenSSL/1.1.1k
+Link: <https://constraintmodelling.org/?p=16>; rel=shortlink
+Strict-Transport-Security: max-age=15552000; includeSubdomains;
+Content-Type: text/html; charset=UTF-8
+

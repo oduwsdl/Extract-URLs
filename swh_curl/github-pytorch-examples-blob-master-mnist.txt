@@ -1,0 +1,57 @@
+HTTP/2 302 
+server: GitHub.com
+date: Tue, 24 Jan 2023 16:32:10 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+location: https://github.com/pytorch/examples/blob/main/mnist
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=Xh5w5uaXLEsZNwQHiWKaHYBvjqnIWpySbyD2C3b5i6rARkzhQoSzB7t4jZ0yORUHXcHRRjrlZuC%2F4ODUIaLQKFRyHX5OA3yhm5U6oO4HHBHrl%2BdE0LFBIMavdJfvdXehoUwSuKssn8m26BnSLiSAFZITuhlZTcKbwc3CUly8oGXo0DqbmZFQp16lwrRXCJRexsgOweJ9OKhqczyOLr7HuSgF8v6td4zDrFYj60A3LLhnOMJhkDgBwrYyHDQW6Ud2BfwP%2FC4CD%2F8NBiOL3Cmz3Q%3D%3D--jZSZJZg4I6wsH%2BHy--uGk6sU8pAfmIhD7XWxIbRw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.265375895.1674577930; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 16:32:10 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 16:32:10 GMT; HttpOnly; Secure; SameSite=Lax
+content-length: 0
+x-github-request-id: D3DC:26ED:10CDEF:19EC83:63D0080A
+
+HTTP/2 301 
+server: GitHub.com
+date: Tue, 24 Jan 2023 16:32:10 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+location: https://github.com/pytorch/examples/tree/main/mnist
+cache-control: no-cache
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=xnbG2DDsFVm8bgaUsvJ3zt39VJMwwLEVmt4GYpqZJ8DVf%2BHVllR45bG3E0PI274qTEDd4dbYKh705W6wLmBG34X97BQErAzsLrx28WaBR3fpGnIFVxjmgFuG9VaL2PBZnKJ78H4%2FhZ2BTxWg%2Bx38Y2oK%2BO0V8zQlg4J2MlYJierxXAQuqMpYaEHLNuTKmC%2BvW9dYZ6FAHCMrdfv1YqEX%2FJnPr8XRhKChv990B8DE9BXtC6Y2FoRIxMZwnGF%2BWJv0JancIjFEzIn2XB9W55si1A%3D%3D--R7ZtmUuWagSQMjIv--aErad%2Fz%2BQ%2F6K%2Buqm2jH%2BxQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1880161256.1674577930; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 16:32:10 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 16:32:10 GMT; HttpOnly; Secure; SameSite=Lax
+content-length: 0
+x-github-request-id: D3DC:26ED:10CE17:19ECCD:63D0080A
+
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 24 Jan 2023 16:32:10 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+etag: W/"f2442d09efed43a55198e62ee1e5cf31"
+cache-control: max-age=0, private, must-revalidate
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=oHZ48skZVFaJmS3cnpIqGlAhukrFKKCBWLnNE5w%2BC0YrmZKn%2F5bq3C9CTjJwfLUZ1zpKknsgWw5itndR8nemmyStLS1LVNPS79tyw2SBa5T1OlnDlfqAaTGPFuhHoniWPRgCg884nQ%2Bpu9GElvRM5vFhhb%2BnwUYvsMJtta2K3zZJ2W7r0CH%2BFb%2FJ8Qs34fUX92OQQBYMXKFYo62qiTGd0EJOZ8hmr9eGHjrqm%2FgW1WaCFhnyEDjYHs623RM2DPEzNWi9dBL0dTGbKfWfz34MoA%3D%3D--tC%2B8HQSkVEt81Rql--Lj7rUX9BAW06WOHIHO4w2A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1354335650.1674577930; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 16:32:10 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 16:32:10 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: D3DC:26ED:10CE37:19ECFA:63D0080A
+

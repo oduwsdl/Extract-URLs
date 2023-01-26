@@ -1,0 +1,61 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:27:46 GMT
+content-type: text/html
+content-length: 0
+location: http://sites.google.com/site/bioericscript
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:27:33 GMT
+x-from: sfp-web-7
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3c05d6dcb9c55-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 302 Moved Temporarily
+Location: https://sites.google.com/site/bioericscript
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 25 Jan 2023 20:27:46 GMT
+Expires: Wed, 25 Jan 2023 20:27:46 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+
+HTTP/2 302 
+content-type: text/html; charset=UTF-8
+location: /site/bioericscript/
+date: Wed, 25 Jan 2023 20:27:48 GMT
+expires: Wed, 25 Jan 2023 20:27:48 GMT
+cache-control: private, max-age=0
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+accept-ranges: none
+vary: Accept-Encoding
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-frame-options: SAMEORIGIN
+x-robots-tag: noarchive
+last-modified: Sat, 21 Jan 2023 03:29:14 GMT
+etag: "1674271754000|#public|0|en|||0|1442261758|503568323"
+expires: Wed, 25 Jan 2023 20:27:48 GMT
+date: Wed, 25 Jan 2023 20:27:48 GMT
+cache-control: private, max-age=5
+content-length: 38203
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

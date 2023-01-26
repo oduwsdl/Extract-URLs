@@ -1,0 +1,32 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:55:13 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 262
+location: https://ngspice.sourceforge.io/docs/ngspice-manual.pdf
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:55:10 GMT
+vary: Accept-Encoding
+cf-cache-status: MISS
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3e8943cec56d4-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:55:13 GMT
+content-type: application/pdf
+content-length: 2442174
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Sat, 29 Oct 2022 14:00:58 GMT
+etag: "2543be-5ec2ccdc15f1b"
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:55:12 GMT
+x-from: sfp-ioweb-1
+strict-transport-security: max-age=31536000
+cf-cache-status: REVALIDATED
+accept-ranges: bytes
+server: cloudflare
+cf-ray: 78f3e8952e5e1737-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

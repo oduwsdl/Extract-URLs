@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 24 Jan 2023 19:22:53 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=300.151452,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=377.958212,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=122.595806,nginx;desc="NGINX";dur=1.009517,glb;desc="GLB";dur=8.951602
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/scala/bug/issues/4054
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=CzjydNewHxzLiWP7cLV3VL9%2Fz64sFLNRqZ7NnxLI%2BLXeIcX6dxqiqlsADlFiKAE7qRPlWBDKUmvXsAG6HG5vb57CyGMw6ZEx4kZg9ffA56QdXGN8jcIG2n3BuavOdvEawhS1zHF9aNAQ9NdQ5W1EVzriuMvsxZlcDWf4RJvrekmQqbSQh20aLdbhMsDMKdlKp4DROD1NVTBeHeGaiDefo7srLCve9PlZQrOYC1oOny95B0EUmbFZ52xKBCO4I3NZxR92KN5xqPdSIDRZHKZrzA%3D%3D--uCiz3OYt7VHh81h8--t%2Bp5X5v07LvonbcaT9zHgg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.2114103000.1674588173; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 19:22:53 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 19:22:53 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 81AE:6921:6438916:929517C:63D0300D
+

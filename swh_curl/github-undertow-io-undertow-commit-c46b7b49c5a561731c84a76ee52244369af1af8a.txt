@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Wed, 25 Jan 2023 00:43:38 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: repo_layout-fragment;desc="repo_layout fragment";dur=125.99083,commit_show_contents-fragment;desc="commit_show_contents fragment";dur=229.866241,commit_show_header-fragment;desc="commit_show_header fragment";dur=80.126448,nginx;desc="NGINX";dur=0.589358,glb;desc="GLB";dur=6.558256
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/undertow-io/undertow/commit/c46b7b49c5a561731c84a76ee52244369af1af8a
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=aAh1g2ZMRoHiyBXNdoKnbLi6gb876cZJMLP7pCMsIh9pkQkKoMufjqES6eNNDIk0csC2h77N6QC4ge33phoUhwR6sWV9kqQGus4GLBav3ksPVeFCvGQxjcryZ2thIFryKKYuYrh4Ewiu8YhWPi%2BEBcjeUXk8mI%2FO1%2FYfK6wAMTMhUe%2FPpGnQn63kaqNMRhgC7cYnG%2FMP7n54ETjVBAD6rWX17IfQv7h2WhaEd2kxQWRBbRNuyIdYC4rF6aUktjp46eMH10wRPkw%2B9Rqk1ozNYw%3D%3D--werpIXtBLw2GjzEz--eWV1f%2FbJ4E2Y1B%2BSi3DbUw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1763584369.1674607418; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 00:43:38 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 00:43:38 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: 9EBC:791E:6F265C7:A1B9E9D:63D07B3A
+

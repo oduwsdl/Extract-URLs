@@ -1,22 +1,19 @@
-HTTP/2 301 
-content-length: 0
-location: https://github.com/sunqm/pyscf”
-
-HTTP/2 404 
+HTTP/2 200 
 server: GitHub.com
-date: Tue, 17 Jan 2023 09:09:49 GMT
-content-type: text/plain; charset=utf-8
+date: Tue, 24 Jan 2023 22:05:36 GMT
+content-type: text/html; charset=utf-8
 vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-cache-control: no-cache
+etag: W/"b47523a91b4bcf4e6c71f05d6a71dfdc"
+cache-control: max-age=0, private, must-revalidate
 strict-transport-security: max-age=31536000; includeSubdomains; preload
 x-frame-options: deny
 x-content-type-options: nosniff
 x-xss-protection: 0
-referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
-content-security-policy: default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'
-set-cookie: _gh_sess=%2Bxb1zPH2A%2BaVjed4ytUJPwyjXjfwgcLnmThTFm3cF%2FxsGOFxHYNZSRp6u8ft%2BEWSvu%2BDd74LYVNlLdFxwodRufmp579Lcp8NKNQ9MU4ilaPLsQITwoFwbjdiUPl2%2FI7pxZrEkEqCbcvBHghKSwe8VHpr7EKHCeSTE1JmXFp5SE%2FXnFdxNII7%2FUY%2F7ErvgpdILJn%2FWXIcrXzHjiNb%2BayC9armB2UEoUvCE5t3nsy6T0to1to9xehDl8CNgmqtZRCCGrn7R0pBgR07yeDLumQkFA%3D%3D--z0cDpov9iOYQdPSP--UCva%2Bt0y0i9O1qWe%2FcQS8g%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-set-cookie: _octo=GH1.1.949985631.1673946589; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 09:09:49 GMT; Secure; SameSite=Lax
-set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 09:09:49 GMT; HttpOnly; Secure; SameSite=Lax
-content-length: 9
-x-github-request-id: A37E:2F00:476D02D:6722EDC:63C665DD
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=12TNvoZHPw7WMrQFlIzNJmrJ5ixv7Ih7C3iAU73lEqoG6Z93eENAbk%2BR2BOZczi91f2mgno5BIr1NC9ms3NIIVsxk4HThmapChugN%2FWkTRMM636Va7bIyjh8hGxP%2BTuMOhUc%2BlYi9L9%2FWZNF4WbYdBJFSXYxgRLN%2B88WmGWRV%2FXGwRIh9nga5LryjwJn8PtoLBKv64VA10Pm7Fe%2FLwlB0G6c%2FiBWr%2BcIuMNL%2B2W6H6nAXl4p54eX7Sf2lBUvmSYnjjb%2FJE3XnYcQnOirdhFOSA%3D%3D--GITF6V6%2B%2BflDKZhw--g30tOFxM0vKtQXPSLEfmlA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1067892355.1674597936; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 22:05:36 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 22:05:36 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CFF8:3522:1F64CC7:2E9BE86:63D05630
 

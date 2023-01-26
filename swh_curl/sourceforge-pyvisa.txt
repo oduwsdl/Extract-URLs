@@ -1,0 +1,80 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 21:23:19 GMT
+content-type: text/html
+content-length: 0
+location: https://pyvisa.readthedocs.org/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 22:23:13 GMT
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f411bd9b6b2d27-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Wed, 25 Jan 2023 21:23:19 GMT
+content-type: text/html
+content-length: 162
+location: https://pyvisa.readthedocs.io/
+x-backend: web-i-0b62f6f8d5140813a
+x-served: Nginx-Domain-Redirect
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=45b9uiR6oHqdKt6qwzkiVC7eELUfUPw18vFdpu98tQs-1674681799-0-Ab+RMpecJ/arNGRIEjsm/jn/lNS/YFpIAm92ypPiL4moBmhc5bQETqwaPrlg+k7pgqy8u1cfNNXoeRHdzVI8qyM=; path=/; expires=Wed, 25-Jan-23 21:53:19 GMT; domain=.readthedocs.org; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 78f411beee5805e8-IAD
+
+HTTP/2 302 
+date: Wed, 25 Jan 2023 21:23:20 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+location: https://pyvisa.readthedocs.io/en/latest/
+x-rtd-redirect: system
+x-rtd-domain: pyvisa.readthedocs.io
+x-rtd-project: pyvisa
+x-rtd-project-method: subdomain
+x-rtd-version-method: path
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+referrer-policy: no-referrer-when-downgrade
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+vary: Accept-Language, Cookie
+content-language: en
+x-served: Django-Proxito
+x-backend: web-i-0593b71752c7dce3b
+cf-cache-status: EXPIRED
+expires: Thu, 26 Jan 2023 21:23:20 GMT
+cache-control: public, max-age=86400
+server: cloudflare
+cf-ray: 78f411c3de15577c-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 21:23:20 GMT
+content-type: text/html
+vary: Accept-Encoding
+x-amz-id-2: RyQRyFQUpR6hfPEcGO0qYpUEDSBawhHahfAD38CVQ5zDoSw7yloFywvPVHL2byXQW8EdX3p1Y8I=
+x-amz-request-id: 09AFX1T64W6DTW4M
+last-modified: Fri, 20 Jan 2023 13:12:38 GMT
+etag: W/"2d6e04961441b3b3a148d8cfed75c66b"
+x-amz-server-side-encryption: AES256
+x-served: Nginx-Proxito-Sendfile
+x-backend: web-i-0e162226ae2949381
+x-rtd-project: pyvisa
+x-rtd-version: latest
+x-rtd-path: /proxito/html/pyvisa/latest/index.html
+x-rtd-domain: pyvisa.readthedocs.io
+x-rtd-version-method: path
+x-rtd-project-method: subdomain
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+age: 4059
+expires: Thu, 26 Jan 2023 21:23:20 GMT
+cache-control: public, max-age=86400
+server: cloudflare
+cf-ray: 78f411c49f36577c-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,56 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:38:15 GMT
+content-type: text/html
+content-length: 0
+location: http://isa-tools.org
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:38:01 GMT
+x-from: sfp-web-2
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3cfba884a201b-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://isa-tools.org/
+X-GitHub-Request-Id: E212:4C6F:B926F:E8546:63D19337
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:38:15 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kiad7000135-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674679096.936087,VS0,VE5
+Vary: Accept-Encoding
+X-Fastly-Request-ID: bb95ccb85caf86677cbb71d4bd2d6fd570c5ccd5
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Sun, 25 Apr 2021 17:02:03 GMT
+access-control-allow-origin: *
+etag: "6085a08b-a1c6"
+expires: Wed, 16 Nov 2016 17:47:47 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 33C4:1BE8:B3279:ECDE4:63D19339
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:38:17 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kcgs7200057-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674679098.534747,VS0,VE10
+vary: Accept-Encoding
+x-fastly-request-id: 38c6540656f36d78683b04e29dd3b147d99269ec
+content-length: 41414
+

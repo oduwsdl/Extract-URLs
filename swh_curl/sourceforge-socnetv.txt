@@ -1,0 +1,49 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 21:31:29 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 227
+location: http://socnetv.org/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 22:31:17 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f41db6ed4ac1f2-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 21:31:29 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Wed, 25 Jan 2023 22:31:29 GMT
+Location: https://socnetv.org/
+Server-Timing: cf-q-config;dur=8.000002708286e-06
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Jw14qPGJGK%2FFQCZjsTPD4bAUQRrd2UO%2BTqCx79IyR9b1CfENueGg7F4cdZTetKdu4EPxGEA2bB6do6FbC1QpuH2hzT49GPxjqit%2BrfUy9HcN%2F3%2By4JuprTA1%2BYCSTA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 78f41db7eedd2018-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 21:31:30 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+x-frame-options: SAMEORIGIN
+x-fastcgi-cache: MISS
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=(),interest-cohort=()
+x-permitted-cross-domain-policies: none
+content-security-policy: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob:; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src https: data:; connect-src https: wss:; child-src https: blob:; object-src 'none'; base-uri 'none'; frame-ancestors 'self';
+cf-cache-status: DYNAMIC
+server-timing: cf-q-config;dur=7.0000023697503e-06
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mF1UE3SE70MbMpxfNZNVy7pJiup3mPoLzX%2Fk7oJ%2F1q1lRiuyr%2Bl%2FMe2tabZQJgM99FKA15rIxQ96%2BIQtAK1ep5gtgSM9%2BTGW96fxoGckzhccx5ChlN8f%2FhxUzdlZ%2Bw%3D%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 78f41db99dec9c85-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,55 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 22:12:30 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 250
+location: http://www.statsmodels.org/stable/glm.html
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 23:12:14 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f459c70d94208d-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.statsmodels.org/stable/glm.html
+X-GitHub-Request-Id: 7F16:0C58:E67C1:12D5E7:63D1A94E
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 22:12:30 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200089-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674684751.778667,VS0,VE6
+Vary: Accept-Encoding
+X-Fastly-Request-ID: f6a4d917e4c2598c8fd4f3709b8addef9427f274
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+x-origin-cache: HIT
+last-modified: Wed, 18 Jan 2023 00:30:09 GMT
+access-control-allow-origin: *
+etag: "63c73d91-e069"
+expires: Wed, 25 Jan 2023 22:22:30 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 3F26:5884:117AB2:15EF68:63D1A94E
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 22:12:30 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kcgs7200174-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674684751.815572,VS0,VE6
+vary: Accept-Encoding
+x-fastly-request-id: 0704670027458dea70630749db4aa48879dcc835
+content-length: 57449
+

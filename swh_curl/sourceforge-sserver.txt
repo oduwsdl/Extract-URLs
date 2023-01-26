@@ -1,0 +1,59 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 22:12:06 GMT
+content-type: text/html
+content-length: 0
+location: http://rcsoccersim.github.io/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 23:11:50 GMT
+x-from: sfp-web-4
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f45931b8bb82ab-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+permissions-policy: interest-cohort=()
+Location: https://rcsoccersim.github.io/
+X-GitHub-Request-Id: 488E:547D:F4093:13B297:63D1A936
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 22:12:06 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200040-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674684726.242967,VS0,VE7
+Vary: Accept-Encoding
+X-Fastly-Request-ID: f5495dac1c722839ae0bb6433fd247fd0740271a
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+permissions-policy: interest-cohort=()
+last-modified: Tue, 01 Nov 2022 07:27:14 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6360ca52-1fae"
+expires: Wed, 25 Jan 2023 22:22:06 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: D0AA:9268:F014A:13744E:63D1A936
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 22:12:06 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kcgs7200129-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674684727.949674,VS0,VE8
+vary: Accept-Encoding
+x-fastly-request-id: 5d07a8ec4b9f55323198d3bc2ede9785617ba719
+content-length: 8110
+

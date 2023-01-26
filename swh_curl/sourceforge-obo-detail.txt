@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:56:20 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 234
+location: http://www.obofoundry.org/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:56:17 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3ea39f80d81b7-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://obofoundry.org/
+X-GitHub-Request-Id: 3ED8:1BE8:C4AAD:10409B:63D19773
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:56:20 GMT
+Via: 1.1 varnish
+Age: 2
+X-Served-By: cache-iad-kcgs7200112-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1674680181.952651,VS0,VE1
+Vary: Accept-Encoding
+X-Fastly-Request-ID: e3928fa2f7566e1b33fe79bbd90d8a3114df057d
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Tue, 24 Jan 2023 12:41:30 GMT
+access-control-allow-origin: *
+etag: "63cfd1fa-c992c"
+expires: Wed, 25 Jan 2023 21:06:19 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 5D38:65B7:C356C:102B16:63D19773
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:56:20 GMT
+via: 1.1 varnish
+age: 1
+x-served-by: cache-iad-kiad7000090-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1674680181.986012,VS0,VE4
+vary: Accept-Encoding
+x-fastly-request-id: 1359ae48684a8b190b8f0adb3a1ba003713265aa
+content-length: 825644
+

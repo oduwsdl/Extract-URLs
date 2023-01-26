@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:34:18 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 238
+location: http://graphstream-project.org
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:34:12 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3c9f0899781c7-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://graphstream-project.org/
+X-GitHub-Request-Id: 813C:37CA:7B305:9E90F:63D18865
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:34:18 GMT
+Via: 1.1 varnish
+Age: 2533
+X-Served-By: cache-iad-kcgs7200153-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1674678859.583168,VS0,VE1
+Vary: Accept-Encoding
+X-Fastly-Request-ID: ff23a8c220938145332c468967d088f4a94be8e9
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Sun, 01 Aug 2021 14:22:17 GMT
+access-control-allow-origin: *
+etag: "6106ae19-293b"
+expires: Wed, 25 Jan 2023 20:02:05 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 6714:0B39:4869:6ED0:63D18865
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:34:18 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kcgs7200173-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1674678859.615053,VS0,VE8
+vary: Accept-Encoding
+x-fastly-request-id: fc84b5e4e1a572d15287da54fb3dd43b090eb23e
+content-length: 10555
+

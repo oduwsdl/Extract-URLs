@@ -1,6 +1,6 @@
 HTTP/2 301 
 server: GitHub.com
-date: Tue, 17 Jan 2023 00:45:43 GMT
+date: Tue, 24 Jan 2023 20:42:31 GMT
 content-type: text/html
 content-length: 0
 location: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
@@ -12,10 +12,10 @@ x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
 vary: Accept-Encoding, Accept, X-Requested-With
-set-cookie: _gh_sess=S71RiZL3VHJLS923UMpv9Ml9GJJKvDccU1mBkDrdEZuwc2tBiOeTCiDLzwqkzT2w7MG6%2Fvr8HbaLIG%2BLZkBtHA%2Fk1smL2jpGklC8hNW98mLDfGJqy9RAbvdBNWVNtBVeb808VEpOtddrCzbJiLX75aGGZ9FZ53E12QycINDwDIZv7oOjtbR96haMj8CZ%2FWbubKpx5NgMt8ZvHAzxu4goMUTVAYpILG1vY%2Fxy8ltHLCtdg9RINRfBDFevDjqotjzWQWSN3zRiUbyCjBdZ5nh9mA%3D%3D--nLeRpqgNbdPncHKR--ZwUjje3gSJDzjROIbrYfpA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-set-cookie: _octo=GH1.1.556303140.1673916343; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 00:45:43 GMT; Secure; SameSite=Lax
-set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 17 Jan 2024 00:45:43 GMT; HttpOnly; Secure; SameSite=Lax
-x-github-request-id: 9396:3842:4D09886:705AB57:63C5EFB7
+set-cookie: _gh_sess=cnPm%2Ft0%2Fl6rLn8xUuwqiLlfPL%2F6HP6atmTo6%2Bu5BNu4%2FnCSVFjg2GTdI99sxLtb5N4DcLgSD5WmYsqG3dUadDlM7K5quljWFzd7NgzcH%2FH8qtynEPbRqbpBUEzQXoN%2Bz0PSNBjnh7hYcVXMsbbcgBHJg2UVhVsVoMZ7S4APx%2FlxyT3mlEB%2BlRq7LnBDKJ1CzEoGJan4h2%2BH%2FzbcQmekfuYnYECRZf0bzGTWnlELrfJ%2Bpd2j4DLfOpClwN6MI6l9eUg45Zwh%2F6FFlX%2BiEK60n8g%3D%3D--WRdvM5RyRMuprkh8--tuk1Rs0rCwzHer%2Bfj9pdiw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1124675371.1674592951; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 20:42:31 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 20:42:31 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: 845C:0A10:6BCC53:A308B0:63D042B7
 
 HTTP/2 302 
 cache-control: public, max-age=60
@@ -31,17 +31,17 @@ x-download-options: noopen
 x-content-type-options: nosniff
 origin-agent-cluster: ?1
 x-permitted-cross-domain-policies: none
-referrer-policy: strict-origin-when-cross-origin
+referrer-policy: no-referrer-when-downgrade
 x-xss-protection: 0
-x-azure-ref: 0hSjFYwAAAAAE3Xa2pbmRQpOZg2b/hlTEUEhMMzBFREdFMDMxMgA1OTZkNzhhMi1jYTVmLTQ3OWQtYmNkYy0wODM1ODMzMTc0YjI=
+x-azure-ref: 0dzfQYwAAAACaV9JEYlbIR7WT0gBvTK7gUEhMMzBFREdFMDMwNwA1OTZkNzhhMi1jYTVmLTQ3OWQtYmNkYy0wODM1ODMzMTc0YjI=
 accept-ranges: bytes
-date: Tue, 17 Jan 2023 00:45:43 GMT
+date: Tue, 24 Jan 2023 20:42:31 GMT
 via: 1.1 varnish
-age: 50995
-x-served-by: cache-iad-kcgs7200127-IAD
+age: 2880
+x-served-by: cache-iad-kiad7000141-IAD
 x-cache: CONFIG_NOCACHE, HIT
 x-cache-hits: 1
-x-timer: S1673916344.889969,VS0,VE1
+x-timer: S1674592952.897828,VS0,VE12
 vary: accept-language, x-user-language, Accept
 strict-transport-security: max-age=31557600
 content-length: 79
@@ -59,19 +59,19 @@ x-download-options: noopen
 x-content-type-options: nosniff
 origin-agent-cluster: ?1
 x-permitted-cross-domain-policies: none
-referrer-policy: strict-origin-when-cross-origin
+referrer-policy: no-referrer-when-downgrade
 x-xss-protection: 0
 x-powered-by: Next.js
-x-azure-ref: 0qyjFYwAAAAAdwIi5jrMsQYJv2qYcj/sLUEhMMzBFREdFMDMxNAA1OTZkNzhhMi1jYTVmLTQ3OWQtYmNkYy0wODM1ODMzMTc0YjI=
+x-azure-ref: 0kTfQYwAAAACy/KVsXVLmTbT0AtT3RjZ6UEhMMzBFREdFMDMxNQA1OTZkNzhhMi1jYTVmLTQ3OWQtYmNkYy0wODM1ODMzMTc0YjI=
 accept-ranges: bytes
-date: Tue, 17 Jan 2023 00:45:43 GMT
+date: Tue, 24 Jan 2023 20:42:31 GMT
 via: 1.1 varnish
-age: 50956
-x-served-by: cache-iad-kcgs7200127-IAD
+age: 2854
+x-served-by: cache-iad-kiad7000141-IAD
 x-cache: CONFIG_NOCACHE, HIT
 x-cache-hits: 1
-x-timer: S1673916344.897388,VS0,VE3
+x-timer: S1674592952.915853,VS0,VE2
 vary: Accept-Encoding
 strict-transport-security: max-age=31557600
-content-length: 339612
+content-length: 339522
 

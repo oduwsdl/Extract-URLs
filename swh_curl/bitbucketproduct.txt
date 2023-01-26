@@ -3,17 +3,17 @@ server: envoy
 vary: Accept-Encoding, Referer
 cache-control: no-cache, no-store, must-revalidate, max-age=0
 content-type: text/html;charset=UTF-8
-x-b3-traceid: 2abd00d03c3f2da4
+x-b3-traceid: 53386b6e8b673f02
 content-security-policy: frame-ancestors 'none';
 strict-transport-security: max-age=31536000; includeSubDomains; preload
-date: Tue, 17 Jan 2023 10:45:11 GMT
+date: Wed, 25 Jan 2023 06:32:05 GMT
 pragma: no-cache
-x-envoy-upstream-service-time: 18
+x-envoy-upstream-service-time: 22
 x-magnolia-registration: Registered
-set-cookie: atlCohort={"bucketAll":{"bucketedAtUTC":"2023-01-17T10:45:11.986Z","version":"2","index":2,"bucketId":0}}; Max-Age=315360000; Domain=bitbucket.org; Path=/; Expires=Fri, 14 Jan 2033 10:45:11 GMT
-set-cookie: ajs_anonymous_id=%22184fba2f-f899-644c-acf8-3932998cded9%22; Max-Age=315360000; Domain=bitbucket.org; Path=/; Expires=Fri, 14 Jan 2033 10:45:11 GMT
-set-cookie: bxp_gateway_request_id=a55bd634-044a-6ac5-2007-d7d7d47c522f; Max-Age=300; Domain=bitbucket.org; Path=/; Expires=Tue, 17 Jan 2023 10:50:11 GMT
-last-modified: Mon, 16 Jan 2023 17:36:45 GMT
+set-cookie: atlCohort={"bucketAll":{"bucketedAtUTC":"2023-01-25T06:32:05.436Z","version":"2","index":10,"bucketId":0}}; Max-Age=315360000; Domain=bitbucket.org; Path=/; Expires=Sat, 22 Jan 2033 06:32:05 GMT
+set-cookie: ajs_anonymous_id=%22f906547f-04f7-0494-9253-07168b7788b6%22; Max-Age=315360000; Domain=bitbucket.org; Path=/; Expires=Sat, 22 Jan 2033 06:32:05 GMT
+set-cookie: bxp_gateway_request_id=d6e9a0d3-91a6-faf2-0107-b7f7f19c6aa1; Max-Age=300; Domain=bitbucket.org; Path=/; Expires=Wed, 25 Jan 2023 06:37:05 GMT
+last-modified: Tue, 24 Jan 2023 01:05:00 GMT
 x-frame-options: deny
 x-powered-by: Express
 x-cache-info: not cacheable; response specified "Cache-Control: no-cache"

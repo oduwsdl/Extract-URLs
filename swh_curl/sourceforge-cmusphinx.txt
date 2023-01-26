@@ -1,0 +1,56 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:21:17 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 235
+location: http://cmusphinx.github.io/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:21:06 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3b6dccd8c592e-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+permissions-policy: interest-cohort=()
+Location: https://cmusphinx.github.io/
+X-GitHub-Request-Id: AD74:08A3:9569E:BFF86:63D18F3D
+Accept-Ranges: bytes
+Date: Wed, 25 Jan 2023 20:21:17 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kiad7000065-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674678077.160831,VS0,VE7
+Vary: Accept-Encoding
+X-Fastly-Request-ID: db01eb40fd3c70073588c0803fda5db0a0f5f1b8
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+permissions-policy: interest-cohort=()
+last-modified: Sat, 24 Dec 2022 08:46:08 GMT
+access-control-allow-origin: *
+etag: "63a6bc50-44f8"
+expires: Wed, 25 Jan 2023 20:31:17 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 2E00:7DB3:A0E65:CB83C:63D18F3D
+accept-ranges: bytes
+date: Wed, 25 Jan 2023 20:21:17 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000087-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674678077.437959,VS0,VE9
+vary: Accept-Encoding
+x-fastly-request-id: e61053a979879c9cfbc6680b25dd649050196ac3
+content-length: 17656
+

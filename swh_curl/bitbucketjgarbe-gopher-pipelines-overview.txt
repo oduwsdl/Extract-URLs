@@ -1,0 +1,62 @@
+HTTP/2 302 
+content-security-policy-report-only: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; base-uri 'self'; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; object-src 'none'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Host, User-Agent, Accept-Language, Origin
+x-usage-request-cost: 940.43
+content-type: text/html; charset=utf-8
+x-b3-traceid: 3657046a8d9f5b06
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 25 Jan 2023 06:15:28 GMT
+x-usage-user-time: 0.023713
+x-usage-system-time: 0.004500
+location: /jgarbe/gopher-pipelines/src
+x-served-by: c941ba6257af
+x-envoy-upstream-service-time: 62
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.repo2.views.repository
+x-static-version: 0d1391d200cb
+x-render-time: 0.049039602279663086
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 0d1391d200cb
+x-request-count: 2782
+x-cache-info: not cacheable; response is 302 without expiry time
+content-length: 0
+
+HTTP/2 200 
+content-security-policy-report-only: base-uri 'self'; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net 'nonce-HATdMBAufUjYkKCiStf7SA=='; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; object-src 'none'; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: -1000000.000
+vary: Cookie, Accept-Language, Origin, Accept-Encoding
+x-usage-request-cost: 3938.03
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: b02598a6c0026376
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 25 Jan 2023 06:15:29 GMT
+x-usage-user-time: 0.101860
+x-usage-system-time: 0.010281
+x-served-by: c329ff9819fe
+expires: Wed, 25 Jan 2023 06:15:29 GMT
+x-envoy-upstream-service-time: 260
+content-language: en
+x-usage-throttled: True
+x-view-name: bitbucket.apps.repo2.views.SourceView
+x-static-version: 0d1391d200cb
+x-render-time: 0.24581217765808105
+x-usage-input-ops: 24
+set-cookie: csrftoken=EnOZWB9dogagulzXW1Nuxojne16IJjnpyq7wTvMhR8NtXf6KsI25xqBOHvnhGQho; expires=Wed, 24-Jan-2024 06:15:29 GMT; Max-Age=31449600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: 0d1391d200cb
+x-request-count: 3121
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 67256
+

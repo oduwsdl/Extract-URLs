@@ -1,0 +1,46 @@
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:30:26 GMT
+content-type: text/html
+content-length: 0
+location: http://www.astrophysik.uni-kiel.de/fosite
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:30:23 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3c4498df57fa6-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 302 Found
+Date: Wed, 25 Jan 2023 20:30:27 GMT
+Server: Apache/2.4.34 (Red Hat)
+Content-Security-Policy: upgrade-insecure-requests;
+Content-Security-Policy-Report-Only:   default-src 'self' data: blob: mediastream: http://*.uni-kiel.de https://*.uni-kiel.de 'unsafe-inline' 'unsafe-eval';   font-src   'self' data: blob: http://*.uni-kiel.de https://*.uni-kiel.de;   style-src  'self' data: blob: http://*.uni-kiel.de https://*.uni-kiel.de 'unsafe-inline' 'unsafe-eval'; 
+Location: http://portia.astrophysik.uni-kiel.de/fosite
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:30:28 GMT
+Server: Apache/2.4.54 (Debian)
+Location: https://portia.astrophysik.uni-kiel.de/fosite
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:30:28 GMT
+Server: Apache/2.4.54 (Debian)
+Location: https://portia.astrophysik.uni-kiel.de/fosite/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Wed, 25 Jan 2023 20:30:28 GMT
+Server: Apache/2.4.54 (Debian)
+Last-Modified: Fri, 28 Feb 2020 13:04:37 GMT
+ETag: "1f1a-59fa27acc8cac"
+Accept-Ranges: bytes
+Content-Length: 7962
+Vary: Accept-Encoding
+Content-Type: text/html
+

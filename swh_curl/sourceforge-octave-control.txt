@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 20:56:30 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 245
+location: https://octave.sourceforge.io/control
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:56:14 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f3ea754d8c9c4e-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+date: Wed, 25 Jan 2023 20:56:30 GMT
+content-type: text/html; charset=iso-8859-1
+location: http://octave.sourceforge.io/control/
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 21:56:29 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 78f3ea760d4a820f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2023 20:56:30 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://octave.sourceforge.io/control/
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 78f3ea76db3181a3-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Wed, 25 Jan 2023 20:56:30 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+cache-control: public, proxy-revalidate, s-maxage=20, max-age=600
+expires: Wed, 25 Jan 2023 21:06:24 +0000
+last-modified: Sun, 16 Oct 2022 15:45:40 +0000
+etag: W/"8b46d2b9139ffecd62296e735a9c37d1"
+x-from: sfp-ioweb-3
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 78f3ea77b840820f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

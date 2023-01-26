@@ -1,0 +1,50 @@
+HTTP/2 301 
+date: Wed, 25 Jan 2023 21:31:00 GMT
+content-type: text/html
+content-length: 0
+location: http://www.peterborgapps.com/smultron/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 25 Jan 2023 22:30:57 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 78f41cfe880720cf-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Wed, 25 Jan 2023 21:31:00 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://www.peterborgapps.com/smultron/
+X-Cache: Redirect from cloudfront
+Via: 1.1 4ec656d2dfbb59cd7fab2ac94a540522.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD55-P3
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: rS_sR7sQuXakMocnFxMkkkFyHFHiICwPv-fq0XMEKzpDnoajt_kXzA==
+
+HTTP/2 200 
+content-type: text/html
+content-length: 30675
+last-modified: Thu, 29 Dec 2022 07:47:53 GMT
+x-amz-version-id: K_mcvKlEVcWYWhXNBb4caCmYPMqfzQqU
+server: AmazonS3
+date: Wed, 25 Jan 2023 05:15:16 GMT
+etag: "bb2b2070e057089423b67d8747d7d0ca"
+vary: Accept-Encoding
+via: 1.1 d4564d6809e10e731bfdfae814a717f8.cloudfront.net (CloudFront)
+alt-svc: h3=":443"; ma=86400
+age: 58547
+x-frame-options: DENY
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'none'; img-src 'self'; frame-ancestors 'none'; script-src 'none'; style-src 'self'; object-src 'none'
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+x-cache: Hit from cloudfront
+x-amz-cf-pop: IAD55-P3
+x-amz-cf-id: lPF2lpmCzVuRM17AWgn7zyMBNAJCt8NBUB_uXst51GjE3MdxRkN84A==
+
