@@ -40,7 +40,7 @@ with open('data_processing/' + input_file, newline='') as swh_results_file:
                             d = l['date']
                             curr_visit = datetime.strptime(d[0:10], '%Y-%m-%d')
                             if num_visits == 1:
-                                latest = curr_visit
+                                latest = str(curr_visit)[0:10]
                             elif num_visits > 1:
                                 delta = prev_visit - curr_visit
                                 days = delta.days
