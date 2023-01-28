@@ -76,7 +76,7 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
 			# Check if URL type is sourceforge.net/p/project_name or sourceforge.net/project/project_name
 			url_1 = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/(projects|p)\/([^\/(\.)][a-zA-Z0-9\-_]+)', url)
 			if url_1 != None and url_1 != "":
-				file = 'swh_curl/sourceforge' + '-'.join(url_1[3].split('/')) + '.txt'
+				file = 'swh_curl/sourceforge' + '-'.join(url_1[4].split('/')) + '.txt'
 			else:
 				# Check if URL type is project_name.sourceforge.net/extra
 				url_2 = re.match(r'(http|https):\/\/([a-zA-Z0-9\-_]+).sourceforge.net\/?(.*)', url)
@@ -87,6 +87,20 @@ with jsonlines.open('data_processing/' + input_file, 'r') as jsonl_f:
 						file = 'swh_curl/sourceforge-' + prefix + '-' + '-'.join(suffix.split('/')) + '.txt'
 					else:
 						file = 'swh_curl/sourceforge-' + prefix + '.txt'
+				else:
+					url_3 = re.match(r'(http|https):\/\/www.([a-zA-Z0-9\-_]+).sourceforge.net\/?(.*)', url)
+					# Check if URL type is www.project_name.sourceforge.net/extra
+					if url_3 != None and url_3 != "":
+						prefix = url_3[2]
+						suffix = url_3[3]
+						if suffix != "":
+							file = 'swh_curl/sourceforge-' + prefix + '-' + '-'.join(suffix.split('/')) + '.txt'
+						else:
+							file = 'swh_curl/sourceforge-' + prefix + '.txt'
+					else:
+						url_4 = re.match(r'(http|https):\/\/(www.|)sourceforge.net\/([^\/(\.)][a-zA-Z0-9\-_]+)', url)
+						if url_4 != None and url_4 != "":
+							file = 'swh_curl/sourceforge-' + '-'.join(url_4[3].split('/')) + '.txt'
 			os.system('./curl_url.sh ' + url + ' ' + file)
 			curl_results_csv.writerow([url, ghp, repo_url, file])
 
