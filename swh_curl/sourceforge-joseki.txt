@@ -1,15 +1,15 @@
 HTTP/2 303 
-date: Wed, 25 Jan 2023 20:41:37 GMT
+date: Sat, 28 Jan 2023 20:53:27 GMT
 content-type: text/html; charset=iso-8859-1
 content-length: 230
 location: http://jena.apache.org/
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:41:33 GMT
+expires: Sat, 28 Jan 2023 21:53:13 GMT
 vary: Accept-Encoding
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3d4a62d5482f6-IAD
+cf-ray: 790c9e1e48e59c7f-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 301 Moved Permanently
@@ -19,12 +19,12 @@ Server: Varnish
 Retry-After: 0
 Location: https://jena.apache.org/
 Accept-Ranges: bytes
-Date: Wed, 25 Jan 2023 20:41:37 GMT
+Date: Sat, 28 Jan 2023 20:53:27 GMT
 Via: 1.1 varnish
-X-Served-By: cache-iad-kiad7000164-IAD
+X-Served-By: cache-iad-kcgs7200046-IAD
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Timer: S1674679297.203535,VS0,VE0
+X-Timer: S1674939208.534880,VS0,VE0
 
 HTTP/2 200 
 server: Apache
@@ -34,12 +34,12 @@ access-control-allow-origin: *
 content-type: text/html
 via: 1.1 varnish, 1.1 varnish
 accept-ranges: bytes
-date: Wed, 25 Jan 2023 20:41:37 GMT
-age: 87
-x-served-by: cache-hel1410034-HEL, cache-iad-kiad7000075-IAD
+date: Sat, 28 Jan 2023 20:53:27 GMT
+age: 70
+x-served-by: cache-hel1410033-HEL, cache-iad-kiad7000060-IAD
 x-cache: HIT, HIT
 x-cache-hits: 2, 1
-x-timer: S1674679297.231775,VS0,VE1
+x-timer: S1674939208.565231,VS0,VE1
 vary: Accept-Encoding
 content-length: 14469
 

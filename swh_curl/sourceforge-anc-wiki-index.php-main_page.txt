@@ -1,29 +1,45 @@
-HTTP/1.1 301 Moved Permanently
-Server: nginx
-Date: Wed, 25 Jan 2023 20:11:56 GMT
-Content-Type: text/html
-Content-Length: 178
-Connection: keep-alive
-Location: https://sourceforge.net/p/android-x86/_list/git
-
-HTTP/2 103 
-link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/lato.css?>; as=style; rel=preload
-
-HTTP/2 200 
-date: Wed, 25 Jan 2023 20:11:57 GMT
+HTTP/2 301 
+date: Sat, 28 Jan 2023 20:26:23 GMT
 content-type: text/html; charset=utf-8
-cache-control: no-cache
-pragma: no-cache
-link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
-content-security-policy: report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; upgrade-insecure-requests; object-src 'none'; frame-ancestors 'self'; form-action 'self'
-content-security-policy-report-only: script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'; report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly
-set-cookie: _session_id=c7658e212aec9342a4ca5de916408181ea48caeacb9a71dff497c82b981585aeec55e239be597cf4; secure; Path=/
+content-length: 0
+location: http://anc.sourceforge.net/wiki/index.php/Main_page
+vary: Accept-Encoding,Cookie
+vary: Accept-Encoding
 x-content-type-options: nosniff
-x-frame-options: SAMEORIGIN
-strict-transport-security: max-age=31536000
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Sat, 28 Jan 2023 20:26:15 GMT
+x-from: sfp-web-8
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=7.9999990703072e-06
+content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3a92fb8632033-IAD
+cf-ray: 790c766e7c6b173d-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:26:23 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 28 Jan 2023 21:26:23 GMT
+Location: https://anc.sourceforge.net/wiki/index.php/Main_page
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 790c76764a5d821a-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 404 
+date: Sat, 28 Jan 2023 20:26:24 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Accept-Encoding,Cookie
+x-content-type-options: nosniff
+content-language: en
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c76766df1173d-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

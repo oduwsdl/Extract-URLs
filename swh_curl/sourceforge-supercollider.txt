@@ -1,17 +1,17 @@
 HTTP/2 302 
-date: Wed, 25 Jan 2023 22:13:08 GMT
+date: Sat, 28 Jan 2023 22:03:20 GMT
 content-type: text/html
 content-length: 0
 location: http://supercollider.github.io/
 vary: Host
 vary: Accept-Encoding
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 23:12:54 GMT
-x-from: sfp-web-2
+expires: Sat, 28 Jan 2023 23:03:12 GMT
+x-from: sfp-web-8
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f45ab7ab577fd9-IAD
+cf-ray: 790d047a48eb1ff4-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 301 Moved Permanently
@@ -21,17 +21,17 @@ Server: GitHub.com
 Content-Type: text/html
 permissions-policy: interest-cohort=()
 Location: https://supercollider.github.io/
-X-GitHub-Request-Id: ADCE:1A20:E9D4E:126C20:63D19FCF
+X-GitHub-Request-Id: BC2E:20B2:DAED15:124277D:63D59BA8
 Accept-Ranges: bytes
-Date: Wed, 25 Jan 2023 22:13:08 GMT
+Date: Sat, 28 Jan 2023 22:03:20 GMT
 Via: 1.1 varnish
-Age: 2469
-X-Served-By: cache-iad-kiad7000166-IAD
-X-Cache: HIT
-X-Cache-Hits: 1
-X-Timer: S1674684789.570998,VS0,VE2
+Age: 0
+X-Served-By: cache-iad-kiad7000151-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674943400.250738,VS0,VE5
 Vary: Accept-Encoding
-X-Fastly-Request-ID: f85b4e4cea8c2a61d563517c3faa0c2c810364d1
+X-Fastly-Request-ID: 46aa970cf4ac0e4ca125892c076ffbcf8aec22f7
 
 HTTP/2 200 
 server: GitHub.com
@@ -40,19 +40,19 @@ permissions-policy: interest-cohort=()
 last-modified: Mon, 14 Nov 2022 02:46:00 GMT
 access-control-allow-origin: *
 etag: "6371abe8-4581"
-expires: Wed, 25 Jan 2023 21:41:59 GMT
+expires: Sat, 28 Jan 2023 22:13:20 GMT
 cache-control: max-age=600
 x-proxy-cache: MISS
-x-github-request-id: 96F8:7D4F:D4D8C:111BE0:63D19FCF
+x-github-request-id: 08EC:636D:DDA7D0:126E4C3:63D59BA8
 accept-ranges: bytes
-date: Wed, 25 Jan 2023 22:13:09 GMT
+date: Sat, 28 Jan 2023 22:03:20 GMT
 via: 1.1 varnish
 age: 0
-x-served-by: cache-iad-kiad7000087-IAD
-x-cache: HIT
-x-cache-hits: 1
-x-timer: S1674684789.267621,VS0,VE7
+x-served-by: cache-iad-kcgs7200065-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674943400.283824,VS0,VE8
 vary: Accept-Encoding
-x-fastly-request-id: 17f974dc1377aed355bd49f891592b1f43acabee
+x-fastly-request-id: df5f622deb4e995aacce4421524fed21fb63b971
 content-length: 17793
 

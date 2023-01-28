@@ -1,15 +1,15 @@
 HTTP/2 301 
-date: Wed, 25 Jan 2023 22:12:24 GMT
+date: Sat, 28 Jan 2023 22:02:44 GMT
 content-type: text/html; charset=iso-8859-1
 content-length: 250
 location: http://www.statsmodels.org/devel/generated
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 23:12:21 GMT
+expires: Sat, 28 Jan 2023 23:02:32 GMT
 vary: Accept-Encoding
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f459a6f87f9c7c-IAD
+cf-ray: 790d03995c2781bd-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 301 Moved Permanently
@@ -18,58 +18,56 @@ Content-Length: 162
 Server: GitHub.com
 Content-Type: text/html
 Location: https://www.statsmodels.org/devel/generated
-X-GitHub-Request-Id: 91F6:5FDF:FAA31:1418CD:63D1A948
+X-GitHub-Request-Id: 5FE6:152F:E7A0F3:130E275:63D59B84
 Accept-Ranges: bytes
-Date: Wed, 25 Jan 2023 22:12:24 GMT
+Date: Sat, 28 Jan 2023 22:02:44 GMT
 Via: 1.1 varnish
 Age: 0
-X-Served-By: cache-iad-kiad7000119-IAD
+X-Served-By: cache-iad-kiad7000141-IAD
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1674684745.925664,VS0,VE4
+X-Timer: S1674943364.169039,VS0,VE5
 Vary: Accept-Encoding
-X-Fastly-Request-ID: cd5603ec94c3f3d581723b2970cbb8992a7b12f6
+X-Fastly-Request-ID: 72c55aeff1adcde272d4b752c1facd24ca708e81
 
 HTTP/2 301 
 server: GitHub.com
 content-type: text/html
-x-origin-cache: HIT
 location: https://www.statsmodels.org/devel/generated/
 access-control-allow-origin: *
-expires: Wed, 25 Jan 2023 22:22:24 GMT
+expires: Sat, 28 Jan 2023 22:12:44 GMT
 cache-control: max-age=600
 x-proxy-cache: MISS
-x-github-request-id: B7A4:62C1:FC3C2:143287:63D1A948
+x-github-request-id: DCB8:2544:D6F24B:130EE54:63D59B84
 accept-ranges: bytes
-date: Wed, 25 Jan 2023 22:12:24 GMT
+date: Sat, 28 Jan 2023 22:02:44 GMT
 via: 1.1 varnish
 age: 0
-x-served-by: cache-iad-kcgs7200030-IAD
+x-served-by: cache-iad-kcgs7200059-IAD
 x-cache: MISS
 x-cache-hits: 0
-x-timer: S1674684745.961023,VS0,VE5
+x-timer: S1674943364.205503,VS0,VE7
 vary: Accept-Encoding
-x-fastly-request-id: 7784c2339871da3f6a65c8979efbbca97041c762
+x-fastly-request-id: 4d1e7a4f6cb44d12a455e681ebe9d809074b9a5e
 content-length: 162
 
 HTTP/2 404 
 server: GitHub.com
 content-type: text/html; charset=utf-8
-x-origin-cache: HIT
 access-control-allow-origin: *
 etag: "63cf03be-247b"
 content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
 x-proxy-cache: MISS
-x-github-request-id: 4E4C:0C92:FA0C5:141466:63D1A948
+x-github-request-id: D3D0:0687:D9CF72:1230CDE:63D59B84
 accept-ranges: bytes
-date: Wed, 25 Jan 2023 22:12:24 GMT
+date: Sat, 28 Jan 2023 22:02:44 GMT
 via: 1.1 varnish
 age: 0
-x-served-by: cache-iad-kcgs7200030-IAD
+x-served-by: cache-iad-kcgs7200059-IAD
 x-cache: MISS
 x-cache-hits: 0
-x-timer: S1674684745.974404,VS0,VE8
+x-timer: S1674943364.220042,VS0,VE8
 vary: Accept-Encoding
-x-fastly-request-id: 500e328ee340240399b28fec12cdc6ab889a2f81
+x-fastly-request-id: f3b078cf774ed14bc05a7b20f6db514a460a1e03
 content-length: 9339
 

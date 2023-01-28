@@ -1,48 +1,29 @@
 HTTP/2 301 
-date: Wed, 25 Jan 2023 20:14:35 GMT
-content-type: text/html; charset=iso-8859-1
-content-length: 237
-location: https://bbmap.sourceforge.io/
-cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:14:21 GMT
-vary: Accept-Encoding
+date: Sat, 28 Jan 2023 22:15:38 GMT
+content-type: text/html
+content-length: 178
+location: https://sourceforge.net/projects/bbmap
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3ad0e8c625974-IAD
+cf-ray: 790d16819d457fff-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-
-HTTP/2 302 
-date: Wed, 25 Jan 2023 20:14:35 GMT
-content-type: text/html; charset=UTF-8
-location: https://sourceforge.net/projects/bbmap/
-vary: Host,X-Forwarded-Proto
-vary: Accept-Encoding
-x-from: sfp-ioweb-2
-strict-transport-security: max-age=31536000
-cf-cache-status: DYNAMIC
-server: cloudflare
-cf-ray: 78f3ad0f7c4f6f9e-IAD
-alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-
-HTTP/2 103 
-link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674663406>; as=script; rel=preload, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674663406>; as=script; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/lato.css?1674663406>; as=style; rel=preload, <https://a.fsdn.com/con/css/sandiego.css?1674663406>; as=style; rel=preload, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674663406>; as=script; rel=preload
 
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:14:35 GMT
+date: Sat, 28 Jan 2023 22:15:38 GMT
 content-type: text/html; charset=utf-8
 cache-control: no-cache
 pragma: no-cache
-link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674663406>; rel=preload; as=script
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
 x-ua-compatible: IE=edge,chrome=1
 x-frame-options: SAMEORIGIN
-content-security-policy: frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; frame-ancestors 'self'; form-action 'self' lists.sourceforge.net; object-src 'none'; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce
-set-cookie: VISITOR=a8ab9237-c692-4caa-a921-9ccf3f315953; Max-Age=315360000; Path=/; expires=Sat, 22-Jan-2033 20:14:35 GMT; secure; HttpOnly
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; object-src 'none'; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; form-action 'self' lists.sourceforge.net
+set-cookie: VISITOR=040bec6c-c28e-4773-8215-222544ae1575; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 22:15:38 GMT; secure; HttpOnly
 x-content-type-options: nosniff
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=6.0000020312145e-06
+server-timing: cf-q-config;dur=6.9999950937927e-06
 server: cloudflare
-cf-ray: 78f3ad11b96a2d0c-IAD
+cf-ray: 790d1682cc2c207b-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

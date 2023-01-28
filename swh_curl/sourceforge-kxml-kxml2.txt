@@ -1,56 +1,56 @@
 HTTP/2 301 
-date: Wed, 25 Jan 2023 20:43:44 GMT
+date: Sat, 28 Jan 2023 20:55:07 GMT
 content-type: text/html; charset=iso-8859-1
 content-length: 242
 location: http://kxml.sourceforge.net/kxml2/
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:43:32 GMT
+expires: Sat, 28 Jan 2023 21:54:51 GMT
 vary: Accept-Encoding
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3d7b48d19572e-IAD
+cf-ray: 790ca090b8a92d0e-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 25 Jan 2023 20:43:44 GMT
+Date: Sat, 28 Jan 2023 20:55:07 GMT
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Wed, 25 Jan 2023 21:43:44 GMT
+Expires: Sat, 28 Jan 2023 21:55:07 GMT
 Location: https://kxml.sourceforge.net/kxml2/
 Content-Security-Policy: upgrade-insecure-requests
 Server: cloudflare
-CF-RAY: 78f3d7c369f42021-IAD
+CF-RAY: 790ca091de9f1772-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 302 
-date: Wed, 25 Jan 2023 20:43:44 GMT
+date: Sat, 28 Jan 2023 20:55:08 GMT
 content-type: text/html
 content-length: 0
 location: http://kxml.org/index.html
 vary: Host
 vary: Accept-Encoding
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:43:28 GMT
-x-from: sfp-web-4
+expires: Sat, 28 Jan 2023 21:54:51 GMT
+x-from: sfp-web-2
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3d7c38d80572e-IAD
+cf-ray: 790ca091fa732d0e-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 302 Found
 Content-Type: text/html
 Connection: keep-alive
 Keep-Alive: timeout=15
-Date: Wed, 25 Jan 2023 20:43:44 GMT
+Date: Sat, 28 Jan 2023 20:55:08 GMT
 Server: Apache
 Cache-Control: no-cache
 Location: https://github.com/stefanhaustein/kxml2/index.html
 
 HTTP/2 404 
 server: GitHub.com
-date: Wed, 25 Jan 2023 20:43:41 GMT
+date: Sat, 28 Jan 2023 20:55:06 GMT
 content-type: text/html; charset=utf-8
 vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
 cache-control: no-cache
@@ -60,8 +60,8 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
-set-cookie: _gh_sess=SpZRRVSIEMRL5wVYVqz%2F3DOBBALxj4Y6DggL5uagWsv4HamQcV4bMGTJy08QsWIf8tV%2BhllO6ewAzGIrar3Tsu4O9CGIhFPjCbM9TK4XFovxphBbClo1zdJFy%2F%2B41BwGF99rizKYUapJs9QQnIQ3MZyG24Rnx3U%2BvwTzCgY%2BbHbvkf3acXbjYPsd3CDwxbsw%2FFk02Jzgntgg6Eub0pimw1kcGmyuuAkFBvp7q%2BMS4RTyQh4G95uvl%2B97oVUHVtpHp2269aSxLVad91vEoyGq6w%3D%3D--IlDkqRfUJKmKLUbp--DMpbIfi1VGvXAIPVa%2FTDIg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-set-cookie: _octo=GH1.1.997679971.1674679424; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 20:43:44 GMT; Secure; SameSite=Lax
-set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 25 Jan 2024 20:43:44 GMT; HttpOnly; Secure; SameSite=Lax
-x-github-request-id: E1EA:0380:3D2F43:5C6493:63D19480
+set-cookie: _gh_sess=yXCRdRZiOe0vFToEww9mqYFLx%2BaepxXOtjdPXwz7XInXpYVeXGtb3sji3wSHOJvkWom%2B4ADBgDptBlHguSXCt7z4lKG0JYfDSPcMypsfz%2BcYVYJSCIlrAyDKOO%2Bg5xDUF6HnZjZwxIym%2BI%2F2LNa5DUmdX%2FMcTXEOx1aQN0M3qbtkg2yPHlj6VcE1F0len%2F%2F2cDOLEcYLO3rKJl%2BXIbtQuggH%2FW%2B7hHbyarprqzUSqoCmVUj16ROvVKIM%2FSNqV6FPmLgUtmybCOVu3WYW59ygDA%3D%3D--NtiSbGLXHyj03oR1--NBy2wcgvI40cqG5QpJ8bvA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1695162196.1674939308; Path=/; Domain=github.com; Expires=Sun, 28 Jan 2024 20:55:08 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 28 Jan 2024 20:55:08 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: B2FE:20A1:13EBD00:1C84759:63D58BAC
 

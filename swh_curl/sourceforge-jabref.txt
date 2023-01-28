@@ -1,56 +1,19 @@
-HTTP/2 301 
-date: Wed, 25 Jan 2023 20:38:58 GMT
-content-type: text/html
-content-length: 0
-location: http://www.jabref.org/
-vary: Host
-vary: Accept-Encoding
-cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:33:49 GMT
-x-from: sfp-web-4
-cf-cache-status: DYNAMIC
-content-security-policy: upgrade-insecure-requests
-server: cloudflare
-cf-ray: 78f3d0c6cdbe57d0-IAD
-alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-
-HTTP/1.1 301 Moved Permanently
-Connection: keep-alive
-Content-Length: 162
-Server: GitHub.com
-Content-Type: text/html
-Location: https://www.jabref.org/
-X-GitHub-Request-Id: F778:69FD:7E134:A9684:63D18879
-Accept-Ranges: bytes
-Date: Wed, 25 Jan 2023 20:38:58 GMT
-Via: 1.1 varnish
-Age: 2793
-X-Served-By: cache-iad-kcgs7200044-IAD
-X-Cache: HIT
-X-Cache-Hits: 1
-X-Timer: S1674679139.558936,VS0,VE1
-Vary: Accept-Encoding
-X-Fastly-Request-ID: 86456937d8922a1566420328e0da2fb39fcfc7b1
-
-HTTP/2 200 
-server: GitHub.com
+HTTP/2 404 
+date: Sat, 28 Jan 2023 21:43:26 GMT
 content-type: text/html; charset=utf-8
-last-modified: Mon, 23 Jan 2023 19:16:49 GMT
-access-control-allow-origin: *
-etag: "63cedd21-12693"
-expires: Wed, 25 Jan 2023 20:02:25 GMT
-cache-control: max-age=600
-x-proxy-cache: MISS
-x-github-request-id: D852:48AC:88962:AC0E6:63D18879
-accept-ranges: bytes
-date: Wed, 25 Jan 2023 20:38:58 GMT
-via: 1.1 varnish
-age: 0
-x-served-by: cache-iad-kiad7000025-IAD
-x-cache: HIT
-x-cache-hits: 1
-x-timer: S1674679139.589030,VS0,VE7
-vary: Accept-Encoding
-x-fastly-request-id: ccfeb3eabfbf32bb05e1b4bb2304b202882f1791
-content-length: 75411
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: object-src 'none'; frame-ancestors 'self'; form-action 'self' lists.sourceforge.net; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com
+set-cookie: webflash=%7B%22message%22%3A%20%22%22%2C%20%22status%22%3A%20%22error%22%2C%20%22sticky%22%3A%20true%7D; Path=/
+x-content-type-options: nosniff
+set-cookie: webflash=; Max-Age=0; Path=/; expires=Wed, 31-Dec-97 23:59:59 GMT
+set-cookie: VISITOR=f4fdc074-b670-4df0-9c11-a93cee9385e7; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 21:43:25 GMT; secure; HttpOnly
+cf-cache-status: DYNAMIC
+server-timing: cf-q-config;dur=5.0000016926788e-06
+server: cloudflare
+cf-ray: 790ce751ec2a82c9-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

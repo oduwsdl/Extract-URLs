@@ -1,48 +1,48 @@
 HTTP/2 302 
-date: Wed, 25 Jan 2023 20:13:24 GMT
+date: Sat, 28 Jan 2023 20:27:44 GMT
 content-type: text/html
 content-length: 0
 location: http://sourceforge.net/projects/assp/
 vary: Host
 vary: Accept-Encoding
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:13:12 GMT
-x-from: sfp-web-7
+expires: Sat, 28 Jan 2023 21:27:40 GMT
+x-from: sfp-web-1
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3ab56584a9c88-IAD
+cf-ray: 790c786fadcf57ae-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 25 Jan 2023 20:13:25 GMT
+Date: Sat, 28 Jan 2023 20:27:44 GMT
 Content-Type: text/html
 Connection: keep-alive
 Location: https://sourceforge.net/projects/assp/
 CF-Cache-Status: DYNAMIC
-Server-Timing: cf-q-config;dur=8.9999957708642e-06
+Server-Timing: cf-q-config;dur=7.9999990703072e-06
 Server: cloudflare
-CF-RAY: 78f3ab571ae40594-IAD
+CF-RAY: 790c7870def25b29-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 103 
-link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674580388>; as=script; rel=preload, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674580388>; as=script; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/lato.css?1674580388>; as=style; rel=preload, <https://a.fsdn.com/con/css/sandiego.css?1674580388>; as=style; rel=preload, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674580388>; as=script; rel=preload
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674663406>; as=script; rel=preload, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674663406>; as=script; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/lato.css?1674663406>; as=style; rel=preload, <https://a.fsdn.com/con/css/sandiego.css?1674663406>; as=style; rel=preload, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674663406>; as=script; rel=preload
 
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:13:25 GMT
+date: Sat, 28 Jan 2023 20:27:44 GMT
 content-type: text/html; charset=utf-8
 cache-control: no-cache
 pragma: no-cache
-link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674663406>; rel=preload; as=script
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
 x-ua-compatible: IE=edge,chrome=1
 x-frame-options: SAMEORIGIN
-content-security-policy: object-src 'none'; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; form-action 'self' lists.sourceforge.net; frame-ancestors 'self'
-set-cookie: VISITOR=197b88af-d5a6-458f-8498-553ef749b6fe; Max-Age=315360000; Path=/; expires=Sat, 22-Jan-2033 20:13:25 GMT; secure; HttpOnly
+content-security-policy: form-action 'self' lists.sourceforge.net; frame-ancestors 'self'; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; object-src 'none'
+set-cookie: VISITOR=a69cb6c0-c13e-483a-b970-2f3f1fcb75f9; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 20:27:44 GMT; secure; HttpOnly
 x-content-type-options: nosniff
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=8.000002708286e-06
+server-timing: cf-q-config;dur=6.9999950937927e-06
 server: cloudflare
-cf-ray: 78f3ab584eaa820f-IAD
+cf-ray: 790c78719d2d2034-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

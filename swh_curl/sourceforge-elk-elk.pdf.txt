@@ -1,19 +1,19 @@
 HTTP/2 301 
-date: Wed, 25 Jan 2023 20:26:46 GMT
+date: Sat, 28 Jan 2023 20:40:16 GMT
 content-type: text/html; charset=iso-8859-1
 content-length: 242
 location: https://elk.sourceforge.io/elk.pdf
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:26:36 GMT
+expires: Sat, 28 Jan 2023 21:40:09 GMT
 vary: Accept-Encoding
-cf-cache-status: MISS
+cf-cache-status: EXPIRED
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3bee8d9c6241a-IAD
+cf-ray: 790c8ad01dc5829e-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:26:47 GMT
+date: Sat, 28 Jan 2023 20:40:17 GMT
 content-type: application/pdf
 content-length: 702407
 vary: Host,X-Forwarded-Proto
@@ -21,12 +21,12 @@ vary: Accept-Encoding
 last-modified: Sun, 08 Jan 2023 15:53:44 GMT
 etag: "ab7c7-5f1c2a7cfc61e"
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:26:46 GMT
+expires: Sat, 28 Jan 2023 21:40:09 GMT
 x-from: sfp-ioweb-2
 strict-transport-security: max-age=31536000
-cf-cache-status: MISS
+cf-cache-status: REVALIDATED
 accept-ranges: bytes
 server: cloudflare
-cf-ray: 78f3beea2a05172c-IAD
+cf-ray: 790c8ad0ee340617-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

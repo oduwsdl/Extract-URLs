@@ -1,32 +1,35 @@
 HTTP/2 302 
-date: Wed, 25 Jan 2023 20:27:38 GMT
+date: Sat, 28 Jan 2023 20:41:03 GMT
 content-type: text/html
 content-length: 0
 location: https://sourceforge.net/projects/epics-pvdata/
 vary: Host
 vary: Accept-Encoding
-x-from: sfp-web-7
+x-from: sfp-web-1
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3c02a4fa42d1e-IAD
+cf-ray: 790c8bf72943cf40-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
+HTTP/2 103 
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; as=script; rel=preload, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; as=script; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/lato.css?1674855263>; as=style; rel=preload, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; as=style; rel=preload, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; as=script; rel=preload
+
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:27:38 GMT
+date: Sat, 28 Jan 2023 20:41:04 GMT
 content-type: text/html; charset=utf-8
 cache-control: no-cache
 pragma: no-cache
-link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674663406>; rel=preload; as=script
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
 x-ua-compatible: IE=edge,chrome=1
 x-frame-options: SAMEORIGIN
-content-security-policy: object-src 'none'; form-action 'self' lists.sourceforge.net; frame-ancestors 'self'; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com
-set-cookie: VISITOR=67537662-f317-42ef-9760-8497f2004f3a; Max-Age=315360000; Path=/; expires=Sat, 22-Jan-2033 20:27:38 GMT; secure; HttpOnly
+content-security-policy: frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; frame-ancestors 'self'; upgrade-insecure-requests; form-action 'self' lists.sourceforge.net; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; object-src 'none'
+set-cookie: VISITOR=6d4aa9f6-a392-42fa-a629-06498ccc99d3; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 20:41:04 GMT; secure; HttpOnly
 x-content-type-options: nosniff
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=5.0000016926788e-06
+server-timing: cf-q-config;dur=4.000001354143e-06
 server: cloudflare
-cf-ray: 78f3c02bad8757d0-IAD
+cf-ray: 790c8bf80eb76ff1-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

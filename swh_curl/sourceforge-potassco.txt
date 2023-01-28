@@ -1,17 +1,54 @@
-HTTP/2 200 
-date: Wed, 25 Jan 2023 21:02:31 GMT
-content-type: text/html
-vary: Accept-Encoding
-vary: Host
-vary: Accept-Encoding
-last-modified: Sat, 11 Feb 2017 16:03:00 GMT
-etag: W/"3134-548435931d500"
-cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 22:02:28 GMT
-x-from: sfp-web-1
+HTTP/2 301 
+date: Sat, 28 Jan 2023 21:52:35 GMT
+content-type: text/html; charset=UTF-8
+location: https://sourceforge.net/projects/potassco/files/potassco_guide/2010-10-04/guide.pdf/download
+cache-control: no-cache
+pragma: no-cache
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'; object-src 'none'; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; form-action 'self' lists.sourceforge.net; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; upgrade-insecure-requests
+set-cookie: VISITOR=609a1ab6-c672-45d8-9982-885333402d87; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 21:52:35 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-content-security-policy: upgrade-insecure-requests
+server-timing: cf-q-config;dur=5.0000016926788e-06
 server: cloudflare
-cf-ray: 78f3f343fae920a6-IAD
+cf-ray: 790cf4bc392f9c7f-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+date: Sat, 28 Jan 2023 21:52:35 GMT
+content-type: text/html; charset=UTF-8
+location: https://downloads.sourceforge.net/project/potassco/potassco_guide/2010-10-04/guide.pdf?ts=gAAAAABj1ZkjvR6M4COGRItHnlm0lktwitgwy_BkdiA4mQnJ2QEc5f6Gr9r6wvAtKGM-A05s7RKpWMjAxUPGJAS49COYLDKwag%3D%3D&use_mirror=master&r=
+cache-control: no-cache
+pragma: no-cache
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: object-src 'none'; upgrade-insecure-requests; frame-ancestors 'self'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; form-action 'self' lists.sourceforge.net
+set-cookie: VISITOR=0aef3e5a-cd44-4f33-8ac5-f8ce52d0f1a0; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 21:52:35 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server-timing: cf-q-config;dur=5.0000016926788e-06
+server: cloudflare
+cf-ray: 790cf4bd0a4d9c7f-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+server: nginx
+date: Sat, 28 Jan 2023 21:52:35 GMT
+content-type: text/html; charset=UTF-8
+location: https://master.dl.sourceforge.net/project/potassco/potassco_guide/2010-10-04/guide.pdf?viasf=1
+content-disposition: attachment; filename="guide.pdf"
+set-cookie: sf_mirror_attempt=potassco:master:potassco_guide/2010-10-04/guide.pdf; Max-Age=120; Path=/; expires=Sat, 28-Jan-2023 21:54:35 GMT
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 28 Jan 2023 21:52:36 GMT
+Content-Type: application/octet-stream
+Content-Length: 675065
+Connection: keep-alive
+last-modified: Mon, 04 Oct 2010 19:14:39 GMT
+etag: "4caa279f-a4cf9"
+accept-ranges: bytes
 

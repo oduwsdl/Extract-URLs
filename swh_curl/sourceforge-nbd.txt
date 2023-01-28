@@ -1,31 +1,18 @@
-HTTP/2 301 
-date: Wed, 25 Jan 2023 20:54:28 GMT
-content-type: text/html; charset=iso-8859-1
-content-length: 235
-location: https://nbd.sourceforge.io/
-cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:54:15 GMT
-vary: Accept-Encoding
-cf-cache-status: DYNAMIC
-content-security-policy: upgrade-insecure-requests
-server: cloudflare
-cf-ray: 78f3e7797ffc5800-IAD
-alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:54:28 GMT
-content-type: text/html
-vary: Accept-Encoding
-vary: Host,X-Forwarded-Proto
-vary: Accept-Encoding
-last-modified: Tue, 23 Mar 2021 09:57:33 GMT
-etag: W/"1753-5be3136146e62"
-cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:54:27 GMT
-x-from: sfp-ioweb-2
+date: Sat, 28 Jan 2023 21:28:40 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
+content-security-policy: upgrade-insecure-requests; form-action 'self'; frame-ancestors 'self'; object-src 'none'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com
+content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'
+set-cookie: _session_id=fb0848601c790ef6bed4a13e2e7e331a615d62948f805c6f2b6c2370dc76c929a42c90b2da8fa386; secure; Path=/
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
+server-timing: cf-q-config;dur=6.0000020312145e-06
 server: cloudflare
-cf-ray: 78f3e77a8dba8f0a-IAD
+cf-ray: 790cd1a4ca5c05a6-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

@@ -1,65 +1,68 @@
 HTTP/2 302 
-date: Wed, 25 Jan 2023 20:21:00 GMT
+date: Sat, 28 Jan 2023 20:34:48 GMT
 content-type: text/html
 content-length: 0
 location: http://sourceforge.net/p/cloudburst-bio
 vary: Host
 vary: Accept-Encoding
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:20:44 GMT
+expires: Sat, 28 Jan 2023 21:34:30 GMT
 x-from: sfp-web-4
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3b67238260601-IAD
+cf-ray: 790c82ccea2c5716-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 25 Jan 2023 20:21:00 GMT
+Date: Sat, 28 Jan 2023 20:34:48 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: keep-alive
 Location: https://sourceforge.net/p/cloudburst-bio
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 CF-Cache-Status: DYNAMIC
-Server-Timing: cf-q-config;dur=1.0000003385358e-05
+Server-Timing: cf-q-config;dur=7.0000023697503e-06
 Server: cloudflare
-CF-RAY: 78f3b673bac6065b-IAD
+CF-RAY: 790c82cdebef1782-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 301 
-date: Wed, 25 Jan 2023 20:21:00 GMT
+date: Sat, 28 Jan 2023 20:34:48 GMT
 content-type: text/html; charset=UTF-8
 location: https://sourceforge.net/projects/cloudburst-bio/
 cache-control: no-cache
 pragma: no-cache
-content-security-policy: frame-ancestors 'self'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; object-src 'none'; form-action 'self'; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; upgrade-insecure-requests
+content-security-policy: upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-ancestors 'self'; object-src 'none'; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; form-action 'self'
 content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'
-set-cookie: _session_id=6daba72085287eecadb3912b3c758740c95d02b56b7d9ea198a5214edf76aa3b3f8435e89217da8c; secure; Path=/
+set-cookie: _session_id=603b671032fd9e38e124fb7ee08ff7a87ad65e1b51869b7b132f15d7d7be38e5a3b68ac4d7560997; secure; Path=/
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
 server-timing: cf-q-config;dur=8.000002708286e-06
 server: cloudflare
-cf-ray: 78f3b674ad468f16-IAD
+cf-ray: 790c82cf1dde1786-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
+HTTP/2 103 
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; as=script; rel=preload, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; as=script; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/lato.css?1674855263>; as=style; rel=preload, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; as=style; rel=preload, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; as=script; rel=preload
+
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:21:00 GMT
+date: Sat, 28 Jan 2023 20:34:49 GMT
 content-type: text/html; charset=utf-8
 cache-control: no-cache
 pragma: no-cache
-link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674663406>; rel=preload; as=script
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
 x-ua-compatible: IE=edge,chrome=1
 x-frame-options: SAMEORIGIN
-content-security-policy: frame-ancestors 'self'; form-action 'self' lists.sourceforge.net; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; upgrade-insecure-requests; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; object-src 'none'
-set-cookie: VISITOR=8bcb86a8-2270-4538-b17e-3d9c7a1731e5; Max-Age=315360000; Path=/; expires=Sat, 22-Jan-2033 20:21:00 GMT; secure; HttpOnly
+content-security-policy: object-src 'none'; form-action 'self' lists.sourceforge.net; frame-ancestors 'self'; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com
+set-cookie: VISITOR=9e943fda-3550-423b-9982-dcefdaa6f415; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 20:34:49 GMT; secure; HttpOnly
 x-content-type-options: nosniff
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=6.9999950937927e-06
+server-timing: cf-q-config;dur=5.9999947552569e-06
 server: cloudflare
-cf-ray: 78f3b675dec88f16-IAD
+cf-ray: 790c82cfeeb51786-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

@@ -1,52 +1,52 @@
 HTTP/2 302 
-date: Wed, 25 Jan 2023 20:20:53 GMT
+date: Sat, 28 Jan 2023 20:34:42 GMT
 content-type: text/html
 content-length: 0
 location: https://sourceforge.net/p/clogs/wiki/
 vary: Host
 vary: Accept-Encoding
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:20:43 GMT
-x-from: sfp-web-3
+expires: Sat, 28 Jan 2023 21:34:39 GMT
+x-from: sfp-web-1
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3b6499f737fbe-IAD
+cf-ray: 790c82a9ec85825a-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 301 
-date: Wed, 25 Jan 2023 20:20:53 GMT
+date: Sat, 28 Jan 2023 20:34:43 GMT
 content-type: text/html; charset=UTF-8
 location: https://sourceforge.net/p/clogs/wiki/Home/
 cache-control: no-cache
 pragma: no-cache
-content-security-policy: report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; form-action 'self'; object-src 'none'; upgrade-insecure-requests; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; frame-ancestors 'self'
-content-security-policy-report-only: script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'; report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly
-set-cookie: _session_id=0c3f80f45d7b3d9920c8208930622d51f3224b6dd6a3a023e9cbe650abe0b89900bb33cef0d6abbc; secure; Path=/
+content-security-policy: frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; form-action 'self'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; upgrade-insecure-requests; frame-ancestors 'self'; object-src 'none'
+content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'
+set-cookie: _session_id=a854439ade0c2d0ee2d5e3f1206ef5ea9ede87b491e9d4679c21288e36cbf3dbeb982be951936630; secure; Path=/
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=8.000002708286e-06
+server-timing: cf-q-config;dur=6.0000020312145e-06
 server: cloudflare
-cf-ray: 78f3b64b4f0c5b04-IAD
+cf-ray: 790c82aab8929c1f-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:20:54 GMT
+date: Sat, 28 Jan 2023 20:34:43 GMT
 content-type: text/html; charset=utf-8
 cache-control: no-cache
 pragma: no-cache
 link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
-content-security-policy: upgrade-insecure-requests; object-src 'none'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-ancestors 'self'; form-action 'self'; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com
-content-security-policy-report-only: script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'; report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly
-set-cookie: _session_id=5d949e2cf62c5761048fc98ac38d9854548e7115333fdcdbc34042d62047956f5bd7e98d7078c10b; secure; Path=/
+content-security-policy: frame-ancestors 'self'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; object-src 'none'; upgrade-insecure-requests; form-action 'self'
+content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'
+set-cookie: _session_id=0a2d94b325c4a20be93f653943e6a9439b09c58490f00ec53510bdc411da5b83b109d3c6254587dd; secure; Path=/
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=4.9999944167212e-06
+server-timing: cf-q-config;dur=7.0000023697503e-06
 server: cloudflare
-cf-ray: 78f3b64c0fb55b04-IAD
+cf-ray: 790c82aba9b59c1f-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

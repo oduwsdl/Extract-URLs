@@ -1,0 +1,45 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 21:13:13 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 236
+location: https://psat.sourceforge.io/
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:12:55 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790cbb1538eb6ff5-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+date: Sat, 28 Jan 2023 21:13:14 GMT
+content-type: text/html; charset=UTF-8
+location: https://sourceforge.net/projects/psat/
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+x-from: sfp-ioweb-1
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 790cbb161ba06fce-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 21:13:14 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: upgrade-insecure-requests; object-src 'none'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-ancestors 'self'; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; form-action 'self' lists.sourceforge.net
+set-cookie: VISITOR=8983f8e6-1de3-4d59-854b-94a1a57d6bfc; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 21:13:14 GMT; secure; HttpOnly
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server-timing: cf-q-config;dur=9.9999961093999e-06
+server: cloudflare
+cf-ray: 790cbb1afc2e8262-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

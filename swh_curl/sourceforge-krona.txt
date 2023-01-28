@@ -1,70 +1,73 @@
 HTTP/2 302 
-date: Wed, 25 Jan 2023 20:43:22 GMT
+date: Sat, 28 Jan 2023 20:54:54 GMT
 content-type: text/html
 content-length: 0
 location: https://sourceforge.net/p/krona/home
 vary: Host
 vary: Accept-Encoding
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:43:15 GMT
+expires: Sat, 28 Jan 2023 21:54:46 GMT
 x-from: sfp-web-8
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f3d735ae436fc5-IAD
+cf-ray: 790ca03c5d0681bb-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 301 
-date: Wed, 25 Jan 2023 20:43:22 GMT
+date: Sat, 28 Jan 2023 20:54:54 GMT
 content-type: text/html; charset=UTF-8
 location: https://sourceforge.net/p/krona/krona/
 cache-control: no-cache
 pragma: no-cache
-content-security-policy: frame-ancestors 'self'; object-src 'none'; form-action 'self'; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; upgrade-insecure-requests; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce
-content-security-policy-report-only: script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'; report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly
-set-cookie: _session_id=22a33725554beeac9c690f082bb579f82fcc95d35e3224f7eb862507151f1ce65ef8a09f67b2a436; secure; Path=/
+content-security-policy: frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; frame-ancestors 'self'; upgrade-insecure-requests; object-src 'none'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; form-action 'self'
+content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'
+set-cookie: _session_id=19b9aeea9963cc214cc7ba418d846af4418674db4d2949754227fd62129fd72e3df83c0b9fe36dc5; secure; Path=/
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=9.0000012278324e-06
+server-timing: cf-q-config;dur=7.0000023697503e-06
 server: cloudflare
-cf-ray: 78f3d736f82e5803-IAD
+cf-ray: 790ca03d3f3281c1-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/2 301 
-date: Wed, 25 Jan 2023 20:43:22 GMT
+date: Sat, 28 Jan 2023 20:54:54 GMT
 content-type: text/html; charset=UTF-8
 location: https://sourceforge.net/projects/krona/
 cache-control: no-cache
 pragma: no-cache
-content-security-policy: upgrade-insecure-requests; form-action 'self'; object-src 'none'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-ancestors 'self'; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com
-content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'
-set-cookie: _session_id=56eff442945b005e62083d72878cff8e2b7297035df22306e058a2f153bd2e7c79af2aa4f529ab71; secure; Path=/
+content-security-policy: upgrade-insecure-requests; form-action 'self'; frame-ancestors 'self'; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; object-src 'none'
+content-security-policy-report-only: script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval'; report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly
+set-cookie: _session_id=16fffb769f9c517fb057fd039359ae191a3564ef527c3e1b3b3fba3d552887768e6f3f0ba1bfe016; secure; Path=/
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=9.0000012278324e-06
+server-timing: cf-q-config;dur=7.0000023697503e-06
 server: cloudflare
-cf-ray: 78f3d73849a05803-IAD
+cf-ray: 790ca03e386081c1-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
+HTTP/2 103 
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; as=script; rel=preload, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; as=script; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload, <https://a.fsdn.com/con/css/lato.css?1674855263>; as=style; rel=preload, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; as=style; rel=preload, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; as=script; rel=preload
+
 HTTP/2 200 
-date: Wed, 25 Jan 2023 20:43:22 GMT
+date: Sat, 28 Jan 2023 20:54:54 GMT
 content-type: text/html; charset=utf-8
 cache-control: no-cache
 pragma: no-cache
-link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674663406>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674663406>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674663406>; rel=preload; as=script
+link: <https://a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
 x-ua-compatible: IE=edge,chrome=1
 x-frame-options: SAMEORIGIN
-content-security-policy: report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-ancestors 'self'; form-action 'self' lists.sourceforge.net; object-src 'none'; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; upgrade-insecure-requests
-set-cookie: VISITOR=ca34bd01-41b2-40b5-a142-37a412bb1488; Max-Age=315360000; Path=/; expires=Sat, 22-Jan-2033 20:43:22 GMT; secure; HttpOnly
+content-security-policy: form-action 'self' lists.sourceforge.net; frame-ancestors 'self'; upgrade-insecure-requests; object-src 'none'; frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce
+set-cookie: VISITOR=c3cd8fcc-cec5-48f8-88da-91ea41ac9ef4; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 20:54:54 GMT; secure; HttpOnly
 x-content-type-options: nosniff
 strict-transport-security: max-age=31536000
 cf-cache-status: DYNAMIC
-server-timing: cf-q-config;dur=7.0000005507609e-06
+server-timing: cf-q-config;dur=6.0000020312145e-06
 server: cloudflare
-cf-ray: 78f3d7394af45803-IAD
+cf-ray: 790ca03f19ae81c1-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

@@ -1,21 +1,21 @@
 HTTP/2 301 
-date: Wed, 25 Jan 2023 22:16:08 GMT
+date: Sat, 28 Jan 2023 22:06:16 GMT
 content-type: text/html
 content-length: 182
 location: http://www.taverna.org.uk/
 vary: Host
 vary: Accept-Encoding
 cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 23:15:54 GMT
+expires: Sat, 28 Jan 2023 23:05:59 GMT
 x-from: sfp-web-2
 cf-cache-status: DYNAMIC
 content-security-policy: upgrade-insecure-requests
 server: cloudflare
-cf-ray: 78f45f1f1def57dc-IAD
+cf-ray: 790d08c5dc099c4f-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 25 Jan 2023 22:16:10 GMT
+Date: Sat, 28 Jan 2023 22:06:16 GMT
 Server: Apache/2.2.15 (CentOS)
 Location: https://taverna.apache.org/
 Connection: close
@@ -27,12 +27,12 @@ location: https://taverna.incubator.apache.org/
 content-type: text/html; charset=iso-8859-1
 via: 1.1 varnish, 1.1 varnish
 accept-ranges: bytes
-date: Wed, 25 Jan 2023 22:16:11 GMT
-age: 601
-x-served-by: cache-hel1410027-HEL, cache-iad-kcgs7200120-IAD
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-x-timer: S1674684972.534555,VS0,VE1
+date: Sat, 28 Jan 2023 22:06:17 GMT
+age: 0
+x-served-by: cache-hel1410022-HEL, cache-iad-kcgs7200172-IAD
+x-cache: HIT, MISS
+x-cache-hits: 1, 0
+x-timer: S1674943577.786907,VS0,VE290
 content-length: 221
 
 HTTP/2 302 
@@ -41,12 +41,12 @@ location: https://incubator.apache.org/projects/taverna.html
 content-type: text/html; charset=iso-8859-1
 via: 1.1 varnish, 1.1 varnish
 accept-ranges: bytes
-date: Wed, 25 Jan 2023 22:16:11 GMT
-age: 601
-x-served-by: cache-hel1410024-HEL, cache-iad-kcgs7200062-IAD
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-x-timer: S1674684972.592145,VS0,VE1
+date: Sat, 28 Jan 2023 22:06:17 GMT
+age: 0
+x-served-by: cache-hel1410024-HEL, cache-iad-kiad7000147-IAD
+x-cache: HIT, MISS
+x-cache-hits: 2, 0
+x-timer: S1674943577.121555,VS0,VE291
 content-length: 234
 
 HTTP/2 200 
@@ -57,12 +57,12 @@ access-control-allow-origin: *
 content-type: text/html
 via: 1.1 varnish, 1.1 varnish
 accept-ranges: bytes
-date: Wed, 25 Jan 2023 22:16:11 GMT
+date: Sat, 28 Jan 2023 22:06:17 GMT
 age: 0
-x-served-by: cache-hel1410021-HEL, cache-iad-kcgs7200077-IAD
-x-cache: MISS, MISS
-x-cache-hits: 0, 0
-x-timer: S1674684972.638025,VS0,VE113
+x-served-by: cache-hel1410031-HEL, cache-iad-kiad7000078-IAD
+x-cache: HIT, MISS
+x-cache-hits: 1, 0
+x-timer: S1674943577.466595,VS0,VE302
 vary: Accept-Encoding
 content-length: 23422
 

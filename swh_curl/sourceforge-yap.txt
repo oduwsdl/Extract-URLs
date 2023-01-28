@@ -1,7 +1,18 @@
-HTTP/1.1 403 Forbidden
-Server: nginx
-Date: Wed, 25 Jan 2023 22:30:24 GMT
-Content-Type: text/html; charset=iso-8859-1
-Content-Length: 202
-Connection: keep-alive
+HTTP/2 200 
+date: Sat, 28 Jan 2023 22:17:34 GMT
+content-type: text/html
+content-length: 353
+vary: Host
+vary: Accept-Encoding
+last-modified: Thu, 03 Apr 2003 20:23:24 GMT
+etag: "161-3ba6ccde98700"
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 23:17:26 GMT
+x-from: sfp-web-8
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790d19531bb12d07-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

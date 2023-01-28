@@ -1,12 +1,31 @@
-HTTP/1.1 302 Found
-Date: Wed, 25 Jan 2023 20:54:31 GMT
-Server: Apache
-Location: https://downloads.sourceforge.net/project/bedtools?download&failedmirror=nchc.dl.sourceforge.net
-Connection: close
-Content-Type: text/html; charset=iso-8859-1
+HTTP/2 301 
+date: Sat, 28 Jan 2023 21:05:03 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 237
+location: https://nc110.sourceforge.io/
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:04:47 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790caf1ccc7520be-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
-HTTP/2 404 
-server: nginx
-date: Wed, 25 Jan 2023 20:54:32 GMT
-content-type: text/html; charset=UTF-8
+HTTP/2 200 
+date: Sat, 28 Jan 2023 21:05:03 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Sun, 09 Oct 2022 17:27:27 GMT
+etag: W/"f00d-5ea9d5b5addc0"
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:05:01 GMT
+x-from: sfp-ioweb-1
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 790caf1df88981b1-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

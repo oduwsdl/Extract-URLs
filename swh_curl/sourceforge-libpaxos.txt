@@ -1,15 +1,19 @@
-HTTP/2 200 
-date: Wed, 25 Jan 2023 20:44:41 GMT
-content-type: text/html
-vary: Accept-Encoding
-vary: Host
-vary: Accept-Encoding
-cache-control: max-age=3600
-expires: Wed, 25 Jan 2023 21:44:31 GMT
-x-from: sfp-web-3
+HTTP/2 404 
+date: Sat, 28 Jan 2023 21:45:27 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/js/sftheme/cmp2.js?1674855263>; rel=preload; as=script, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/css/sandiego.css?1674855263>; rel=preload; as=style, <https://a.fsdn.com/con/js/min/sf.sandiego-head.js?1674855263>; rel=preload; as=script
+x-ua-compatible: IE=edge,chrome=1
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-src 'self' http://*.pro-market.net *.crsspxl.com *.google.com http://c.sf-syn.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.hitachivantara.com *.recaptcha.net recaptcha.net *.youtube.com www.youtube-nocookie.com *.btloader.com *.pubmatic.com; frame-ancestors 'self'; report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; upgrade-insecure-requests; object-src 'none'; form-action 'self' lists.sourceforge.net
+set-cookie: webflash=%7B%22message%22%3A%20%22%22%2C%20%22status%22%3A%20%22error%22%2C%20%22sticky%22%3A%20true%7D; Path=/
+x-content-type-options: nosniff
+set-cookie: webflash=; Max-Age=0; Path=/; expires=Wed, 31-Dec-97 23:59:59 GMT
+set-cookie: VISITOR=3ff39fa5-2624-414d-9599-8ea1ee4ef420; Max-Age=315360000; Path=/; expires=Tue, 25-Jan-2033 21:45:27 GMT; secure; HttpOnly
 cf-cache-status: DYNAMIC
-content-security-policy: upgrade-insecure-requests
+server-timing: cf-q-config;dur=8.000002708286e-06
 server: cloudflare
-cf-ray: 78f3d9259cd68230-IAD
+cf-ray: 790cea483dec7fc3-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
