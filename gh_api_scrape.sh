@@ -17,7 +17,7 @@ if [ ! -f "$5" ]; then
     echo $RESP >> $4
     REMAINING=$(echo "$HEADERS" | sed -n -E 's/x-ratelimit-remaining: ([0-9]+)/\1/p' | tr -d '\r')
     RESET=$(echo "$HEADERS" | sed -n -n -E 's/x-ratelimit-reset: ([0-9]+)/\1/p' | tr -d '\r')
-    PULL=$(echo "$RESP" | sed -n '/^$/{g;D;}; N; $p;')
+    PULL=$(echo "$RESP" | sed '1,/^\r$/d')
     echo $PULL >> $5
     echo $RESET $REMAINING
 else
