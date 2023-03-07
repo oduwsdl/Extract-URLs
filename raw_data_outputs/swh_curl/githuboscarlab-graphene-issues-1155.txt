@@ -1,0 +1,36 @@
+HTTP/2 301 
+server: GitHub.com
+date: Mon, 23 Jan 2023 21:35:04 GMT
+content-length: 0
+location: https://github.com/gramineproject/graphene/issues/1155
+server-timing: nginx;desc="NGINX";dur=0.726319,glb;desc="GLB";dur=7.669236
+x-pjax-url: https://github.com/oscarlab/graphene/issues/1155
+x-voltron-version: cc85742
+vary: Accept-Encoding, Accept, X-Requested-With
+x-frame-options: DENY
+set-cookie: _gh_sess=rpDt8M48E5xyQ5L2MyEpBvwIId3Nod%2BtgdMkWKGqTajPFDBlr7GoeChWLSeU7X%2FpMGSQJGa5dIbUWRYLPO48rKE%2FOHBqLgGC4ST%2F714mSKGqi9aroWsikA%2Faj82YPZx5%2BDbx5TgzvryjwooDuudsXppR1dpfiyyREzeSvI72ACEhSqTYaNI2Y%2F6nUM%2BesqOKoCqlSQrAVXwAAlW8HasV82f7GhTcsv0%2BmotzedtHCBphOrWF977D7dKOnaNSbAoo5cmvAxaCVNROCrvXGFFxdQ%3D%3D--cX6uREwmbVVgKz%2FV--6ie7F%2BZ8OZqDhvy7Wbzv8g%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.408094420.1674509704; Path=/; Domain=github.com; Expires=Tue, 23 Jan 2024 21:35:04 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 23 Jan 2024 21:35:04 GMT; HttpOnly; Secure; SameSite=Lax
+x-github-request-id: ECB4:91A2:518762B:756B4C9:63CEFD88
+
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 23 Jan 2023 21:35:05 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: issue_layout-fragment;desc="issue_layout fragment";dur=341.852296,issue_conversation_content-fragment;desc="issue_conversation_content fragment";dur=320.171689,issue_conversation_sidebar-fragment;desc="issue_conversation_sidebar fragment";dur=127.83817,nginx;desc="NGINX";dur=0.99194,glb;desc="GLB";dur=7.563903
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/gramineproject/graphene/issues/1155
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=5%2B0vsUjqWtpZ2KAh%2FQdbmxNl7pul7f4SfTrcgZKq0cVoUJRR5efvXb%2FgcvuQqRrOc%2Br0jc7w1koFWyZ%2BQBMWpLrcqKDj5ENPTLxYTfc2rmTG9n3lccbAiOEBGTO2srEKeth5GoUV37BvexkYZdalMEcggBRDusPsE5hzQLYWWnZ9P7TpSDea%2BXYh7dQdfBx5gGfGyjI9x%2B37cAfHQO9nlbmFmBdC%2BV4qW%2BXsHK495UM%2Fxcm1Koa7RJZXWx45Oel0qGkdY9M9B9kxlF5MHXWF%2BQ%3D%3D--B2Z8KOi3XwrVrf%2Bh--lPR7hFf%2Bod3GO%2BGBOeG17A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1492169971.1674509704; Path=/; Domain=github.com; Expires=Tue, 23 Jan 2024 21:35:04 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 23 Jan 2024 21:35:04 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: ECB4:91A2:518763A:756B4F4:63CEFD88
+

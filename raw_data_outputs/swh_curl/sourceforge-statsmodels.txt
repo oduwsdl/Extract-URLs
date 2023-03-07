@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 22:02:41 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 235
+location: http://www.statsmodels.org/
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 23:02:27 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790d0389bdc882ce-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.statsmodels.org/
+X-GitHub-Request-Id: 26EE:1199:D6302C:11F6284:63D59B81
+Accept-Ranges: bytes
+Date: Sat, 28 Jan 2023 22:02:41 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200039-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674943362.696677,VS0,VE14
+Vary: Accept-Encoding
+X-Fastly-Request-ID: ec2232e2a1db86b9facddcae8fd232121c9d7d2d
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Thu, 26 Jan 2023 15:40:59 GMT
+access-control-allow-origin: *
+etag: "63d29f0b-181"
+expires: Sat, 28 Jan 2023 22:12:41 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: E57A:5884:E24A3E:12B907A:63D59B81
+accept-ranges: bytes
+date: Sat, 28 Jan 2023 22:02:41 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kcgs7200091-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674943362.741792,VS0,VE7
+vary: Accept-Encoding
+x-fastly-request-id: fce37b7f330d0c4478aabf9a78c1e82e14961c97
+content-length: 385
+

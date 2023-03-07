@@ -1,0 +1,79 @@
+HTTP/2 302 
+date: Sat, 28 Jan 2023 21:15:14 GMT
+content-type: text/html
+content-length: 0
+location: https://pyvisa.readthedocs.org/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:15:03 GMT
+x-from: sfp-web-3
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790cbe089e1d9c55-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Sat, 28 Jan 2023 21:15:15 GMT
+content-type: text/html
+content-length: 162
+location: https://pyvisa.readthedocs.io/
+x-backend: web-i-048025b2382bdff67
+x-served: Nginx-Domain-Redirect
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=gJjgzUuD5yEXW02ofcdfezUCda6ggoituOCVHtR51BI-1674940515-0-AYP4/CXQg7SWDBQExQZy2naYCTCyOSMYmM5reelvwZiDdxi/I0vDA509wt1XAkrIycaWdHGdQxagQMBya3LeHBw=; path=/; expires=Sat, 28-Jan-23 21:45:15 GMT; domain=.readthedocs.org; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 790cbe0ac807819f-IAD
+
+HTTP/2 302 
+date: Sat, 28 Jan 2023 21:15:15 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+location: https://pyvisa.readthedocs.io/en/latest/
+x-rtd-redirect: system
+x-rtd-domain: pyvisa.readthedocs.io
+x-rtd-project: pyvisa
+x-rtd-project-method: subdomain
+x-rtd-version-method: path
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+referrer-policy: no-referrer-when-downgrade
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+vary: Accept-Language, Cookie
+content-language: en
+x-served: Django-Proxito
+x-backend: web-i-048025b2382bdff67
+cf-cache-status: EXPIRED
+expires: Sun, 29 Jan 2023 21:15:15 GMT
+cache-control: public, max-age=86400
+server: cloudflare
+cf-ray: 790cbe0badd90604-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 21:15:15 GMT
+content-type: text/html
+vary: Accept-Encoding
+x-amz-id-2: KzyhVHF/+J7qDaZx+urzp/9+rmDRJoMsBvSwH6Lcfqoi/XylWyoj5n1vl0e6i/5F3kC/jZLfigQ=
+x-amz-request-id: BVQSDR17ZKXAV741
+last-modified: Fri, 27 Jan 2023 10:23:20 GMT
+etag: W/"40b9bac4c772963017a99e4b5521c423"
+x-amz-server-side-encryption: AES256
+x-served: Nginx-Proxito-Sendfile
+x-backend: web-i-0b02a4cdc88ac2a99
+x-rtd-project: pyvisa
+x-rtd-version: latest
+x-rtd-path: /proxito/html/pyvisa/latest/index.html
+x-rtd-domain: pyvisa.readthedocs.io
+x-rtd-version-method: path
+x-rtd-project-method: subdomain
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: REVALIDATED
+expires: Sun, 29 Jan 2023 21:15:15 GMT
+cache-control: public, max-age=86400
+server: cloudflare
+cf-ray: 790cbe0c3e870604-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

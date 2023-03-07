@@ -1,0 +1,24 @@
+HTTP/2 301 
+server: nginx
+date: Sat, 28 Jan 2023 21:12:30 GMT
+content-type: text/html; charset=UTF-8
+location: https://downloads.sourceforge.net/project/weka/datasets/datasets-numeric/datasets-numeric.jar
+
+HTTP/2 302 
+server: nginx
+date: Sat, 28 Jan 2023 21:12:32 GMT
+content-type: text/html; charset=UTF-8
+location: https://versaweb.dl.sourceforge.net/project/weka/datasets/datasets-numeric/datasets-numeric.jar
+content-disposition: attachment; filename="datasets-numeric.jar"
+set-cookie: sf_mirror_attempt=weka:versaweb:datasets/datasets-numeric/datasets-numeric.jar; Max-Age=120; Path=/; expires=Sat, 28-Jan-2023 21:14:32 GMT
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Jan 2023 21:12:32 GMT
+Content-Type: application/java-archive
+Content-Length: 169344
+Last-Modified: Mon, 22 Sep 2003 03:32:26 GMT
+Connection: close
+ETag: "3f6e6d4a-29580"
+Server: nginx centminmod
+Accept-Ranges: bytes
+

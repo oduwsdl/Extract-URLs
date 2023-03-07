@@ -1,0 +1,50 @@
+HTTP/2 302 
+date: Sat, 28 Jan 2023 20:28:31 GMT
+content-type: text/html
+content-length: 0
+location: http://www.inlab.de/balance.html
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 21:28:24 GMT
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c7997ffe08191-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:28:31 GMT
+Server: Apache/2.4.25 (Debian)
+Location: https://www.inlab.de/balance.html
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:28:32 GMT
+Server: Apache/2.4.25 (Debian)
+Location: https://www.inlab.net/balance.html
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:28:32 GMT
+Server: Apache/2.4.25 (Debian)
+Location: https://www.inlab.net/balance/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:28:32 GMT
+Server: Apache/2.4.25 (Debian)
+Location: https://balance.inlab.net
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Jan 2023 20:28:32 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Fri, 22 Apr 2022 21:45:41 GMT
+ETag: "3108-5dd4525d8cb40"
+Accept-Ranges: bytes
+Content-Length: 12552
+Vary: Accept-Encoding
+Content-Type: text/html
+

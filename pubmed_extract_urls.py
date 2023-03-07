@@ -1,5 +1,5 @@
-# Input: /arxiv_data1/oa_pdf/
-# Output: Updated completed_dirs.txt and created parsed/[dir_name].json (with the extracted URLs for each file in the directory)
+# Input: oa_non_comm_use_pdf.csv
+# Output: Updated completed_dirs.txt and created raw_data_outputs/pmc_parsed/[dir_name].json (with the extracted URLs for each file in the directory)
 # Notes: Must be run on ssh connection to access /arxiv_data/pdf/
 
 import csv
@@ -27,8 +27,7 @@ def extraction(pdf_path):
 done = set(line.strip() for line in open('completed_files.txt'))
 completed = open("completed_files.txt", "a")
 
-with open('../oa_non_comm_use_pdf.csv', newline='') as csvfile:
-# with open('test_pdf.csv', newline='') as csvfile:
+with open('oa_non_comm_use_pdf.csv', newline='') as csvfile:
     csv_file = csv.reader(csvfile, delimiter=',')
     for row in csv_file:
         full_path = row[0]
@@ -59,7 +58,7 @@ with open('../oa_non_comm_use_pdf.csv', newline='') as csvfile:
                 # url_dict = extraction("/arxiv_data1/" + row[0])
             data[full_path] = url_dict
 
-            d = open("pmc_parsed/" + dir + ".json", "a")
+            d = open("raw_data_outputs/pmc_parsed/" + dir + ".json", "a")
             jsonl_writer = jsonlines.Writer(d)
             jsonl_writer.write(data)
             jsonl_writer.close()

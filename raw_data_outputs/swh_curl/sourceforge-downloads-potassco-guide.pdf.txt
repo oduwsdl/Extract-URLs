@@ -1,0 +1,24 @@
+HTTP/2 301 
+server: nginx
+date: Sat, 28 Jan 2023 20:38:44 GMT
+content-type: text/html; charset=UTF-8
+location: https://downloads.sourceforge.net/project/potassco/potassco_guide/2010-10-04/guide.pdf
+
+HTTP/2 302 
+server: nginx
+date: Sat, 28 Jan 2023 20:38:46 GMT
+content-type: text/html; charset=UTF-8
+location: https://master.dl.sourceforge.net/project/potassco/potassco_guide/2010-10-04/guide.pdf?viasf=1
+content-disposition: attachment; filename="guide.pdf"
+set-cookie: sf_mirror_attempt=potassco:master:potassco_guide/2010-10-04/guide.pdf; Max-Age=120; Path=/; expires=Sat, 28-Jan-2023 20:40:46 GMT
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 28 Jan 2023 20:38:46 GMT
+Content-Type: application/octet-stream
+Content-Length: 675065
+Connection: keep-alive
+last-modified: Mon, 04 Oct 2010 19:14:39 GMT
+etag: "4caa279f-a4cf9"
+accept-ranges: bytes
+

@@ -1,3 +1,7 @@
+# Input: gh_timemap.csv
+# Output: gh_timemap_map.csv and gh_repo_timemaps.csv
+# Note: WIP
+
 import csv
 import os
 import re
@@ -18,7 +22,7 @@ with open(input_file) as repos_file:
         repo = row[0]
         whole_url = re.match(r'(http|https|git):\/\/(www.|)github.com\/(.*)', repo)
         file = 'gh_timemap/github' + '-'.join(whole_url[3].split('/')) + '.txt'
-        os.system('../timemap_surt.sh ' + repo + ' ' + file + ' skip')
+        os.system('../timemaps/timemap_surt.sh ' + repo + ' ' + file + ' skip')
         timemap_map_csv.writerow([repo, 'GitHub', repo, file])
 timemap_map_file.close()
 
@@ -90,7 +94,7 @@ with open(timemap_file, newline='') as csvfile:
     for row in reader:
         status = check_timemap('../' + row[3], False)
         if status == "rerun":
-            subprocess.check_call(["./timemap_surt.sh", row[0], row[3]])
+            subprocess.check_call(["../timemaps/timemap_surt.sh", row[0], row[3]])
             status = check_timemap('../' + row[3], True)
 
         if status == "TimeMap":

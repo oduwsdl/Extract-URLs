@@ -1,0 +1,27 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 20:57:38 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 234
+location: http://linuxcontainers.org
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 21:57:20 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790ca43d392712c5-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+location: https://linuxcontainers.org/
+
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Sat, 28 Jan 2023 20:57:38 GMT
+content-type: text/html
+content-length: 27252
+last-modified: Sat, 28 Jan 2023 04:46:05 GMT
+etag: "63d4a88d-6a74"
+accept-ranges: bytes
+

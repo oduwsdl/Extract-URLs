@@ -1,0 +1,44 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 20:45:55 GMT
+content-type: text/html
+location: http://gfs.sourceforge.net/wiki/index.php/Main_Page
+vary: Accept-Encoding
+vary: Accept-Encoding
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Sat, 28 Jan 2023 20:45:37 GMT
+x-from: sfp-web-4
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c93134c3f82bc-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:45:55 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 28 Jan 2023 21:45:55 GMT
+Location: https://gfs.sourceforge.net/wiki/index.php/Main_Page
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 790c93144d925752-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 20:45:55 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+vary: Accept-Encoding
+content-language: en
+etag: W/"g35604_wiki:pcache:idhash:1-0!1!0!0!!en!2--20181104162408"
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Sun, 04 Nov 2018 16:24:08 GMT
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c93145e0082bc-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

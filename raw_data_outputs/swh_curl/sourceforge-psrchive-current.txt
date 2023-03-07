@@ -1,0 +1,40 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 21:13:36 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 248
+location: http://psrchive.sourceforge.net/current/
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:13:33 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790cbba36e256fd1-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 21:13:36 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 28 Jan 2023 22:13:36 GMT
+Location: https://psrchive.sourceforge.net/current/
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 790cbba4282681ff-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 21:13:37 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:13:20 GMT
+x-from: sfp-web-2
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790cbba43f236fd1-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

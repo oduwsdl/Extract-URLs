@@ -1,0 +1,54 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 20:55:28 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 239
+location: https://chatziko.github.io/lci/
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 21:55:11 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790ca10f1cc10582-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+server: GitHub.com
+content-type: text/html
+permissions-policy: interest-cohort=()
+location: https://www.chatzi.org/lci/
+x-github-request-id: 3F72:0B81:C0A6EB:1018E15:63D58BC0
+accept-ranges: bytes
+date: Sat, 28 Jan 2023 20:55:28 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000137-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674939328.088119,VS0,VE5
+vary: Accept-Encoding
+x-fastly-request-id: c8e520fb805c762d9dd041720c5ebf093de3e7e8
+content-length: 162
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Thu, 17 Jun 2021 13:09:56 GMT
+access-control-allow-origin: *
+etag: "60cb49a4-20a8"
+expires: Sat, 28 Jan 2023 21:05:28 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 36CA:6B7D:D578E0:12E2974:63D58BC0
+accept-ranges: bytes
+date: Sat, 28 Jan 2023 20:55:28 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000067-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674939328.155582,VS0,VE17
+vary: Accept-Encoding
+x-fastly-request-id: 12f0ed27bc5ea65518b5a553982b6271aed9ecfd
+content-length: 8360
+

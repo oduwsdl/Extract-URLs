@@ -1,0 +1,78 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 21:19:28 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 238
+location: http://scikit-learn.org/stable
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:19:17 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790cc43a7bb82d18-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+x-origin-cache: HIT
+Location: https://scikit-learn.org/stable
+X-GitHub-Request-Id: 72B8:6A44:D4956F:11D1F92:63D59160
+Accept-Ranges: bytes
+Date: Sat, 28 Jan 2023 21:19:28 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kcgs7200082-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674940769.725085,VS0,VE4
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 856c2e87320c2046abe9c47a93afce6005e71b82
+
+HTTP/2 301 
+server: GitHub.com
+content-type: text/html
+x-origin-cache: HIT
+location: https://scikit-learn.org/stable/
+access-control-allow-origin: *
+expires: Sat, 28 Jan 2023 21:29:28 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 6A52:23CE:D9434B:1326BE5:63D59160
+accept-ranges: bytes
+date: Sat, 28 Jan 2023 21:19:28 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kiad7000168-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1674940769.758581,VS0,VE10
+vary: Accept-Encoding
+x-fastly-request-id: 185d3a3da31d6bf8e39f4bb94ba25d44528641d4
+content-length: 162
+
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+x-origin-cache: HIT
+last-modified: Fri, 27 Jan 2023 15:31:34 GMT
+access-control-allow-origin: *
+etag: "63d3ee56-6fb3"
+expires: Sat, 28 Jan 2023 20:38:42 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: DBDA:0687:D5BAFF:11D78D8:63D5857A
+accept-ranges: bytes
+date: Sat, 28 Jan 2023 21:19:28 GMT
+via: 1.1 varnish
+age: 263
+x-served-by: cache-iad-kiad7000168-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1674940769.774717,VS0,VE2
+vary: Accept-Encoding
+x-fastly-request-id: 4619ebeff518716256eb0c7034b110ff46727af3
+content-length: 28595
+

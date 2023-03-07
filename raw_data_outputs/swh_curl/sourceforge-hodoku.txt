@@ -1,0 +1,35 @@
+HTTP/2 302 
+date: Sat, 28 Jan 2023 20:48:33 GMT
+content-type: text/html
+content-length: 2182
+vary: Host
+vary: Accept-Encoding
+set-cookie: PHPSESSID=4ik4inimng58nsgntg1k27ddu2; path=/
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+pragma: no-cache
+content-language: en
+location: /en/index.php
+x-from: sfp-web-7
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c96efebc36fcb-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 20:48:33 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host
+vary: Accept-Encoding
+content-language: en
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 21:46:14 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c96f0ecc66fcb-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

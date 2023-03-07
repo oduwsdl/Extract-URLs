@@ -1,0 +1,32 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 20:40:16 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 242
+location: https://elk.sourceforge.io/elk.pdf
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 21:40:09 GMT
+vary: Accept-Encoding
+cf-cache-status: EXPIRED
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c8ad01dc5829e-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 20:40:17 GMT
+content-type: application/pdf
+content-length: 702407
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+last-modified: Sun, 08 Jan 2023 15:53:44 GMT
+etag: "ab7c7-5f1c2a7cfc61e"
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 21:40:09 GMT
+x-from: sfp-ioweb-2
+strict-transport-security: max-age=31536000
+cf-cache-status: REVALIDATED
+accept-ranges: bytes
+server: cloudflare
+cf-ray: 790c8ad0ee340617-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

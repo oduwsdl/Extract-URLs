@@ -1,0 +1,44 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 22:12:24 GMT
+content-type: text/html
+location: http://wala.sourceforge.net/wiki/index.php/Main_page
+vary: Accept-Encoding
+vary: Accept-Encoding
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Sat, 28 Jan 2023 22:12:17 GMT
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790d11c38a4c0604-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 22:12:24 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 28 Jan 2023 23:12:24 GMT
+Location: https://wala.sourceforge.net/wiki/index.php/Main_page
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 790d11c538f38278-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 22:12:25 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+vary: Accept-Encoding
+content-language: en
+etag: W/"w176742_walawiki:pcache:idhash:1-0!1!0!0!!en!2!edit=0--20190828090924"
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Wed, 28 Aug 2019 09:09:24 GMT
+x-from: sfp-web-7
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790d11c55c7e0604-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

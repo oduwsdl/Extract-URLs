@@ -1,0 +1,42 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 22:12:10 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 240
+location: http://vtun.sourceforge.net/tun/
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 23:11:54 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790d11701f4b9c55-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 22:12:11 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 28 Jan 2023 23:12:11 GMT
+Location: https://vtun.sourceforge.net/tun/
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 790d1170c896824b-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 22:12:11 GMT
+content-type: text/html
+vary: Accept-Encoding
+vary: Host
+vary: Accept-Encoding
+last-modified: Sun, 11 Dec 2016 05:35:47 GMT
+etag: W/"161d-5435b5bee92c0"
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 23:11:59 GMT
+x-from: sfp-web-3
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790d117108c29c55-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

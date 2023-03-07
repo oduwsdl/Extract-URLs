@@ -1,7 +1,9 @@
+# Input: data_processing/dedupe_surt.jsonl
+# Output: data_processing/url_pub_dates.csv
+
 import jsonlines
 import csv
 
-# input_file = "test_surt.jsonl"
 input_file = "dedupe_surt.jsonl"
 output_file = "url_pub_dates.csv"
 

@@ -1,0 +1,51 @@
+HTTP/2 302 
+content-security-policy-report-only: base-uri 'self'; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net; object-src 'none'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+vary: Accept-Language, Origin
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 79592e7ef9e0d64d
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 25 Jan 2023 05:49:05 GMT
+x-usage-user-time: 0.014941
+x-usage-system-time: 0.000000
+location: /ChrSchmidt83/fanpy/get/fanpy-1.2.zip
+expires: Wed, 25 Jan 2023 05:49:05 GMT
+x-served-by: d8736966b43e
+x-envoy-upstream-service-time: 33
+content-language: en
+x-view-name: bitbucket.apps.archiving.views.download_repo
+x-static-version: 0d1391d200cb
+x-render-time: 0.027441740036010742
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 0d1391d200cb
+x-request-count: 512
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/2 200 
+server: envoy
+x-archiver-ref: aa0e2206af5e
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: application/zip; charset=utf-8
+x-usage-output-ops: 0
+x-b3-traceid: fe919ef4a3c88b03
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 25 Jan 2023 05:49:06 GMT
+x-usage-user-time: 0.007591
+x-usage-system-time: 0.007318
+expires: Wed, 25 Jan 2023 05:49:05 GMT
+x-served-by: 11c2dffd7b75
+x-archiver-status: MISS
+x-envoy-upstream-service-time: 805
+x-view-name: bitbucket.archiver.application
+x-archiver-scm: Git
+content-disposition: attachment; filename=ChrSchmidt83-fanpy-aa0e2206af5e.zip
+x-archiver-cache: remote
+x-usage-input-ops: 0
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+

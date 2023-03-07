@@ -1,0 +1,39 @@
+HTTP/2 302 
+date: Sat, 28 Jan 2023 20:47:35 GMT
+content-type: text/html
+content-length: 0
+location: http://www.genivia.com/dev.html
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 21:47:32 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c9587de8c9c7e-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:47:35 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 240
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Location: https://www.genivia.com/dev.html
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Cache-Control: max-age=315360000
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 20:47:36 GMT
+content-type: text/html
+content-length: 104209
+x-frame-options: SAMEORIGIN
+last-modified: Fri, 09 Sep 2022 12:43:47 GMT
+content-security-policy: default-src 'none'; connect-src 'self' *.carrierzone.com www.google-analytics.com www.googletagmanager.com *.googleapis.com fonts.gstatic.com *.github.io *.github.com b.sf-syn.com *.shields.io *.lgtm.com *.npmjs.com *.opensource.org *.travis-ci.com travis-ci.com www.google-analytics.com www.googletagmanager.com www.openhub.net www.cs.fsu.edu; script-src 'self' 'unsafe-inline' *.carrierzone.com www.google-analytics.com www.googletagmanager.com *.googleapis.com fonts.gstatic.com *.github.io *.github.com b.sf-syn.com *.shields.io *.lgtm.com *.npmjs.com *.opensource.org *.travis-ci.com travis-ci.com www.google-analytics.com www.googletagmanager.com www.openhub.net www.cs.fsu.edu; img-src 'self' 'unsafe-inline' data: *.carrierzone.com www.google-analytics.com www.googletagmanager.com *.googleapis.com fonts.gstatic.com *.github.io *.github.com b.sf-syn.com *.shields.io *.lgtm.com *.npmjs.com *.opensource.org *.travis-ci.com travis-ci.com www.google-analytics.com www.googletagmanager.com www.openhub.net www.cs.fsu.edu; style-src 'self' 'unsafe-inline' *.googleapis.com *.mailchimp.com; style-src-elem 'self' 'unsafe-inline' *.googleapis.com *.mailchimp.com; font-src 'self' *.googleapis.com fonts.gstatic.com; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self' genivia.us16.list-manage.com
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+cache-control: max-age=315360000
+strict-transport-security: max-age=15768000
+

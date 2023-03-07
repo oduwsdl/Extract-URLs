@@ -1,0 +1,31 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 21:06:43 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 238
+location: https://octave.sourceforge.io/
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 22:06:26 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790cb18af9db2d0c-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sat, 28 Jan 2023 21:06:43 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+vary: Accept-Encoding
+cache-control: public, proxy-revalidate, s-maxage=20, max-age=600
+expires: Sat, 28 Jan 2023 21:16:36 +0000
+last-modified: Sun, 16 Oct 2022 15:39:06 +0000
+etag: W/"0b1b408b787a2dcb5ea579eeabc442e4"
+x-from: sfp-ioweb-3
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 790cb18c298b826e-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

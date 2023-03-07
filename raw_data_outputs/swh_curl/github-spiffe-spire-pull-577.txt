@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: GitHub.com
+date: Tue, 24 Jan 2023 21:22:01 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+referrer-policy: no-referrer-when-downgrade
+server-timing: pull_request_layout-fragment;desc="pull_request_layout fragment";dur=503.427931,conversation_content-fragment;desc="conversation_content fragment";dur=815.785848,conversation_sidebar-fragment;desc="conversation_sidebar fragment";dur=349.148881,nginx;desc="NGINX";dur=1.064306,glb;desc="GLB";dur=6.699216
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+x-content-type-options: nosniff
+x-frame-options: deny
+x-pjax-url: https://github.com/spiffe/spire/pull/577
+x-voltron-version: cc85742
+x-xss-protection: 0
+set-cookie: _gh_sess=4%2BW5E9zQhAt4x4GGhsNbqJz3NToB4QK0fEcQh%2F5aFZfxe2Cty8nhr9YDgS5exmGQkLyOiiSCZzee%2BiLT%2BqDojF%2F0uL%2FsXOk0fYFoIjUN2nTniUyCawmDgZ4vXCvfEBU%2FjQU7jRrpADyyIs3P4wtanBDPdp59hTRLhPXY8UMCIqH4jgW5772WXoOX9ANaStYzDwe13%2F7pfD0cd0As5m3CgS%2B9bpUPRgylsmqi5COVkvvvSVmP8h5mVoXVPzBUC8zKt9F9rYJqo5jlfTZO64gHdQ%3D%3D--Q5HSzsFzcd%2Ba5NNN--6qQJWa1F%2FvicQKQzSBkfxA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1190871641.1674595320; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 21:22:00 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 24 Jan 2024 21:22:00 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: DA9A:2F87:6A9A543:9B8FC4A:63D04BF8
+

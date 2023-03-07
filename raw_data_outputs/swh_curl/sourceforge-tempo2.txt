@@ -1,0 +1,34 @@
+HTTP/2 302 
+date: Sat, 28 Jan 2023 22:06:48 GMT
+content-type: text/html
+content-length: 0
+location: http://www.atnf.csiro.au/research/pulsar/tempo2/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Sat, 28 Jan 2023 23:06:39 GMT
+x-from: sfp-web-8
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790d0988b8c682d8-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 22:06:50 GMT
+Server: Apache
+Location: https://www.atnf.csiro.au/research/pulsar/tempo2/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Jan 2023 22:06:51 GMT
+Server: Apache
+Vary: X-Forwarded-For
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+Content-Type: text/html; charset=UTF-8
+

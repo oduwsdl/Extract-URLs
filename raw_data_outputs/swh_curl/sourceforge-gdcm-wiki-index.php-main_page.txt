@@ -1,0 +1,45 @@
+HTTP/2 301 
+date: Sat, 28 Jan 2023 20:45:03 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+location: http://gdcm.sourceforge.net/wiki/index.php/Main_page
+vary: Accept-Encoding,Cookie
+vary: Accept-Encoding
+x-content-type-options: nosniff
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Sat, 28 Jan 2023 20:44:49 GMT
+x-from: sfp-web-7
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c91cf69c281b2-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 28 Jan 2023 20:45:03 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 28 Jan 2023 21:45:03 GMT
+Location: https://gdcm.sourceforge.net/wiki/index.php/Main_page
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 790c91d07c5e3818-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 404 
+date: Sat, 28 Jan 2023 20:45:09 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Accept-Encoding,Cookie
+x-content-type-options: nosniff
+content-language: en
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+x-from: sfp-web-4
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 790c91d09baa81b2-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

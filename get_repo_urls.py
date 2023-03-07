@@ -1,4 +1,4 @@
-# Input: parsed/ and pmc_parsed/
+# Input: raw_data_outputs/arxiv_parsed/ and raw_data_outputs/pmc_parsed/
 # Output: CSV for each platform (with the URL, dir, and file name) and corpus; [pmc_]all_file_urls.json (with all files regardless of platform URLs)
 # Notes: Also created [pmc_]repo_urls.json with only files that contain a platform URL
 
@@ -96,7 +96,7 @@ for corpus in corpora:
         total_all_files = 0
         total_url_files = 0
 
-        file_list = os.listdir("pmc_parsed/")
+        file_list = os.listdir("raw_data_outputs/pmc_parsed/")
     elif corpus == "arxiv":
         sourceforge = open("repo_results/sourceforge.csv", "w")
         github = open("repo_results/github.csv", "w")
@@ -113,7 +113,7 @@ for corpus in corpora:
         total_all_files = 0
         total_url_files = 0
 
-        file_list = os.listdir("parsed/")
+        file_list = os.listdir("raw_data_outputs/arxiv_parsed/")
     for file_name in file_list:
         if corpus == "pmc":
             dir = re.findall(r"(\d{6}).json", file_name)[0]
@@ -122,9 +122,9 @@ for corpus in corpora:
         has_repo_data[dir] = {"files":{}}
         all_files_data[dir] = {"files":{}}
         if corpus == "pmc":
-            f = open("pmc_parsed/" + file_name, "r")
+            f = open("raw_data_outputs/pmc_parsed/" + file_name, "r")
         elif corpus == "arxiv":
-            f = open("parsed/" + file_name, "r")
+            f = open("raw_data_outputs/arxiv_parsed/" + file_name, "r")
         json_data = json.load(f)
 
         all_dir_sourceforge_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
