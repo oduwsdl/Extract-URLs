@@ -7,12 +7,15 @@ import csv
 def reset():
     return "", "", "", ""
 
-corpora = ['pmc', 'arxiv']
+# corpora = ['pmc', 'arxiv']
+corpora = ['class']
 for corpus in corpora:
     if corpus == "pmc":
         prefix = "pmc_"
     elif corpus == "arxiv":
         prefix = ""
+    elif corpus == "class":
+        prefix = "class_"
 
     csv_file = open("./data_processing/" + prefix + "multiple_repos_table.csv", "w")
     csvwriter = csv.writer(csv_file)

@@ -25,13 +25,16 @@ def CCDF(data, category):
     for i in range(len(cdf)):
         csvwriter3.writerow([bin_edges[i], cdf[i]*100, category])
 
-corpora = ['pmc', 'arxiv']
+# corpora = ['pmc', 'arxiv']
+corpora = ['class']
 
 for corpus in corpora:
     if corpus == "pmc":
         prefix = "pmc_"
     elif corpus == "arxiv":
         prefix = ""
+    elif corpus == "class":
+        prefix = "class_"
     repo_file = open("./repo_results/" + prefix + "repo_urls.json")
     repo_json = json.load(repo_file)
     repo_file.close()
@@ -50,6 +53,9 @@ for corpus in corpora:
             date = dir[0:4] + "-" + dir[4:]
             year = dir[0:4]
         elif corpus == "arxiv":
+            date = "20" + dir[0:2] + "-" + dir[2:]
+            year = "20" + dir[0:2]
+        elif corpus == "class":
             date = "20" + dir[0:2] + "-" + dir[2:]
             year = "20" + dir[0:2]
         for file in repo_json[dir]["files"]:
@@ -79,11 +85,11 @@ for corpus in corpora:
                 pass
     csv_file.close()
 
-csv_file2 = open("./data_processing/total_ecdf_numbers.csv", "w")
+csv_file2 = open("./data_processing/" + prefix + "total_ecdf_numbers.csv", "w")
 csvwriter2 = csv.writer(csv_file2)
 csvwriter2.writerow(['URLCount', 'ecdf', 'Category'])
 
-csv_file3 = open("./data_processing/total_ccdf_numbers.csv", "w")
+csv_file3 = open("./data_processing/" + prefix + "total_ccdf_numbers.csv", "w")
 csvwriter3 = csv.writer(csv_file3)
 csvwriter3.writerow(['URLCount', 'cdf', 'Category'])
 

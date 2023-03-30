@@ -24,6 +24,7 @@ for input in input_files:
         classifier_results = csv.reader(classifier_results_file, delimiter=',')
 
         prev_file_base = ""
+        prev_file_name = ""
         prev_data = []
         max_version = ""
 
@@ -53,18 +54,48 @@ for input in input_files:
                     url = util.validate_url(u)
                 except:
                     url = ''
-
-            if prev_file_base != file_base:
-                if prev_file_base != "":
-                    revised_output_csv.writerow(prev_data)
+            
+            if prev_file_name == "":
+                # add current info to rows
+                prev_data.append([sent, url, classification, file_name])
+                # set prev_file to file
+                prev_file_name = file_name
+                # set prev_base to filebase
                 prev_file_base = file_base
-                max_version = parsed_file[1]
+            elif prev_file_name != file_name:
+                if prev_file_base != file_base:
+                    # write rows to file
+                    revised_output_csv.writerows(prev_data)
+                    # reset rows
+                    prev_data.clear()
+                    # add current info to rows
+                    prev_data.append([sent, url, classification, file_name])
+                    # set prev_file to file
+                    prev_file_name = file_name
+                    # set prev_base to filebase
+                    prev_file_base = file_base
+                else:
+                    # reset rows
+                    prev_data.clear()
+                    # add current info to rows
+                    prev_data.append([sent, url, classification, file_name])
+                    # set prev_file to file
+                    prev_file_name = file_name
             else:
-                if int(max_version) < int(parsed_file[1]):
-                    max_version = parsed_file[1]
-            prev_data = [sent, url, classification, file_name]
+                # add current info to rows
+                prev_data.append([sent, url, classification, file_name])
 
-        revised_output_csv.writerow(prev_data)
+            # if prev_file_base != file_base:
+            #     if prev_file_base != "":
+            #         revised_output_csv.writerow(prev_data)
+            #     prev_file_base = file_base
+            #     max_version = parsed_file[1]
+            # else:
+            #     if int(max_version) < int(parsed_file[1]):
+            #         max_version = parsed_file[1]
+            # prev_data = [sent, url, classification, file_name]
+
+        revised_output_csv.writerows(prev_data)
             
 
     revised_output_file.close()

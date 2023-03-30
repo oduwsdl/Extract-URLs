@@ -5,12 +5,15 @@
 import json
 import csv
 
-corpora = ["pmc", "arxiv"]
+# corpora = ["pmc", "arxiv"]
+corpora = ["class"]
 for corpus in corpora:
     if corpus == "pmc":
         prefix = "pmc_"
     elif corpus == "arxiv":
         prefix = ""
+    elif corpus == "class":
+        prefix = "class_"
 
     repo_file = open("./repo_results/" + prefix + "repo_urls.json")
     repo_json = json.load(repo_file)
@@ -29,8 +32,13 @@ for corpus in corpora:
     for dir in repo_json:
         if corpus == "pmc":
             date = dir[0:4] + "-" + dir[4:]
+            dir_file = open(prefix + "parsed/" + dir + ".json")
         elif corpus == "arxiv":
             date = "20" + dir[0:2] + "-" + dir[2:]
+            dir_file = open(prefix + "parsed/" + dir + ".json")
+        elif corpus == "class":
+            date = "20" + dir[0:2] + "-" + dir[2:]
+            dir_file = open("raw_data_outputs/classifier_results/" + dir + ".json")
         sourceforge_count = repo_json[dir]["sourceforge"]["url_count"]
         github_count = repo_json[dir]["github"]["url_count"]
         gitlab_count = repo_json[dir]["gitlab"]["url_count"]
@@ -39,7 +47,6 @@ for corpus in corpora:
         total_github_count = total_github_count + github_count
         total_gitlab_count = total_gitlab_count + gitlab_count
         total_bitbucket_count = total_bitbucket_count + bitbucket_count
-        dir_file = open(prefix + "parsed/" + dir + ".json")
         dir_json = json.load(dir_file)
         dir_file.close()
         dir_count = 0

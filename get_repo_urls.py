@@ -9,67 +9,67 @@ import csv
 from surt import surt
 
 def url_union(repo_dict):
-    repo_all = list(set(repo_dict["annot_urls"]).union(set(repo_dict["text_urls"])))
+    repo_all = list(set(repo_dict["oads_urls"]).union(set(repo_dict["non_oads_urls"])))
     return repo_all
 
 def update_dict(dir_dict, repo_all, repo_dict):
     repo_dict["all_urls"] = repo_all
     repo_dict["url_count"] = len(repo_all)
-    dir_dict["annot_urls"].extend(repo_dict["annot_urls"])
-    dir_dict["text_urls"].extend(repo_dict["text_urls"])
+    dir_dict["oads_urls"].extend(repo_dict["oads_urls"])
+    dir_dict["non_oads_urls"].extend(repo_dict["non_oads_urls"])
     dir_dict["all_urls"].extend(repo_all)
     dir_dict["url_count"] = dir_dict["url_count"] + len(repo_all)
     return repo_dict
 
-sf_surt_file = open("./repo_results/sourceforge_surt.csv", "w")
+sf_surt_file = open("./repo_results/class_sourceforge_surt.csv", "w")
 sf_surt_csv = csv.writer(sf_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
 
-not_sf_file = open('./acorns/not_really_sourceforge.csv', 'w')
+not_sf_file = open('./acorns/class_not_really_sourceforge.csv', 'w')
 not_sf_csv = csv.writer(not_sf_file, delimiter=' ')
 not_sf_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-gh_surt_file = open("./repo_results/github_surt.csv", "w")
+gh_surt_file = open("./repo_results/class_github_surt.csv", "w")
 gh_surt_csv = csv.writer(gh_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
 
-memento_file = open('./acorns/mementos.csv', 'w')
+memento_file = open('./acorns/class_mementos.csv', 'w')
 memento_csv = csv.writer(memento_file, delimiter=' ')
 memento_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-save_file = open('./acorns/archive_save.csv', 'w')
+save_file = open('./acorns/class_archive_save.csv', 'w')
 save_csv = csv.writer(save_file, delimiter=' ')
 save_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-gist_file = open('./acorns/gist_urls.csv', 'w')
+gist_file = open('./acorns/class_gist_urls.csv', 'w')
 gist_csv = csv.writer(gist_file, delimiter=' ')
 gist_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-gh_io_file = open('./acorns/github_io.csv', 'w')
+gh_io_file = open('./acorns/class_github_io.csv', 'w')
 gh_io_csv = csv.writer(gh_io_file, delimiter=' ')
 gh_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-not_gh_file = open('./acorns/not_really_github.csv', 'w')
+not_gh_file = open('./acorns/class_not_really_github.csv', 'w')
 not_gh_csv = csv.writer(not_gh_file, delimiter=' ')
 not_gh_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-gl_surt_file = open("./repo_results/gitlab_surt.csv", "w")
+gl_surt_file = open("./repo_results/class_gitlab_surt.csv", "w")
 gl_surt_csv = csv.writer(gl_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
 
-gl_io_file = open('./acorns/gitlab_io.csv', 'w')
+gl_io_file = open('./acorns/class_gitlab_io.csv', 'w')
 gl_io_csv = csv.writer(gl_io_file, delimiter=' ')
 gl_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-not_gl_file = open('./acorns/not_really_gitlab.csv', 'w')
+not_gl_file = open('./acorns/class_not_really_gitlab.csv', 'w')
 not_gl_csv = csv.writer(not_gl_file, delimiter=' ')
 not_gl_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-bb_surt_file = open("./repo_results/bitbucket_surt.csv", "w")
+bb_surt_file = open("./repo_results/class_bitbucket_surt.csv", "w")
 bb_surt_csv = csv.writer(bb_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
 
-bb_io_file = open('./acorns/bitbucket_io.csv', 'w')
+bb_io_file = open('./acorns/class_bitbucket_io.csv', 'w')
 bb_io_csv = csv.writer(bb_io_file, delimiter=' ')
 bb_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-not_bb_file = open('./acorns/not_really_bitbucket.csv', 'w')
+not_bb_file = open('./acorns/class_not_really_bitbucket.csv', 'w')
 not_bb_csv = csv.writer(not_bb_file, delimiter=' ')
 not_bb_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
@@ -78,7 +78,8 @@ gl_sitemap = ['gitlab.com/users/sign_in$', 'gitlab.com/users/sign_in/.*', 'gitla
 sf_sitemap = ['sourceforge.net/create$', 'sourceforge.net/create/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*', 'sourceforge.net/top$', 'sourceforge.net/top/.*', 'sourceforge.net/user/newsletters$', 'sourceforge.net/user/newsletters/.*', 'sourceforge.net/user/registration$', 'sourceforge.net/user/registation/.*', 'sourceforge.net/user/registration_business$', 'sourceforge.net/user/registration_business/.*', 'sourceforge.net/software/vendors$', 'sourceforge.net/software/vendors/.*', 'sourceforge.net/software/reviews$', 'sourceforge.net/software/reviews/.*', 'sourceforge.net/p/forge$', 'sourceforge.net/p/forge/.*', 'sourceforge.net/p/add_project$', 'sourceforge.net/p/add_project/.*', 'sourceforge.net/auth$', 'sourceforge.net/auth/.*', 'sourceforge.net/directory$', 'sourceforge.net/directory/.*', 'sourceforge.net/software/?', 'sourceforge.net/blog$', 'sourceforge.net/blog/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*']
 bb_sitemap = ['bitbucket.org/product$', 'bitbucket.org/product/.*', 'bitbucket.org/blog$', 'bitbucket.org/blog/.*']
 
-corpora = ["pmc", "arxiv"]
+# corpora = ["pmc", "arxiv"]
+corpora = ['class']
 for corpus in corpora:
     if corpus == "pmc":
         sourceforge = open("repo_results/pmc_sourceforge.csv", "w")
@@ -114,27 +115,48 @@ for corpus in corpora:
         total_url_files = 0
 
         file_list = os.listdir("raw_data_outputs/arxiv_parsed/")
+    elif corpus == "class":
+        sourceforge = open("repo_results/class_sourceforge.csv", "w")
+        github = open("repo_results/class_github.csv", "w")
+        gitlab = open("repo_results/class_gitlab.csv", "w")
+        bitbucket = open("repo_results/class_bitbucket.csv", "w")
+        has_repo_json = open("repo_results/class_repo_urls.json", "w")
+        all_files_json = open("repo_results/class_all_file_urls.json", "w")
+        csv_file2 = open("./data_processing/class_file_count.csv", "w")
+        csvwriter2 = csv.writer(csv_file2)
+        csvwriter2.writerow(['Directory', 'FileCount', 'FileWithURL'])
+
+        has_repo_data = {}
+        all_files_data = {}
+        total_all_files = 0
+        total_url_files = 0
+
+        file_list = os.listdir("raw_data_outputs/classifier_results/")
     for file_name in file_list:
         if corpus == "pmc":
             dir = re.findall(r"(\d{6}).json", file_name)[0]
         elif corpus == "arxiv":
+            dir = re.findall(r"(\d{4}).json", file_name)[0]
+        elif corpus == "class":
             dir = re.findall(r"(\d{4}).json", file_name)[0]
         has_repo_data[dir] = {"files":{}}
         all_files_data[dir] = {"files":{}}
         if corpus == "pmc":
             f = open("raw_data_outputs/pmc_parsed/" + file_name, "r")
         elif corpus == "arxiv":
-            f = open("raw_data_outputs/arxiv_parsed/" + file_name, "r")
+            f = open("raw_data_outputs/arxiv_parsed/" + file_name, "r") 
+        elif corpus == "class":
+            f = open("raw_data_outputs/classifier_results/" + file_name, "r")
         json_data = json.load(f)
 
-        all_dir_sourceforge_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
-        repo_dir_sourceforge_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
-        all_dir_github_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
-        repo_dir_github_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
-        all_dir_gitlab_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
-        repo_dir_gitlab_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
-        all_dir_bitbucket_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
-        repo_dir_bitbucket_dict = {"url_count":0, "annot_urls":[], "text_urls":[], "all_urls":[]}
+        all_dir_sourceforge_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+        repo_dir_sourceforge_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+        all_dir_github_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+        repo_dir_github_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+        all_dir_gitlab_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+        repo_dir_gitlab_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+        all_dir_bitbucket_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+        repo_dir_bitbucket_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
 
         all_files = 0
         url_files = 0
@@ -142,15 +164,17 @@ for corpus in corpora:
             all_files = all_files + 1
             if json_data[dir]["files"][pdf_name]["url_count"] != 0:
                 url_files = url_files + 1
-            annot_urls = json_data[dir]["files"][pdf_name]["annot_urls"]
-            text_urls = json_data[dir]["files"][pdf_name]["text_urls"]
+            # annot_urls = json_data[dir]["files"][pdf_name]["annot_urls"]
+            # text_urls = json_data[dir]["files"][pdf_name]["text_urls"]
+            oads_urls = json_data[dir]["files"][pdf_name]["oads_urls"]
+            non_oads_urls = json_data[dir]["files"][pdf_name]["non_oads_urls"]
 
-            sourceforge_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
-            github_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
-            gitlab_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
-            bitbucket_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
+            sourceforge_dict = {"oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+            github_dict = {"oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+            gitlab_dict = {"oads_urls":[], "non_oads_urls":[], "all_urls":[]}
+            bitbucket_dict = {"oads_urls":[], "non_oads_urls":[], "all_urls":[]}
 
-            for url in annot_urls:
+            for url in oads_urls:
                 s = surt(url.strip())
                 if len(dir) == 4:
                     d = "20" + dir
@@ -161,7 +185,7 @@ for corpus in corpora:
                     if re.search(r"(?=("+'|'.join(sf_sitemap)+r"))", url) is not None:
                         not_sf_csv.writerow([url, s, d, pdf_name, corpus, 'SourceForge'])
                     else:
-                        sourceforge_dict["annot_urls"].append(url)
+                        sourceforge_dict["oads_urls"].append(url)
                         sourceforge.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                         sf_surt_csv.writerow([url, s, d, pdf_name, corpus, 'SourceForge'])
 
@@ -178,7 +202,7 @@ for corpus in corpora:
                     elif not re.match(r"^(https:\/\/w{0,3}.?github.com\/.+)", url) or re.search(r"(?=("+'|'.join(gh_sitemap)+r"))", url) is not None:
                         not_gh_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                     else:
-                        github_dict["annot_urls"].append(url)
+                        github_dict["oads_urls"].append(url)
                         github.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                         gh_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                 
@@ -189,7 +213,7 @@ for corpus in corpora:
                     elif not re.match(r"^(https:\/\/w{0,3}.?gitlab.com\/.+)", url) or re.search(r"(?=("+'|'.join(gl_sitemap)+r"))", url) is not None:
                         not_gl_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                     else:
-                        gitlab_dict["annot_urls"].append(url)
+                        gitlab_dict["oads_urls"].append(url)
                         gitlab.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                         gl_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                 
@@ -203,33 +227,33 @@ for corpus in corpora:
                         else:
                             not_bb_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
                     else:
-                        bitbucket_dict["annot_urls"].append(url)
+                        bitbucket_dict["oads_urls"].append(url)
                         bitbucket.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                         bb_surt_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
             
-            for url in text_urls:
+            for url in non_oads_urls:
                 s = surt(url.strip())
                 sf = re.search(r"(sourceforge.net)", url)
                 if sf is not None:
-                    sourceforge_dict["text_urls"].append(url)
+                    sourceforge_dict["non_oads_urls"].append(url)
                     sourceforge.write(url + " " + dir + " " + pdf_name + "\n")
                     sf_surt_csv.writerow([url, s, d, pdf_name, corpus, 'SourceForge'])
 
                 gh = re.search(r"^(https:\/\/w{0,3}.?github.com\/.+)", url)
                 if gh is not None:
-                    github_dict["text_urls"].append(url)
+                    github_dict["non_oads_urls"].append(url)
                     github.write(url + " " + dir + " " + pdf_name + "\n")
                     gh_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                 
                 gl = re.search(r"^(https:\/\/w{0,3}.?gitlab.com\/.+)", url)
                 if gl is not None:
-                    gitlab_dict["text_urls"].append(url)
+                    gitlab_dict["non_oads_urls"].append(url)
                     gitlab.write(url + " " + dir + " " + pdf_name + "\n")
                     gl_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                 
                 bb = re.search(r"^https:\/\/(w{0,3}.?bitbucket.org\/.+|.*@bitbucket.org\/.+)", url)
                 if bb is not None:
-                    bitbucket_dict["text_urls"].append(url)
+                    bitbucket_dict["non_oads_urls"].append(url)
                     bitbucket.write(url + " " + dir + " " + pdf_name + "\n")
                     bb_surt_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
             

@@ -20,9 +20,13 @@ with open("./classifier_results/" + input_file, newline='') as classifier_result
     url_dict = {}
 
     for row in classifier_results:
-        url = row[1]
-        classification = row[2]
-        filename = row[3]
+        try:
+            url = row[1]
+            classification = row[2]
+            filename = row[3]
+        except:
+            print(row)
+            continue
         try:
             dir = get_dir(filename)
         except:
