@@ -189,6 +189,7 @@ for corpus in corpora:
             if corpus == "class":
                 oads_urls = json_data[dir]["files"][pdf_name]["oads_urls"]
                 non_oads_urls = json_data[dir]["files"][pdf_name]["non_oads_urls"]
+                url_lists = {'oads_urls': oads_urls, 'non_oads_urls': non_oads_urls}
 
                 sourceforge_dict = {"oads_urls":[], "non_oads_urls":[], "all_urls":[]}
                 github_dict = {"oads_urls":[], "non_oads_urls":[], "all_urls":[]}
@@ -197,19 +198,15 @@ for corpus in corpora:
             else:
                 annot_urls = json_data[dir]["files"][pdf_name]["annot_urls"]
                 text_urls = json_data[dir]["files"][pdf_name]["text_urls"]
+                url_lists = {'annot_urls': annot_urls, 'text_urls': text_urls}
 
                 sourceforge_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
                 github_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
                 gitlab_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
                 bitbucket_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
 
-            url_lists = {}
-            if corpus == "class":
-                urls_lists = {'oads_urls': oads_urls, 'non_oads_urls': non_oads_urls}
-            else:
-                urls_lists = {'annot_urls': annot_urls, 'text_urls': text_urls}
             for url_list in url_lists:
-                for url in url_list:
+                for url in url_lists[url_list]:
                     s = surt(url.strip())
                     if len(dir) == 4:
                         d = "20" + dir
@@ -220,7 +217,7 @@ for corpus in corpora:
                         if re.search(r"(?=("+'|'.join(sf_sitemap)+r"))", url) is not None:
                             not_sf_csv.writerow([url, s, d, pdf_name, corpus, 'SourceForge'])
                         else:
-                            sourceforge_dict["oads_urls"].append(url)
+                            sourceforge_dict[url_list].append(url)
                             sourceforge.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                             sf_surt_csv.writerow([url, s, d, pdf_name, corpus, 'SourceForge'])
 
@@ -237,7 +234,7 @@ for corpus in corpora:
                         elif not re.match(r"^(https:\/\/w{0,3}.?github.com\/.+)", url) or re.search(r"(?=("+'|'.join(gh_sitemap)+r"))", url) is not None:
                             not_gh_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                         else:
-                            github_dict["oads_urls"].append(url)
+                            github_dict[url_list].append(url)
                             github.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                             gh_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                     
@@ -248,7 +245,7 @@ for corpus in corpora:
                         elif not re.match(r"^(https:\/\/w{0,3}.?gitlab.com\/.+)", url) or re.search(r"(?=("+'|'.join(gl_sitemap)+r"))", url) is not None:
                             not_gl_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                         else:
-                            gitlab_dict["oads_urls"].append(url)
+                            gitlab_dict[url_list].append(url)
                             gitlab.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                             gl_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                     
@@ -262,7 +259,7 @@ for corpus in corpora:
                             else:
                                 not_bb_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
                         else:
-                            bitbucket_dict["oads_urls"].append(url)
+                            bitbucket_dict[url_list].append(url)
                             bitbucket.write(url + " " + s + " " + d + " " + pdf_name + "\n")
                             bb_surt_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
             
