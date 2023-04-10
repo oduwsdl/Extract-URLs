@@ -111,9 +111,13 @@ for corpus in corpora:
         file_list = os.listdir("raw_data_outputs/pmc_parsed/")
     elif corpus == "arxiv":
         sourceforge = open("repo_results/sourceforge.csv", "w")
+        sourceforge.write("URL SURT Directory Filename URLType\n")
         github = open("repo_results/github.csv", "w")
+        github.write("URL SURT Directory Filename URLType\n")
         gitlab = open("repo_results/gitlab.csv", "w")
+        gitlab.write("URL SURT Directory Filename URLType\n")
         bitbucket = open("repo_results/bitbucket.csv", "w")
+        bitbucket.write("URL SURT Directory Filename URLType\n")
         has_repo_json = open("repo_results/repo_urls.json", "w")
         all_files_json = open("repo_results/all_file_urls.json", "w")
         csv_file2 = open("./data_processing/file_count.csv", "w")
@@ -128,9 +132,13 @@ for corpus in corpora:
         file_list = os.listdir("raw_data_outputs/arxiv_parsed/")
     elif corpus == "class":
         sourceforge = open("repo_results/class_sourceforge.csv", "w")
+        sourceforge.write("URL SURT Directory Filename URLType\n")
         github = open("repo_results/class_github.csv", "w")
+        github.write("URL SURT Directory Filename URLType\n")
         gitlab = open("repo_results/class_gitlab.csv", "w")
+        gitlab.write("URL SURT Directory Filename URLType\n")
         bitbucket = open("repo_results/class_bitbucket.csv", "w")
+        bitbucket.write("URL SURT Directory Filename URLType\n")
         has_repo_json = open("repo_results/class_repo_urls.json", "w")
         all_files_json = open("repo_results/class_all_file_urls.json", "w")
         csv_file2 = open("./data_processing/class_file_count.csv", "w")
@@ -218,7 +226,7 @@ for corpus in corpora:
                             not_sf_csv.writerow([url, s, d, pdf_name, corpus, 'SourceForge'])
                         else:
                             sourceforge_dict[url_list].append(url)
-                            sourceforge.write(url + " " + s + " " + d + " " + pdf_name + "\n")
+                            sourceforge.write(url + " " + s + " " + d + " " + pdf_name + " " + url_list + "\n")
                             sf_surt_csv.writerow([url, s, d, pdf_name, corpus, 'SourceForge'])
 
                     gh = re.search(r"(github.com|github.io)", url)
@@ -235,7 +243,7 @@ for corpus in corpora:
                             not_gh_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                         else:
                             github_dict[url_list].append(url)
-                            github.write(url + " " + s + " " + d + " " + pdf_name + "\n")
+                            github.write(url + " " + s + " " + d + " " + pdf_name + " " + url_list + "\n")
                             gh_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                     
                     gl = re.search(r"(gitlab.com|gitlab.io)", url)
@@ -246,7 +254,7 @@ for corpus in corpora:
                             not_gl_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                         else:
                             gitlab_dict[url_list].append(url)
-                            gitlab.write(url + " " + s + " " + d + " " + pdf_name + "\n")
+                            gitlab.write(url + " " + s + " " + d + " " + pdf_name + " " + url_list + "\n")
                             gl_surt_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                     
                     bb = re.search(r"(bitbucket.org|bitbucket.io)", url)
@@ -260,7 +268,7 @@ for corpus in corpora:
                                 not_bb_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
                         else:
                             bitbucket_dict[url_list].append(url)
-                            bitbucket.write(url + " " + s + " " + d + " " + pdf_name + "\n")
+                            bitbucket.write(url + " " + s + " " + d + " " + pdf_name + " " + url_list + "\n")
                             bb_surt_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
             
             sourceforge_all = url_union(sourceforge_dict, corpus)
