@@ -57,7 +57,8 @@ for input in input_files:
             
             if prev_file_name == "":
                 # add current info to rows
-                prev_data.append([sent, url, classification, file_name])
+                # prev_data.append([sent, url, classification, file_name])
+                prev_data.append([url, classification, file_name])
                 # set prev_file to file
                 prev_file_name = file_name
                 # set prev_base to filebase
@@ -69,7 +70,8 @@ for input in input_files:
                     # reset rows
                     prev_data.clear()
                     # add current info to rows
-                    prev_data.append([sent, url, classification, file_name])
+                    # prev_data.append([sent, url, classification, file_name])
+                    prev_data.append([url, classification, file_name])
                     # set prev_file to file
                     prev_file_name = file_name
                     # set prev_base to filebase
@@ -78,12 +80,14 @@ for input in input_files:
                     # reset rows
                     prev_data.clear()
                     # add current info to rows
-                    prev_data.append([sent, url, classification, file_name])
+                    # prev_data.append([sent, url, classification, file_name])
+                    prev_data.append([url, classification, file_name])
                     # set prev_file to file
                     prev_file_name = file_name
             else:
                 # add current info to rows
-                prev_data.append([sent, url, classification, file_name])
+                # prev_data.append([sent, url, classification, file_name])
+                prev_data.append([url, classification, file_name])
 
             # if prev_file_base != file_base:
             #     if prev_file_base != "":
