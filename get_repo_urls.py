@@ -239,7 +239,7 @@ for corpus in corpora:
                             memento_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                         elif re.match(r'io,github', url):
                             gh_io_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
-                        elif not re.match(r"^(https:\/\/w{0,3}.?github.com\/.+)", url) or re.search(r"(?=("+'|'.join(gh_sitemap)+r"))", url) is not None:
+                        elif not re.match(r"^(https?:\/\/w{0,3}.?github.com\/.+)", url) or re.search(r"(?=("+'|'.join(gh_sitemap)+r"))", url) is not None:
                             not_gh_csv.writerow([url, s, d, pdf_name, corpus, 'GitHub'])
                         else:
                             github_dict[url_list].append(url)
@@ -250,7 +250,7 @@ for corpus in corpora:
                     if gl is not None:
                         if re.match(r'io,gitlab', s):
                             gl_io_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
-                        elif not re.match(r"^(https:\/\/w{0,3}.?gitlab.com\/.+)", url) or re.search(r"(?=("+'|'.join(gl_sitemap)+r"))", url) is not None:
+                        elif not re.match(r"^(https?:\/\/w{0,3}.?gitlab.com\/.+)", url) or re.search(r"(?=("+'|'.join(gl_sitemap)+r"))", url) is not None:
                             not_gl_csv.writerow([url, s, d, pdf_name, corpus, 'GitLab'])
                         else:
                             gitlab_dict[url_list].append(url)
@@ -260,9 +260,9 @@ for corpus in corpora:
                     bb = re.search(r"(bitbucket.org|bitbucket.io)", url)
                     if bb is not None:
                         # is it a link to a repo?
-                        if not re.match(r"^https:\/\/(w{0,3}.?bitbucket.org\/.+|.*@bitbucket.org\/.+)", url) or re.search(r"(?=("+'|'.join(bb_sitemap)+r"))", url) is not None:
+                        if not re.match(r"^https?:\/\/(w{0,3}.?bitbucket.org\/.+|.*@bitbucket.org\/.+)", url) or re.search(r"(?=("+'|'.join(bb_sitemap)+r"))", url) is not None:
                             # is it a link to Bitbucket pages?
-                            if re.match(r"^https:\/\/((?!www).*.?bitbucket.org|.*bitbucket.io)", url):
+                            if re.match(r"^https?:\/\/((?!www).*.?bitbucket.org|.*bitbucket.io)", url):
                                 bb_io_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
                             else:
                                 not_bb_csv.writerow([url, s, d, pdf_name, corpus, 'Bitbucket'])
