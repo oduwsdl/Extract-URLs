@@ -32,66 +32,66 @@ def update_dict(dir_dict, repo_all, repo_dict, corpus):
         dir_dict["url_count"] = dir_dict["url_count"] + len(repo_all)
     return repo_dict
 
-sf_surt_file = open("./repo_results/class_sourceforge_surt.csv", "w")
-sf_surt_csv = csv.writer(sf_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
-
-not_sf_file = open('./acorns/class_not_really_sourceforge.csv', 'w')
-not_sf_csv = csv.writer(not_sf_file, delimiter=' ')
-not_sf_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-gh_surt_file = open("./repo_results/class_github_surt.csv", "w")
-gh_surt_csv = csv.writer(gh_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
-
-memento_file = open('./acorns/class_mementos.csv', 'w')
-memento_csv = csv.writer(memento_file, delimiter=' ')
-memento_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-save_file = open('./acorns/class_archive_save.csv', 'w')
-save_csv = csv.writer(save_file, delimiter=' ')
-save_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-gist_file = open('./acorns/class_gist_urls.csv', 'w')
-gist_csv = csv.writer(gist_file, delimiter=' ')
-gist_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-gh_io_file = open('./acorns/class_github_io.csv', 'w')
-gh_io_csv = csv.writer(gh_io_file, delimiter=' ')
-gh_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-not_gh_file = open('./acorns/class_not_really_github.csv', 'w')
-not_gh_csv = csv.writer(not_gh_file, delimiter=' ')
-not_gh_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-gl_surt_file = open("./repo_results/class_gitlab_surt.csv", "w")
-gl_surt_csv = csv.writer(gl_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
-
-gl_io_file = open('./acorns/class_gitlab_io.csv', 'w')
-gl_io_csv = csv.writer(gl_io_file, delimiter=' ')
-gl_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-not_gl_file = open('./acorns/class_not_really_gitlab.csv', 'w')
-not_gl_csv = csv.writer(not_gl_file, delimiter=' ')
-not_gl_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-bb_surt_file = open("./repo_results/class_bitbucket_surt.csv", "w")
-bb_surt_csv = csv.writer(bb_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
-
-bb_io_file = open('./acorns/class_bitbucket_io.csv', 'w')
-bb_io_csv = csv.writer(bb_io_file, delimiter=' ')
-bb_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
-not_bb_file = open('./acorns/class_not_really_bitbucket.csv', 'w')
-not_bb_csv = csv.writer(not_bb_file, delimiter=' ')
-not_bb_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
-
 gh_sitemap = ['github.com/join\?', 'github.com/login', 'github.com/pricing$', 'github.com/pricing/.*' 'github.com/git-guides$', 'github.com/git-guides/.*', 'github.com/team$', 'github.com/team/.*', 'github.com/marketplace$', 'github.com/marketplace/.*', 'github.com/enterprise$', 'github.com/enterprise/.*', 'github.com/features$', 'github.com/features/.*', 'github.com/readme$', 'github.com/readme/.*', 'github.com/about$', 'github.com/about/.*', 'github.com/learn$', 'github.com/learn/.*']
 gl_sitemap = ['gitlab.com/users/sign_in$', 'gitlab.com/users/sign_in/.*', 'gitlab.com/users/sign_up$', 'gitlab.com/users/sign_up/.*', 'gitlab.com/explore$', 'gitlab.com/explore/.*', 'gitlab.com/help$', 'gitlab.com/help/.*']
 sf_sitemap = ['sourceforge.net/create$', 'sourceforge.net/create/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*', 'sourceforge.net/top$', 'sourceforge.net/top/.*', 'sourceforge.net/user/newsletters$', 'sourceforge.net/user/newsletters/.*', 'sourceforge.net/user/registration$', 'sourceforge.net/user/registation/.*', 'sourceforge.net/user/registration_business$', 'sourceforge.net/user/registration_business/.*', 'sourceforge.net/software/vendors$', 'sourceforge.net/software/vendors/.*', 'sourceforge.net/software/reviews$', 'sourceforge.net/software/reviews/.*', 'sourceforge.net/p/forge$', 'sourceforge.net/p/forge/.*', 'sourceforge.net/p/add_project$', 'sourceforge.net/p/add_project/.*', 'sourceforge.net/auth$', 'sourceforge.net/auth/.*', 'sourceforge.net/directory$', 'sourceforge.net/directory/.*', 'sourceforge.net/software/?', 'sourceforge.net/blog$', 'sourceforge.net/blog/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*']
 bb_sitemap = ['bitbucket.org/product$', 'bitbucket.org/product/.*', 'bitbucket.org/blog$', 'bitbucket.org/blog/.*']
 
 # corpora = ["pmc", "arxiv"]
-corpora = ['arxiv', 'class']
+corpora = ['arxiv', 'class', 'pmc']
 for corpus in corpora:
+    sf_surt_file = open("./repo_results/" + corpus + "_sourceforge_surt.csv", "w")
+    sf_surt_csv = csv.writer(sf_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
+
+    not_sf_file = open('./acorns/' + corpus + '_not_really_sourceforge.csv', 'w')
+    not_sf_csv = csv.writer(not_sf_file, delimiter=' ')
+    not_sf_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    gh_surt_file = open("./repo_results/" + corpus + "_github_surt.csv", "w")
+    gh_surt_csv = csv.writer(gh_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
+
+    memento_file = open('./acorns/' + corpus + '_mementos.csv', 'w')
+    memento_csv = csv.writer(memento_file, delimiter=' ')
+    memento_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    save_file = open('./acorns/' + corpus + '_archive_save.csv', 'w')
+    save_csv = csv.writer(save_file, delimiter=' ')
+    save_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    gist_file = open('./acorns/' + corpus + '_gist_urls.csv', 'w')
+    gist_csv = csv.writer(gist_file, delimiter=' ')
+    gist_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    gh_io_file = open('./acorns/' + corpus + '_github_io.csv', 'w')
+    gh_io_csv = csv.writer(gh_io_file, delimiter=' ')
+    gh_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    not_gh_file = open('./acorns/' + corpus + '_not_really_github.csv', 'w')
+    not_gh_csv = csv.writer(not_gh_file, delimiter=' ')
+    not_gh_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    gl_surt_file = open("./repo_results/" + corpus + "_gitlab_surt.csv", "w")
+    gl_surt_csv = csv.writer(gl_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
+
+    gl_io_file = open('./acorns/' + corpus + '_gitlab_io.csv', 'w')
+    gl_io_csv = csv.writer(gl_io_file, delimiter=' ')
+    gl_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    not_gl_file = open('./acorns/' + corpus + '_not_really_gitlab.csv', 'w')
+    not_gl_csv = csv.writer(not_gl_file, delimiter=' ')
+    not_gl_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    bb_surt_file = open("./repo_results/" + corpus + "_bitbucket_surt.csv", "w")
+    bb_surt_csv = csv.writer(bb_surt_file, delimiter=' ', escapechar='\\', quoting=csv.QUOTE_NONE)
+
+    bb_io_file = open('./acorns/' + corpus + '_bitbucket_io.csv', 'w')
+    bb_io_csv = csv.writer(bb_io_file, delimiter=' ')
+    bb_io_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
+    not_bb_file = open('./acorns/' + corpus + '_not_really_bitbucket.csv', 'w')
+    not_bb_csv = csv.writer(not_bb_file, delimiter=' ')
+    not_bb_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
+
     if corpus == "pmc":
         sourceforge = open("repo_results/pmc_sourceforge.csv", "w")
         github = open("repo_results/pmc_github.csv", "w")
@@ -214,7 +214,8 @@ for corpus in corpora:
                 bitbucket_dict = {"annot_urls":[], "text_urls":[], "all_urls":[]}
 
             for url_list in url_lists:
-                for url in url_lists[url_list]:
+                for u in url_lists[url_list]:
+                    url = u.lower()
                     s = surt(url.strip())
                     if len(dir) == 4:
                         d = "20" + dir
