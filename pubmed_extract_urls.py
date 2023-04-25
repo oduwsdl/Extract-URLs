@@ -1,6 +1,6 @@
 # Input: oa_non_comm_use_pdf.csv
 # Output: Updated completed_dirs.txt and created raw_data_outputs/pmc_parsed/[dir_name].json (with the extracted URLs for each file in the directory)
-# Notes: Must be run on ssh connection to access /arxiv_data/pdf/
+# Notes: Must be run on ssh connection to access /arxiv_data1/oa_pdf/
 
 import csv
 import datetime
@@ -44,7 +44,7 @@ with open('oa_non_comm_use_pdf.csv', newline='') as csvfile:
                 except:
                     print(row)
                     continue
-            dir = parsed_date[0][2:] + f"{month_num:02}"
+            dir = parsed_date[0] + f"{month_num:02}"
 
             data = {}
 
