@@ -2,38 +2,34 @@ import os
 import csv
 import re
 
-input_file = "curl_results.csv"
-output_file = "rerun_curl.csv"
-map_file = "rerun_curl_map.csv" 
 i = 0
 
-rerun_file = open('./data_processing/' + output_file, "w")
-rerun_csv = csv.writer(rerun_file, delimiter=',', quotechar='"')
+input_file = "curl_results.csv"
+map_file = "rerun_curl_map" + str(i) + ".csv" 
 
-with open('data_processing/' + input_file) as curl_results_file:
+rerun_map_file = open('curl/' + map_file, "w")
+rerun_csv = csv.writer(rerun_map_file, delimiter=',', quotechar='"')
+
+with open('curl/' + input_file) as curl_results_file:
     curl_results = csv.reader(curl_results_file, delimiter=',', quotechar='"')
     next(curl_results)
     for row in curl_results:
-        url = row[0].lower()
+        url = row[0].lower().rstrip('”,')
         ghp = row[1]
         repo_url = row[2]
-        file = row[3].strip('/')[1]
+        file = 'rerun_curl_' + str(i) + '/' + row[3].split('/')[-1]
         http = row[5]
         if http != '200':
-            rerun_csv.writerow([url, ghp, file])
+            os.system('curl/curl_url.sh ' + url + ' ' + file)
+            rerun_csv.writerow([url, ghp, repo_url, file])
 
-rerun_file.close()
+rerun_map_file.close()
 
-# rerun_map = open('./data_processing/' + map_file, "w")
-# rerun_map_csv = csv.writer(rerun_map, delimiter=',')
-
-# rerun_urls_file = open('data_processing/' + output_file)
-# rerun_urls_reader = csv.reader(rerun_urls_file, delimiter=',')
 # for row in rerun_urls_reader:
 #     url = row[0]
 #     ghp = row[1]
 #     repo_url = row[2]
 #     file = 'rerun_curl_' + i + '/' + row[3]
-#     os.system('./curl_url.sh ' + url + ' ' + file)
+#     os.system('curl/curl_url.sh ' + url + ' raw_data_outputs/' + file)
 #     rerun_map_csv.writerow([url, ghp, repo_url, file])
 # rerun_urls_file.close()
