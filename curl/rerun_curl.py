@@ -2,10 +2,10 @@ import os
 import csv
 import re
 
-i = 0
+i = 1
 
 input_file = "curl_results.csv"
-map_file = "rerun_curl_map" + str(i) + ".csv" 
+map_file = "rerun_curl_map_" + str(i) + ".csv" 
 
 rerun_map_file = open('curl/' + map_file, "w")
 rerun_csv = csv.writer(rerun_map_file, delimiter=',', quotechar='"')
@@ -14,7 +14,7 @@ with open('curl/' + input_file) as curl_results_file:
     curl_results = csv.reader(curl_results_file, delimiter=',', quotechar='"')
     next(curl_results)
     for row in curl_results:
-        url = row[0].lower().rstrip('”,')
+        url = row[0].lower().rstrip('”,)')
         ghp = row[1]
         repo_url = row[2]
         file = 'rerun_curl_' + str(i) + '/' + row[3].split('/')[-1]

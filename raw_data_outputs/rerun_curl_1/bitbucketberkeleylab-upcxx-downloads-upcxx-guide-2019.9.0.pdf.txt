@@ -1,0 +1,38 @@
+HTTP/2 302 
+content-security-policy-report-only: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; object-src 'none'; base-uri 'self'; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 926139.729
+vary: Accept-Language, Origin
+x-usage-request-cost: 9105.47
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 362f693e12708107
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Tue, 02 May 2023 00:22:57 GMT
+x-usage-user-time: 0.243815
+x-usage-system-time: 0.029349
+location: https://bbuseruploads.s3.amazonaws.com/7ca07752-b51f-4dc7-9465-fbb2d66da7f6/downloads/135958ca-f16e-48e1-a87d-53639f4c8436/upcxx-guide-2019.9.0.pdf?response-content-disposition=attachment%3B%20filename%3D%22upcxx-guide-2019.9.0.pdf%22&AWSAccessKeyId=ASIA6KOSE3BNHWZXZHGW&Signature=LnsQvADg1FkJFkPugSTBHPiX2MI%3D&x-amz-security-token=FwoGZXIvYXdzELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDLdMtKoflfrdnKGJJyK%2BAWuWk6tFm0ZDtRrZKj90%2FSXN2fG5t%2BehxnsS%2BasAoxtdhiUjtqwyKW1cXaEGIgXUQQ6bZulbi%2FRiM%2FtZrViMnR%2BrHm1fhlPBeIfBOdbd%2BI4WedSUD4hxmy74%2FmzlKjG7Q1DEueyVpuACvItVSSWA1gYncT0VnxRByGo%2B%2BCapK7PYaolQcWDFnZ3u0%2FhrDJWrJYsa2SUHXfRZ79qxJWuPuZ6voPH%2BXY5dZNkSqb2YaZxUyfFH%2BO1B6gF2El1w92ko4a%2FBogYyLTWIFWwPFFtPsOW2mwAjUR4S757OAsm1kX%2FN45rxlwYWmsm%2Bf%2FBT8jYHFQ9rRw%3D%3D&Expires=1682988777
+expires: Tue, 02 May 2023 00:22:57 GMT
+x-served-by: 485fb11b93d8
+x-envoy-upstream-service-time: 406
+content-language: en
+x-view-name: bitbucket.apps.downloads.views.download_file
+x-static-version: 85cf2082f930
+x-render-time: 0.39560389518737793
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 85cf2082f930
+x-request-count: 2421
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/1.1 403 Forbidden
+x-amz-request-id: XQ8TSY70T74C030D
+x-amz-id-2: LXpkWOMaYswH7BuELMVvnRgTIOO4c54qKOUuP2onpo0th0xhOFBLEzghOPro/F+TtNvWqZ/KEhc=
+Content-Type: application/xml
+Date: Tue, 02 May 2023 00:22:57 GMT
+Server: AmazonS3
+

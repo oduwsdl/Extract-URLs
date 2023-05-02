@@ -1,0 +1,42 @@
+HTTP/2 302 
+date: Wed, 26 Apr 2023 22:53:21 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 231
+location: http://sourceforge.net/u/thelinuxmaniac/profile
+cache-control: max-age=3600
+expires: Wed, 26 Apr 2023 23:53:09 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7be266bdaca7c070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 26 Apr 2023 22:53:21 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Location: https://sourceforge.net/u/thelinuxmaniac/profile
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 7be266bee8a8c08e-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 404 
+date: Wed, 26 Apr 2023 22:53:21 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+link: <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-regular.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/fonts/sftheme/lato-v20-latin-ext_latin-700.woff2>; rel=preload; as=font; crossorigin, <https://a.fsdn.com/con/css/lato.css?>; rel=preload; as=style
+content-security-policy: report-uri https://sourceforge.report-uri.com/r/d/csp/enforce; frame-ancestors 'self'; script-src 'self' a.fsdn.com *.slashdotmedia.com ml314.com *.cloudflareinsights.com *.doubleclick.net *.google.com *.googlesyndication.com *.google-analytics.com *.googletagmanager.com *.googletagservices.com  *.consentmanager.net *.microsofttranslator.com *.googleapis.com 'unsafe-inline' 'unsafe-eval' 'report-sample'; form-action 'self'; object-src 'none'; upgrade-insecure-requests; frame-src 'self' *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net *.recaptcha.net recaptcha.net www.youtube-nocookie.com *.youtube.com *.stripe.com *.plaid.com *.prosperstack.com
+content-security-policy-report-only: report-uri https://sourceforge.report-uri.com/r/d/csp/reportOnly; script-src-attr 'none' 'report-sample'
+set-cookie: _session_id=95a897431b05bbf2676ff1120667edbd48317c5535b6d0fd13b512aa4e038e581c91ebdc037f0e1c; secure; SameSite=Strict; Path=/
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 7be266c059afc08e-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

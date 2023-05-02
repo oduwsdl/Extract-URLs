@@ -1,0 +1,30 @@
+HTTP/2 404 
+content-security-policy-report-only: connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; base-uri 'self'; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net 'nonce-yXRe3BEK3QxResFgKnOYag=='; object-src 'none'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 860404.362
+vary: Accept-Language, Origin, Accept-Encoding
+x-usage-request-cost: 4151.90
+cache-control: max-age=900
+content-type: text/html; charset=utf-8
+x-b3-traceid: bb8a57b048b9f191
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Mon, 01 May 2023 23:25:13 GMT
+x-usage-user-time: 0.114458
+x-usage-system-time: 0.002099
+x-served-by: 5124a6160378
+x-envoy-upstream-service-time: 206
+content-language: en
+x-view-name: bitbucket.apps.downloads.views.download_file
+accept-ranges: bytes
+x-static-version: 85cf2082f930
+x-render-time: 0.19524025917053223
+x-usage-input-ops: 32
+x-frame-options: SAMEORIGIN
+x-version: 85cf2082f930
+x-request-count: 328
+x-cache-info: caching
+content-length: 74212
+

@@ -1,0 +1,60 @@
+HTTP/2 301 
+content-security-policy-report-only: style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; object-src 'none'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; base-uri 'self'; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 933216.710
+vary: Accept-Language, Origin
+x-usage-request-cost: 579.50
+cache-control: max-age=900
+content-type: text/html; charset=utf-8
+x-b3-traceid: 297ae47d73830efc
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 26 Apr 2023 20:30:28 GMT
+x-usage-user-time: 0.016420
+x-usage-system-time: 0.000965
+location: /berkeleyl/
+x-served-by: fc0a5c30eb35
+x-envoy-upstream-service-time: 28
+content-language: en
+x-view-name: django.views.generic.base.RedirectView
+x-static-version: 68b3568feadf
+x-render-time: 0.009634017944335938
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 68b3568feadf
+x-request-count: 1436
+x-cache-info: caching
+content-length: 0
+
+HTTP/2 404 
+content-security-policy-report-only: frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; object-src 'none'; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; base-uri 'self'; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net 'nonce-3ZMzxs/ATzKgZW8tbYF87Q=='; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 932130.710
+vary: Accept-Language, Origin, Accept-Encoding
+x-usage-request-cost: 1112.20
+cache-control: max-age=900
+content-type: text/html; charset=utf-8
+x-b3-traceid: b1aed1e446617205
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 26 Apr 2023 20:30:28 GMT
+x-usage-user-time: 0.030872
+x-usage-system-time: 0.002494
+x-served-by: 9a0a62810941
+x-envoy-upstream-service-time: 66
+content-language: en
+x-view-name: bitbucket.apps.bb.views.ProfileRepositories
+accept-ranges: bytes
+x-static-version: 68b3568feadf
+x-render-time: 0.05221915245056152
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 68b3568feadf
+x-request-count: 1981
+x-cache-info: caching
+content-length: 62764
+

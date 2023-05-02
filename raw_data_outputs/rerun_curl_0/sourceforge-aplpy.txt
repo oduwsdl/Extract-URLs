@@ -1,0 +1,35 @@
+HTTP/2 302 
+date: Wed, 26 Apr 2023 22:28:54 GMT
+content-type: text/html
+content-length: 1
+location: http://aplpy.github.com/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 26 Apr 2023 23:28:41 GMT
+x-from: sfp-web-2
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7be242e4fc58c06b-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-Length: 9581
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+x-pages-interstitial: 1
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+X-GitHub-Request-Id: AC9C:3874:3A96D:4EA11:6449A5A6
+Accept-Ranges: bytes
+Date: Wed, 26 Apr 2023 22:28:54 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kiad7000101-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1682548135.626554,VS0,VE6
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 093b52681adaf771809f4be0b68148754d8a6e07
+

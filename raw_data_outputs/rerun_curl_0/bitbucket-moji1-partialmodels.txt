@@ -1,0 +1,25 @@
+HTTP/2 401 
+content-security-policy-report-only: base-uri 'self'; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; object-src 'none'; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+www-authenticate: Basic realm="Bitbucket.org HTTP"
+vary: Accept-Language, Origin
+content-type: text/plain
+x-b3-traceid: 4afa118f1d2e9cac
+x-usage-output-ops: 0
+x-used-mesh: None
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 26 Apr 2023 20:25:29 GMT
+x-usage-user-time: 0.008183
+x-usage-system-time: 0.000000
+x-served-by: e87320cefd31
+x-envoy-upstream-service-time: 15
+content-language: en
+x-static-version: 68b3568feadf
+x-render-time: 0.0050694942474365234
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 68b3568feadf
+x-request-count: 1715
+content-length: 0
+

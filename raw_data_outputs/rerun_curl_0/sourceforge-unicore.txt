@@ -1,0 +1,33 @@
+HTTP/2 301 
+date: Wed, 26 Apr 2023 22:54:59 GMT
+content-type: text/html
+content-length: 0
+location: http://www.unicore.eu/
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Wed, 26 Apr 2023 23:54:51 GMT
+x-from: sfp-web-6
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7be269232a38c075-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 26 Apr 2023 22:55:00 GMT
+Server: Apache/2.4.41 (Ubuntu)
+X-Pingback: http://www.unicore.eu/xmlrpc.php
+X-Redirect-By: WordPress
+X-XSS-Protection: 0
+Location: https://www.unicore.eu/
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 200 OK
+Date: Wed, 26 Apr 2023 22:55:03 GMT
+Server: Apache/2.4.41 (Ubuntu)
+X-Pingback: https://www.unicore.eu/xmlrpc.php
+Link: <https://www.unicore.eu/wp-json/>; rel="https://api.w.org/", <https://www.unicore.eu/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json", <https://www.unicore.eu/>; rel=shortlink
+X-XSS-Protection: 0
+Content-Type: text/html; charset=UTF-8
+

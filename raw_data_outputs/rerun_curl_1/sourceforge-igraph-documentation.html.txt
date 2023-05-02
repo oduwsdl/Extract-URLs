@@ -1,0 +1,52 @@
+HTTP/2 301 
+date: Tue, 02 May 2023 02:28:44 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 239
+location: http://igraph.org/redirect.html
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:28:33 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0cd521acadc093-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://igraph.org/redirect.html
+X-GitHub-Request-Id: F602:5285:E956A4:16D5765:64507523
+Accept-Ranges: bytes
+Date: Tue, 02 May 2023 02:28:44 GMT
+Via: 1.1 varnish
+Age: 58
+X-Served-By: cache-iad-kiad7000056-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1682994525.610698,VS0,VE2
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 85fda77efe54ddd8b1047e2279cbc671577c1ae7
+
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+etag: "64417b9f-247b"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-proxy-cache: MISS
+x-github-request-id: 357C:644A:E4BDC9:157096D:64507523
+accept-ranges: bytes
+date: Tue, 02 May 2023 02:28:44 GMT
+via: 1.1 varnish
+age: 57
+x-served-by: cache-iad-kiad7000086-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1682994525.732560,VS0,VE3
+vary: Accept-Encoding
+x-fastly-request-id: 853976053c1f02d6848c70ea1a4e8147e7f6e9b2
+content-length: 9339
+

@@ -1,0 +1,74 @@
+HTTP/2 301 
+date: Tue, 02 May 2023 02:45:04 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 250
+location: http://www.statsmodels.org/devel/generated
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:45:01 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0ced0e8a73c070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://www.statsmodels.org/devel/generated
+X-GitHub-Request-Id: D992:644A:E570A5:1582334:64507931
+Accept-Ranges: bytes
+Date: Tue, 02 May 2023 02:45:05 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-iad-kjyo7100081-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1682995505.025839,VS0,VE6
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 93b77cc438c0b9307dd4179dfd182a0aab0c2f75
+
+HTTP/2 301 
+server: GitHub.com
+content-type: text/html
+location: https://www.statsmodels.org/devel/generated/
+access-control-allow-origin: *
+expires: Tue, 02 May 2023 02:55:05 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 092A:56CB:E90464:16D8186:64507931
+accept-ranges: bytes
+date: Tue, 02 May 2023 02:45:05 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kjyo7100048-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1682995505.336037,VS0,VE11
+vary: Accept-Encoding
+x-fastly-request-id: 22494d5df6b54189dc7098cb95af88f08623fe8f
+content-length: 162
+
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+x-origin-cache: HIT
+access-control-allow-origin: *
+etag: "64417b9f-247b"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-proxy-cache: MISS
+x-github-request-id: C402:682F:DE15AA:150CAE3:64507931
+accept-ranges: bytes
+date: Tue, 02 May 2023 02:45:05 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-iad-kjyo7100048-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1682995505.366298,VS0,VE7
+vary: Accept-Encoding
+x-fastly-request-id: cb2f2b712f7a513400615fbc50683789f759d639
+content-length: 9339
+
