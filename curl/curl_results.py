@@ -9,11 +9,11 @@ http_404 = 0
 http_200 = 0
 http_none = 0
 http_other = 0
-# with open('dedupe_curl_map.csv', newline='') as map_file:
-with open('rerun_curl_map_1.csv', newline='') as map_file:
+with open('dedupe_curl_map.csv', newline='') as map_file:
+# with open('rerun_curl_map_0.csv', newline='') as map_file:
     curl_map = csv.reader(map_file, delimiter=',')
     for row in curl_map:
-        url = row[0]
+        url = row[0].lower().rstrip('”,)')
         ghp = row[1]
         repo_url = row[2]
         file_name = row[3]
