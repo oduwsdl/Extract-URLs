@@ -1,0 +1,31 @@
+HTTP/2 200 
+content-security-policy-report-only: object-src 'none'; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; base-uri 'self'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net 'nonce-1haz8Aj4lGHBhLoyu+uvyg=='; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 397325.698
+vary: Cookie, Accept-Language, Origin, Accept-Encoding
+x-usage-request-cost: 3513.73
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 3349c565cdf0a4cc
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Wed, 26 Apr 2023 19:39:57 GMT
+x-usage-user-time: 0.089180
+x-usage-system-time: 0.008232
+x-served-by: 6546a8b06345
+expires: Wed, 26 Apr 2023 19:39:57 GMT
+x-envoy-upstream-service-time: 220
+content-language: en
+x-view-name: bitbucket.apps.repo2.views.SourceView
+x-static-version: 68b3568feadf
+x-render-time: 0.20891213417053223
+x-usage-input-ops: 32
+set-cookie: csrftoken=buS1nr3tuez3bKz9ab7M5GbJPyBWRZHw744eWE14ROAIGLkcYr72U0vgfX1JSSFT; expires=Wed, 24-Apr-2024 19:39:57 GMT; Max-Age=31449600; Path=/; Secure
+x-frame-options: SAMEORIGIN
+x-version: 68b3568feadf
+x-request-count: 1695
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 68170
+

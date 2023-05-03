@@ -1,0 +1,36 @@
+HTTP/2 301 
+date: Tue, 02 May 2023 02:30:28 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 233
+location: http://matplotlib.org/mpl
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:30:19 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0cd7ab2decc066-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 02 May 2023 02:30:28 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 02 May 2023 03:30:28 GMT
+Location: https://matplotlib.org/mpl
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=106ltmTx77tKzuGSyRkEvaaTltusKxx0TaaxEvPOjeOR6XSgbAlWGXnUxWYDA0ER18lx40fiZ8m0mXJ7g3GvaFFy%2Bz%2ByAuSG2b7VRw8EZyx3F0oI21sOr%2BZA6xk7cn36iGkzDdjKNH2SMRwc"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c0cd7ac3bad5818-IAD
+
+HTTP/2 404 
+date: Tue, 02 May 2023 02:30:28 GMT
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+last-modified: Fri, 14 Apr 2023 21:31:23 GMT
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GUUx4KoTk7QMZMTrfZ%2BIgQvX%2BMahrnyS5G4aUK0L3J6s1aasqN894cPnNFSE%2BX3sRY%2FH%2B9KjJOKzW%2B6YzDdfX0rA0lbvUDKFcWanRAanSA7e0JCH8joELyAOQiNCj56nyYizsWogMY9j%2BU4Y"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 7c0cd7acf9e039af-IAD
+

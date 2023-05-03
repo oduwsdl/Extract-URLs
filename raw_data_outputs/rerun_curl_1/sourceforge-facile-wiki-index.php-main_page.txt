@@ -1,0 +1,45 @@
+HTTP/2 301 
+date: Tue, 02 May 2023 02:25:53 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+location: http://facile.sourceforge.net/wiki/index.php/Main_page
+vary: Accept-Encoding,Cookie
+vary: Accept-Encoding
+x-content-type-options: nosniff
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Tue, 02 May 2023 02:25:37 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0cd0f45f8fc084-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 02 May 2023 02:25:53 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 02 May 2023 03:25:53 GMT
+Location: https://facile.sourceforge.net/wiki/index.php/Main_page
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 7c0cd0f5e8a9c084-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 404 
+date: Tue, 02 May 2023 02:25:59 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Accept-Encoding,Cookie
+x-content-type-options: nosniff
+content-language: en
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+x-from: sfp-web-4
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0cd0f618b8c084-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,43 @@
+HTTP/2 301 
+date: Wed, 26 Apr 2023 22:40:16 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+location: http://phpldapadmin.sourceforge.net/wiki/index.php/Main_page
+vary: Accept-Encoding,Cookie
+vary: Accept-Encoding
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+last-modified: Wed, 26 Apr 2023 22:40:01 GMT
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7be253974e69c093-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 26 Apr 2023 22:40:17 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Wed, 26 Apr 2023 23:40:17 GMT
+Location: https://phpldapadmin.sourceforge.net/wiki/index.php/Main_page
+Content-Security-Policy: upgrade-insecure-requests
+Server: cloudflare
+CF-RAY: 7be2539a2bdfc089-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 404 
+date: Wed, 26 Apr 2023 22:40:17 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Accept-Encoding,Cookie
+content-language: en
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, must-revalidate, max-age=0
+x-from: sfp-web-1
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7be2539ad828c093-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

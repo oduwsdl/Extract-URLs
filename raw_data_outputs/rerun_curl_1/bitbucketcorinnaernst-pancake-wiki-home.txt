@@ -1,0 +1,59 @@
+HTTP/2 302 
+content-security-policy-report-only: base-uri 'self'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; object-src 'none'; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 843641.536
+vary: Accept-Language, Origin
+x-usage-request-cost: 594.17
+content-type: text/html; charset=utf-8
+x-b3-traceid: 1105215f317f6f2c
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Tue, 02 May 2023 00:24:25 GMT
+x-usage-user-time: 0.017004
+x-usage-system-time: 0.000821
+location: /CorinnaErnst/pancake/wiki/home
+x-served-by: 1e8f1e5c363f
+x-envoy-upstream-service-time: 36
+content-language: en
+x-view-name: bitbucket.apps.wiki.views.wiki
+x-static-version: 85cf2082f930
+x-render-time: 0.02429819107055664
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 85cf2082f930
+x-request-count: 2629
+x-cache-info: not cacheable; response is 302 without expiry time
+content-length: 0
+
+HTTP/2 404 
+content-security-policy-report-only: script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net 'nonce-jMDW12Jc82ooltG+q99g4g=='; base-uri 'self'; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; object-src 'none'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 839281.409
+vary: Accept-Language, Origin, Accept-Encoding
+x-usage-request-cost: 4454.40
+cache-control: max-age=900
+content-type: text/html; charset=utf-8
+x-b3-traceid: f018b941eeff995e
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Tue, 02 May 2023 00:24:26 GMT
+x-usage-user-time: 0.121262
+x-usage-system-time: 0.000370
+x-served-by: dbf0ab0fedf1
+x-envoy-upstream-service-time: 305
+content-language: en
+x-view-name: bitbucket.apps.wiki.views.wiki
+accept-ranges: bytes
+x-static-version: 85cf2082f930
+x-render-time: 0.2915377616882324
+x-usage-input-ops: 48
+x-frame-options: SAMEORIGIN
+x-version: 85cf2082f930
+x-request-count: 2690
+x-cache-info: caching
+content-length: 79025
+

@@ -1,0 +1,49 @@
+HTTP/2 301 
+date: Tue, 02 May 2023 02:48:56 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 266
+location: https://weka.sourceforge.io/doc.dev/weka/classifiers/trees
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:48:45 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0cf2bb2906c070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Tue, 02 May 2023 02:48:57 GMT
+content-type: text/html; charset=iso-8859-1
+location: http://weka.sourceforge.io/doc.dev/weka/classifiers/trees/
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:48:42 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 7c0cf2bc5978c075-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 02 May 2023 02:48:57 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://weka.sourceforge.io/doc.dev/weka/classifiers/trees/
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 7c0cf2bf4a5bc06b-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 403 
+date: Tue, 02 May 2023 02:48:57 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+x-from: sfp-ioweb74-1
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 7c0cf2c00affc075-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

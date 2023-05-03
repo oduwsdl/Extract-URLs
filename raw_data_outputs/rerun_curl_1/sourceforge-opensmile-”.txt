@@ -1,0 +1,53 @@
+HTTP/2 302 
+date: Tue, 02 May 2023 02:33:49 GMT
+content-type: text/html
+content-length: 0
+location: http://opensmile.audeering.com
+vary: Host
+vary: Accept-Encoding
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:33:38 GMT
+x-from: sfp-web-5
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0cdc95c913c07a-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 302 Found
+Date: Tue, 02 May 2023 02:33:50 GMT
+Server: Apache/2.4.57 (Unix)
+Location: http://www.audeering.com/research/opensmile
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 02 May 2023 02:33:50 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.audeering.com/research/opensmile
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+
+HTTP/2 301 
+server: nginx
+date: Tue, 02 May 2023 02:33:51 GMT
+content-type: text/html; charset=UTF-8
+location: https://www.audeering.com/research/opensmile/
+strict-transport-security: max-age=63072000
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+
+HTTP/2 200 
+server: nginx
+date: Tue, 02 May 2023 02:33:52 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+link: <https://www.audeering.com/wp-json/>; rel="https://api.w.org/"
+link: <https://www.audeering.com/wp-json/wp/v2/pages/98>; rel="alternate"; type="application/json"
+link: <https://www.audeering.com/?p=98>; rel=shortlink
+strict-transport-security: max-age=63072000
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+

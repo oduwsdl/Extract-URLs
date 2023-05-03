@@ -1,0 +1,38 @@
+HTTP/2 302 
+content-security-policy-report-only: script-src 'unsafe-eval' 'strict-dynamic' 'unsafe-inline' 'self' http: https: https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *; object-src 'none'; frame-ancestors 'self' start.atlassian.com start.stg.atlassian.com atlaskit.atlassian.com; style-src 'self' 'unsafe-inline' https://aui-cdn.atlassian.com https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; base-uri 'self'; connect-src bitbucket.org *.bitbucket.org bb-inf.net *.bb-inf.net id.atlassian.com api.atlassian.com wss://bitbucketci-ws-service.services.atlassian.com analytics.atlassian.com as.atlassian.com api-private.stg.atlassian.com api-private.atlassian.com atl-global.atlassian.com cofs.staging.public.atl-paas.net cofs.prod.public.atl-paas.net intake.opbeat.com api.media.atlassian.com api.segment.io xid.statuspage.io xid.atlassian.com xid.sourcetreeapp.com bam.nr-data.net bam-cell.nr-data.net www.google-analytics.com stats.g.doubleclick.net sentry.io *.ingest.sentry.io events.launchdarkly.com app.launchdarkly.com bqlf8qjztdtr.statuspage.io https://d301sr5gafysq2.cloudfront.net https://d136azpfpnge1l.cloudfront.net; report-uri https://web-security-reports.services.atlassian.com/csp-report/bb-website
+server: envoy
+x-usage-quota-remaining: 882213.946
+vary: Accept-Language, Origin
+x-usage-request-cost: 8460.93
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-type: text/html; charset=utf-8
+x-b3-traceid: 991f93e77fa04840
+x-usage-output-ops: 0
+x-used-mesh: False
+x-dc-location: Micros-3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+date: Tue, 02 May 2023 00:23:44 GMT
+x-usage-user-time: 0.234990
+x-usage-system-time: 0.018838
+location: https://bbuseruploads.s3.amazonaws.com/caseywdunn/dunnhowisonzapata2013/downloads/tabular.zip?response-content-disposition=attachment%3B%20filename%3D%22tabular.zip%22&AWSAccessKeyId=ASIA6KOSE3BNKJ5CYQFH&Signature=ix%2Bh54I8bcRR2Z2lJrzBFKQOtTk%3D&x-amz-security-token=FwoGZXIvYXdzELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDKxmRDNJ8TcP2KDeMyK%2BASAVPv0nhi%2Fvh3dyMAUVEiWk1Caez76%2F2AmuobSjeYJwjhdSixc3LYmE2bvrzqkTKF15iHW%2BpFDU5XeI9WwR%2B9MpcMb8wNZXW92nAl6KuKUnG1uHcq1wOUNJIHNrAabw%2BkHT2u9T4r8ywsBGTbMcv4lm4mwnh4BNOlsXh4uji%2B1uFVWsX2FeHi1NpU32guNic%2FCo0oLnALTJkbjWo58rha7%2FCzplM4LlxdQ18IqyeKWkWNXqZtcBRpF5RSLP7dYokLDBogYyLWr9HdKcY0Op3aG%2FmgKazyxq3aXZHccbVx%2FSFEqjhtFKR76ftIRujzqKIcqlzg%3D%3D&Expires=1682988824
+expires: Tue, 02 May 2023 00:23:44 GMT
+x-served-by: efbbd92ea609
+x-envoy-upstream-service-time: 408
+content-language: en
+x-view-name: bitbucket.apps.downloads.views.download_file
+x-static-version: 85cf2082f930
+x-render-time: 0.39698314666748047
+x-usage-input-ops: 0
+x-frame-options: SAMEORIGIN
+x-version: 85cf2082f930
+x-request-count: 2488
+x-cache-info: not cacheable; response specified "Cache-Control: no-cache"
+content-length: 0
+
+HTTP/1.1 403 Forbidden
+x-amz-request-id: 2QAK82702DM9G2N4
+x-amz-id-2: IQAjk57cilUwZtLEAV++7Wj9D4DHSZ5baHIMP+HHTRZQ9nczwK/GIDbXcsDC5U1D98BUtf5smP8=
+Content-Type: application/xml
+Date: Tue, 02 May 2023 00:23:44 GMT
+Server: AmazonS3
+

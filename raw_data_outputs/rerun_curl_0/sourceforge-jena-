@@ -1,0 +1,45 @@
+HTTP/2 301 
+date: Wed, 26 Apr 2023 22:35:03 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 231
+location: http://jena.apache.org/
+cache-control: max-age=3600
+expires: Wed, 26 Apr 2023 23:34:56 GMT
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7be24bf3ca06c06b-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://jena.apache.org/
+Accept-Ranges: bytes
+Date: Wed, 26 Apr 2023 22:35:03 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100166-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1682548504.859399,VS0,VE0
+
+HTTP/2 200 
+server: Apache
+last-modified: Tue, 11 Apr 2023 14:28:12 GMT
+etag: "3e2f-5f9104d1d693c"
+access-control-allow-origin: *
+content-type: text/html
+via: 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Wed, 26 Apr 2023 22:35:04 GMT
+age: 0
+x-served-by: cache-hel1410027-HEL, cache-iad-kiad7000021-IAD
+x-cache: HIT, MISS
+x-cache-hits: 1, 0
+x-timer: S1682548504.215793,VS0,VE105
+vary: Accept-Encoding
+content-length: 15919
+

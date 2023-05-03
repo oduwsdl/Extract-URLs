@@ -1,0 +1,52 @@
+HTTP/2 301 
+date: Tue, 02 May 2023 02:30:31 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 263
+location: https://maxima.sourceforge.io/docs/manual/en/maxima.pdf
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:30:16 GMT
+vary: Accept-Encoding
+cf-cache-status: MISS
+content-security-policy: upgrade-insecure-requests
+server: cloudflare
+cf-ray: 7c0cd7c06a56c075-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Tue, 02 May 2023 02:30:32 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 259
+location: http://maxima.sourceforge.io/docs/manual/maxima.pdf
+cache-control: max-age=3600
+expires: Tue, 02 May 2023 03:30:17 GMT
+vary: Accept-Encoding
+cf-cache-status: MISS
+server: cloudflare
+cf-ray: 7c0cd7c19bfec070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 02 May 2023 02:30:32 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://maxima.sourceforge.io/docs/manual/maxima.pdf
+CF-Cache-Status: MISS
+Server: cloudflare
+CF-RAY: 7c0cd7c2cc8ac06b-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 404 
+date: Tue, 02 May 2023 02:30:32 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Host,X-Forwarded-Proto
+last-modified: Fri, 03 Mar 2023 22:04:51 GMT
+etag: W/"965-5f606227028ec"
+x-from: sfp-ioweb74-3
+strict-transport-security: max-age=31536000
+cf-cache-status: MISS
+server: cloudflare
+cf-ray: 7c0cd7c57e06c070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
