@@ -17,12 +17,12 @@ def extraction(pdf_path):
 done = set(line.strip() for line in open('completed_files.txt'))
 completed = open("completed_files.txt", "a")
 
-corpus_path = "/sarah-thesis-test/"
+corpus_path = "/home/emily/sarah-thesis/"
 path_contents = os.scandir(corpus_path)
 for element in path_contents:
     if element.is_dir():
         metadata_file = corpus_path  + element.name + '/dublin_core.xml'
-        dir_contents = os.scandir(corpus_path + element.name)
+        dir_contents = os.listdir(corpus_path + element.name)
         for filename in fnmatch.filter(dir_contents,'*.pdf'):
             pdf_file = element.name + '/' + filename
 
@@ -38,7 +38,6 @@ for element in path_contents:
                 created = child.text
                 if len(created) == 7:
                     dir = created.replace('-', '')
-                    print(dir)
                 elif len(created) == 10:
                     dir = created.replace('-', '')[:6]
 
