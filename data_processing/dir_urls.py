@@ -47,7 +47,7 @@ for corpus in corpora:
             date = "20" + dir[0:2] + "-" + dir[2:]
             dir_file = open("raw_data_outputs/classifier_results/" + dir + ".json")
         elif corpus == "tamu":
-            date = "20" + dir[0:2] + "-" + dir[2:]
+            date = dir[0:4] + "-" + dir[4:]
             dir_file = open("raw_data_outputs/tamu_parsed/" + dir + ".json")
         sourceforge_count = repo_json[dir]["sourceforge"]["url_count"]
         github_count = repo_json[dir]["github"]["url_count"]
