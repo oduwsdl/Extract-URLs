@@ -6,13 +6,15 @@ import json
 import csv
 from sqlite3 import Date
 
-# corpora = ["pmc", "arxiv"]
-corpora = ["class"]
+# corpora = ["pmc", "arxiv", "class"]
+corpora = ["tamu"]
 for corpus in corpora:
     if corpus == 'pmc':
         prefix = "pmc_"
     elif corpus == "class":
         prefix = "class_"
+    elif corpus == "tamu":
+        prefix = "tamu_"
     else:
         prefix = ""
     repo_file = open("./repo_results/" + prefix + "repo_urls.json")
@@ -44,6 +46,9 @@ for corpus in corpora:
         elif corpus == "class":
             date = "20" + dir[0:2] + "-" + dir[2:]
             dir_file = open("raw_data_outputs/classifier_results/" + dir + ".json")
+        elif corpus == "tamu":
+            date = "20" + dir[0:2] + "-" + dir[2:]
+            dir_file = open("raw_data_outputs/tamu_parsed/" + dir + ".json")
         sourceforge_count = repo_json[dir]["sourceforge"]["url_count"]
         github_count = repo_json[dir]["github"]["url_count"]
         gitlab_count = repo_json[dir]["gitlab"]["url_count"]

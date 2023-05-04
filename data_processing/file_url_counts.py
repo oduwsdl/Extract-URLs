@@ -25,8 +25,8 @@ def CCDF(data, category):
     for i in range(len(cdf)):
         csvwriter3.writerow([bin_edges[i], cdf[i]*100, category])
 
-# corpora = ['pmc', 'arxiv']
-corpora = ['class']
+# corpora = ['pmc', 'arxiv', 'class']
+corpora = ['tamu']
 
 for corpus in corpora:
     if corpus == "pmc":
@@ -35,6 +35,8 @@ for corpus in corpora:
         prefix = ""
     elif corpus == "class":
         prefix = "class_"
+    elif corpus == "tamu":
+        prefix = "tamu_"
     repo_file = open("./repo_results/" + prefix + "repo_urls.json")
     repo_json = json.load(repo_file)
     repo_file.close()
@@ -58,6 +60,9 @@ for corpus in corpora:
         elif corpus == "class":
             date = "20" + dir[0:2] + "-" + dir[2:]
             year = "20" + dir[0:2]
+        elif corpus == "tamu":
+            date = dir[0:4] + "-" + dir[4:]
+            year = dir[0:4]
         for file in repo_json[dir]["files"]:
             try:
                 sourceforge_count = repo_json[dir]["files"][file]["sourceforge"]["url_count"]
