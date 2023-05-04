@@ -1,4 +1,5 @@
 import json
+import jsonlines
 from xml.etree import ElementTree
 
 filename = "raw_data_outputs/tamu_parsed/000000.json"
@@ -18,5 +19,11 @@ with open(filename, 'r', encoding='utf-8') as f:
                 elif len(created) == 10:
                     dir = created.replace('-', '')[:6]
         print(pdf_file + " " + dir)
+
+        output = open("raw_data_outputs/tamu_parsed/" + dir + ".json", "a")
+        jsonl_writer = jsonlines.Writer(output)
+        jsonl_writer.write(d)
+        jsonl_writer.close()
+        output.close()
 
 # if I can get the right directory, I can just write the entire line to the right JSON file
