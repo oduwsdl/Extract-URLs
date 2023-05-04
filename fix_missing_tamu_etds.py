@@ -6,7 +6,7 @@ with open(filename, 'r', encoding='utf-8') as f:
     for line in f:
         d = json.loads(line.rstrip('\n|\r'))
         pdf_file = list(d.keys())[0]
-        metadata_file = pdf_file.split('/')[0] + "/dublin_core.xml"
+        metadata_file = "/home/emily/sarah-thesis/" + pdf_file.split('/')[0] + "/dublin_core.xml"
 
         tree = ElementTree.parse(metadata_file)
         root = tree.getroot()
