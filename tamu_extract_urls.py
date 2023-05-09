@@ -49,7 +49,7 @@ for element in path_contents:
                 print(pdf_file)
             data[pdf_file] = url_dict
 
-            d = open("raw_data_outputs/rerun_tamu_parsed/" + dir + ".json", "a")
+            d = open("raw_data_outputs/tamu_jsonl/" + dir + ".json", "a")
             jsonl_writer = jsonlines.Writer(d)
             jsonl_writer.write(data)
             jsonl_writer.close()

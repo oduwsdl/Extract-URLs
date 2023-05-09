@@ -28,5 +28,3 @@ with open(filename, 'r', encoding='utf-8') as f:
         jsonl_writer.write(d)
         jsonl_writer.close()
         output.close()
-
-# if I can get the right directory, I can just write the entire line to the right JSON file
