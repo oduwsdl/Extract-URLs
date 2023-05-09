@@ -24,35 +24,36 @@ for element in path_contents:
         metadata_file = corpus_path  + element.name + '/dublin_core.xml'
         dir_contents = os.listdir(corpus_path + element.name)
         for filename in fnmatch.filter(dir_contents,'*.pdf'):
-            pdf_file = element.name + '/' + filename
+            if 'license' not in filename.lower() and 'copyright' not in filename.lower() and 'permission' not in filename.lower() and ' ' not in filename.strip():
+                pdf_file = element.name + '/' + filename
 
-        if pdf_file not in done:
-            completed.write(pdf_file + "\n")
+            if pdf_file not in done:
+                completed.write(pdf_file + "\n")
 
-        tree = ElementTree.parse(metadata_file)
-        root = tree.getroot()
+            tree = ElementTree.parse(metadata_file)
+            root = tree.getroot()
 
-        dir = '000000'
-        for child in root:
-            if child.attrib['qualifier'] == 'created':
-                created = child.text
-                if len(created) == 7:
-                    dir = created.replace('-', '')
-                elif len(created) == 10:
-                    dir = created.replace('-', '')[:6]
+            dir = '000000'
+            for child in root:
+                if child.attrib['qualifier'] == 'created':
+                    created = child.text
+                    if len(created) == 7:
+                        dir = created.replace('-', '')
+                    elif len(created) == 10:
+                        dir = created.replace('-', '')[:6]
 
-        data = {}
-        try:
-            url_dict = extraction(corpus_path + pdf_file)
-        except:
-            print(pdf_file)
-        data[pdf_file] = url_dict
+            data = {}
+            try:
+                url_dict = extraction(corpus_path + pdf_file)
+            except:
+                print(pdf_file)
+            data[pdf_file] = url_dict
 
-        d = open("raw_data_outputs/tamu_parsed/" + dir + ".json", "a")
-        jsonl_writer = jsonlines.Writer(d)
-        jsonl_writer.write(data)
-        jsonl_writer.close()
-        d.close()
+            d = open("raw_data_outputs/rerun_tamu_parsed/" + dir + ".json", "a")
+            jsonl_writer = jsonlines.Writer(d)
+            jsonl_writer.write(data)
+            jsonl_writer.close()
+            d.close()
 
 path_contents.close()
 completed.close()

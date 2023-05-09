@@ -2,7 +2,7 @@ import json
 import jsonlines
 from xml.etree import ElementTree
 
-filename = "raw_data_outputs/tamu_parsed/000000.json"
+filename = "raw_data_outputs/rerun_tamu_parsed/000000.json"
 with open(filename, 'r', encoding='utf-8') as f:
     for line in f:
         d = json.loads(line.rstrip('\n|\r'))
@@ -11,6 +11,7 @@ with open(filename, 'r', encoding='utf-8') as f:
 
         tree = ElementTree.parse(metadata_file)
         root = tree.getroot()
+        dir = "0"
         for child in root:
             if child.attrib['qualifier'] == 'created':
                 created = child.text
@@ -18,9 +19,11 @@ with open(filename, 'r', encoding='utf-8') as f:
                     dir = created.replace('-', '')
                 elif len(created) == 10:
                     dir = created.replace('-', '')[:6]
+                elif len(created) == 4:
+                    dir = created + "01"
         print(pdf_file + " " + dir)
 
-        output = open("raw_data_outputs/tamu_parsed/" + dir + ".json", "a")
+        output = open("raw_data_outputs/rerun_tamu_parsed/" + dir + ".json", "a")
         jsonl_writer = jsonlines.Writer(output)
         jsonl_writer.write(d)
         jsonl_writer.close()
