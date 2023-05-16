@@ -19,6 +19,6 @@ for file_name in file_list:
     data = {dir:{}}
     data[dir]['files'] = files
     data[dir]['num_files'] = num
-    j = open("raw_data_outputs/tamu_json/" + dir + ".json", "w")
+    j = open("raw_data_outputs/tamu_parsed/" + dir + ".json", "w")
     json.dump(data, j)
     j.close()
