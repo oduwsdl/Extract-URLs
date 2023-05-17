@@ -21,9 +21,9 @@ with open("./classifier_results/" + input_file, newline='') as classifier_result
 
     for row in classifier_results:
         try:
-            url = row[1]
-            classification = row[2]
-            filename = row[3]
+            url = row[0]
+            classification = row[1]
+            filename = row[2]
         except:
             print(row)
             continue

@@ -26,17 +26,13 @@ def CCDF(data, category):
         csvwriter3.writerow([bin_edges[i], cdf[i]*100, category])
 
 # corpora = ['pmc', 'arxiv', 'class']
-corpora = ['tamu']
+corpora = ['etd']
 
 for corpus in corpora:
-    if corpus == "pmc":
-        prefix = "pmc_"
-    elif corpus == "arxiv":
+    if corpus == 'arxiv':
         prefix = ""
-    elif corpus == "class":
-        prefix = "class_"
-    elif corpus == "tamu":
-        prefix = "tamu_"
+    else:
+        prefix = corpus + "_"
     repo_file = open("./repo_results/" + prefix + "repo_urls.json")
     repo_json = json.load(repo_file)
     repo_file.close()
@@ -61,6 +57,9 @@ for corpus in corpora:
             date = "20" + dir[0:2] + "-" + dir[2:]
             year = "20" + dir[0:2]
         elif corpus == "tamu":
+            date = dir[0:4] + "-" + dir[4:]
+            year = dir[0:4]
+        elif corpus == "etd":
             date = dir[0:4] + "-" + dir[4:]
             year = dir[0:4]
         for file in repo_json[dir]["files"]:

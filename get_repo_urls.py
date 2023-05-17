@@ -37,7 +37,7 @@ gl_sitemap = ['gitlab.com/users/sign_in$', 'gitlab.com/users/sign_in/.*', 'gitla
 sf_sitemap = ['sourceforge.net/create$', 'sourceforge.net/create/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*', 'sourceforge.net/top$', 'sourceforge.net/top/.*', 'sourceforge.net/user/newsletters$', 'sourceforge.net/user/newsletters/.*', 'sourceforge.net/user/registration$', 'sourceforge.net/user/registation/.*', 'sourceforge.net/user/registration_business$', 'sourceforge.net/user/registration_business/.*', 'sourceforge.net/software/vendors$', 'sourceforge.net/software/vendors/.*', 'sourceforge.net/software/reviews$', 'sourceforge.net/software/reviews/.*', 'sourceforge.net/p/forge$', 'sourceforge.net/p/forge/.*', 'sourceforge.net/p/add_project$', 'sourceforge.net/p/add_project/.*', 'sourceforge.net/auth$', 'sourceforge.net/auth/.*', 'sourceforge.net/directory$', 'sourceforge.net/directory/.*', 'sourceforge.net/software/?', 'sourceforge.net/blog$', 'sourceforge.net/blog/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*']
 bb_sitemap = ['bitbucket.org/product$', 'bitbucket.org/product/.*', 'bitbucket.org/blog$', 'bitbucket.org/blog/.*']
 
-corpora = ["tamu"]
+corpora = ['etd']
 # corpora = ['arxiv', 'class', 'pmc']
 for corpus in corpora:
     sf_surt_file = open("./repo_results/" + corpus + "_sourceforge_surt.csv", "w")
@@ -92,24 +92,7 @@ for corpus in corpora:
     not_bb_csv = csv.writer(not_bb_file, delimiter=' ')
     not_bb_csv.writerow(['URL', 'SURT', 'Directory', 'File', 'Repo', 'Corpus'])
 
-    if corpus == "pmc":
-        sourceforge = open("repo_results/pmc_sourceforge.csv", "w")
-        github = open("repo_results/pmc_github.csv", "w")
-        gitlab = open("repo_results/pmc_gitlab.csv", "w")
-        bitbucket = open("repo_results/pmc_bitbucket.csv", "w")
-        has_repo_json = open("repo_results/pmc_repo_urls.json", "w")
-        all_files_json = open("repo_results/pmc_all_file_urls.json", "w")
-        csv_file2 = open("./data_processing/pmc_file_count.csv", "w")
-        csvwriter2 = csv.writer(csv_file2)
-        csvwriter2.writerow(['Directory', 'FileCount', 'FileWithURL'])
-
-        has_repo_data = {}
-        all_files_data = {}
-        total_all_files = 0
-        total_url_files = 0
-
-        file_list = os.listdir("raw_data_outputs/pmc_parsed/")
-    elif corpus == "arxiv":
+    if corpus == "arxiv":
         sourceforge = open("repo_results/sourceforge.csv", "w")
         sourceforge.write("URL SURT Directory Filename URLType\n")
         github = open("repo_results/github.csv", "w")
@@ -128,20 +111,18 @@ for corpus in corpora:
         all_files_data = {}
         total_all_files = 0
         total_url_files = 0
-
-        file_list = os.listdir("raw_data_outputs/arxiv_parsed/")
-    elif corpus == "tamu":
-        sourceforge = open("repo_results/tamu_sourceforge.csv", "w")
+    else:
+        sourceforge = open("repo_results/" + corpus + "_sourceforge.csv", "w")
         sourceforge.write("URL SURT Directory Filename URLType\n")
-        github = open("repo_results/tamu_github.csv", "w")
+        github = open("repo_results/" + corpus + "_github.csv", "w")
         github.write("URL SURT Directory Filename URLType\n")
-        gitlab = open("repo_results/tamu_gitlab.csv", "w")
+        gitlab = open("repo_results/" + corpus + "_gitlab.csv", "w")
         gitlab.write("URL SURT Directory Filename URLType\n")
-        bitbucket = open("repo_results/tamu_bitbucket.csv", "w")
+        bitbucket = open("repo_results/" + corpus + "_bitbucket.csv", "w")
         bitbucket.write("URL SURT Directory Filename URLType\n")
-        has_repo_json = open("repo_results/tamu_repo_urls.json", "w")
-        all_files_json = open("repo_results/tamu_all_file_urls.json", "w")
-        csv_file2 = open("./data_processing/tamu_file_count.csv", "w")
+        has_repo_json = open("repo_results/" + corpus + "_repo_urls.json", "w")
+        all_files_json = open("repo_results/" + corpus + "_all_file_urls.json", "w")
+        csv_file2 = open("./data_processing/" + corpus + "_file_count.csv", "w")
         csvwriter2 = csv.writer(csv_file2)
         csvwriter2.writerow(['Directory', 'FileCount', 'FileWithURL'])
 
@@ -150,28 +131,11 @@ for corpus in corpora:
         total_all_files = 0
         total_url_files = 0
 
-        file_list = os.listdir("raw_data_outputs/tamu_parsed/")
-    elif corpus == "class":
-        sourceforge = open("repo_results/class_sourceforge.csv", "w")
-        sourceforge.write("URL SURT Directory Filename URLType\n")
-        github = open("repo_results/class_github.csv", "w")
-        github.write("URL SURT Directory Filename URLType\n")
-        gitlab = open("repo_results/class_gitlab.csv", "w")
-        gitlab.write("URL SURT Directory Filename URLType\n")
-        bitbucket = open("repo_results/class_bitbucket.csv", "w")
-        bitbucket.write("URL SURT Directory Filename URLType\n")
-        has_repo_json = open("repo_results/class_repo_urls.json", "w")
-        all_files_json = open("repo_results/class_all_file_urls.json", "w")
-        csv_file2 = open("./data_processing/class_file_count.csv", "w")
-        csvwriter2 = csv.writer(csv_file2)
-        csvwriter2.writerow(['Directory', 'FileCount', 'FileWithURL'])
-
-        has_repo_data = {}
-        all_files_data = {}
-        total_all_files = 0
-        total_url_files = 0
-
+    if corpus == 'class':
         file_list = os.listdir("raw_data_outputs/classifier_results/")
+    else:
+        file_list = os.listdir("raw_data_outputs/" + corpus + "_parsed/")
+
     for file_name in file_list:
         if corpus == "pmc":
             dir = re.findall(r"(\d{6}).json", file_name)[0]
@@ -181,16 +145,14 @@ for corpus in corpora:
             dir = re.findall(r"(\d{4}).json", file_name)[0]
         elif corpus == "tamu":
             dir = re.findall(r"(\d{6}).json", file_name)[0]
+        elif corpus == "etd":
+            dir = re.findall(r"(\d{6}).json", file_name)[0]
         has_repo_data[dir] = {"files":{}}
         all_files_data[dir] = {"files":{}}
-        if corpus == "pmc":
-            f = open("raw_data_outputs/pmc_parsed/" + file_name, "r")
-        elif corpus == "arxiv":
-            f = open("raw_data_outputs/arxiv_parsed/" + file_name, "r") 
-        elif corpus == "class":
+        if corpus == "class":
             f = open("raw_data_outputs/classifier_results/" + file_name, "r")
-        elif corpus == "tamu":
-            f = open("raw_data_outputs/tamu_parsed/" + file_name, "r")
+        else:
+            f = open("raw_data_outputs/" + corpus + "_parsed/" + file_name, "r")
         json_data = json.load(f)
 
         if corpus == "class":
@@ -216,6 +178,7 @@ for corpus in corpora:
         url_files = 0
         for pdf_name in json_data[dir]["files"]:
             all_files = all_files + 1
+            # print(dir)
             if json_data[dir]["files"][pdf_name]["url_count"] != 0:
                 url_files = url_files + 1
 

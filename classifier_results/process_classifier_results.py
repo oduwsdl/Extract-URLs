@@ -11,7 +11,7 @@ from util import URLUtil
 util = URLUtil()
 
 # input_file = "test_arxiv_output.csv"
-input_files = ["oads_output/part1_Arxiv-Output.csv", "oads_output2/part2_Arxiv-Output.csv"]
+input_files = ["oads_output/part1_Arxiv-Output.csv", "oads_output2/part2_Arxiv-Output.csv", "oads_dataset3/part3_Arxiv-Output.csv"]
 
 for input in input_files:
     output_file = "parsed_" + os.path.basename(input)

@@ -7,16 +7,12 @@ import csv
 from sqlite3 import Date
 
 # corpora = ["pmc", "arxiv", "class"]
-corpora = ["tamu"]
+corpora = ["etd"]
 for corpus in corpora:
-    if corpus == 'pmc':
-        prefix = "pmc_"
-    elif corpus == "class":
-        prefix = "class_"
-    elif corpus == "tamu":
-        prefix = "tamu_"
-    else:
+    if corpus == 'arxiv':
         prefix = ""
+    else:
+        prefix = corpus + "_"
     repo_file = open("./repo_results/" + prefix + "repo_urls.json")
     repo_json = json.load(repo_file)
     repo_file.close()
@@ -49,6 +45,9 @@ for corpus in corpora:
         elif corpus == "tamu":
             date = dir[0:4] + "-" + dir[4:]
             dir_file = open("raw_data_outputs/tamu_parsed/" + dir + ".json")
+        elif corpus == "etd":
+            date = dir[0:4] + "-" + dir[4:]
+            dir_file = open("raw_data_outputs/etd_parsed/" + dir + ".json")
         sourceforge_count = repo_json[dir]["sourceforge"]["url_count"]
         github_count = repo_json[dir]["github"]["url_count"]
         gitlab_count = repo_json[dir]["gitlab"]["url_count"]

@@ -7,14 +7,12 @@ import csv
 import statistics as s
 
 # corpora = ['pmc', 'arxiv']
-corpora = ['class']
+corpora = ['etd']
 for corpus in corpora:
-    if corpus == "pmc":
-        prefix = "pmc_"
-    elif corpus == "arxiv":
+    if corpus == 'arxiv':
         prefix = ""
-    elif corpus == "class":
-        prefix = "class_"
+    else:
+        prefix = corpus + "_"
     repo_file = open("./repo_results/" + prefix + "all_file_urls.json")
     repo_json = json.load(repo_file)
     repo_file.close()
@@ -33,6 +31,9 @@ for corpus in corpora:
         elif corpus == "class":
             date = "20" + dir[0:2] + "-" + dir[2:]
             dir_file = open("raw_data_outputs/classifier_results/" + dir + ".json")
+        elif corpus == "etd":
+            date = dir[0:4] + "-" + dir[4:]
+            dir_file = open("raw_data_outputs/" + prefix + "parsed/" + dir + ".json")
         dir_json = json.load(dir_file)
         dir_file.close()
         sf = []

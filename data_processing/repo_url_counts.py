@@ -6,16 +6,12 @@ import json
 import csv
 
 # corpora = ["pmc", "arxiv", "class"]
-corpora = ["tamu"]
+corpora = ["etd"]
 for corpus in corpora:
-    if corpus == "pmc":
-        prefix = "pmc_"
-    elif corpus == "arxiv":
+    if corpus == 'arxiv':
         prefix = ""
-    elif corpus == "class":
-        prefix = "class_"
-    elif corpus == "tamu":
-        prefix = "tamu_"
+    else:
+        prefix = corpus + "_"
     repo_file = open("repo_results/" + prefix + "repo_urls.json")
     repo_json = json.load(repo_file)
     repo_file.close()
@@ -35,6 +31,9 @@ for corpus in corpora:
             date = "20" + dir[0:2] + "-" + dir[2:]
             dir_file = open("raw_data_outputs/classifier_results/" + dir + ".json")
         elif corpus == "tamu":
+            date = dir[0:4] + "-" + dir[4:]
+            dir_file = open("raw_data_outputs/" + prefix + "parsed/" + dir + ".json")
+        elif corpus == "etd":
             date = dir[0:4] + "-" + dir[4:]
             dir_file = open("raw_data_outputs/" + prefix + "parsed/" + dir + ".json")
         sourceforge_count = repo_json[dir]["sourceforge"]["url_count"]
