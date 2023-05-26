@@ -6,7 +6,7 @@ import json
 import csv
 
 # corpora = ["pmc", "arxiv", "class"]
-corpora = ["etd"]
+corpora = ["class"]
 for corpus in corpora:
     if corpus == 'arxiv':
         prefix = ""

@@ -1,5 +1,5 @@
 #!/bin/bash
-PREFIX="etd"
+PREFIX="class"
 python3 get_repo_urls.py
 sort -o repo_results/temp_${PREFIX}_github_surt.csv repo_results/${PREFIX}_github_surt.csv
 mv repo_results/temp_${PREFIX}_github_surt.csv repo_results/${PREFIX}_github_surt.csv 

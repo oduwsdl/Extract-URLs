@@ -26,7 +26,7 @@ def CCDF(data, category):
         csvwriter3.writerow([bin_edges[i], cdf[i]*100, category])
 
 # corpora = ['pmc', 'arxiv', 'class']
-corpora = ['etd']
+corpora = ['class']
 
 for corpus in corpora:
     if corpus == 'arxiv':

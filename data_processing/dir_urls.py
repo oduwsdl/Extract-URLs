@@ -7,7 +7,7 @@ import csv
 from sqlite3 import Date
 
 # corpora = ["pmc", "arxiv", "class"]
-corpora = ["etd"]
+corpora = ["class"]
 for corpus in corpora:
     if corpus == 'arxiv':
         prefix = ""

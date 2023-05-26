@@ -20,6 +20,8 @@ class URLUtil:
     # load blacklisted URLs as regex, for validation
     with open(f"{base_dir}/config/blacklist.txt") as f:
       self.blacklist = re.compile("|".join(sorted(map(str.strip, f.readlines()))), re.I)
+    with open(f"{base_dir}/config/approved_doi.txt") as f:
+      self.approved_doi = re.compile("|".join(sorted(map(str.strip, f.readlines()))), re.I)
 
   def canonicalize_url(self, url: str) -> str:
     """
@@ -60,8 +62,11 @@ class URLUtil:
     # validate against blacklist
     if self.blacklist.search(url):
       raise URLError(url)
-    # validate if the given string is a public URL
+    elif "doi.org" in url or "dx.doi.org" in url:
+      if not self.approved_doi.search(url):
+        raise URLError(url)
 
+    # validate if the given string is a public URL
     if validators.url(url, public=True):
       return url
     else:

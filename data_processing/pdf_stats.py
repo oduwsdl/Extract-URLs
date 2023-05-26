@@ -7,7 +7,7 @@ import csv
 import statistics as s
 
 # corpora = ['pmc', 'arxiv']
-corpora = ['etd']
+corpora = ['class']
 for corpus in corpora:
     if corpus == 'arxiv':
         prefix = ""
