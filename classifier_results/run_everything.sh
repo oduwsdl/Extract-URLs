@@ -21,7 +21,7 @@ mv temp.csv parsed_Arxiv-Output.csv
 cd ..
 python3 classifier_results/classifier_results_json.py
 cd classifier_results/
-python3 get_hostname.py
-sort oads_non_ghp_hostnames.csv > sorted_oads_non_ghp_hostnames.csv
-uniq -c sorted_oads_non_ghp_hostnames.csv uniq_oads_non_ghp_hostnames.csv
-sort -k1n -t ' ' uniq_oads_non_ghp_hostnames.csv > count_oads_non_ghp_hostnames.csv
+# python3 get_hostname.py
+# sort oads_non_ghp_hostnames.csv > sorted_oads_non_ghp_hostnames.csv
+# uniq -c sorted_oads_non_ghp_hostnames.csv uniq_oads_non_ghp_hostnames.csv
+# sort -k1n -t ' ' uniq_oads_non_ghp_hostnames.csv > count_oads_non_ghp_hostnames.csv

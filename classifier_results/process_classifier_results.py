@@ -53,7 +53,7 @@ for input in input_files:
                 try:
                     url = util.validate_url(u)
                 except:
-                    url = ''
+                    continue
             
             if prev_file_name == "":
                 # add current info to rows
