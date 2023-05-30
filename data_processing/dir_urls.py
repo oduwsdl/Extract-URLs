@@ -7,7 +7,7 @@ import csv
 from sqlite3 import Date
 
 # corpora = ["pmc", "arxiv", "class"]
-corpora = ["class"]
+corpora = ["arxiv"]
 for corpus in corpora:
     if corpus == 'arxiv':
         prefix = ""
@@ -38,7 +38,7 @@ for corpus in corpora:
             dir_file = open(prefix + "parsed/" + dir + ".json")
         elif corpus == "arxiv":
             date = "20" + dir[0:2] + "-" + dir[2:]
-            dir_file = open(prefix + "parsed/" + dir + ".json")
+            dir_file = open("raw_data_outputs/arxiv_parsed/" + dir + ".json")
         elif corpus == "class":
             date = "20" + dir[0:2] + "-" + dir[2:]
             dir_file = open("raw_data_outputs/classifier_results/" + dir + ".json")
@@ -58,19 +58,21 @@ for corpus in corpora:
         total_bitbucket_count = total_bitbucket_count + bitbucket_count
         dir_json = json.load(dir_file)
         dir_file.close()
-        url_count = 0
+
         file_count = 0
         url_files = 0
+        url_sum = 0
         for file in dir_json[dir]["files"]:
             file_count = file_count + 1
-            url_count = url_count + dir_json[dir]["files"][file]["url_count"]
+            url_count = dir_json[dir]["files"][file]["url_count"]
             if url_count != 0:
+                url_sum = url_sum + url_count
                 url_files = url_files + 1
         total_file_count = total_file_count + file_count
         total_url_files = total_url_files +  url_files
-        total_url_count = total_url_count + url_count
+        total_url_count = total_url_count + url_sum
         csvwriter2.writerow([date, file_count, url_files])
-        csvwriter.writerow([date, url_count, "Total"])
+        csvwriter.writerow([date, url_sum, "Total"])
         csvwriter.writerow([date, sourceforge_count, "SourceForge"])
         csvwriter.writerow([date, github_count, "GitHub"])
         csvwriter.writerow([date, gitlab_count, "GitLab"])
