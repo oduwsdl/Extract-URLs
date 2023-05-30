@@ -17,7 +17,7 @@ for corpus in corpora:
 
     csv_file = open("./classifier_results/" + prefix + "urls_per_file.csv", "w")
     csvwriter = csv.writer(csv_file)
-    csvwriter.writerow(['Directory', 'URICount', 'Category', 'TotalFiles'])
+    csvwriter.writerow(['Directory', 'URICount', 'Category', 'TotalFiles', 'TotalURIs'])
 
     total_file_count = 0
     total_url_count = 0
@@ -83,13 +83,13 @@ for corpus in corpora:
         oads_count = oads_count - sourceforge_oads_count - bitbucket_oads_count - github_oads_count - gitlab_oads_count
         non_count = non_count - sourceforge_non_count - bitbucket_non_count - github_non_count - gitlab_non_count
 
-        csvwriter.writerow([date, dir_count, "Total", file_count])
-        csvwriter.writerow([date, oads_count, "OADS", file_count])
-        csvwriter.writerow([date, non_count, "NonOADS", file_count])
-        csvwriter.writerow([date, (sourceforge_oads_count + sourceforge_non_count), "SourceForge", file_count])
-        csvwriter.writerow([date, (github_oads_count + github_non_count), "GitHub", file_count])
-        csvwriter.writerow([date, (gitlab_oads_count + gitlab_non_count), "GitLab", file_count])
-        csvwriter.writerow([date, (bitbucket_oads_count + bitbucket_non_count), "Bitbucket", file_count])
+        csvwriter.writerow([date, dir_count, "Total", file_count, dir_count])
+        csvwriter.writerow([date, oads_count, "OADS", file_count, dir_count])
+        csvwriter.writerow([date, non_count, "NonOADS", file_count, dir_count])
+        csvwriter.writerow([date, (sourceforge_oads_count + sourceforge_non_count), "SourceForge", file_count, dir_count])
+        csvwriter.writerow([date, (github_oads_count + github_non_count), "GitHub", file_count, dir_count])
+        csvwriter.writerow([date, (gitlab_oads_count + gitlab_non_count), "GitLab", file_count, dir_count])
+        csvwriter.writerow([date, (bitbucket_oads_count + bitbucket_non_count), "Bitbucket", file_count, dir_count])
     print("Total file count: " + str(total_file_count))
     print("Total URL count: " + str(total_url_count))
     print("SourceForge count: " + str(total_sourceforge_count))
