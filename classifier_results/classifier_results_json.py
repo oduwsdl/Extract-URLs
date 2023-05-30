@@ -12,7 +12,7 @@ def get_dir(filename):
     
 
 with open("./classifier_results/" + input_file, newline='') as classifier_results_file:
-    classifier_results = csv.reader(classifier_results_file, delimiter=',')
+    classifier_results = csv.reader(classifier_results_file, delimiter=' ')
 
     prev_filename = ""
     prev_dir = ""

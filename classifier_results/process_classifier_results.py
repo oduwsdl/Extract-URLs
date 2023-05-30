@@ -2,6 +2,7 @@ import csv
 import re
 import sys
 import os
+from surt import surt
 
 base_dir = os.path.abspath(os.path.join(__file__, '../..'))
 sys.path.append(f'{base_dir}')
@@ -17,7 +18,7 @@ for input in input_files:
     output_file = "parsed_" + os.path.basename(input)
 
     revised_output_file = open("./classifier_results/" + output_file, "w")
-    revised_output_csv = csv.writer(revised_output_file, delimiter=',')
+    revised_output_csv = csv.writer(revised_output_file, delimiter=' ')
     # revised_output_csv.writerow(['Sentence', 'ValidURL', 'Class', 'File'])
 
     with open('raw_data_outputs/' + input, newline='') as classifier_results_file:
@@ -51,14 +52,15 @@ for input in input_files:
             if m2 != []:
                 u = m2[0].rstrip('.')
                 try:
-                    url = util.validate_url(u)
+                    url = util.validate_url(u).lower()
+                    s = surt(url)
                 except:
                     continue
             
             if prev_file_name == "":
                 # add current info to rows
                 # prev_data.append([sent, url, classification, file_name])
-                prev_data.append([url, classification, file_name])
+                prev_data.append([url, s, classification, file_name])
                 # set prev_file to file
                 prev_file_name = file_name
                 # set prev_base to filebase
@@ -71,7 +73,7 @@ for input in input_files:
                     prev_data.clear()
                     # add current info to rows
                     # prev_data.append([sent, url, classification, file_name])
-                    prev_data.append([url, classification, file_name])
+                    prev_data.append([url, s, classification, file_name])
                     # set prev_file to file
                     prev_file_name = file_name
                     # set prev_base to filebase
@@ -81,13 +83,13 @@ for input in input_files:
                     prev_data.clear()
                     # add current info to rows
                     # prev_data.append([sent, url, classification, file_name])
-                    prev_data.append([url, classification, file_name])
+                    prev_data.append([url, s, classification, file_name])
                     # set prev_file to file
                     prev_file_name = file_name
             else:
                 # add current info to rows
                 # prev_data.append([sent, url, classification, file_name])
-                prev_data.append([url, classification, file_name])
+                prev_data.append([url, s, classification, file_name])
 
             # if prev_file_base != file_base:
             #     if prev_file_base != "":
