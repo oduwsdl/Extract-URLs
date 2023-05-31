@@ -3,13 +3,9 @@ import json
 import re
 
 input_file = "parsed_Arxiv-Output.csv"
-output_file = "parsed_Arxiv-Output.json"
-
-# d = open("./classifier_results/" + output_file, "w")
 
 def get_dir(filename):
     return re.findall(r"(\d{4}).\d*v\d*.pdf", filename)[0]
-    
 
 with open("./classifier_results/" + input_file, newline='') as classifier_results_file:
     classifier_results = csv.reader(classifier_results_file, delimiter=' ')
@@ -22,8 +18,8 @@ with open("./classifier_results/" + input_file, newline='') as classifier_result
     for row in classifier_results:
         try:
             url = row[0]
-            classification = row[1]
-            filename = row[2]
+            classification = row[2]
+            filename = row[3]
         except:
             print(row)
             continue
