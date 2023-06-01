@@ -18,7 +18,8 @@ cat class_pmc_github.csv > class_pmc_ghp_urls.csv
 cat class_pmc_gitlab.csv >> class_pmc_ghp_urls.csv
 cat class_pmc_bitbucket.csv >> class_pmc_ghp_urls.csv
 cat class_pmc_sourceforge.csv >> class_pmc_ghp_urls.csv
-# python3 classifier_results/urls_per_file.py
+cd ..
+python3 classifier_results/urls_per_file.py
 # python3 get_hostname.py
 # sort oads_non_ghp_hostnames.csv > sorted_oads_non_ghp_hostnames.csv
 # uniq -c sorted_oads_non_ghp_hostnames.csv uniq_oads_non_ghp_hostnames.csv
