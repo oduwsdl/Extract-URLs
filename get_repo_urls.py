@@ -9,14 +9,14 @@ import csv
 from surt import surt
 
 def url_union(repo_dict, corpus):
-    if corpus == "class":
+    if corpus == "class" or corpus == "class_pmc":
         repo_all = list(set(repo_dict["oads_urls"]).union(set(repo_dict["non_oads_urls"])))
     else:
         repo_all = list(set(repo_dict["annot_urls"]).union(set(repo_dict["text_urls"])))
     return repo_all
 
 def update_dict(dir_dict, repo_all, repo_dict, corpus):
-    if corpus == "class":
+    if corpus == "class" or corpus == "class_pmc":
         repo_dict["all_urls"] = repo_all
         repo_dict["url_count"] = len(repo_all)
         dir_dict["oads_urls"].extend(repo_dict["oads_urls"])
@@ -37,7 +37,7 @@ gl_sitemap = ['gitlab.com/users/sign_in$', 'gitlab.com/users/sign_in/.*', 'gitla
 sf_sitemap = ['sourceforge.net/create$', 'sourceforge.net/create/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*', 'sourceforge.net/top$', 'sourceforge.net/top/.*', 'sourceforge.net/user/newsletters$', 'sourceforge.net/user/newsletters/.*', 'sourceforge.net/user/registration$', 'sourceforge.net/user/registation/.*', 'sourceforge.net/user/registration_business$', 'sourceforge.net/user/registration_business/.*', 'sourceforge.net/software/vendors$', 'sourceforge.net/software/vendors/.*', 'sourceforge.net/software/reviews$', 'sourceforge.net/software/reviews/.*', 'sourceforge.net/p/forge$', 'sourceforge.net/p/forge/.*', 'sourceforge.net/p/add_project$', 'sourceforge.net/p/add_project/.*', 'sourceforge.net/auth$', 'sourceforge.net/auth/.*', 'sourceforge.net/directory$', 'sourceforge.net/directory/.*', 'sourceforge.net/software/?', 'sourceforge.net/blog$', 'sourceforge.net/blog/.*', 'sourceforge.net/about$', 'sourceforge.net/about/.*']
 bb_sitemap = ['bitbucket.org/product$', 'bitbucket.org/product/.*', 'bitbucket.org/blog$', 'bitbucket.org/blog/.*']
 
-corpora = ['etd']
+corpora = ['class_pmc']
 # corpora = ['arxiv', 'class', 'pmc']
 for corpus in corpora:
     sf_surt_file = open("./repo_results/" + corpus + "_sourceforge_surt.csv", "w")
@@ -133,6 +133,8 @@ for corpus in corpora:
 
     if corpus == 'class':
         file_list = os.listdir("raw_data_outputs/classifier_results/")
+    elif corpus == 'class_pmc':
+        file_list = os.listdir("raw_data_outputs/classifier_pmc_parsed/")
     else:
         file_list = os.listdir("raw_data_outputs/" + corpus + "_parsed/")
 
@@ -147,15 +149,19 @@ for corpus in corpora:
             dir = re.findall(r"(\d{6}).json", file_name)[0]
         elif corpus == "etd":
             dir = re.findall(r"(\d{6}).json", file_name)[0]
+        elif corpus == "class_pmc":
+            dir = re.findall(r"(\d{6}).json", file_name)[0]
         has_repo_data[dir] = {"files":{}}
         all_files_data[dir] = {"files":{}}
         if corpus == "class":
             f = open("raw_data_outputs/classifier_results/" + file_name, "r")
+        elif corpus == 'class_pmc':
+            f = open("raw_data_outputs/classifier_pmc_parsed/" + file_name, "r")
         else:
             f = open("raw_data_outputs/" + corpus + "_parsed/" + file_name, "r")
         json_data = json.load(f)
 
-        if corpus == "class":
+        if corpus == "class" or corpus == "class_pmc":
             all_dir_sourceforge_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
             repo_dir_sourceforge_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
             all_dir_github_dict = {"url_count":0, "oads_urls":[], "non_oads_urls":[], "all_urls":[]}
@@ -182,7 +188,7 @@ for corpus in corpora:
             if json_data[dir]["files"][pdf_name]["url_count"] != 0:
                 url_files = url_files + 1
 
-            if corpus == "class":
+            if corpus == "class" or corpus == "class_pmc":
                 oads_urls = json_data[dir]["files"][pdf_name]["oads_urls"]
                 non_oads_urls = json_data[dir]["files"][pdf_name]["non_oads_urls"]
                 url_lists = {'oads_urls': oads_urls, 'non_oads_urls': non_oads_urls}

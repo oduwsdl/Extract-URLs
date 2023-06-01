@@ -18,10 +18,15 @@ rm classifier_results/parsed_part*
 cd classifier_results
 awk -F" " '{print $NF"|"$0}' parsed_Arxiv-Output.csv | sort -t"|" -k1 | awk -F"|" '{print $NF }' > temp.csv
 mv temp.csv parsed_Arxiv-Output.csv
+split -l 750000 -a 1 -d parsed_Arxiv-Output.csv parsed_Arxiv-Output_
 cd ..
 python3 classifier_results/classifier_results_json.py arxiv
-cd classifier_results/
-split -l 750000 -a 1 -d parsed_Arxiv-Output.csv parsed_Arxiv-Output_
+python3 get_repo_urls.py
+cd repo_results/
+cat class_github.csv > class_ghp_urls.csv
+cat class_gitlab.csv >> class_ghp_urls.csv
+cat class_bitbucket.csv >> class_ghp_urls.csv
+cat class_sourceforge.csv >> class_ghp_urls.csv
 # python3 get_hostname.py
 # sort oads_non_ghp_hostnames.csv > sorted_oads_non_ghp_hostnames.csv
 # uniq -c sorted_oads_non_ghp_hostnames.csv uniq_oads_non_ghp_hostnames.csv
