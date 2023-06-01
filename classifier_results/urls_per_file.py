@@ -5,7 +5,7 @@
 import json
 import csv
 
-corpora = ["class"]
+corpora = ["class_pmc"]
 for corpus in corpora:
     if corpus == 'arxiv':
         prefix = ""
@@ -41,6 +41,9 @@ for corpus in corpora:
         elif corpus == "etd":
             date = dir[0:4] + "-" + dir[4:]
             dir_file = open("raw_data_outputs/" + prefix + "parsed/" + dir + ".json")
+        elif corpus == "class_pmc":
+            date = dir[0:4] + "-" + dir[4:]
+            dir_file = open("raw_data_outputs/classifier_pmc_parsed/" + dir + ".json")
 
         dir_json = json.load(dir_file)
         dir_file.close()

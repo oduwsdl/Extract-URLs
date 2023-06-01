@@ -1,11 +1,47 @@
 import csv
 import json
 import re
+import sys
+import datetime
+import jsonlines
 
-input_file = "parsed_Arxiv-Output.csv"
+corpus = sys.argv[1]
+
+if corpus == "arxiv":
+    input_file = "parsed_Arxiv-Output.csv"
+    json_directory = "./raw_data_outputs/classifier_results/"
+elif corpus == "pmc":
+    input_file = "parsed_PMC-Output.csv"
+    json_directory = "./raw_data_outputs/classifier_pmc_jsonl/"
+    pmc_dir = {}
+    with open('oa_non_comm_use_pdf.csv', newline='') as csvfile:
+        csv_file = csv.reader(csvfile, delimiter=',')
+
+        next(csv_file)
+        for row in csv_file:
+            full_path = row[0]
+            citation = row[1]
+            try:
+                parsed_date = re.findall(r"(\d{4}) (\w{3}) (\d{1,2})", citation)[0]
+                month_num = datetime.datetime.strptime(parsed_date[1], '%b').month
+            except:
+                try:
+                    parsed_date = re.findall(r"(\d{4}) (\w{3})", citation)[0]
+                    month_num = datetime.datetime.strptime(parsed_date[1], '%b').month
+                except:
+                    try:
+                        parsed_date = re.findall(r"(\d{4})", citation)[0]
+                        month_num = 1
+                    except:
+                        continue
+            dir = parsed_date[0] + f"{month_num:02}"
+            pmc_dir[full_path] = dir
 
 def get_dir(filename):
-    return re.findall(r"(\d{4}).\d*v\d*.pdf", filename)[0]
+    if corpus == "arxiv":
+        return re.findall(r"(\d{4}).\d*v\d*.pdf", filename)[0]
+    elif corpus == "pmc":
+        return pmc_dir[filename]
 
 with open("./classifier_results/" + input_file, newline='') as classifier_results_file:
     classifier_results = csv.reader(classifier_results_file, delimiter=' ')
@@ -21,7 +57,7 @@ with open("./classifier_results/" + input_file, newline='') as classifier_result
             classification = row[2]
             filename = row[3]
         except:
-            print(row)
+            # print(row)
             continue
         try:
             dir = get_dir(filename)
@@ -30,7 +66,11 @@ with open("./classifier_results/" + input_file, newline='') as classifier_result
             continue
 
         if prev_dir == "":
-            d = open('./raw_data_outputs/classifier_results/' + dir + '.json', 'w')
+            if corpus == "arxiv":
+                d = open(json_directory + dir + '.json', 'w')
+            elif corpus == "pmc":
+                d = open(json_directory + dir + '.json', 'a')
+                jsonl_writer = jsonlines.Writer(d)
             data[dir] = {"files":{}}
             prev_dir = dir
 
@@ -48,9 +88,15 @@ with open("./classifier_results/" + input_file, newline='') as classifier_result
             prev_filename = filename
 
         if prev_dir != dir:
-            json.dump(data, d)
-            d.close()
-            d = open('./raw_data_outputs/classifier_results/' + dir + '.json', 'w')
+            if corpus == "arxiv":
+                json.dump(data, d)
+                d.close()
+                d = open(json_directory + dir + '.json', 'w')
+            elif corpus == "pmc":
+                jsonl_writer.write(data)
+                jsonl_writer.close()
+                d = open(json_directory + dir + '.json', 'a')
+                jsonl_writer = jsonlines.Writer(d)
             data = {}
             data[dir] = {"files":{}}
             prev_dir = dir
