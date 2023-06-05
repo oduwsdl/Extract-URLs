@@ -5,7 +5,7 @@
 import json
 import csv
 
-corpora = ["class_pmc"]
+corpora = ["class"]
 for corpus in corpora:
     if corpus == 'arxiv':
         prefix = ""

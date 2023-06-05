@@ -39,6 +39,7 @@ for input in input_files:
         max_version = ""
 
         for row in classifier_results:
+            print(row)
             try:
                 sent = row[0]
                 classification = row[-2]
@@ -49,6 +50,7 @@ for input in input_files:
                 continue
 
             if corpus == "arxiv":
+                file_name = parsed_file[0] + "v" + parsed_file[1] + ".pdf"
                 file_base = parsed_file[0]
             elif corpus == "pmc":
                 file_name = parsed_file
