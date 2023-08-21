@@ -1,5 +1,5 @@
 # Input: list of all SourceForge URIs (repo_results/sourceforge.csv)
-# Output: swh/sf_project.csv, file of all SF URIs and their associated project names
+# Output: swh/sf_projects.csv, file of all SF URIs and their associated project names
 # Note: extracts the project name from the SourceForge URIs
 
 import re
@@ -9,6 +9,7 @@ sf_csv = open('repo_results/sourceforge.csv', newline='')
 sf_reader = csv.reader(sf_csv, delimiter=' ')
 project_file = open("swh/sf_projects.csv", "w")
 project_csv = csv.writer(project_file, delimiter=" ")
+project_csv.writerow(['ProjectName', 'PublicationURI'])
 for row in sf_reader:
     url = row[0]
     project = ""
