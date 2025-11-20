@@ -1,0 +1,14 @@
+version = 1
+SPDX-PackageName = "Extract-URLs"
+
+[[annotations]]
+path = ["**/*"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2021 Emily Escamilla"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["**/*.py", "**/*.Rmd"]
+precedence = "override"
+SPDX-FileCopyrightText = "2021 Emily Escamilla"
+SPDX-License-Identifier = "MIT"
